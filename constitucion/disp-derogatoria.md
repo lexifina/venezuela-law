@@ -1,0 +1,1 @@
+Única. Queda derogada la Constitución de la República de Venezuela decretada el veintitrés de enero de mil novecientos sesenta y uno. El resto del ordenamiento jurídico mantendrá su vigencia en todo lo que no contradiga esta Constitución.

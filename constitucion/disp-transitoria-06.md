@@ -1,0 +1,1 @@
+Sexta. La Asamblea Nacional, en un lapso de dos años, legislará sobre todas las materias relacionadas con esta Constitución. Se le dará prioridad a las leyes orgánicas sobre pueblos indígenas, educación y fronteras.

@@ -1,0 +1,2 @@
+Octava. Mientras no se promulguen las nuevas leyes electorales previstas en esta Constitución los procesos electorales serán convocados, organizados, dirigidos y supervisados por el Consejo Nacional Electoral.
+Para el primer período del Consejo Nacional Electoral, previsto en esta Constitución, todos sus integrantes serán designados o designadas simultáneamente. En la mitad del período, dos de sus integrantes serán renovados o renovadas de acuerdo con lo establecido en la ley orgánica correspondiente.

@@ -1,0 +1,1 @@
+Decimosegunda. La demarcación del hábitat indígena a que se refiere el artículo 119 de esta Constitución, se realizará dentro del lapso de dos años contados a partir de la fecha de entrada en vigencia de esta Constitución.

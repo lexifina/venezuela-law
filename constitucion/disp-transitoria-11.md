@@ -1,0 +1,1 @@
+Decimoprimera. Hasta tanto se dicte la legislación nacional relativa al régimen de las tierras baldías, la administración de las mismas continuará siendo ejercida por el Poder Nacional, conforme a la legislación vigente.
