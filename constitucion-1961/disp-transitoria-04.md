@@ -1,2 +1,0 @@
-Cuarta:
-Mientras la ley establece las normas sustantivas y procesales correspondientes, la pérdida de nacionalidad por revocatoria de la naturalización se ajustará a las disposiciones de la legislación vigente, pero el interesado podrá apelar de la decisión administrativa ante la Corte Suprema de Justicia en el plazo de seis meses a partir de la fecha de publicación de la revocatoria en la Gaceta Oficial.

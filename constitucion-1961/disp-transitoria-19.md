@@ -1,3 +1,0 @@
-Decimanovena:
-El próximo período constitucional comenzará el 2 de marzo de 1964. En esta fecha se instalarán las Cámaras. La toma de posesión del Presidente de la República electo se hará de conformidad con el Artículo 186 de la Constitución. La elección de los Magistrados de la Corte Suprema de Justicia se hará dentro de los primeros treinta días de la iniciación del periodo constitucional.
-Los períodos de los actuales diputados a las Asambleas Legislativas y miembros de los Concejos Municipales terminarán el 1° de enero de 1964, a menos que la ley disponga su renovación en una fecha anterior.

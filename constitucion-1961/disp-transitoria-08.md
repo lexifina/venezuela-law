@@ -1,2 +1,0 @@
-Octava:
-Se declara aplicable lo dispuesto en el único aparte del Artículo 148 de la Constitución al actual Presidente de la República una vez terminado su mandato, y, desde que entre en vigencia esta disposición, al ciudadano que ejerció constitucionalmente la Presidencia de la República en el periodo 1936 - 1941 y al ciudadano que por voto popular fue elegido Presidente de la República para el periodo constitucional iniciado en 1948.
