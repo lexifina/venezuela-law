@@ -1,0 +1,1 @@
+Decimoquinta. Hasta tanto se apruebe la legislación a que se refiere el artículo 105 de esta Constitución, se mantendrá en vigencia el ordenamiento jurídico aplicable antes de la sanción de esta Constitución.

@@ -1,0 +1,2 @@
+Decimosexta. Para el enriquecimiento del acervo histórico de la Nación, el cronista de la Asamblea Nacional Constituyente coordinará lo necesario para salvaguardar las grabaciones o registros que de las sesiones y actividades de la Asamblea Nacional Constituyente se realizaron en imagen, en sonido; en documentos escritos, digitales, fotográficos o hemerográficos; y en cualquier otra forma de documento elaborado.
+Todos estos documentos quedarán bajo la protección del Archivo General de la Nación.

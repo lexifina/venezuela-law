@@ -1,0 +1,1 @@
+Aprobada por el pueblo de Venezuela, mediante referendo constituyente, a los quince días del mes de diciembre de mil novecientos noventa y nueve, y proclamada por la Asamblea Nacional Constituyente en Caracas, a los veinte días del mes de diciembre de mil novecientos noventa y nueve. Año 189° de la Independencia y 140° de la Federación.

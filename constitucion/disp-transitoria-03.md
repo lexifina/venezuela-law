@@ -1,0 +1,4 @@
+Tercera. La Asamblea Nacional, dentro de los primeros seis meses siguientes a su instalación, aprobará:
+1. Una reforma parcial del Código Penal para incluir el delito de desaparición forzada de personas, previsto en el artículo 45 de esta Constitución. Mientras no se apruebe esta reforma se aplicará, en lo que sea posible, la Convención Interamericana Sobre Desaparición Forzada de Personas.
+2. Una ley orgánica sobre estados de excepción.
+3. Una ley especial para establecer las condiciones y características de un régimen especial para los Municipios José Antonio Páez y Rómulo Gallegos, del Estado Apure. Para la elaboración de esta ley, se oirá la opinión del Presidente o Presidenta de la República, de la Fuerza Armada Nacional, de la representación que designe el Estado en cuestión y demás instituciones involucradas en la problemática fronteriza.

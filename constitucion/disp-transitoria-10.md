@@ -1,0 +1,1 @@
+Décima. Lo dispuesto en el numeral 4 del artículo 167 de esta Constitución sobre la obligación que tienen los Estados de destinar un mínimo del cincuenta por ciento del situado constitucional a la inversión, entrará en vigencia a partir del primero de enero del año dos mil uno.
