@@ -1,0 +1,2 @@
+Artículo 8°
+Disposiciones transitorias. En el período constitucional 1979 - 1984, la duración del mandato presidencial de la República y de los Senadores y Diputados se acortará en los días que resulten de la aplicación del artículo 3º. Igualmente a los fines previstos en el artículo 185 de la Constitución, el plazo se reducirá en los días que resulten de la aplicación de la aplicación de la citada disposición.

@@ -1,0 +1,2 @@
+Artículo 4°
+Las Cámaras en sesión conjunta, en cada período constitucional designarán una Comisión Legislativa integrada por veintitrés (23) miembros, quienes con sus respectivos suplentes, serán elegidos de modo que reflejen en lo posible la composición política del Congreso de la República. El Reglamento establecerá el procedimiento y los demás requisitos que regirán la discusión de los proyectos de leyes.
