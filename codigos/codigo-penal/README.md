@@ -1,8 +1,8 @@
 # Código Penal
 
-Gaceta Oficial N° 5.494 Extraordinario, 2000-10-20. En vigor desde 2000-10-20 (publicación en la Gaceta Oficial, según su propia disposición de vigencia).
+Gaceta Oficial N° 5.768 Extraordinario, 2005-04-13. En vigor desde 2005-04-13 (publicación en la Gaceta Oficial, según su propia disposición de vigencia).
 
-Texto: copia secundaria de WIPO Lex, <https://www.wipo.int/wipolex/en/legislation/details/10225>.
+Texto: copia secundaria de FAOLEX, <https://faolex.fao.org/en/documents/LEX-FAOC244201/codigo-penal-de-venezuela-ven-2005>.
 
 | Disposición | Archivo |
 | --- | --- |
@@ -259,6 +259,7 @@ Texto: copia secundaria de WIPO Lex, <https://www.wipo.int/wipolex/en/legislatio
 | Art. 251 | [art-251.md](art-251.md) |
 | Art. 252 | [art-252.md](art-252.md) |
 | Art. 253 | [art-253.md](art-253.md) |
+| Art. 254 | [art-254.md](art-254.md) |
 | Art. 255 | [art-255.md](art-255.md) |
 | Art. 256 | [art-256.md](art-256.md) |
 | Art. 257 | [art-257.md](art-257.md) |
@@ -385,6 +386,7 @@ Texto: copia secundaria de WIPO Lex, <https://www.wipo.int/wipolex/en/legislatio
 | Art. 378 | [art-378.md](art-378.md) |
 | Art. 379 | [art-379.md](art-379.md) |
 | Art. 380 | [art-380.md](art-380.md) |
+| Art. 381 | [art-381.md](art-381.md) |
 | Art. 382 | [art-382.md](art-382.md) |
 | Art. 383 | [art-383.md](art-383.md) |
 | Art. 384 | [art-384.md](art-384.md) |
@@ -550,5 +552,3 @@ Texto: copia secundaria de WIPO Lex, <https://www.wipo.int/wipolex/en/legislatio
 | Art. 544 | [art-544.md](art-544.md) |
 | Art. 545 | [art-545.md](art-545.md) |
 | Art. 546 | [art-546.md](art-546.md) |
-| Art. 547 | [art-547.md](art-547.md) |
-| Art. 548 | [art-548.md](art-548.md) |
