@@ -1,0 +1,19 @@
+Primera: Mientras se dicta la ley para la escogencia a los cargos de elección popular de los representantes indígenas a la Asamblea Nacional, órganos parlamentarios internacionales, consejos legislativos, concejos municipales y juntas parroquiales, se regirá de conformidad con lo establecido en la Constitución de la República Bolivariana de Venezuela y demás normas que rigen la materia.
+
+Segunda: Toda persona o entidad de carácter público o privado que realice cualquier clase de actividad, obra, proyecto de investigación o ejecute actividades de aprovechamiento de recursos naturales propiedad de la Nación en hábitat y tierras de los pueblos y comunidades indígenas, deberá adecuar su actividad a las disposiciones de la presente Ley, en un lapso no mayor de dos (2) años contado a partir de la entrada en vigencia de la misma. En el mismo lapso, las personas y entidades mencionadas en la presente Disposición, deberán someterse al procedimiento de información y consulta previsto en el Capítulo II del Título I de la presente Ley.
+
+Tercera: Toda concesión, contrato o convenio celebrado con anterioridad a la presente Ley, que conlleve al deterioro socio-cultural de los pueblos y comunidades indígenas o lesione el ambiente en el hábitat y tierras de estos pueblos y comunidades, debe ser revisado y adaptado de acuerdo con lo previsto en la Constitución de la República Bolivariana de Venezuela y en la presente Ley.
+
+Cuarta: A partir de la publicación de la presente Ley, queda prohibido a los órganos y entes del Estado, cualquiera sea su competencia, realizar cualquier tipo de acto contrato o convenio de cualquier naturaleza que desconozca o menoscabe los derechos originarios sobre el hábitat o el derecho a la propiedad colectiva de las tierras de los pueblos y comunidades indígenas.
+
+Quinta: Hasta tanto no sea creada la oficina especial de registro de títulos de propiedad colectiva del hábitat y tierras de los pueblos y comunidades indígenas, los títulos otorgados conforme a esta Ley y la ley que rige la materia serán asentados por ante la oficina de registro inmobiliario correspondiente según la ley respectiva.
+
+Sexta: El Instituto Nacional de Pueblos Indígenas (INPI), entrará en funcionamiento dentro de un lapso de diez meses contados a partir de la entrada en vigencia de la presente Ley.
+
+Única. Quedan derogadas la Ley de Misiones publicada en Gaceta Oficial de los Estados Unidos de Venezuela N° 12.562 del 16 de junio de 1915 y sus Reglamentos; el Decreto 250 sobre Expedición a Zonas Indígenas del 27 de julio de 1951, publicado en la Gaceta Oficial de la República de Venezuela N° 23.594 del 02-08-1951; la Ley de Protección y Defensa del Patrimonio Cultural, publicada en la Gaceta Oficial de la República de Venezuela N° 46.233 Extraordinario del 03 de octubre de 1993, en cuanto contradiga la presente Ley; y, en general, todas las disposiciones contenidas en otras normas legales o sub-legales que sean contrarias a la presente Ley.
+
+Disposiciones Finales Primera: La presente Ley entrará en vigencia el día de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.
+
+Segunda: Los Pueblos Indígenas existentes e identificados son: baniva, baré, cubeo, jivi (guajibo), hoti (hodi), kurripaco, piapoco, puinave, sáliva, sanemá, wotjuja (piaroa), yanomami, warekena, yabarana, yekuana, mako, ñengatú (yeral), kari´ña, cumanagoto, pumé ( yaruro), kuiba, uruak (arutani), akawayo, arawako, eñepá (panare), pemón, sape, wanai (mapoyo), warao, chaima, wayuu, añú (paraujano), barí, yukpa, japréria, ayaman, inga, amorua, timoto-cuicas (timotes) y guanono.
+
+La enunciación de los pueblos indígenas señalados no implica la negación de los derechos y garantías, ni menoscabo de los derechos que tengan otros pueblos indígenas no identificados en la presente Ley.
