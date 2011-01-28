@@ -1,8 +1,8 @@
 # Ley de reforma de la Ley de creación de la Comisión Central de Planificación
 
-Gaceta Oficial N° 5.990 Extraordinario, 2010-07-29. En vigor desde 2010-07-29 (publicación en la Gaceta Oficial, Código Civil art. 1).
+Gaceta Oficial N° 39.604, 2011-01-28. En vigor desde 2011-01-28 (publicación en la Gaceta Oficial, Código Civil art. 1).
 
-Texto: copia secundaria de FAOLEX, <https://faolex.fao.org/en/documents/LEX-FAOC097787/ley-de-reforma-de-la-ley-de-creacion-de-la-comision-central-ven-2010> (capa de texto del editor, con posibles errores de OCR).
+Texto: copia secundaria de FAOLEX, <https://faolex.fao.org/en/documents/LEX-FAOC100282/decreto-ley-n-8-006-11-ley-de-reforma-de-la-ley-de-creacion-ven-2011> (capa de texto del editor, con posibles errores de OCR).
 
 | Disposición | Archivo |
 | --- | --- |
