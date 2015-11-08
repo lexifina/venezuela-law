@@ -1,0 +1,5 @@
+ÚNICA. Los procedimientos que se encuentren en curso para la entrada en vigencia de este Decreto con Rango, Valor y Fuerza de Ley Orgánica, tendrán continuidad bajo los procedimientos con los cuales hubieren dado Inicio de conformidad con lo previsto en el Decreto con Rango, Valor y Fuerza de Ley Orgánica de Precios Justos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela Nº 6.156 Extraordinario de fecha 19 de noviembre de 2014, hasta su culminación.
+
+ÚNICA. Queda derogado el Decreto con Rango, Valor y Fuerza de Ley Orgánica de Precios Justos, publicada en la Gaceta Oficial de la República Bolivarlana de Venezuela Nº 6.156 Extraordinario de fecha 19 de noviembre de 2014. Quedan derogadas todas las disposiciones y normativas que colidan con este Decreto con Rango, Valor y Fuerza de Ley Orgánica de Precios Justos.
+
+ÚNICA. Este Decreto con Rango, Valor y Fuerza de Ley, entrará· en vigencia a partir de su puplicación en la Gaceta Oficial de la República Bolivariana de Venezuela.
