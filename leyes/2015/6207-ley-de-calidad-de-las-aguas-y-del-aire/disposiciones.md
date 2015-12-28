@@ -1,0 +1,3 @@
+Única. El Ejecutivo Nacional reglamentará esta Ley en el término de ciento ochenta días contados a partir de la fecha de publicación en la Gaceta Oficial de la República Bolivariana de Venezuela, pudiendo dictar a tales efectos, reglamentos parciales. Hasta tanto se dícten los respectivos reglamentos, se mantendrá vigente la reglamentación técnica dictada mediante decretos o resoluciones, en tanto no colidan con las disposiciones de esta Ley.
+
+Única. La presente Ley entrará en vigencia a los sesenta días contados a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.
