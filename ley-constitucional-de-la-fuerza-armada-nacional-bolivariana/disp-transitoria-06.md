@@ -1,0 +1,1 @@
+SEXTA. El conferimiento del mando especificado en la presente ley, se aplicará a las promociones que egresaron a partir del mes de julio del año 2010. A las promociones egresadas antes del mes de julio del año 2010, solo le será conferido el mando al oficial de Comando.

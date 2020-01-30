@@ -1,0 +1,1 @@
+SÉPTIMA. Los profesionales militares de las promociones egresadas antes del mes de julio de 2010, mantendrán el tiempo de carrera y de servicio para todos los efectos legales, conforme a las disposiciones vigentes a la fecha de su graduación.

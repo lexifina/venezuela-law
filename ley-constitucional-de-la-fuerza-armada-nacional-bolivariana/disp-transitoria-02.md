@@ -1,0 +1,1 @@
+SEGUNDA. El tiempo máximo de servicio del Oficial de Tropa egresado de los cursos de formación de Oficiales de Tropa, dictados por la Universidad Militar Bolivariana de Venezuela, se rigen por lo establecido en la presente ley, a partir de la fecha de graduación como Oficial de Tropa.

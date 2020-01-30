@@ -1,0 +1,1 @@
+QUINTA. El Tiempo de Servicio y el ascenso al grado de General de Brigada y su equivalente en la Armada Bolivariana para el Oficial de Tropa, especificados en la presente ley, comenzará a regir a partir de las promociones egresadas de los institutos de formación de Oficiales de Tropa del año 2011.

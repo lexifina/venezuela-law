@@ -1,0 +1,1 @@
+TERCERA. Se establece el plazo de un año, contado a partir de la publicación en la Gaceta Oficial de la República Bolivariana de Venezuela de la presente ley, para la elaboración de los instrumentos normativos correspondientes y se efectúen los ajustes organizacionales necesarios.
