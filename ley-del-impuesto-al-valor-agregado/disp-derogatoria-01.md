@@ -1,0 +1,1 @@
+PRIMERA: Se deroga el Decreto Constituyente de Reforma de la Ley que establece el Impuesto al Valor Agregado, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela Nº 6.396 Extraordinario, de fecha 21 de agosto de 2018.
