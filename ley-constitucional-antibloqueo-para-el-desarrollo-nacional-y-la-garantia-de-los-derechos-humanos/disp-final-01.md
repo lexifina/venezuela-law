@@ -1,0 +1,2 @@
+Única. Esta Ley Constitucional tendrá vigencia desde su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela, hasta que cesen los efectos de las medidas coercitivas unilaterales y otras medidas restrictivas o punitivas que afectan al país.
+Las medidas adoptadas por el Ejecutivo Nacional conforme a esta Ley Constitucional continuarán surtiendo plenamente sus efectos aun cuando esta perdiera vigencia de acuerdo con el encabezado de esta disposición, sin perjuicio de que el órgano legislativo proceda a su supresión, modificación o ratificación.
