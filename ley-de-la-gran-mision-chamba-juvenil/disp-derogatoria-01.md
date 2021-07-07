@@ -1,0 +1,1 @@
+Única. Queda derogado el Decreto N°1.392 con Rango, Valor y Fuerza de Ley para la Juventud Productiva, de fecha 13 de noviembre de 2014, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela N° 40.540.
