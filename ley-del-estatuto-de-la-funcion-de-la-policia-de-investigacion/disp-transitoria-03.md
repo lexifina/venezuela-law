@@ -1,0 +1,1 @@
+Tercera. A partir de la entrada en vigencia de la presente Ley, las obreras y obreros que prestan servicios al Cuerpo de Investigaciones Científicas, Penales y Criminalísticas que no se encuentren dentro del ámbito de su aplicación se regirán por la ley Orgánica del Trabajo, las Trabajadoras y los Trabajadores y sus reglamentos.

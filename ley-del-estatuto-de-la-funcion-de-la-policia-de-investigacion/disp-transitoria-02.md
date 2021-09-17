@@ -1,0 +1,1 @@
+Segunda. A partir de la entrada en vigencia de la presente Ley, las funcionarias públicas y funcionarios públicos que prestan servicios al Cuerpo de Investigaciones Científicas, Penales y Criminalísticas que no se encuentren dentro del ámbito de su aplicación se regirán por la Ley del Estatuto de la Función Pública y sus reglamentos.
