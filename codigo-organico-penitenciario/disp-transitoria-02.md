@@ -1,0 +1,1 @@
+SEGUNDA. El Cuerpo de Policía Nacional Bolivariana asumirá el ejercicio de las funciones de custodia externa de los establecimientos penitenciarios, de conformidad con lo previsto en el artículo 87 de este Código, en el plazo de dos años contados a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.
