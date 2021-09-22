@@ -1,0 +1,1 @@
+Única. Se deroga el título V de la Ley Orgánica de Amparo sobre Derechos y Garantías Constitucionales, publicada en la Gaceta Oficial de la República de Venezuela número 34.060 del 27 de septiembre de 1988 y todas las disposiciones que contraríen a la presente Ley.
