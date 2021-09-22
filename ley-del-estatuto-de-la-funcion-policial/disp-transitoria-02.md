@@ -1,0 +1,1 @@
+SEGUNDA. Dentro de los tres meses siguientes a la entrada en vigencia de esta Ley, los cuerpos de policía nacional, estadales y municipales, según el caso, deben realizar los ajustes y adecuaciones nominativas y administrativas correspondientes para garantizar el cumplimiento de lo dispuesto en el presente instrumento normativo.

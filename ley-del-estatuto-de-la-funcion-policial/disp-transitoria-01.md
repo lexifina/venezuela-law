@@ -1,0 +1,1 @@
+PRIMERA. El Ejecutivo Nacional dictará todos los Reglamentos que sean necesarios para desarrollar la presente Ley, en un lapso de un (1) año, contado a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.
