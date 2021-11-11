@@ -1,0 +1,1 @@
+Primera. El ministerio del Poder Popular con competencia en materia de Deporte deberá presentar al ejecutivo nacional en un lapso no mayor a noventa días contados a partir de la publicación de esta Ley, los planes y programas correspondientes a la Promoción del Ciclismo Urbano.

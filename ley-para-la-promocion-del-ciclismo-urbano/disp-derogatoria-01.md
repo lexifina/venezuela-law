@@ -1,0 +1,1 @@
+ÚNICA: Se deroga el numeral 1 del artículo 67 de la Ley de Tránsito y Transporte Terrestre en lo relativo a la exigencia de licencias de primer grado tipo "A" para conducir vehículos no motorizados de tracción humana.

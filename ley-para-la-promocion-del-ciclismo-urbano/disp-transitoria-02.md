@@ -1,0 +1,1 @@
+Segunda. Las Alcaldías deberán generar las condiciones normativas y de infraestructura necesarias por la promoción del ciclismo urbano, en un lapso no mayor a tres años siguiente a la publicación de esta Ley.
