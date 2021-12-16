@@ -1,0 +1,1 @@
+ÚNICA: La providencia que establezca las tasas aplicables a los supuestos previstos en esta Ley, será dictada por el Ejecutivo Nacional, oída la opinión de la Asamblea nacional dentro de los quince (15) días siguientes a su publicación.

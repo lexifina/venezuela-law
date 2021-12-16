@@ -1,0 +1,1 @@
+PRIMERA. A partir de la entrada en vigencia de esta Ley, queda derogada la Ley de Registro Público y del Notariado, de fecha 4 de mayo de 2006, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 5.833 Extraordinario, del 22 de diciembre de 2006.

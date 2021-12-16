@@ -1,0 +1,1 @@
+PRIMERA. El Fondo de Previsión Social de Registradoras o Registradores, Notarias Públicas y Notarios Públicos, se regirá de acuerdo con las condiciones establecidas en la Ley Orgánica del Sistema de Seguridad Social, en lo que resulte aplicable.
