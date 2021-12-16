@@ -1,0 +1,1 @@
+Cuarta. El Ejecutivo Nacional incluirá en las leyes de presupuesto anuales, a partir del año inmediatamente siguiente a la sanción de esta Ley, los recursos necesarios para el funcionamiento de los órganos, entidades y programas aquí previstos.
