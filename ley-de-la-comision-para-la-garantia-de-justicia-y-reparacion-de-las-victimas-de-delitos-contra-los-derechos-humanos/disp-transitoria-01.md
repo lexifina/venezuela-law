@@ -1,0 +1,1 @@
+Única: Dentro de los treinta días siguientes a la entrada en vigencia de esta Ley, el Consejo Moral Republicano y el Ejecutivo Nacional dispondrán los recursos necesarios para la instalación y funcionamiento de la Comisión para la Garantía de Justicia y Reparación de las Víctimas de Delitos contra los Derechos Humanos.
