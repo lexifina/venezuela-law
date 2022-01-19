@@ -1,0 +1,1 @@
+Primera: El Tribunal Supremo de Justicia, dentro de los ciento veinte días siguientes a la entrada en vigencia de esta Ley, deberá proceder a la reorganización y reestructuración de su estructura y normas de funcionamiento interno conforme a lo previsto en este instrumento.
