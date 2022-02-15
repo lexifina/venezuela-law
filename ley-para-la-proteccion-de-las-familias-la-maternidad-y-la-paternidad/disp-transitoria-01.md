@@ -1,0 +1,1 @@
+Única: Dentro de los tres meses siguientes a la vigencia de esta Ley todas las políticas, planes y programas del Estado dirigidos a la protección integral de las familias y sus integrantes deberán ajustarse a los principios, derechos, garantías y deberes previstos en esta Ley.
