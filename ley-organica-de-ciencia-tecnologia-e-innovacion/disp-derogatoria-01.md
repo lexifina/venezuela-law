@@ -1,0 +1,1 @@
+Única. Se deroga el numeral 4 del artículo 2 y el artículo 8º del Reglamento Parcial de la Ley Orgánica de Ciencia, Tecnología e Innovación, referido a los aportes, el financiamiento y su resultado, y la ética en la investigación, tecnología e innovación, publicado en la Gaceta Oficial Nº 39.795, de fecha 8 de noviembre de 2011.
