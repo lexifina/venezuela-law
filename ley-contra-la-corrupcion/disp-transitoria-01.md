@@ -1,0 +1,1 @@
+ÚNICA. Los tipos penales contenidos en esta Ley, serán materia de codificación, sin que ello implique la alteración del espíritu, propósito y razón de la presente Ley y mantendrán su vigencia al ser sancionado el nuevo Código Orgánico Penal venezolano.
