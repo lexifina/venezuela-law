@@ -1,0 +1,1 @@
+ÚNICA. Se derogan los artículos relacionados con las Zonas Económicas Especiales establecidos en el Decreto con Rango, Valor y Fuerza de Ley de Regionalización Integral para el Desarrollo Socioproductivo de la Patria, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela, número 6.151 (Extraordinario) de fecha 18 de noviembre de 2014.
