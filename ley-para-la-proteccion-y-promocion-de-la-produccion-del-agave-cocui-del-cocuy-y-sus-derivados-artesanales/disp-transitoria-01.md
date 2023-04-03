@@ -1,0 +1,1 @@
+ÚNICA. El Ejecutivo Nacional, dentro del año siguiente a la entrada en vigencia de esta Ley, realizará un censo nacional de productores del Agave cocui y certificará las unidades de producción de Agave cocui en todo el territorio nacional.
