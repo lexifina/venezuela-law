@@ -1,0 +1,1 @@
+TERCERA. Los Ministerios del Poder Popular con competencia en materia de defensa y relaciones interiores, justicia y paz dictarán las normas que regulen las actuaciones de los organismos de seguridad ciudadana en materia de aseguramiento, incautación o decomiso de bienes, dentro de los ciento veinte (120) días siguientes a la entrada en vigencia de esta Ley.
