@@ -1,0 +1,1 @@
+PRIMERA. A los fines de generar plena certeza jurídica, se declaran inexistentes y sin efecto jurídico las figuras fraudulentas utilizadas para usurpar o pretender usurpar la representación de la República o sus entidades.
