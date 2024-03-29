@@ -1,0 +1,1 @@
+Primera. A partir de la entrada en vigencia de la presente Ley, queda cancelado el asiento registral de las sociedades mercantiles inscritas en la Superintendencia de la Actividad Aseguradora que estén constituidas en jurisdicciones calificadas como de baja imposición fiscal por el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT).

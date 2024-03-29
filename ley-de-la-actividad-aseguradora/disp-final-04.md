@@ -1,0 +1,1 @@
+Cuarta. La presente Ley entrará en vigencia luego de transcurridos ciento veinte (120) días continuos siguientes a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.

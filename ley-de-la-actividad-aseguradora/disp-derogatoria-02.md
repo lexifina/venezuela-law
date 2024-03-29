@@ -1,0 +1,1 @@
+Segunda: Se deroga el Decreto con Fuerza de Ley para el Fortalecimiento del Sector Asegurador, N° 1.312, publicado en Gaceta Oficial de la República Bolivariana de Venezuela N° 5.554 Extraordinario del 13 de noviembre de 2001.

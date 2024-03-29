@@ -1,0 +1,1 @@
+Tercera. Las disposiciones establecidas en esta Ley para las empresas de seguros, de reaseguros y de medicina prepagada, son aplicables, en lo que corresponda, a las empresas administradoras de riesgos, financiadoras de primas o de cuotas, sociedades de corretaje de seguros y sociedades de corretaje de reaseguros.

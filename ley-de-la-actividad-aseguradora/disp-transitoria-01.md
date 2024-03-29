@@ -1,0 +1,1 @@
+Primera. Dentro de los ciento ochenta (180) días continuos siguientes a la entrada en vigencia de esta Ley, la Superintendencia de la Actividad Aseguradora dictará el reglamento de Ley y las normas a que haya lugar.

@@ -1,0 +1,2 @@
+Tercera. Las asociaciones cooperativas que a la fecha de entrada en vigencia de esta Ley se encuentren autorizadas por la Superintendencia de la Actividad Aseguradora, podrán adecuarse y adoptar la forma de empresa de seguros, medicina prepagada y administradora de riesgos, dando cumplimiento a los requisitos previstos en esta Ley, su reglamento y demás normativa aplicable.
+A tal efecto, deberán presentar un plan de adecuación, acompañado de un estudio de factibilidad, dentro de los seis (6) meses siguientes a la entrada en vigencia de la presente Ley.
