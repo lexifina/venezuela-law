@@ -1,0 +1,1 @@
+Segunda. Hasta tanto se celebren las elecciones en el estado Guayana Esequiba para el Consejo Legislativo, de conformidad con el Acuerdo de Ginebra y el derecho internacional, el Poder Legislativo de esa entidad federal será ejercido por la Asamblea Nacional.

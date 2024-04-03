@@ -1,0 +1,1 @@
+Cuarta. Hasta tanto se celebren las elecciones en el estado Guayana Esequiba, de conformidad con el Acuerdo de Ginebra y el derecho internacional, la representación parlamentaria a la Asamblea Nacional será escogida en una circunscripción nacional, de conformidad con las normas que dicte el Consejo Nacional Electoral.

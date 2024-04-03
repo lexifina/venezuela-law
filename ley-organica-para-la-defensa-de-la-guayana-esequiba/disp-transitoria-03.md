@@ -1,0 +1,1 @@
+Tercera. Hasta tanto se alcance una solución práctica y mutuamente aceptable con la República Cooperativa de Guyana en torno a la controversia territorial, el asiento de los Poderes Públicos del estado Guayana Esequiba será la ciudad de Tumeremo, municipio Sifontes del estado Bolívar.

@@ -1,0 +1,1 @@
+Primera. Hasta tanto se celebren las elecciones en el estado Guayana Esequiba, de conformidad con el Acuerdo de Ginebra y el derecho internacional, el gobierno y administración de esa entidad federal será ejercida por una Jefa o Jefe de Gobierno designado por la Presidenta o Presidente de la República Bolivariana de Venezuela.
