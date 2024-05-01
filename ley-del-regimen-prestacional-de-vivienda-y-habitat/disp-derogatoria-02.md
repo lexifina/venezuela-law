@@ -1,0 +1,1 @@
+Segunda. Se deroga parcialmente el artículo 59 de la Ley de Regionalización Integral para el Desarrollo Socioproductivo, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 6.151 de fecha 18 de noviembre de 2014, en lo relativo a la base imponible requerida para el aporte previsto.

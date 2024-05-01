@@ -1,0 +1,1 @@
+Primera. Se deroga el Decreto Nº 5.750 con Rango, Valor y Fuerza de Ley de Reforma parcial del Régimen Prestacional de Vivienda y Hábitat, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela Nº 5.867 extraordinario, de fecha 28 de diciembre de 2007, así como cualquier otra normativa que colidan con el presente Decreto con Rango, Valor y Fuerza de Ley.

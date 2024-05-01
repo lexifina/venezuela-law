@@ -1,0 +1,1 @@
+Primera. El Fondo Nacional de Desarrollo Urbano (FONDUR), creado por Ley el 1º de septiembre de 1975, publicada en la Gaceta Oficial de la República de Venezuela Nº 30.790 de fecha 09 de septiembre de 1975, deberá ser suprimido y liquidado para el 31 de julio de 2008; conforme al instrumento que al efecto se dicte.

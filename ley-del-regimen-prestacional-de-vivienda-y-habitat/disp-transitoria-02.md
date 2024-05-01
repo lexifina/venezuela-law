@@ -1,0 +1,1 @@
+Segunda. El Instituto Nacional de la Vivienda (INAVI), creado por el Decreto Nº 908 de fecha 23 de mayo de 1975, publicado en la Gaceta Oficial de la República de Venezuela Nº 1.746, Extraordinario, de fecha 23 de mayo de 1975, deberá ser reestructurado, conforme al instrumento que al efecto dicte el Ejecutivo Nacional.

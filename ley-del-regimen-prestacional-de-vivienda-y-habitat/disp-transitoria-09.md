@@ -1,0 +1,1 @@
+Novena. Hasta tanto entre en funcionamiento la Tesorería de Seguridad Social, los recursos financieros provenientes del aporte del sector público previstos en la Ley de Presupuesto, serán transferidos al Banco Nacional de Vivienda y Hábitat por intermedio de la Tesorería Nacional.

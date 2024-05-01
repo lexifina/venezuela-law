@@ -1,0 +1,1 @@
+Cuarta. El Ejecutivo Nacional podrá otorgar jubilaciones y pensiones especiales a las trabajadoras y los trabajadores de los entes que se refieren las disposiciones primera y segunda, siempre que exista mutuo acuerdo entre las partes, sin menoscabo de los derechos económicos y sociales adquiridos, de conformidad a la normativa vigente.

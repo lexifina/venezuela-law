@@ -1,0 +1,1 @@
+Séptima. Toda contratación que realicen los entes durante el proceso de liquidación y supresión o reestructuración, según corresponda serán coordinadas, supervisadas y controladas por el Ministerio con competencia en materia de vivienda y hábitat.
