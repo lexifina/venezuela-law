@@ -1,0 +1,1 @@
+Primera. Hasta tanto se dicte el Reglamento de la presente Ley, el Ministerio del Poder Popular con competencia en la materia de participación ciudadana, queda encargado de establecer los lineamientos en lo relativo al funcionamiento de las instancias y organizaciones del Poder Popular preexistentes a la vigencia de la misma.

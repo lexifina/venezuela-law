@@ -1,0 +1,1 @@
+Segunda. El ejercicio de la participación del pueblo y el estímulo a la iniciativa y organización del Poder Popular, establecidos en la presente Ley, se aplicarán en los pueblos y comunidades indígenas, de acuerdo a sus usos, costumbres y tradiciones.
