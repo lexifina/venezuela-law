@@ -1,0 +1,1 @@
+Única. Dentro de los doce (12) meses siguientes, contados a partir de la fecha de entrada en vigencia de esta Ley, se procederá a la revisión, actualización y adecuación de las normas y reglamentaciones existentes en los ámbitos Nacional, Estadal y Municipal, a los fines de ajustarlas a las disposiciones de este instrumento normativo.
