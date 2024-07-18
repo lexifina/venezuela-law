@@ -1,0 +1,1 @@
+Primera. Se deroga el Título IV del Decreto con Rango, Valor y Fuerza de Ley del Banco de Comercio Exterior, así como las demás disposiciones de ese Decreto relacionadas con la promoción de las exportaciones.

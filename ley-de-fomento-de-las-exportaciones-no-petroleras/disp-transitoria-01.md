@@ -1,0 +1,2 @@
+Primera. Los órganos y entes del Poder Público con competencia en materia de exportaciones deberán incorporar dentro de la plataforma de la Ventanilla Única de Comercio Exterior (VUCE) los mecanismos que permitan la obtención de los permisos requeridos para la exportación de bienes y servicios no petroleros, dentro de los noventa (90) días siguientes a la entrada en vigencia de esta Ley.
+Vencido dicho plazo, ninguna autoridad podrá exigir como requisito para la exportación algún permiso que no pueda tramitarse a través de la Ventanilla Única de Comercio Exterior (VUCE).

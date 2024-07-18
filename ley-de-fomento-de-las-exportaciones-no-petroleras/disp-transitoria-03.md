@@ -1,0 +1,1 @@
+Tercera. La transferencia de competencias del Banco de Comercio Exterior y de la Corporación Venezolana de Comercio Exterior a la que hace referencia esta Ley, será completada dentro de los sesenta (60) días siguientes a su entrada en vigencia.
