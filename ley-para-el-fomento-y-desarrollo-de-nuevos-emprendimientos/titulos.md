@@ -1,4 +1,4 @@
-Capítulo I. Disposiciones Generales
-Capítulo II. Fomento de los Nuevos Emprendimientos
-Capítulo III. Institucionalidad
+CAPÍTULO I. DISPOSICIONES GENERALES
+CAPÍTULO II. FOMENTO DE LOS NUEVOS EMPRENDIMIENTOS
+CAPÍTULO III. INSTITUCIONALIDAD
 DISPOSICIÓN FINAL
