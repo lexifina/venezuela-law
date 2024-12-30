@@ -1,0 +1,1 @@
+PRIMERA. El Ministerio del Poder Popular con competencia en materia de participación ciudadana elaborará los instructivos que faciliten y simplifiquen el registro de las comunas, conforme a las disposiciones de esta Ley, para lo cual el referido Ministerio tendrá un plazo de noventa (90) días para formular e implementar el referido procedimiento.
