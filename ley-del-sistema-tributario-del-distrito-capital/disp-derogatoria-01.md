@@ -1,0 +1,1 @@
+Única. A partir de la entrada en vigencia de esta Ley, queda derogada la Ley Especial de Timbre Fiscal para el Distrito Capital publicada en Gaceta Oficial N° 39.913 de fecha 02 de mayo de 2012, así como cualquier otro instrumento legal que colide con esta Ley.

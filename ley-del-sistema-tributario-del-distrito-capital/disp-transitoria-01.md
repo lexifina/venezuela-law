@@ -1,0 +1,1 @@
+Única. Dentro de los noventa (90) días siguientes a la vigencia de esta Ley, el Ejecutivo del Distrito Capital dictará los otros instrumentos normativos que sean necesarios para su efectivo y cabal cumplimiento.
