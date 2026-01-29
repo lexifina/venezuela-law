@@ -1,0 +1,1 @@
+CUARTA. Se deroga el Decreto N° 5.200, con Rango, Valor y Fuerza de Ley de Migración a Empresas Mixtas de los Convenios de Asociación de la Faja Petrolífera del Orinoco; así como los Convenios de Exploración a Riesgo y Ganancias Compartidas, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 38.632 de fecha 26 de febrero de 2007.

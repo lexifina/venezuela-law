@@ -1,0 +1,1 @@
+TERCERA. Se deroga la Ley que crea la Contribución Especial por Precios Extraordinarios y Precios Exorbitantes en el Mercado Internacional de Hidrocarburos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 40.114 de fecha 20 de febrero de 2013.

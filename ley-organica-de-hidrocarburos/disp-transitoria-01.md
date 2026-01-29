@@ -1,0 +1,1 @@
+PRIMERA. Hasta tanto se dicten nuevas normas que las deroguen expresamente, se continuarán aplicando en todo cuanto no colidan con esta Ley, las disposiciones de rango sublegal que sobre las materias aquí reguladas hubieren sido dictadas antes de la fecha de entrada en vigencia de esta Ley.

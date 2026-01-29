@@ -1,0 +1,1 @@
+ÚNICA. Esta Ley de Reforma Parcial de la Ley Orgánica de Hidrocarburos entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela, salvo los artículos 51, 55, 56, 57, 58 y 59, los cuales entrarán en vigencia una vez transcurrido sesenta (60) días continuos siguientes a su publicación.
