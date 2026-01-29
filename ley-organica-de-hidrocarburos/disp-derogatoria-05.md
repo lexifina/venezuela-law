@@ -1,0 +1,1 @@
+QUINTA. Se deroga el Acuerdo de la Asamblea Nacional mediante el cual se aprobaron los Términos y Condiciones para la Creación y Funcionamiento de las Empresas Mixtas y el Modelo de Contrato, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 38.410 de fecha 31 de marzo de 2006.

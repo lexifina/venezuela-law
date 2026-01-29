@@ -1,0 +1,1 @@
+CUARTA. El Ministerio con competencia en materia de hidrocarburos, dentro de los treinta (30) días siguientes a la entrada en vigencia de esta Ley, dictará las normas necesarias para la determinación, declaración y pago del impuesto integrado de hidrocarburos.

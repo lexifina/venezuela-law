@@ -1,0 +1,1 @@
+SEGUNDA. Se deroga la Ley Orgánica que reserva al Estado Bienes y Servicios Conexos a las Actividades Primarias de Hidrocarburos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 39.173 de fecha 7 de mayo de 2009.

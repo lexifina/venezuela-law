@@ -1,0 +1,1 @@
+PRIMERA. Se deroga la Ley de Regularización de la Participación Privada en las Actividades Primarias Previstas en el Decreto N° 1.510 con Fuerza de Ley Orgánica de Hidrocarburos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 38.419 de fecha 18 de abril de 2006.
