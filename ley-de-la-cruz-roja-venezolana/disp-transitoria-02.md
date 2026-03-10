@@ -1,0 +1,1 @@
+SEGUNDA. El Ejecutivo Nacional, dentro de un lapso no mayor a ciento ochenta (180) días a partir de la publicación de esta Ley en la Gaceta Oficial de la República Bolivariana de Venezuela, dictará el correspondiente Reglamento de esta Ley.

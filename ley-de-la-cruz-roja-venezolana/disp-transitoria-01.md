@@ -1,0 +1,1 @@
+PRIMERA. Mientras se adecúa a estas normas la Ley de Protección al Nombre y Emblema de la Cruz Roja, todo uso del emblema que no esté previsto en los Convenios de Ginebra de 1949, será evaluado bajo las disposiciones contempladas en el Capítulo VI del Código Penal.
