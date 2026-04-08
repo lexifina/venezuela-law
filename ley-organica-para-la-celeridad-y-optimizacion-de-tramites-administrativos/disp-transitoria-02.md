@@ -1,0 +1,1 @@
+SEGUNDA. Se suprime y ordena la liquidación del Instituto Nacional de Gestión Eficiente de Trámites y Permisos regulado por el Decreto, con Rango Valor y Fuerza de Ley de Simplificación de Trámites Administrativos publicado en Gaceta Oficial de la República Bolivariana de Venezuela N° 40.549 de fecha 26 de noviembre de 2014.
