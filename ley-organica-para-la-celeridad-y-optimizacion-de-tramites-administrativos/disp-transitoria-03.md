@@ -1,0 +1,1 @@
+TERCERA. El proceso de liquidación del Instituto Nacional de Gestión Eficiente de Trámites y Permisos deberá culminar en un lapso no mayor a ciento ochenta (180) días continuos tras la publicación de esta Ley.

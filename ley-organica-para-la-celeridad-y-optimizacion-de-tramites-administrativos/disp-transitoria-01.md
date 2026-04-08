@@ -1,0 +1,1 @@
+PRIMERA. Los órganos y entes de la Administración Pública deberán adecuar sus trámites y procedimientos administrativos a los principios y estándares de celeridad y optimización establecidos en esta Ley, en un plazo no mayor a ciento ochenta (180) días continuos a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela
