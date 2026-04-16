@@ -1,0 +1,1 @@
+Segunda. Se deroga el Decreto con Rango, Valor y Fuerza de Ley Orgánica que Reserva al Estado las Actividades de Exploración y Explotación del Oro y demás Minerales Estratégicos, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela N.º 6.210 Extraordinario, de fecha 30 de diciembre de 2015.

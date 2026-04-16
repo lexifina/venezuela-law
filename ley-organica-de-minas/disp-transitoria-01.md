@@ -1,0 +1,1 @@
+Primera. Las gobernaciones y alcaldías procurarán adecuar sus planes y programas, así como su legislación estadal y municipal, a los lineamientos establecidos en esta Ley, dentro del lapso de un (1) año contado a partir de su entrada en vigencia.

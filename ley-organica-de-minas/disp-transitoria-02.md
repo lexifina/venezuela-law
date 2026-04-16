@@ -1,0 +1,1 @@
+Segunda. Las personas naturales o jurídicas que realicen las actividades mineras reguladas en esta Ley, deberán adecuar sus actividades al nuevo marco regulatorio, dentro del lapso de un (1) año, contado a partir de su entrada en vigencia.
