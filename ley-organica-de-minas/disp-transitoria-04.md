@@ -1,0 +1,1 @@
+Cuarta. A partir de la entrada en vigencia de esta Ley Orgánica, la Ministra o el Ministro con competencia en materia de minas, propondrá a la Presidenta o el Presidente de la República en un lapso de treinta (30) días, la exclusión o inclusión en la categoría de minerales estratégicos o reservados, a fin de la emisión de los Decretos que se consideren necesarios.
