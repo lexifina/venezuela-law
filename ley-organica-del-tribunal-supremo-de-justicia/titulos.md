@@ -18,8 +18,7 @@ Capítulo II. Preselección de las candidatas o candidatos
 TÍTULO VI. DIRECCIÓN, GOBIERNO Y ADMINISTRACIÓN DEL PODER JUDICIAL
 Capítulo I Dirección Ejecutiva de la Magistratura
 Capítulo II. Órganos Auxiliares
-ÍTULO VII
-PROCESOS ANTE EL TRIBUNAL SUPREMO DE JUSTICIA
+TÍTULO VII. PROCESOS ANTE EL TRIBUNAL SUPREMO DE JUSTICIA
 Capítulo I. Disposiciones Generales
 Capítulo II. Ponencias
 Capítulo III. Avocamiento
@@ -33,5 +32,5 @@ Capítulo II. Procesos ante la Sala Constitucional
 Capítulo III. Demandas de Protección de Derechos e Intereses Colectivos y Difusos
 Capítulo IV. Habeas Data
 Capítulo V. Proceso Contencioso Electoral
-Disposición Derogatoria
-Disposición Final
+DISPOSICIÓN DEROGATORIA
+DISPOSICIONES FINALES

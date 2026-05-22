@@ -1,1 +1,1 @@
-Única. Se derogan las normas y disposiciones que colidan con esta Ley.
+Única. se derogan las normas que colidan con esta Ley.
