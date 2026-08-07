@@ -1,0 +1,1 @@
+ÚNICA. Las disposiciones del Decreto con Rango, Valor y Fuerza de la Ley Contra el Desalojo y la Desocupación Arbitraria de Vivienda y la Ley para la Regularización y Control de los Arrendamientos de Vivienda no serán aplicables a las relaciones arrendaticias establecidas bajo el amparo del régimen especial previsto en esta Ley.
