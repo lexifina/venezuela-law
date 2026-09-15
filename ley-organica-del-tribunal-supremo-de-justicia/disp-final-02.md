@@ -1,1 +1,0 @@
-Segunda. La Asamblea Nacional procederá a la designación de las Magistradas y los Magistrados, principales y suplentes, que constituyan la nueva configuración institucional del Tribunal Supremo de Justicia, así como al nombramiento de los titulares y suplentes de los órganos auxiliares correspondientes, de conformidad con lo establecido en la Ley.

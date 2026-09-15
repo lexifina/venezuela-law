@@ -32,5 +32,6 @@ Capítulo II. Procesos ante la Sala Constitucional
 Capítulo III. Demandas de Protección de Derechos e Intereses Colectivos y Difusos
 Capítulo IV. Habeas Data
 Capítulo V. Proceso Contencioso Electoral
+DISPOSICIÓN TRANSITORIA
 DISPOSICIÓN DEROGATORIA
-DISPOSICIONES FINALES
+DISPOSICIÓN FINAL
