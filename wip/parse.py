@@ -350,15 +350,15 @@ def parse_1961() -> tuple[dict, dict, dict, list[str]]:
 
 # ---------------------------------------------------------------- two-column gazettes (2018 on, text layer)
 
-def pdftotext_columns(url: str) -> list[list[str]]:
-    """Page-by-page text of a two-column gazette: [left column lines..., right column lines...] per page.
+def pdftotext_columns(url: str) -> list[tuple[list[str], int]]:
+    """Columns of a two-column gazette, in reading order: [(lines, width), ...], two per page.
 
-    pdftotext -layout prints both columns on one line; the gutter is the right-most character column
-    (between 40% and 75% of the page) where the fewest lines have a character, so a left-column
-    epigraph that runs up to the gutter stays in the left column. The running header is dropped and
+    pdftotext -layout prints both columns on one line. The right column's text starts at one
+    character position on most lines; the gutter is that position (the most common start of a word
+    after two or more spaces, between 40% and 75% of the line). The running header is dropped and
     each column's common indentation is removed."""
     txt = pdftotext(url)
-    pages = []
+    cols = []
     for page in txt.split("\f"):
         lines = page.split("\n")
         while lines and not lines[0].strip():
@@ -366,29 +366,33 @@ def pdftotext_columns(url: str) -> list[list[str]]:
         if lines and "GACETA OFICIAL DE LA REPÚBLICA BOLIVARIANA DE VENEZUELA" in lines[0]:
             lines.pop(0)
         width = max((len(l) for l in lines), default=0)
-        out: list[str] = []
-        if width:
-            counts = [(sum(1 for l in lines if len(l) > c and l[c] != " "), -c)
-                      for c in range(int(width * 0.4), int(width * 0.75))]
-            c = -min(counts)[1]
-            for col in ([l[:c] for l in lines], [l[c:] for l in lines]):
-                ne = [l for l in col if l.strip()]
-                base = min((len(l) - len(l.lstrip(" ")) for l in ne), default=0)
-                out.extend(l[base:].rstrip() for l in col)
-                out.append("")
-        pages.append(out)
-    return pages
+        if not width:
+            continue
+        starts: dict[int, int] = {}
+        for l in lines:
+            for m in re.finditer(r"  (?=\S)", l):
+                p = m.end()
+                if width * 0.4 <= p <= width * 0.75:
+                    starts[p] = starts.get(p, 0) + 1
+        c = max(starts, key=lambda p: (starts[p], -p)) if starts else width
+        for col in ([l[:c] for l in lines], [l[c:] for l in lines]):
+            ne = [l for l in col if l.strip()]
+            base = min((len(l) - len(l.lstrip(" ")) for l in ne), default=0)
+            col = [l[base:].rstrip() for l in col]
+            cols.append((col, max((len(l) for l in col), default=0)))
+    return cols
 
 
 STRUCT_RE = re.compile(r"^(LIBRO|T[IÍ]TULO|CAP[IÍ]TULO|Cap[ií]tulo|SECCI[OÓ]N|Secci[oó]n|DISPOSICI[OÓ]N|DISPOSICIONES)\b")
 ART2_RE = re.compile(r"^Artículo (\d+)\.+\s")
 
 
-def justified_paragraphs(lines: list[str]) -> list[tuple[str, str]]:
-    """Paragraphs of justified text: a line ends a paragraph only if it ends with . : ; and is
-    clearly shorter than a full line; blank lines (which the layout also puts mid-sentence) are
-    ignored. Indented lines (>= 12) are headings or epigraphs."""
-    width = max((len(l) for l in lines), default=80)
+def justified_paragraphs(cols: list[tuple[list[str], int]]) -> list[tuple[str, str]]:
+    """Paragraphs of justified two-column text: [(kind, text)], kind 'p' paragraph, 'h' heading
+    (centred, or LIBRO/TÍTULO/Capítulo/Sección...) or 'e' epigraph (a short line set flush right).
+    A line ends a paragraph only if it ends with . : ; and is clearly shorter than a full line;
+    blank lines, which the layout also puts mid-sentence, are ignored, and a line that starts in
+    lower case always continues the paragraph before it."""
     out: list[tuple[str, str]] = []
     cur: list[str] = []
 
@@ -398,20 +402,31 @@ def justified_paragraphs(lines: list[str]) -> list[tuple[str, str]]:
             out.append(("p", norm(" ".join(cur))))
             cur = []
 
-    for l in lines:
-        if not l.strip():
-            continue
-        ind = len(l) - len(l.lstrip(" "))
-        t = l.strip()
-        if (ind >= 12 and not ITEM_RE.match(t)) or (STRUCT_RE.match(t) and not t.endswith(".") and not cur):
-            flush()
-            out.append(("h", norm(t)))
-            continue
-        if ART2_RE.match(t) or ITEM_RE.match(t) or ORD_RE.match(t):
-            flush()
-        cur.append(t)
-        if t[-1:] in ".:;" and len(l) < width * 0.85:
-            flush()
+    for lines, width in cols:
+        for l in lines:
+            if not l.strip():
+                continue
+            ind = len(l) - len(l.lstrip(" "))
+            t = l.strip()
+            flush_right = ind >= 4 and len(l) >= width - 3 and len(t) < width * 0.75
+            if flush_right and not ITEM_RE.match(t) and not ART2_RE.match(t):
+                flush()
+                if out and out[-1][0] == "e":
+                    out[-1] = ("e", out[-1][1] + " " + norm(t))
+                else:
+                    out.append(("e", norm(t)))
+                continue
+            if (ind >= 8 and not ITEM_RE.match(t)) or (STRUCT_RE.match(t) and not t.endswith(".") and not cur):
+                flush()
+                out.append(("h", norm(t)))
+                continue
+            if t[:1].islower() and not cur and out and out[-1][0] == "p" and not ITEM_RE.match(t):
+                cur = [out.pop()[1]]  # continues the paragraph before (page or column break)
+            elif ART2_RE.match(t) or ITEM_RE.match(t) or ORD_RE.match(t):
+                flush()
+            cur.append(t)
+            if t[-1:] in ".:;" and len(l) < width * 0.85:
+                flush()
     flush()
     return out
 
@@ -420,20 +435,27 @@ SRC_COPP_2021 = "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.
 
 
 def parse_copp_2021() -> dict:
-    pages = pdftotext_columns(SRC_COPP_2021)
-    lines = [l for p in pages for l in p]
-    flat = "\n".join(lines)
-    i0 = next(i for i, l in enumerate(lines) if l.strip() == "CÓDIGO ORGÁNICO PROCESAL PENAL")
-    i1 = next(i for i in range(i0, len(lines)) if lines[i].startswith("Dada, firmada y sellada en el Palacio Federal Legislativo"))
-    paras = justified_paragraphs(lines[i0 + 1:i1])
+    cols = pdftotext_columns(SRC_COPP_2021)
+    # the Ley de Reforma (arts. 1-21) comes first; the texto único starts at its title
+    ci, li0 = next((ci, li) for ci, (c, w) in enumerate(cols) for li, l in enumerate(c)
+                   if l.strip() == "CÓDIGO ORGÁNICO PROCESAL PENAL")
+    cj, li1 = next((cj, li) for cj, (c, w) in enumerate(cols) for li, l in enumerate(c)
+                   if (cj, li) > (ci, li0) and l.startswith("Dada, firmada y sellada en el Palacio Federal Legislativo"))
+    body = [(cols[ci][0][li0 + 1:], cols[ci][1])] + cols[ci + 1:cj] + [(cols[cj][0][:li1], cols[cj][1])]
+    before = cols[:ci] + [(cols[ci][0][:li0], cols[ci][1])]
+    paras = justified_paragraphs(body)
     units: dict[str, dict] = {}
     heads: list[str] = []
     pending: list[str] = []
     key = None
     section = "body"
+    epi = None
     for kind, t in paras:
         if kind == "h":
             pending.append(t)
+            continue
+        if kind == "e":
+            epi = t
             continue
         m = ART2_RE.match(t)
         o = ORD_RE.match(t)
@@ -445,9 +467,6 @@ def parse_copp_2021() -> dict:
             elif h.startswith("DISPOSICIONES FINALES") or h.startswith("DISPOSICIÓN FINAL"):
                 section = "final"
         if m or (o and section != "body"):
-            epi = None
-            if pending and not STRUCT_RE.match(pending[-1]) and pending[-1].upper() != pending[-1]:
-                epi = pending.pop()
             heads.extend(pending)
             pending = []
             if m:
@@ -462,7 +481,11 @@ def parse_copp_2021() -> dict:
             if key in units:
                 raise SystemExit(f"COPP: duplicate {key}")
             units[key] = {"label": label, "kind": ukind, "lines": ([epi] if epi else []) + [t]}
+            epi = None
         else:
+            if epi and key:  # a flush-right line not followed by an article: text of this one
+                units[key]["lines"].append(epi)
+            epi = None
             if pending:  # a heading inside an article (a table or a centred line): keep it as text
                 if key:
                     units[key]["lines"].extend(pending)
@@ -473,7 +496,7 @@ def parse_copp_2021() -> dict:
     heads.extend(pending)
     # words run together in the texto único (no space glyph in the PDF): split them where the
     # reform law, earlier in the same gazette, prints the same article with the space
-    reform = justified_paragraphs(lines[:i0])
+    reform = justified_paragraphs(before)
     copies: dict[str, list[str]] = {}
     ck = None
     for kind, t in reform:
