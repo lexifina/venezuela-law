@@ -551,21 +551,74 @@ def build() -> dict:
              "note": "Arts. 160, 162, 174, 192 and 230 as worded by Enmienda N° 1, published after the reprinted Constitution in the same gazette (Const. art. 341.5); the reprint keeps the old wording in the body with a '(Ver Enmienda N° 1 ...)' note."},
         ],
     }
+    # ---- Constitución de 1961 (repealed 1999), TSJ text-layer PDF of the 1983 reprint
+    b61, e1, e2, _ = parse_1961()
+    sha61 = sha_of(SRC_1961)
+    v61a = finish(b61)
+    v61b = finish({**b61, **e1})
+    v61c = finish({**b61, **e1, **e2})
+    laws.update({
+        "constitucion-1961": {
+            "label": "Constitución de 1961",
+            "title": "Constitución de la República de Venezuela, sancionada por el Congreso el 23 de enero de 1961 con el voto de las Asambleas Legislativas de los Estados",
+            "kind": "law", "enacted": "1961-01-23", "published": "1961-01-23",
+            "url": "https://historico.tsj.gob.ve/legislacion/constituciones/26461_GO.pdf", "temporary_until": None, "restores": None, "note": None},
+        "enmienda-1-1973": {
+            "label": "Enmienda N° 1 de 1973",
+            "title": "Enmienda Número 1 de la Constitución, sancionada el 9 de mayo de 1973",
+            "kind": "law", "enacted": "1973-05-09", "published": "1973-05-11",
+            "url": "https://historico.tsj.gob.ve/legislacion/constituciones/1585_GOE.pdf", "temporary_until": None, "restores": None,
+            "note": None},
+        "enmienda-2-1983": {
+            "label": "Enmienda N° 2 de 1983",
+            "title": "Enmienda Número 2 de la Constitución, sancionada el 16 de marzo de 1983",
+            "kind": "law", "enacted": "1983-03-16", "published": "1983-03-26",
+            "url": "https://historico.tsj.gob.ve/legislacion/constituciones/32696_GOE.pdf", "temporary_until": None, "restores": None,
+            "note": None},
+    })
+    c61 = {
+        "slug": "constitucion-1961", "short": "CRV 1961",
+        "title": "Constitución de la República de Venezuela (1961)",
+        "url": SRC_TSJ_CONST_PAGE,
+        "first_law": "constitucion-1961", "earlier_laws": [],
+        "versions": [
+            {"from": "1961-01-23", "source_url": SRC_1961, "sha256": sha61, "units": v61a, "credits": {},
+             "note": "Text of 1961 as reprinted after Enmienda N° 2 (1983), transcribed by the Tribunal Supremo de Justicia. The enmiendas of this Constitution add separate texts and do not change the wording of its articles (art. 245.6). Arts. 191 and 192 are missing from the TSJ transcription, so they are not in this record."},
+            {"from": "1973-05-11", "source_url": SRC_1961, "sha256": sha61, "units": v61b,
+             "credits": {k: ["enmienda-1-1973"] for k in e1},
+             "note": "Enmienda N° 1 is published after the Constitution and noted under arts. 149, 152, 182 and 213, whose words it does not change."},
+            {"from": "1983-03-26", "source_url": SRC_1961, "sha256": sha61, "units": v61c,
+             "credits": {k: ["enmienda-2-1983"] for k in e2},
+             "note": "Enmienda N° 2 is published after the Constitution and noted under arts. 113, 122, 136, 139, 154, 156, 166, 167, 185, 227, 228 and 231, whose words it does not change."},
+            {"from": "1999-12-30", "source_url": SRC_5908, "sha256": sha5908, "units": {},
+             "credits": {k: ["constitucion-1999"] for k in v61c},
+             "note": "Repealed by the Disposición derogatoria única of the Constitution of 1999: 'Queda derogada la Constitución de la República de Venezuela decretada el veintitrés de enero de mil novecientos sesenta y uno.'"},
+        ],
+    }
+    sources.insert(3, {"name": "Tribunal Supremo de Justicia, constitucion1961.pdf (the 1961 text as reprinted after Enmienda N° 2 of 1983, with both enmiendas), Wayback capture 2011-01-25",
+                       "url": SRC_1961, "retrieved": DOCS_DATE, "requests": 1, "licence": "Official text (as above).",
+                       "notes": "Text-layer PDF from the TSJ's former site tsj.gov.ve. No second source to cross-check; arts. 191-192 are missing from it."})
+    sources[-1]["requests"] -= 1
+
     decisions = [
         "Constitution text: G.O. 5.908 Ext. of 19 Feb 2009 (the latest full official printing, ordered by Enmienda N° 1 art. 2), read from the text layer of the copy hosted by the Instituto Nacional de Estadística (ine.gob.ve). The TSJ and Asamblea Nacional copies of 5.908 and 5.453 are image scans and this machine has no OCR, so they were not used for text.",
-        "Version 1 (from 1999-12-30) is the 5.908 body text with the original wording of arts. 160, 162, 174, 192 and 230 (which the reprint keeps, each followed by a '(Ver Enmienda N° 1 ...)' note, per Const. art. 341.5). It is cross-checked word by word against two independent official transcriptions of the 1999 text: the TSJ HTML of G.O. 5.453 and the Asamblea Nacional PDF; every difference is listed in PROGRESS.md.",
+        "Version 1 (from 1999-12-30) is the 5.908 body text with the original wording of arts. 160, 162, 174, 192 and 230 (which the reprint keeps, each followed by a '(Ver Enmienda N° 1 ...)' note, per Const. art. 341.5). It is cross-checked word by word against the Asamblea Nacional's text of 1999 (a text-layer PDF). The TSJ's HTML transcription labelled G.O. 5.453 differs in wording from both in more than 80 articles and is not used.",
         "The original publication (G.O. 36.860, 30 Dec 1999) was reprinted 'por error material del ente emisor' in G.O. 5.453 Ext. (24 Mar 2000). No text-layer copy of 36.860 was found, so the corrections are not a separate version: version 1 carries the corrected wording from 1999-12-30 (its in-force day, Disposición final única).",
         "Version 2 (from 2009-02-19, the day of publication; the Enmienda names no other date, Código Civil art. 1) replaces the operative text of the five articles with the Enmienda's wording; the '(Ver Enmienda ...)' notes are dropped from the text.",
         "The Constitution of 1999 is credited as a referendum (approved 15 Dec 1999, proclaimed 20 Dec 1999); the Enmienda N° 1 as a referendum (approved 15 Feb 2009).",
         "One file per article, transitional provision, derogatory and final provision; the Preamble in preambulo.md; the closing approval paragraph in promulgacion.md; the headings of titles, chapters and sections, in order, in titulos.md. The lists of signatories are omitted. The Exposición de Motivos (in G.O. 5.453, not in 5.908) is not normative and is not included.",
-        f"The INE copy of G.O. 5.908 lacks some lines of text (mostly the last line of a page; the words are not in the PDF). parse.py aligns it word by word with the Asamblea Nacional text and restores {len(repairs)} gaps from it, in units " + ", ".join(sorted({r['unit'] for r in repairs})) + ". Every restored passage is listed in PROGRESS.md. The remaining differences between the two are spellings of compound words ('politicoterritorial' in 5.908, 'político territorial' in the AN text) and AN typos ('postrado', 'contenciosa electoral', 'auditoria'); the 5.908 spelling is kept.",
+        f"The INE copy of G.O. 5.908 lacks some lines of text (mostly the last line of a page; the words are not in the PDF). parse.py aligns it word by word with the Asamblea Nacional text and restores {len(repairs)} gaps from it, in units " + ", ".join(sorted({r['unit'] for r in repairs})) + ". Every restored passage is listed below. The remaining differences between the two are spellings of compound words ('politicoterritorial' in 5.908, 'político territorial' in the AN text) and AN typos ('postrado', 'contenciosa electoral', 'auditoria'); the 5.908 spelling is kept.",
         *[(f"Restored in {r['unit']} from the AN text, after '{r['after']}': '{r['inserted']}'." if r["kind"] == "missing words"
            else f"Restored in {r['unit']} from the AN text: '{r['was']}' is '{r['now']}' (first letter missing in the INE copy).") for r in repairs],
         "Paragraphs are rebuilt from the PDF layout: wrapped lines are joined, page numbers dropped, a blank line ends a paragraph only after . : ; or ), and numbered/lettered items start their own line. Spellings are kept as printed in G.O. 5.908.",
+        "Constitución de 1961: text from the TSJ's text-layer PDF of the 1961 Constitution as reprinted after Enmienda N° 2 (Wayback capture 20110125000458 of tsj.gov.ve/legislacion/constitucion1961.pdf). The gazettes themselves (TSJ historico PDFs 26461_GO, 1585_GOE, 32696_GOE) are scans and were not read; the in-force days are the promulgation days printed in the text ('Ejecútese' 23 Jan 1961, 'Cúmplase' 11 May 1973 and 26 Mar 1983), taken as the days of publication in the Gaceta Oficial.",
+        "Constitución de 1961: its enmiendas are separate texts published after the Constitution with a note under the articles they concern (art. 245.6); they do not change the articles' words. Each enmienda's operative articles are units of their own (enmienda-01-art-001, enmienda-02-art-001 to -008), added on its day; the reprint's notes '* Ver Enmienda ...' and 'Cumplida (ver Enmienda número 2 ...)' under fulfilled transitional provisions are dropped from the text.",
+        "Constitución de 1961: arts. 191 and 192 are missing from the TSJ transcription (art. 190 runs straight into Capítulo III and art. 193), and no other machine-readable official copy was found, so they are absent from every version. The Disposiciones Transitorias (a separate text sanctioned on the same day, art. 251) are included as disp-transitoria-01 to -23. The signatories are omitted.",
+        "Constitución de 1961: repealed on 1999-12-30 by the Disposición derogatoria única of the Constitution of 1999; that commit removes every file of constitucion-1961/ and is credited to the Constitution of 1999.",
         f"PDF text extraction: {pdftotext_version()} with -enc UTF-8 -layout.",
     ]
     return {
-        "country": country, "sources": sources, "laws": laws, "acts": [const], "applies": [],
+        "country": country, "sources": sources, "laws": laws, "acts": [const, c61], "applies": [],
         "decisions": decisions,
         "ai_use": ["none: no model wrote, summarised or corrected any legal text; parsing is rule-based (parse.py)."],
     }

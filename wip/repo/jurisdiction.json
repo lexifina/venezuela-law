@@ -4,8 +4,8 @@
   "name": "Venezuela",
   "level": "country",
   "repo": "https://github.com/lexifina/venezuela-law",
-  "build": "built: Constitución 1999-2026 (2 versions: 1999 text, Enmienda N° 1 of 2009)",
+  "build": "built: Constitución 1999-2026 (2 versions: 1999 text, Enmienda N° 1 of 2009); Constitución 1961-1999 (4 versions, arts. 191-192 missing from source)",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
-  "sources": 3
+  "sources": 4
 }
