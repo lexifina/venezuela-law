@@ -1,7 +1,7 @@
 """Parse the cached official texts into corpus.json (gitlaw_common/SCHEMA.md).
 
-Reads only .cache/ (no network). PDFs are turned into text with poppler's
-`pdftotext -enc UTF-8 -layout` (deterministic for a given poppler version; the
+Reads only .cache/ (no network). PDFs are turned into text with xpdf's
+`pdftotext -enc UTF-8 -layout` (deterministic for a given pdftotext version; the
 version is recorded in corpus.json decisions).
 
     python -X utf8 parse.py            write corpus.json (atomically via corpus.json.tmp)
@@ -87,7 +87,7 @@ def layout_lines(text: str) -> list[tuple[int, str]]:
     return out
 
 
-HEAD_RE = re.compile(r"^(TÍTULO [IVXL]+|T[íi]tulo [IVXL]+|CAP[ÍI]TULO [IVXL]+|Cap[íi]tulo [IVXL]+|Secci[óo]n \w+:)", re.I)
+HEAD_RE = re.compile(r"^(TÍTULO [IVXL]+|T[íi]tulo [IVXL]+|TITULO PRELIMINAR|LIBRO \w+|CAP[ÍI]TULO [IVXL]+|Cap[íi]tulo [IVXL]+|Secci[óo]n \w+:|Secci[óo]n \w+$)", re.I)
 DISP_HEAD_RE = re.compile(r"^(Disposici[óo]n|Disposiciones) (Final|Derogatoria|Transitorias)$", re.I)
 
 
@@ -240,7 +240,7 @@ def group_headings(hs: list[str]) -> list[str]:
     out: list[str] = []
     for h in hs:
         if out and not (HEAD_RE.match(h) or DISP_HEAD_RE.match(h) or h.startswith("DISPOSICI")):
-            if re.fullmatch(r"(TÍTULO|Capítulo|CAPÍTULO) [IVXL]+", out[-1]):
+            if re.fullmatch(r"(TÍTULO|Capítulo|CAPÍTULO) [IVXL]+|Secci[óo]n \w+", out[-1]):
                 out[-1] = out[-1] + ". " + h  # 'TÍTULO I' + its name
             else:
                 out[-1] = out[-1] + " " + h  # a heading wrapped onto a second line
@@ -434,7 +434,12 @@ def justified_paragraphs(cols: list[tuple[list[str], int]]) -> list[tuple[str, s
 SRC_COPP_2021 = "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.644_17-09-2021-000.pdf"
 
 
-def parse_copp_2021() -> dict:
+def parse_copp_2021() -> tuple[dict, list]:
+    """Código Orgánico Procesal Penal, texto único in G.O. 6.644 Ext. (17 Sep 2021).
+
+    NOT USED in corpus.json: the gazette's text layer holds hidden overlaid text (for example
+    item 8 of art. 111 and item 5 of art. 482 appear twice, once with stray words), which cannot be
+    told apart from the printed text without looking at the page. Kept for a later attempt."""
     cols = pdftotext_columns(SRC_COPP_2021)
     # the Ley de Reforma (arts. 1-21) comes first; the texto único starts at its title
     ci, li0 = next((ci, li) for ci, (c, w) in enumerate(cols) for li, l in enumerate(c)
@@ -455,11 +460,13 @@ def parse_copp_2021() -> dict:
             pending.append(t)
             continue
         if kind == "e":
-            epi = t
+            pending.append(("e", t))
             continue
         m = ART2_RE.match(t)
         o = ORD_RE.match(t)
         for h in pending:
+            if isinstance(h, tuple):
+                continue
             if h.startswith("DISPOSICIONES TRANSITORIAS"):
                 section = "trans"
             elif h.startswith("DISPOSICIÓN DEROGATORIA"):
@@ -467,7 +474,17 @@ def parse_copp_2021() -> dict:
             elif h.startswith("DISPOSICIONES FINALES") or h.startswith("DISPOSICIÓN FINAL"):
                 section = "final"
         if m or (o and section != "body"):
-            heads.extend(pending)
+            # the epigraph is the run of lines after the last structural heading and its name
+            last = -1
+            for i, h in enumerate(pending):
+                txt = h[1] if isinstance(h, tuple) else h
+                if not isinstance(h, tuple) and (STRUCT_RE.match(txt) or txt.upper() == txt):
+                    last = i
+                    if i + 1 < len(pending) and not isinstance(pending[i + 1], tuple) and not STRUCT_RE.match(pending[i + 1])                             and re.fullmatch(r"(TÍTULO|T[IÍ]TULO|CAP[IÍ]TULO|Cap[ií]tulo) [IVXL]+|Secci[oó]n \w+", txt):
+                        last = i + 1  # 'Capítulo I' + 'De su Ejercicio'
+            tail = pending[last + 1:]
+            epi = " ".join(h[1] if isinstance(h, tuple) else h for h in tail) or None
+            heads.extend(h for h in pending[:last + 1] if not isinstance(h, tuple))
             pending = []
             if m:
                 n = int(m.group(1))
@@ -483,17 +500,14 @@ def parse_copp_2021() -> dict:
             units[key] = {"label": label, "kind": ukind, "lines": ([epi] if epi else []) + [t]}
             epi = None
         else:
-            if epi and key:  # a flush-right line not followed by an article: text of this one
-                units[key]["lines"].append(epi)
-            epi = None
-            if pending:  # a heading inside an article (a table or a centred line): keep it as text
+            if pending:  # a heading or flush-right line inside an article: keep it as text
                 if key:
-                    units[key]["lines"].extend(pending)
+                    units[key]["lines"].extend(h[1] if isinstance(h, tuple) else h for h in pending)
                 pending = []
             if key is None:
                 raise SystemExit(f"COPP: text before the first article: {t[:60]}")
             units[key]["lines"].append(t)
-    heads.extend(pending)
+    heads.extend(h for h in pending if not isinstance(h, tuple))
     # words run together in the texto único (no space glyph in the PDF): split them where the
     # reform law, earlier in the same gazette, prints the same article with the space
     reform = justified_paragraphs(before)

@@ -73,6 +73,7 @@ The author of a commit is the act that made the change, with an e-mail address t
 ## What it does not show
 
 - **The Código Civil (1982) and the Código Penal (2005).** The only official copies found are image scans: the TSJ's gazette PDFs (for example G.O. 5.768 Ext. for the Código Penal) and the gazette portal, which has nothing before 2010. This machine has no OCR, and copies held by non-Venezuelan bodies are not official texts, so neither code is here yet. The same holds for most laws before about 2018: from then on, the gazettes on gacetaoficial.gob.ve have a text layer.
+- **The Código Orgánico Procesal Penal (2021).** Its texto único in G.O. 6.644 Ext. has a text layer, but the layer also holds hidden overlaid text: some items appear twice, once with stray words. That cannot be told apart from the printed text without looking at the page, so the code is not here yet. Its earlier versions (1998 to 2012) are scans.
 
 - **The text as first printed in G.O. 36.860** (see above).
 - **The Exposición de Motivos.** It is printed with the Constitution in G.O. 5.453 but is not part of the normative text, and is not in G.O. 5.908.
@@ -82,7 +83,7 @@ The author of a commit is the act that made the change, with an e-mail address t
 
 ## How it is built
 
-`tools/fetch.py` downloads every source once through curl, cached by the sha256 of the URL, at most one request per second per host. `tools/parse.py` turns the cache into `corpus.json`, using poppler's `pdftotext` for PDFs. The shared builder `tools/build.py` writes the history with `git fast-import`, and the same corpus always gives the same hashes. `REPRODUCE.md` records every command, tool version, data hash and decision, and the result of a hash-for-hash rebuild.
+`tools/fetch.py` downloads every source once through curl, cached by the sha256 of the URL, at most one request per second per host. `tools/parse.py` turns the cache into `corpus.json`, using `pdftotext` (xpdf 4.00) for PDFs. The shared builder `tools/build.py` writes the history with `git fast-import`, and the same corpus always gives the same hashes. `REPRODUCE.md` records every command, tool version, data hash and decision, and the result of a hash-for-hash rebuild.
 
 No AI model wrote or changed legal text. Claude Opus 5.5 wrote the scripts and chose the sources; see `REPRODUCE.md`.
 
