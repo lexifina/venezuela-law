@@ -281,19 +281,25 @@ def an_1999_articles() -> dict[int, str]:
     return split_articles(s)
 
 
-def split_articles(s: str) -> dict[int, str]:
-    parts = re.split(r"Artículo (\d+)\s*\.", s)
+def split_articles(s: str, last: int = 350) -> dict[int, str]:
+    """Split a flat text into articles 1..last by finding each 'Artículo N.' in order.
+
+    Some transcriptions drop the word 'Artículo' before a number; then the bare
+    'N. ' after a sentence end is accepted."""
+    pos: list[tuple[int, int]] = []
+    at = 0
+    for n in range(1, last + 1):
+        m = re.compile(rf"Art[íi]culo\s*{n}\s*[\.º°]").search(s, at)
+        if not m:
+            m = re.compile(rf"(?<=[\.:;]\s){n}\s*\.\s+(?=[A-ZÁÉÍÓÚ])").search(s, at)
+        if not m:
+            continue
+        pos.append((n, m.start()))
+        at = m.end()
     res: dict[int, str] = {}
-    expect = 1
-    for i in range(1, len(parts) - 1, 2):
-        n = int(parts[i])
-        if n == expect:
-            res[n] = parts[i + 1]
-            expect += 1
-        elif n in res:  # in-text cross reference "artículo N." -> belongs to the current article
-            res[expect - 1] += " Artículo " + parts[i] + "." + parts[i + 1]
-        else:
-            res[expect - 1] += " Artículo " + parts[i] + "." + parts[i + 1]
+    for i, (n, p0) in enumerate(pos):
+        p1 = pos[i + 1][1] if i + 1 < len(pos) else len(s)
+        res[n] = re.sub(rf"^Art[íi]culo\s*{n}\s*[\.º°]|^{n}\s*\.", "", s[p0:p1]).strip()
     return res
 
 
