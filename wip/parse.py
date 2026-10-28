@@ -467,7 +467,7 @@ def build() -> dict:
         "versions": [
             {"from": "1999-12-30", "source_url": SRC_5908, "sha256": sha5908, "units": v1,
              "credits": {},
-             "note": "Text of 1999 as reprinted in full in G.O. 5.908 Ext. (2009), whose body keeps the original wording of the five amended articles. It matches the TSJ transcription of the corrected reprint in G.O. 5.453 Ext. (24 Mar 2000); the uncorrected first printing in G.O. 36.860 (30 Dec 1999) has no text-layer copy, so its material errors are not shown."},
+             "note": "Text of 1999 as reprinted in full in G.O. 5.908 Ext. (2009), whose body keeps the original wording of the five amended articles. Checked word by word against the Asamblea Nacional's text of 1999, which also fills the lines missing from the INE copy of 5.908. The wording is that of the corrected reprint in G.O. 5.453 Ext. (24 Mar 2000); the first printing in G.O. 36.860 (30 Dec 1999) has no machine-readable copy, so its material errors are not shown."},
             {"from": "2009-02-19", "source_url": SRC_5908, "sha256": sha5908, "units": v2,
              "credits": {k: ["enmienda-1-2009"] for k in changed},
              "note": "Arts. 160, 162, 174, 192 and 230 as worded by Enmienda N° 1, published after the reprinted Constitution in the same gazette (Const. art. 341.5); the reprint keeps the old wording in the body with a '(Ver Enmienda N° 1 ...)' note."},
