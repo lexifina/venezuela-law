@@ -66,7 +66,7 @@ def norm(s: str) -> str:
 
 # ---------------------------------------------------------------- layout text -> logical lines
 
-ITEM_RE = re.compile(r"^(\d{1,2}|[a-zñ])[\.\)]\s+\S")
+ITEM_RE = re.compile(r"^(\d{1,2}|[a-zñ])(\.-|[\.\)])\s*(?=[A-ZÁÉÍÓÚÑa-záéíóúñ\"(])")
 ART_RE = re.compile(r"^Artículo (\d+)\.\s*(.*)$")
 ORD_RE = re.compile(r"^(" + "|".join(ORDINALS) + r"|Única)\.\s*(.*)$")
 
@@ -103,7 +103,7 @@ def is_heading(ind: int, s: str, prev_heading: bool = False) -> bool:
     return prev_heading and ind >= 4 and (t.upper() == t or t.startswith(("De ", "Del ")))
 
 
-def paragraphs(lines: list[tuple[int, str]]) -> list[tuple[str, str]]:
+def paragraphs(lines: list[tuple[int, str]], extra_start: re.Pattern | None = None) -> list[tuple[str, str]]:
     """Join wrapped lines into paragraphs. Returns [(kind, text)], kind 'h' heading or 'p' paragraph."""
     out: list[tuple[str, str]] = []
     cur: list[str] = []
@@ -125,7 +125,8 @@ def paragraphs(lines: list[tuple[int, str]]) -> list[tuple[str, str]]:
             out.append(("h", norm(t)))
             pending_blank = False
             continue
-        starts_new = bool(ART_RE.match(t) or ORD_RE.match(t) or ITEM_RE.match(t) or t.startswith("(Ver Enmienda"))
+        starts_new = bool(ART_RE.match(t) or ORD_RE.match(t) or ITEM_RE.match(t) or t.startswith("(Ver Enmienda")
+                         or (extra_start is not None and extra_start.match(t)))
         if cur and not starts_new:
             prev = cur[-1]
             ends = prev.rstrip()[-1:] in ".:;)"
@@ -135,8 +136,9 @@ def paragraphs(lines: list[tuple[int, str]]) -> list[tuple[str, str]]:
             flush()
         cur.append(t)
         pending_blank = False
+        if extra_start is not None and extra_start.match(t):
+            flush()  # a standalone 'Artículo 1°' / 'Primera:' line is its own paragraph
     flush()
-    # a wrapped line that starts lowercase after a list item: already joined above
     return out
 
 
@@ -268,6 +270,82 @@ def sort_key(k: str):
     if k == "disp-final":
         return (4, 0, k)
     return (5, 0, k)
+
+
+# ---------------------------------------------------------------- Constitution 1961 (TSJ text, as reprinted in 1983)
+
+SRC_1961 = "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf"
+ORD_1961 = ["Primera", "Segunda", "Tercera", "Cuarta", "Quinta", "Sexta", "Séptima", "Octava", "Novena", "Décima",
+            "Decimaprimera", "Decimasegunda", "Decimatercera", "Decimacuarta", "Decimaquinta", "Decimasexta",
+            "Decimaséptima", "Decimaoctava", "Decimanovena", "Vigésima", "Vigesimaprimera", "Vigesimasegunda",
+            "Vigesimatercera"]
+ART61_RE = re.compile(r"^Artículo (\d+)\s*[°º]?\s*\*?$")
+ORD61_RE = re.compile(r"^(" + "|".join(ORD_1961) + r"):$")
+NOTE61_RE = re.compile(r"^\*?\s*(Ver Enmienda|Cumplida \(ver Enmienda)", re.I)
+
+
+def _units_1961(paras, ordinal_re=None, prefix="art", label="Art.", kind="art"):
+    units: dict[str, dict] = {}
+    heads: list[str] = []
+    key = None
+    for k, t in paras:
+        if k == "h":
+            heads.append(t)
+            continue
+        if NOTE61_RE.match(t):
+            continue  # the reprint's '* Ver Enmienda ...' and 'Cumplida (ver Enmienda ...)' notes
+        m = ART61_RE.match(t)
+        o = ordinal_re.match(t) if ordinal_re else None
+        if m and not ordinal_re:
+            n = int(m.group(1))
+            key = f"{prefix}-{n:03d}"
+            if key in units:
+                raise SystemExit(f"1961: duplicate {key}")
+            units[key] = {"label": f"{label} {n}", "kind": kind, "lines": [re.sub(r"\s*\*$", "", t)]}
+        elif o:
+            n = ORD_1961.index(o.group(1)) + 1
+            key = f"disp-transitoria-{n:02d}"
+            units[key] = {"label": f"Disposición transitoria {o.group(1).lower()}", "kind": "transitional", "lines": [t]}
+        elif key:
+            units[key]["lines"].append(re.sub(r"\s*\*$", "", t))
+    return units, heads
+
+
+def parse_1961() -> tuple[dict, dict, dict, list[str]]:
+    """Return (body units of 1961, enmienda 1 units, enmienda 2 units, notes)."""
+    text = pdftotext(SRC_1961)
+    i_t1 = text.index("Título I. De la República")
+    i_dada = text.index("Dada, firmada y sellada en el Palacio Federal Legislativo")
+    i_e1 = text.index("Enmienda Número 1 de la Constitución")
+    i_e1b = text.index("Enmienda Número 1 de la Constitución", i_e1 + 10)
+    i_e1end = text.index("Imprímase íntegramente la Constitución seguida de la enmienda", i_e1b)
+    i_e2 = text.index("Enmienda Número 2 de la Constitución")
+    i_e2b = text.index("Enmienda Número 2 de la Constitución", i_e2 + 10)
+    i_e2end = text.index("Imprimase íntegramente la Constitución seguida de la Enmienda", i_e2b)
+    i_tr = text.index("Disposiciones Transitorias de la Constitución")
+    i_trb = text.index("Disposiciones Transitorias de la Constitución", i_tr + 10)
+    i_trend = text.index("Dado, firmado y sellado en el Palacio Federal Legislativo", i_trb)
+
+    def cut(a, b):
+        return text[text.rindex("\n", 0, a) + 1:b]
+
+    start = re.compile(r"^(Artículo \d+\s*[°º]?\s*\*?$|(" + "|".join(ORD_1961) + r"):$)")
+    body, heads = _units_1961(paragraphs(layout_lines(cut(i_t1, i_dada)), start))
+    i_pre = text.index("Requerido el voto de las Asambleas Legislativas")
+    pre = norm(re.sub(r"\s+", " ", text[i_pre:text.index("Constitución de la República de Venezuela", i_pre)]))
+    body["preambulo"] = {"label": "Preámbulo", "kind": "preamble", "lines": [pre, "Constitución de la República de Venezuela"]}
+    closing = norm(re.sub(r"\s+", " ", text[i_dada:text.index("El Presidente del Congreso Nacional", i_dada)]))
+    body["promulgacion"] = {"label": "Sanción", "kind": "closing", "lines": [closing]}
+    trans, _ = _units_1961(paragraphs(layout_lines(cut(i_trb, i_trend)), start), ordinal_re=ORD61_RE)
+    body.update(trans)
+    body["titulos"] = {"label": "Títulos y capítulos", "kind": "heading",
+                       "lines": [h for h in heads if not h.startswith(("Disposiciones Transitorias", "Constitución de la República"))]}
+    e1, _ = _units_1961(paragraphs(layout_lines(cut(i_e1b, i_e1end)), start), prefix="enmienda-01-art", label="Enmienda N° 1, art.")
+    e2, _ = _units_1961(paragraphs(layout_lines(cut(i_e2b, i_e2end)), start), prefix="enmienda-02-art", label="Enmienda N° 2, art.")
+    # the cut ends just after the 'Artículo 2°' / 'Artículo 9°' line that orders the reprint; drop it
+    e1 = {k: v for k, v in e1.items() if len(v["lines"]) > 1}
+    e2 = {k: v for k, v in e2.items() if len(v["lines"]) > 1}
+    return body, e1, e2, []
 
 
 # ---------------------------------------------------------------- repair of lines missing from the INE copy
