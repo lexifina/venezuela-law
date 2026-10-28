@@ -348,6 +348,162 @@ def parse_1961() -> tuple[dict, dict, dict, list[str]]:
     return body, e1, e2, []
 
 
+# ---------------------------------------------------------------- two-column gazettes (2018 on, text layer)
+
+def pdftotext_columns(url: str) -> list[list[str]]:
+    """Page-by-page text of a two-column gazette: [left column lines..., right column lines...] per page.
+
+    pdftotext -layout prints both columns on one line; the gutter is the right-most character column
+    (between 40% and 75% of the page) where the fewest lines have a character, so a left-column
+    epigraph that runs up to the gutter stays in the left column. The running header is dropped and
+    each column's common indentation is removed."""
+    txt = pdftotext(url)
+    pages = []
+    for page in txt.split("\f"):
+        lines = page.split("\n")
+        while lines and not lines[0].strip():
+            lines.pop(0)
+        if lines and "GACETA OFICIAL DE LA REPÚBLICA BOLIVARIANA DE VENEZUELA" in lines[0]:
+            lines.pop(0)
+        width = max((len(l) for l in lines), default=0)
+        out: list[str] = []
+        if width:
+            counts = [(sum(1 for l in lines if len(l) > c and l[c] != " "), -c)
+                      for c in range(int(width * 0.4), int(width * 0.75))]
+            c = -min(counts)[1]
+            for col in ([l[:c] for l in lines], [l[c:] for l in lines]):
+                ne = [l for l in col if l.strip()]
+                base = min((len(l) - len(l.lstrip(" ")) for l in ne), default=0)
+                out.extend(l[base:].rstrip() for l in col)
+                out.append("")
+        pages.append(out)
+    return pages
+
+
+STRUCT_RE = re.compile(r"^(LIBRO|T[IÍ]TULO|CAP[IÍ]TULO|Cap[ií]tulo|SECCI[OÓ]N|Secci[oó]n|DISPOSICI[OÓ]N|DISPOSICIONES)\b")
+ART2_RE = re.compile(r"^Artículo (\d+)\.+\s")
+
+
+def justified_paragraphs(lines: list[str]) -> list[tuple[str, str]]:
+    """Paragraphs of justified text: a line ends a paragraph only if it ends with . : ; and is
+    clearly shorter than a full line; blank lines (which the layout also puts mid-sentence) are
+    ignored. Indented lines (>= 12) are headings or epigraphs."""
+    width = max((len(l) for l in lines), default=80)
+    out: list[tuple[str, str]] = []
+    cur: list[str] = []
+
+    def flush():
+        nonlocal cur
+        if cur:
+            out.append(("p", norm(" ".join(cur))))
+            cur = []
+
+    for l in lines:
+        if not l.strip():
+            continue
+        ind = len(l) - len(l.lstrip(" "))
+        t = l.strip()
+        if (ind >= 12 and not ITEM_RE.match(t)) or (STRUCT_RE.match(t) and not t.endswith(".") and not cur):
+            flush()
+            out.append(("h", norm(t)))
+            continue
+        if ART2_RE.match(t) or ITEM_RE.match(t) or ORD_RE.match(t):
+            flush()
+        cur.append(t)
+        if t[-1:] in ".:;" and len(l) < width * 0.85:
+            flush()
+    flush()
+    return out
+
+
+SRC_COPP_2021 = "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.644_17-09-2021-000.pdf"
+
+
+def parse_copp_2021() -> dict:
+    pages = pdftotext_columns(SRC_COPP_2021)
+    lines = [l for p in pages for l in p]
+    flat = "\n".join(lines)
+    i0 = next(i for i, l in enumerate(lines) if l.strip() == "CÓDIGO ORGÁNICO PROCESAL PENAL")
+    i1 = next(i for i in range(i0, len(lines)) if lines[i].startswith("Dada, firmada y sellada en el Palacio Federal Legislativo"))
+    paras = justified_paragraphs(lines[i0 + 1:i1])
+    units: dict[str, dict] = {}
+    heads: list[str] = []
+    pending: list[str] = []
+    key = None
+    section = "body"
+    for kind, t in paras:
+        if kind == "h":
+            pending.append(t)
+            continue
+        m = ART2_RE.match(t)
+        o = ORD_RE.match(t)
+        for h in pending:
+            if h.startswith("DISPOSICIONES TRANSITORIAS"):
+                section = "trans"
+            elif h.startswith("DISPOSICIÓN DEROGATORIA"):
+                section = "derog"
+            elif h.startswith("DISPOSICIONES FINALES") or h.startswith("DISPOSICIÓN FINAL"):
+                section = "final"
+        if m or (o and section != "body"):
+            epi = None
+            if pending and not STRUCT_RE.match(pending[-1]) and pending[-1].upper() != pending[-1]:
+                epi = pending.pop()
+            heads.extend(pending)
+            pending = []
+            if m:
+                n = int(m.group(1))
+                key, label, ukind = f"art-{n:03d}", f"Art. {n}", "art"
+            elif section == "trans":
+                key, label, ukind = "disp-transitoria-01", "Disposición transitoria única", "transitional"
+            elif section == "derog":
+                key, label, ukind = "disp-derogatoria", "Disposición derogatoria única", "repeal"
+            else:
+                key, label, ukind = "disp-final", "Disposición final única", "final"
+            if key in units:
+                raise SystemExit(f"COPP: duplicate {key}")
+            units[key] = {"label": label, "kind": ukind, "lines": ([epi] if epi else []) + [t]}
+        else:
+            if pending:  # a heading inside an article (a table or a centred line): keep it as text
+                if key:
+                    units[key]["lines"].extend(pending)
+                pending = []
+            if key is None:
+                raise SystemExit(f"COPP: text before the first article: {t[:60]}")
+            units[key]["lines"].append(t)
+    heads.extend(pending)
+    # words run together in the texto único (no space glyph in the PDF): split them where the
+    # reform law, earlier in the same gazette, prints the same article with the space
+    reform = justified_paragraphs(lines[:i0])
+    copies: dict[str, list[str]] = {}
+    ck = None
+    for kind, t in reform:
+        m = ART2_RE.match(t)
+        if kind == "p" and m and not t.startswith(f"Artículo {m.group(1)}. Se modifica"):
+            ck = f"art-{int(m.group(1)):03d}"
+            copies[ck] = [t]
+        elif kind == "p" and t.startswith("Artículo") and "Se modifica" in t:
+            ck = None
+        elif ck and kind == "p":
+            copies[ck].append(t)
+    splits = []
+    for k, cl in copies.items():
+        if k not in units:
+            continue
+        toks = TOK.findall(" ".join(cl))
+        have = set(toks)
+        joined = {a + b: a + " " + b for a, b in zip(toks, toks[1:])}
+        for li, line in enumerate(units[k]["lines"]):
+            def fix(mo):
+                w = mo.group(0)
+                if w not in have and w in joined:
+                    splits.append((k, w, joined[w]))
+                    return joined[w]
+                return w
+            units[k]["lines"][li] = TOK.sub(fix, line)
+    units["titulos"] = {"label": "Libros, títulos, capítulos y secciones", "kind": "heading", "lines": group_headings(heads)}
+    return units, splits
+
+
 # ---------------------------------------------------------------- repair of lines missing from the INE copy
 
 TOK = re.compile(r"[0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+")
