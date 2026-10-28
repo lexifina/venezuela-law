@@ -259,6 +259,63 @@ def sort_key(k: str):
     return (5, 0, k)
 
 
+# ---------------------------------------------------------------- repair of lines missing from the INE copy
+
+TOK = re.compile(r"[0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+")
+
+
+def an_flat() -> str:
+    """The Asamblea Nacional 1999 text as one string of body paragraphs (headings dropped)."""
+    s = pdftotext(SRC_AN_1999)
+    s = s[s.rindex("\n", 0, s.index("Preámbulo")) + 1:s.index("Aprobada por el pueblo de Venezuela")]
+    return " ".join(t for kind, t in paragraphs(layout_lines(s)) if kind == "p")
+
+
+def repair_missing_lines(units: dict, min_words: int = 1) -> list[dict]:
+    """The INE copy of G.O. 5.908 lacks the last line of some pages (the words are not in
+    the PDF at all). Align the 5.908 text word by word with the Asamblea Nacional text
+    of 1999 and insert every run of >= min_words words that only the AN text has.
+    Mutates units; returns the list of repairs (all are listed in PROGRESS.md)."""
+    import difflib
+    order = [k for k in sorted(units, key=sort_key) if k not in ("titulos", "promulgacion")]
+    a_toks = []  # (key, line, start, end, word)
+    for k in order:
+        for li, line in enumerate(units[k]["lines"]):
+            for m in TOK.finditer(line):
+                a_toks.append((k, li, m.start(), m.end(), m.group(0).lower()))
+    an = an_flat()
+    b_toks = [(m.start(), m.end(), m.group(0).lower()) for m in TOK.finditer(an)]
+    sm = difflib.SequenceMatcher(a=[t[4] for t in a_toks], b=[t[2] for t in b_toks], autojunk=False)
+    repairs = []
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if tag != "insert" or j2 - j1 < min_words:
+            continue
+        frag = an[b_toks[j1][0]:(b_toks[j2][0] if j2 < len(b_toks) else len(an))].strip()
+        frag = re.sub(r"\s*\d{1,2}\.$", "", frag).strip()  # never carry the next item's number
+        k, li, st, en, _ = a_toks[i1 - 1]
+        line = units[k]["lines"][li]
+        cut = en
+        while cut < len(line) and not line[cut].isspace():
+            cut += 1
+        repairs.append({"unit": k, "after": line[max(0, cut - 40):cut], "inserted": frag})
+    # apply from the end so offsets stay valid
+    for tag, i1, i2, j1, j2 in reversed(sm.get_opcodes()):
+        if tag != "insert" or j2 - j1 < min_words:
+            continue
+        frag = an[b_toks[j1][0]:(b_toks[j2][0] if j2 < len(b_toks) else len(an))].strip()
+        frag = re.sub(r"\s*\d{1,2}\.$", "", frag).strip()
+        k, li, st, en, _ = a_toks[i1 - 1]
+        line = units[k]["lines"][li]
+        cut = en
+        while cut < len(line) and not line[cut].isspace():
+            cut += 1
+        units[k]["lines"][li] = (line[:cut] + " " + frag + line[cut:]).rstrip()
+    other = [(tag, " ".join(t[4] for t in a_toks[i1:i2]), " ".join(t[2] for t in b_toks[j1:j2]))
+             for tag, i1, i2, j1, j2 in sm.get_opcodes()
+             if tag != "equal" and not (tag == "insert" and j2 - j1 >= min_words)]
+    return repairs, other
+
+
 # ---------------------------------------------------------------- independent cross-checks
 
 def words(s: str) -> list[str]:
