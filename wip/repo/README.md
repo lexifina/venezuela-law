@@ -43,7 +43,7 @@ After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch kee
   - The 2009 version gives them the Enmienda's wording. The "(Ver Enmienda ...)" notes are not in the text.
 - **The INE copy lacks a few lines.** Some lines are missing from the PDF itself, mostly the last line of a page: 11 gaps, in arts. 33, 49, 89, 156, 178, 187, 270, 293 and 332 and in the Cuarta transitoria (twice), and one lost initial ("ara" for "Para" in the Tercera transitoria).
   - Each gap was filled from the Asamblea Nacional's text of 1999 after a word-by-word comparison. Each filled passage is listed in `REPRODUCE.md`.
-  - After that, the two texts differ only in how compound words are spelt ("politicoterritorial" in 5.908, "político territorial" in the AN text) and in two AN typos. The 5.908 spelling is kept.
+  - After that, the two texts differ only in how compound words are spelt ("politicoterritorial" in 5.908, "político territorial" in the AN text) and in a few AN typos ("postrado", "contenciosa electoral", "auditoria"). The 5.908 spelling is kept.
 - **The first printing is not shown.** The original publication of December 1999 (G.O. 36.860) was reprinted "por error material" in G.O. 5.453 Extraordinario of 24 March 2000. No machine-readable copy of 36.860 was found, so the 1999 version already has the corrected wording.
   - The TSJ's HTML transcription labelled 5.453 differs in wording from both 5.908 and the AN text in more than 80 articles. It was not used.
 

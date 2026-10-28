@@ -318,7 +318,7 @@ def repair_missing_lines(units: dict) -> tuple[list[dict], list[tuple]]:
             while cut < len(line) and not line[cut].isspace():
                 cut += 1
             edits.append((k, li, cut, cut, " " + frag,
-                          {"unit": k, "kind": "missing words", "after": line[max(0, cut - 40):cut].strip(), "inserted": frag}))
+                          {"unit": k, "kind": "missing words", "after": (re.sub(r"^\S*\s", "", line[cut - 45:cut]) if cut > 45 else line[:cut]).strip(), "inserted": frag}))
             continue
         if tag == "replace" and i2 - i1 == 1 and j2 - j1 == 1:
             aw, bw = a_toks[i1][4], b_toks[j1][2]
@@ -480,7 +480,9 @@ def build() -> dict:
         "Version 2 (from 2009-02-19, the day of publication; the Enmienda names no other date, Código Civil art. 1) replaces the operative text of the five articles with the Enmienda's wording; the '(Ver Enmienda ...)' notes are dropped from the text.",
         "The Constitution of 1999 is credited as a referendum (approved 15 Dec 1999, proclaimed 20 Dec 1999); the Enmienda N° 1 as a referendum (approved 15 Feb 2009).",
         "One file per article, transitional provision, derogatory and final provision; the Preamble in preambulo.md; the closing approval paragraph in promulgacion.md; the headings of titles, chapters and sections, in order, in titulos.md. The lists of signatories are omitted. The Exposición de Motivos (in G.O. 5.453, not in 5.908) is not normative and is not included.",
-        f"The INE copy of G.O. 5.908 lacks some lines of text (mostly the last line of a page; the words are not in the PDF). parse.py aligns it word by word with the Asamblea Nacional text and restores {len(repairs)} gaps from it, in units " + ", ".join(sorted({r['unit'] for r in repairs})) + ". Every restored passage is listed in PROGRESS.md. The remaining differences between the two are spellings of compound words ('politicoterritorial' in 5.908, 'político territorial' in the AN text) and two AN typos; the 5.908 spelling is kept.",
+        f"The INE copy of G.O. 5.908 lacks some lines of text (mostly the last line of a page; the words are not in the PDF). parse.py aligns it word by word with the Asamblea Nacional text and restores {len(repairs)} gaps from it, in units " + ", ".join(sorted({r['unit'] for r in repairs})) + ". Every restored passage is listed in PROGRESS.md. The remaining differences between the two are spellings of compound words ('politicoterritorial' in 5.908, 'político territorial' in the AN text) and AN typos ('postrado', 'contenciosa electoral', 'auditoria'); the 5.908 spelling is kept.",
+        *[(f"Restored in {r['unit']} from the AN text, after '{r['after']}': '{r['inserted']}'." if r["kind"] == "missing words"
+           else f"Restored in {r['unit']} from the AN text: '{r['was']}' is '{r['now']}' (first letter missing in the INE copy).") for r in repairs],
         "Paragraphs are rebuilt from the PDF layout: wrapped lines are joined, page numbers dropped, a blank line ends a paragraph only after . : ; or ), and numbered/lettered items start their own line. Spellings are kept as printed in G.O. 5.908.",
         f"PDF text extraction: {pdftotext_version()} with -enc UTF-8 -layout.",
     ]
