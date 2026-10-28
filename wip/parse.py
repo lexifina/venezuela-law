@@ -138,8 +138,7 @@ def parse_5908() -> tuple[dict, dict, list[str]]:
     text = pdftotext(SRC_5908)
     i_pre = text.index("PREÁMBULO")
     i_enm = text.index("ENMIENDA N° 1 DE LA CONSTITUCIÓN")
-    body = text[text.rindex("
-", 0, i_pre) + 1:text.rindex("EL PRESIDENTE,", 0, i_enm)]
+    body = text[text.rindex("\n", 0, i_pre) + 1:text.rindex("EL PRESIDENTE,", 0, i_enm)]
     paras = paragraphs(layout_lines(body))
     units: dict[str, dict] = {}
     titulos: list[str] = []
