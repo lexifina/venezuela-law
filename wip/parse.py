@@ -407,6 +407,7 @@ def verify(units: dict) -> list[str]:
 
 def build() -> dict:
     units, e_units, ver = parse_5908()
+    repairs, _remaining = repair_missing_lines(units)
     arts = [k for k in units if k.startswith("art-")]
     assert len(arts) == 350, len(arts)
     assert ver == sorted(e_units), (ver, sorted(e_units))
@@ -434,7 +435,7 @@ def build() -> dict:
     sources = [
         {"name": "Gaceta Oficial N° 5.908 Extraordinario (19 Feb 2009), copy hosted by the Instituto Nacional de Estadística",
          "url": SRC_5908, "retrieved": DOCS_DATE, "requests": 1,
-         "licence": "Official text of the State (Ley sobre el Derecho de Autor art. 11: official texts of a legislative, administrative or judicial nature are excluded from protection).",
+         "licence": "Official act of the State; Ley sobre el Derecho de Autor art. 11 is understood to exclude official acts from protection (not checked against the gazette here).",
          "notes": "Full reprint of the Constitution ordered by art. 2 of Enmienda N° 1, with '(Ver Enmienda N° 1 ...)' notes under arts. 160, 162, 174, 192 and 230, followed by the Enmienda. Text layer read with pdftotext."},
         {"name": "Tribunal Supremo de Justicia, constitucion1999.htm (TSJ transcription of G.O. 5.453 Ext., 24 Mar 2000), Wayback capture 2014-10-25",
          "url": SRC_TSJ_HTML, "retrieved": DOCS_DATE, "requests": 1,
@@ -479,7 +480,8 @@ def build() -> dict:
         "Version 2 (from 2009-02-19, the day of publication; the Enmienda names no other date, Código Civil art. 1) replaces the operative text of the five articles with the Enmienda's wording; the '(Ver Enmienda ...)' notes are dropped from the text.",
         "The Constitution of 1999 is credited as a referendum (approved 15 Dec 1999, proclaimed 20 Dec 1999); the Enmienda N° 1 as a referendum (approved 15 Feb 2009).",
         "One file per article, transitional provision, derogatory and final provision; the Preamble in preambulo.md; the closing approval paragraph in promulgacion.md; the headings of titles, chapters and sections, in order, in titulos.md. The lists of signatories are omitted. The Exposición de Motivos (in G.O. 5.453, not in 5.908) is not normative and is not included.",
-        "Paragraphs are rebuilt from the PDF layout: wrapped lines are joined, page numbers dropped, a blank line ends a paragraph only after . : ; or ), and numbered/lettered items start their own line. Typos in the gazette (for example 'ara la elaboración' in the Tercera transitoria) are kept as printed.",
+        f"The INE copy of G.O. 5.908 lacks some lines of text (mostly the last line of a page; the words are not in the PDF). parse.py aligns it word by word with the Asamblea Nacional text and restores {len(repairs)} gaps from it, in units " + ", ".join(sorted({r['unit'] for r in repairs})) + ". Every restored passage is listed in PROGRESS.md. The remaining differences between the two are spellings of compound words ('politicoterritorial' in 5.908, 'político territorial' in the AN text) and two AN typos; the 5.908 spelling is kept.",
+        "Paragraphs are rebuilt from the PDF layout: wrapped lines are joined, page numbers dropped, a blank line ends a paragraph only after . : ; or ), and numbered/lettered items start their own line. Spellings are kept as printed in G.O. 5.908.",
         f"PDF text extraction: {pdftotext_version()} with -enc UTF-8 -layout.",
     ]
     return {
@@ -501,9 +503,11 @@ def main() -> None:
     print("wrote", OUT, "versions:", len(a["versions"]), "units:", len(a["versions"][-1]["units"]))
     if "--verify" in sys.argv:
         units, _, _ = parse_5908()
-        v1 = finish(units)
-        for line in verify(v1):
-            print(line)
+        repairs, remaining = repair_missing_lines(units)
+        for r in repairs:
+            print("REPAIR", json.dumps(r, ensure_ascii=False))
+        for r in remaining:
+            print("DIFF", r)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,11 @@
+{
+  "path": "ve",
+  "code": "VE",
+  "name": "Venezuela",
+  "level": "country",
+  "repo": "https://github.com/lexifina/venezuela-law",
+  "build": "built: Constitución 1999-2026 (2 versions: 1999 text, Enmienda N° 1 of 2009)",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28",
+  "sources": 3
+}
