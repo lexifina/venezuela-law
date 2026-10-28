@@ -87,11 +87,20 @@ def layout_lines(text: str) -> list[tuple[int, str]]:
     return out
 
 
-def is_heading(ind: int, s: str) -> bool:
+HEAD_RE = re.compile(r"^(TÍTULO [IVXL]+|T[íi]tulo [IVXL]+|CAP[ÍI]TULO [IVXL]+|Cap[íi]tulo [IVXL]+|Secci[óo]n \w+:)", re.I)
+DISP_HEAD_RE = re.compile(r"^(Disposici[óo]n|Disposiciones) (Final|Derogatoria|Transitorias)$", re.I)
+
+
+def is_heading(ind: int, s: str, prev_heading: bool = False) -> bool:
     t = s.strip()
-    if ind >= 12 and not ITEM_RE.match(t):
+    if ITEM_RE.match(t) or ART_RE.match(t):
+        return False
+    if ind >= 12:
         return True
-    return bool(re.match(r"^(TÍTULO|CAPÍTULO|DISPOSICI[OÓ]N|DISPOSICIONES)\b", t)) and ind >= 8
+    if HEAD_RE.match(t) or DISP_HEAD_RE.match(t):
+        return True
+    # the name line under 'TÍTULO II' / 'Capítulo II', indented less than a centred line
+    return prev_heading and ind >= 4 and (t.upper() == t or t.startswith(("De ", "Del ")))
 
 
 def paragraphs(lines: list[tuple[int, str]]) -> list[tuple[str, str]]:
@@ -111,7 +120,7 @@ def paragraphs(lines: list[tuple[int, str]]) -> list[tuple[str, str]]:
             pending_blank = True
             continue
         t = s.strip()
-        if is_heading(ind, s):
+        if is_heading(ind, s, bool(out) and out[-1][0] == "h" and not cur):
             flush()
             out.append(("h", norm(t)))
             pending_blank = False
@@ -228,9 +237,11 @@ def parse_5908() -> tuple[dict, dict, list[str]]:
 def group_headings(hs: list[str]) -> list[str]:
     out: list[str] = []
     for h in hs:
-        if out and re.fullmatch(r"(TÍTULO|Capítulo|CAPÍTULO) [IVXL]+", out[-1]) and not re.match(
-                r"^(TÍTULO|Capítulo|CAPÍTULO|Sección|DISPOSICI)", h):
-            out[-1] = out[-1] + ". " + h
+        if out and not (HEAD_RE.match(h) or DISP_HEAD_RE.match(h) or h.startswith("DISPOSICI")):
+            if re.fullmatch(r"(TÍTULO|Capítulo|CAPÍTULO) [IVXL]+", out[-1]):
+                out[-1] = out[-1] + ". " + h  # 'TÍTULO I' + its name
+            else:
+                out[-1] = out[-1] + " " + h  # a heading wrapped onto a second line
         else:
             out.append(h)
     return out
@@ -271,11 +282,13 @@ def an_flat() -> str:
     return " ".join(t for kind, t in paragraphs(layout_lines(s)) if kind == "p")
 
 
-def repair_missing_lines(units: dict, min_words: int = 1) -> list[dict]:
-    """The INE copy of G.O. 5.908 lacks the last line of some pages (the words are not in
-    the PDF at all). Align the 5.908 text word by word with the Asamblea Nacional text
-    of 1999 and insert every run of >= min_words words that only the AN text has.
-    Mutates units; returns the list of repairs (all are listed in PROGRESS.md)."""
+def repair_missing_lines(units: dict) -> tuple[list[dict], list[tuple]]:
+    """The INE copy of G.O. 5.908 lacks some lines (mostly the last line of a page: the
+    words are not in the PDF at all). Align the 5.908 text word by word with the Asamblea
+    Nacional text of 1999 and insert every run of words that only the AN text has, unless
+    it is heading text (the AN layout does not always mark headings). A word whose first
+    letter is missing in the INE copy ('ara' for 'Para') is also restored. Mutates units;
+    returns (repairs, remaining differences), both listed in PROGRESS.md."""
     import difflib
     order = [k for k in sorted(units, key=sort_key) if k not in ("titulos", "promulgacion")]
     a_toks = []  # (key, line, start, end, word)
@@ -285,35 +298,41 @@ def repair_missing_lines(units: dict, min_words: int = 1) -> list[dict]:
                 a_toks.append((k, li, m.start(), m.end(), m.group(0).lower()))
     an = an_flat()
     b_toks = [(m.start(), m.end(), m.group(0).lower()) for m in TOK.finditer(an)]
+    heads = [" ".join(words(h)) for h in units["titulos"]["lines"]]
     sm = difflib.SequenceMatcher(a=[t[4] for t in a_toks], b=[t[2] for t in b_toks], autojunk=False)
-    repairs = []
+    edits = []  # (key, line, pos_start, pos_end, replacement, record)
+    other = []
     for tag, i1, i2, j1, j2 in sm.get_opcodes():
-        if tag != "insert" or j2 - j1 < min_words:
+        if tag == "equal":
             continue
-        frag = an[b_toks[j1][0]:(b_toks[j2][0] if j2 < len(b_toks) else len(an))].strip()
-        frag = re.sub(r"\s*\d{1,2}\.$", "", frag).strip()  # never carry the next item's number
-        k, li, st, en, _ = a_toks[i1 - 1]
-        line = units[k]["lines"][li]
-        cut = en
-        while cut < len(line) and not line[cut].isspace():
-            cut += 1
-        repairs.append({"unit": k, "after": line[max(0, cut - 40):cut], "inserted": frag})
-    # apply from the end so offsets stay valid
-    for tag, i1, i2, j1, j2 in reversed(sm.get_opcodes()):
-        if tag != "insert" or j2 - j1 < min_words:
+        if tag == "insert":
+            frag = an[b_toks[j1][0]:(b_toks[j2][0] if j2 < len(b_toks) else len(an))].strip()
+            frag = re.sub(r"\s*\d{1,2}\.$", "", frag).strip()  # never carry the next item's number
+            fw = " ".join(words(frag))
+            if any(f" {fw} " in f" {h} " for h in heads):
+                other.append(("heading-only in AN", "", frag))
+                continue
+            k, li, st, en, _ = a_toks[i1 - 1]
+            line = units[k]["lines"][li]
+            cut = en
+            while cut < len(line) and not line[cut].isspace():
+                cut += 1
+            edits.append((k, li, cut, cut, " " + frag,
+                          {"unit": k, "kind": "missing words", "after": line[max(0, cut - 40):cut].strip(), "inserted": frag}))
             continue
-        frag = an[b_toks[j1][0]:(b_toks[j2][0] if j2 < len(b_toks) else len(an))].strip()
-        frag = re.sub(r"\s*\d{1,2}\.$", "", frag).strip()
-        k, li, st, en, _ = a_toks[i1 - 1]
+        if tag == "replace" and i2 - i1 == 1 and j2 - j1 == 1:
+            aw, bw = a_toks[i1][4], b_toks[j1][2]
+            if len(bw) == len(aw) + 1 and bw.endswith(aw):
+                k, li, st, en, _ = a_toks[i1]
+                orig = an[b_toks[j1][0]:b_toks[j1][1]]
+                edits.append((k, li, st, en, orig,
+                              {"unit": k, "kind": "missing first letter", "was": units[k]["lines"][li][st:en], "now": orig}))
+                continue
+        other.append((tag, " ".join(t[4] for t in a_toks[i1:i2]), " ".join(t[2] for t in b_toks[j1:j2])))
+    for k, li, p0, p1, rep, _ in sorted(edits, key=lambda e: (e[0], e[1], e[2]), reverse=True):
         line = units[k]["lines"][li]
-        cut = en
-        while cut < len(line) and not line[cut].isspace():
-            cut += 1
-        units[k]["lines"][li] = (line[:cut] + " " + frag + line[cut:]).rstrip()
-    other = [(tag, " ".join(t[4] for t in a_toks[i1:i2]), " ".join(t[2] for t in b_toks[j1:j2]))
-             for tag, i1, i2, j1, j2 in sm.get_opcodes()
-             if tag != "equal" and not (tag == "insert" and j2 - j1 >= min_words)]
-    return repairs, other
+        units[k]["lines"][li] = (line[:p0] + rep + line[p1:]).rstrip()
+    return [e[5] for e in edits], other
 
 
 # ---------------------------------------------------------------- independent cross-checks
