@@ -1,0 +1,25 @@
+{
+ "country": "VE",
+ "acts": [
+  {
+   "slug": "constitucion",
+   "short": "CRBV",
+   "title": "Constitución de la República Bolivariana de Venezuela",
+   "url": "https://www.tsj.gob.ve/constitucion",
+   "versions": [
+    {
+     "from": "1999-12-30",
+     "units": 373,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    },
+    {
+     "from": "2009-02-19",
+     "units": 373,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    }
+   ]
+  }
+ ]
+}
