@@ -1,0 +1,13 @@
+{
+ "acts": [],
+ "decisions": [
+  "Codes and laws from born-digital gazettes (corpus.d/31-... parts, one per act): only gazettes with a born-digital text layer are used. The Gaceta Oficial portal (gacetaoficial.gob.ve) indexes 2010 on, but its issues before about 2018, and every TSJ or Asamblea Nacional copy of older codes tried (Código Civil 1982, Código Penal 2005, Código de Comercio 1955, COPP 2012, COT 2014, LOTSJ 2010), are image scans; with no OCR they are not read, so each act starts at its latest full official printing.",
+  "Gazette text extraction (gazette_text.py): these gazettes are made of text frames pasted on white boxes, and their text layer also holds words that are never printed: frame overflow cut off by a clip path (repeated at the top or bottom of the next page) and older text painted over by a later white box. pdftotext prints all of it (for example item 8 of COPP art. 111 twice). Only characters the page paints are kept, decided from the PDF's own drawing instructions (MuPDF clip handling, and the drawing order of text versus white fills); spaces come from the gaps between printed glyphs. No page image is rendered or recognised. Tool: PyMuPDF 1.26.6 (MuPDF 1.26.11).",
+  "Paragraphs are rebuilt from the printed lines: a line that ends with . : ; well short of the right margin ends a paragraph; articles, numbered items and ordinal dispositions start their own; a centred line is a heading; a short line set flush right is the article's epigraph, kept as the first line of the article's file. Headings, in order, are in titulos.md. Spellings are kept as printed; the only typesetting changes are a space after 'Artículo N.' where the gazette prints none, and 'A rtículo' (a kerned capital read as a separate glyph, LOA art. 55) joined to 'Artículo'.",
+  "Checks (parse_codes.py --verify): for each act the words of its files equal, as a multiset, the words printed in its part of the gazette; every word the extraction dropped from the text layer is listed, and each dropped run was confirmed to be printed elsewhere in the act (frame overflow) or to be a fragment of the running header. Each article number from 1 to the last occurs exactly once (plus lettered inserts such as COPP art. 126-A), and numbered items run in sequence.",
+  "No later reform of these acts was found: the Asamblea Nacional's list of sanctioned laws (Wayback CDX of asambleanacional.gob.ve/leyes/, captures to 2026-01) names no reform after the gazettes used here."
+ ],
+ "ai_use": [
+  "none: no model wrote, summarised or corrected any legal text in the gazette parts; parsing is rule-based (parse_codes.py, gazette_text.py)."
+ ]
+}

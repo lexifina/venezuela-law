@@ -4,8 +4,8 @@
   "name": "Venezuela",
   "level": "country",
   "repo": "https://github.com/lexifina/venezuela-law",
-  "build": "built: Constitución 1999-2026 (2 versions: 1999 text, Enmienda N° 1 of 2009); Constitución 1961-1999 (4 versions, arts. 191-192 missing from source)",
+  "build": "built: Constitución 1999-2026 (2 versions); Constitución 1961-1999 (4 versions, arts. 191-192 missing from source); COPP 2021, COT 2020, Código Orgánico Penitenciario 2021, Código Orgánico de Justicia Militar 2021, LOTSJ 2022, Ley IVA 2020 and Ley Orgánica de Aduanas 2020 (1 version each, from born-digital gazettes). Código Civil, Código Penal, Código de Comercio: scans only, not built (no OCR).",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
-  "sources": 4
+  "sources": 11
 }

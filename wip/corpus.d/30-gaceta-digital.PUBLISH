@@ -1,0 +1,1 @@
+Verified 2026-10-29: shared decisions for the gazette parts 31-35 (extraction of printed text only from born-digital Gaceta Oficial PDFs, no OCR); scratch build of corpus.json + parts 30-35: check.py 0 mismatches, 0 trailer errors, --compare main_identical true.
