@@ -254,9 +254,10 @@ def act_columns(spec: dict, filtered: bool = True) -> list[gazette_text.Column]:
     """The act's printed columns, plus any passage listed in spec['restore']: (page, side, first words)
     of text that the text layer holds below the page's bottom edge, where the frame cut it off and no
     later page prints it (the passage, from that line to the column's end, is put back)."""
-    cols = gazette_text.visible_columns(cache_path(spec["url"]), filtered=filtered)
+    single = frozenset(spec.get("single", ()))  # pages set in one full-width column
+    cols = gazette_text.visible_columns(cache_path(spec["url"]), filtered=filtered, single=single)
     if filtered and spec.get("restore"):
-        raw = {(c.page, c.side): c for c in gazette_text.visible_columns(cache_path(spec["url"]), filtered=False)}
+        raw = {(c.page, c.side): c for c in gazette_text.visible_columns(cache_path(spec["url"]), filtered=False, single=single)}
         for page, side, first in spec["restore"]:
             col = next(c for c in cols if (c.page, c.side) == (page, side))
             src = raw[(page, side)].lines
@@ -418,10 +419,28 @@ def build_act(spec: dict) -> tuple[dict, dict]:
     laws = {key: lw}
     for k, label, gazette, day, kind in spec["earlier"]:
         laws[k] = law(label, f"{label}, publicado en la Gaceta Oficial N° {gazette} de {day}", kind, day, day, spec["url"])
+    full = finish(units)
+    versions = [{"from": spec["from"], "source_url": spec["url"], "sha256": sha_of(spec["url"]),
+                 "units": full, "credits": {}, "note": spec["note"]}]
+    if spec.get("deferred"):
+        # provisions whose printed wording takes effect later than the rest (the law's own vigencia
+        # clause): before that day a provision the reform inserted is absent, and one it reworded
+        # reads as unknown (the earlier wording is not in any text-layer source); the printed wording
+        # arrives on its own day, credited to the reform
+        d = spec["deferred"]
+        first = dict(full)
+        for k, how in d["units"].items():
+            if how == "new":
+                del first[k]
+            else:
+                first[k] = {"label": full[k]["label"], "kind": full[k]["kind"], "text": UNKNOWN}
+        versions = [dict(versions[0], units=first),
+                    {"from": d["from"], "source_url": spec["url"], "sha256": sha_of(spec["url"]),
+                     "changes": {k: full[k] for k in d["units"]}, "credits": {k: [key] for k in d["units"]},
+                     "note": d["note"]}]
     act = {"slug": spec["slug"], "short": spec["short"], "title": spec["title"], "url": spec["url"],
            "first_law": spec["first_law"], "earlier_laws": [e[0] for e in spec["earlier"]],
-           "versions": [{"from": spec["from"], "source_url": spec["url"], "sha256": sha_of(spec["url"]),
-                         "units": finish(units), "credits": {}, "note": spec["note"]}]}
+           "versions": versions}
     part = {"laws": laws, "acts": [act], "sources": [gazette_source(*spec["gazette"], spec["url"], spec["contents"])],
             "decisions": spec["decisions"], "ai_use": []}
     return part, units
