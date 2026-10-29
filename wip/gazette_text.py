@@ -120,7 +120,10 @@ def _lines(chars: list[tuple]) -> list[Line]:
     return out
 
 
-def visible_columns(path: Path | str, pages: range | None = None, filtered: bool = True) -> list[Column]:
+def visible_columns(path: Path | str, pages: range | None = None, filtered: bool = True,
+                    single: frozenset[int] | set[int] = frozenset()) -> list[Column]:
+    """`single`: page numbers (1-based) set in one full-width column (some acts end with their
+    dispositions set this way); each is read as one column, side 0."""
     doc = fitz.open(str(path))
     cols: list[Column] = []
     for pno in (pages or range(len(doc))):
@@ -132,6 +135,11 @@ def visible_columns(path: Path | str, pages: range | None = None, filtered: bool
         drop = [l.y for l in top if HEADER in l.text.replace("  ", " ")]
         if drop:
             chars = [c for c in chars if c[0] > drop[0] + 4]
+        if pno + 1 in single:
+            ls = _lines(chars)
+            if ls:
+                cols.append(Column(pno + 1, 0, min(l.x0 for l in ls), max(l.x1 for l in ls), ls))
+            continue
         for side in (0, 1):
             cc = [c for c in chars if (c[1] < mid) == (side == 0)]
             ls = _lines(cc)
