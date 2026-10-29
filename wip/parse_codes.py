@@ -314,7 +314,8 @@ def act_columns(spec: dict, filtered: bool = True) -> list[gazette_text.Column]:
     of text that the text layer holds below the page's bottom edge, where the frame cut it off and no
     later page prints it (the passage, from that line to the column's end, is put back)."""
     single = frozenset(spec.get("single", ()))  # pages set in one full-width column
-    cols = gazette_text.visible_columns(cache_path(spec["url"]), filtered=filtered, single=single)
+    unmask = frozenset(spec.get("unmask", ()))  # pages whose lines cut short by a white box are read whole
+    cols = gazette_text.visible_columns(cache_path(spec["url"]), filtered=filtered, single=single, unmask=unmask)
     if filtered and spec.get("restore"):
         raw = {(c.page, c.side): c for c in gazette_text.visible_columns(cache_path(spec["url"]), filtered=False, single=single)}
         for page, side, first, *count in spec["restore"]:  # count: restore only that many lines
@@ -547,6 +548,7 @@ def ve2_acts() -> list[dict]:
          "decisions": ["LOED: a new law, printed once in G.O. 6.745 Ext. of 28 Apr 2023; read from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2023-04-28. Credited to the law itself as first_law. Its last two pages (7-8, the dispositions) are set in one full-width column and are read as such. The masthead's date line at the head of p. 1's right column ('8 de abril de 2023 N° 6.745 Extraordinario') is dropped as page furniture. Art. 11 ends '... reciba o se haga prometer dinero u otra utilidad, b' as printed: the text layer holds nothing more there, so the cut-off word is kept as it stands."]},
         {"part": "44-hidrocarburos", "slug": "ley-organica-de-hidrocarburos", "short": "LOH", "title": "Ley Orgánica de Hidrocarburos",
          "url": LOH, "cut": ("LEY ORGÁNICA DE HIDROCARBUROS", "Dado, firmado y sellado en el Palacio Federal Legislativo"), "last": None,
+         "unmask": (5, 6, 7, 8, 9, 10, 11, 12),
          "from": "2026-01-29", "gazette": ("6.978 Extraordinario", "29 Jan 2026"),
          "law": ("ley-reforma-loh-2026", law("Ley de Reforma de la Ley Orgánica de Hidrocarburos (2026)", "Ley de Reforma de la Ley Orgánica de Hidrocarburos, sancionada el 29 de enero de 2026", "law", "2026-01-29", "2026-01-29", LOH)),
          "first_law": None, "earlier": [],

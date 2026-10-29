@@ -141,7 +141,7 @@ def visible_columns(path: Path | str, pages: range | None = None, filtered: bool
     for pno in (pages or range(len(doc))):
         pg = doc[pno]
         mid = pg.rect.width / 2
-        chars = page_chars(pg, filtered)
+        chars = page_chars(pg, filtered, pno + 1 in unmask)
         # running header: the line that holds the gazette's name near the top
         top = [l for l in _lines([c for c in chars if c[0] < 80])]
         drop = [l.y for l in top if HEADER in l.text.replace("  ", " ")]
