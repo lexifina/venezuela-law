@@ -136,9 +136,9 @@ def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False,
                     out.append(("e", norm(t)))
                 continue
             special = ART_RE.match(t) or ITEM_RE.match(t) or ORD_RE.match(t)
-            # (gazettes of 2021 on, right_epigraphs) an all-capitals heading name may sit as little as
-            # 0.3 pt in from both margins (LCC 'DELITOS CONTRA EL PATRIMONIO ...')
-            inset = 1.0 if not (right_epigraphs and t.isupper()) else 0.3
+            # (gazettes of 2021 on, right_epigraphs) a heading's next line may sit as little as 0.2 pt in
+            # from both margins (LCC 'DELITOS CONTRA EL PATRIMONIO ...', LODP 'competencia en materia de ...')
+            inset = 0.2 if right_epigraphs and t[-1:] not in ".:;" else 1.0
             if out and out[-1][0] == "h" and not cur and not special and lo > inset and ro > inset and abs(lo - ro) < 3:
                 # a heading's name wide enough to fill the column, set in from both margins
                 if wrapping and not STRUCT_RE.match(t):
@@ -495,7 +495,8 @@ def ve2_acts() -> list[dict]:
          "first_law": None, "earlier": [],
          "contents": "Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (art. 28 orders the reprint) followed by the texto único of the Ley contra la Corrupción.",
          "note": "Texto único of the Ley contra la Corrupción as reformed by the Ley de Reforma sanctioned on 31 Mar 2022, printed in G.O. 6.699 Ext. of 2 May 2022 and in force on publication (art. 27 of the reform). Earlier texts (2003, 2014) are image scans and are not in this record.",
-         "decisions": ["LCC: the Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (arts. 1-28) is printed first in G.O. 6.699 Ext. of 2 May 2022, then the law in full (its art. 28 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 27 of the reform), so from 2022-05-02. Credited to the publisher as the oldest version available."]},
+         "decisions": ["Gazettes of 2021 on (parts 38-44, added 2026-10-29): their article epigraphs are set flush right but may be long or wrap over up to five lines, so an epigraph is taken as the run of lines just before an 'Artículo N.' line that end flush against the right margin without final punctuation, starting set in from the left, after a line that ends a sentence, a heading or a column top; a centred heading after a line that ends a sentence starts a new heading even when that line runs close to the margin; a heading's name may sit as little as 0.2 pt in from both margins. These rules apply only to parts 38-44, so the parts read before are unchanged.",
+                       "LCC: the Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (arts. 1-28) is printed first in G.O. 6.699 Ext. of 2 May 2022, then the law in full (its art. 28 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 27 of the reform), so from 2022-05-02. Credited to the publisher as the oldest version available."]},
         {"part": "39-mujeres", "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia", "short": "LODMVLV",
          "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
          "url": MUJ, "cut": ("A UNA VIDA LIBRE DE VIOLENCIA", DADA), "last": None, "single": (39, 40, 41),
@@ -506,7 +507,8 @@ def ve2_acts() -> list[dict]:
          "first_law": None, "earlier": [],
          "contents": "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (art. 66 orders the reprint) followed by the texto único of the law.",
          "note": "Texto único of the Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia as reformed in 2021, printed in G.O. 6.667 Ext. of 16 Dec 2021 and in force on publication (art. 65 of the reform; Disposición final única). The laws of 2007 and 2014 are not in this record.",
-         "decisions": ["LODMVLV: the Ley Orgánica de Reforma of 2021 (arts. 1-66) is printed first in G.O. 6.667 Ext., then the law in full (art. 66 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 65 of the reform and the Disposición final única of the text), so from 2021-12-16. Credited to the publisher as the oldest version available. Its last three pages (39-41, the dispositions) are set in one full-width column and are read as such."]},
+         "decisions": ["LODMVLV: the Ley Orgánica de Reforma of 2021 (arts. 1-66) is printed first in G.O. 6.667 Ext., then the law in full (art. 66 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 65 of the reform and the Disposición final única of the text), so from 2021-12-16. Credited to the publisher as the oldest version available. Its last three pages (39-41, the dispositions) are set in one full-width column and are read as such.",
+                       "LODMVLV, three repairs of the gazette's own layout, each checked against its text layer: (1) the gazette prints twice in a row the passage from the epigraph of art. 116 to '... en funciones de control,' in art. 118 (foot of p. 35, right column, and head of p. 36) and item 2 of art. 139 (foot of p. 38, left column, and head of the right one); each is read once, from its second printing. (2) The last two lines of item 5 of art. 19 ('ocasionar condiciones de violencia, temor, daño, doblegar la voluntad de la mujer e incluso su muerte.') sit in the text layer below the frame of p. 19 (left column) and are printed nowhere, so they are restored from the text layer, as COJM art. 187 is. (3) What shows of the source document's footers ('Pá i 115 d 139', 'á d', fragments of 'Página N de 139' that a white box covers in part) is dropped as page furniture."]},
         {"part": "40-defensa-publica", "slug": "ley-organica-de-la-defensa-publica", "short": "LODP", "title": "Ley Orgánica de la Defensa Pública",
          "url": DP, "cut": ("LEY ORGÁNICA DE LA DEFENSA PÚBLICA", DADA), "last": None, "furniture": r"Pá i \d+ d 83",
          "from": "2022-05-25", "gazette": ("6.702 Extraordinario", "25 May 2022"),
@@ -514,7 +516,7 @@ def ve2_acts() -> list[dict]:
          "first_law": None, "earlier": [],
          "contents": "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública followed by the texto único of the law.",
          "note": "Texto único of the Ley Orgánica de la Defensa Pública as reformed in 2022, printed in G.O. 6.702 Ext. of 25 May 2022 and in force on publication (Disposición final única). Earlier texts are not in this record.",
-         "decisions": ["LODP: the Ley Orgánica de Reforma Parcial of 2022 is printed first in G.O. 6.702 Ext., then the law in full; only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2022-05-25. Credited to the publisher as the oldest version available."]},
+         "decisions": ["LODP: the Ley Orgánica de Reforma Parcial of 2022 is printed first in G.O. 6.702 Ext., then the law in full; only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2022-05-25. Credited to the publisher as the oldest version available. What shows of three of the source document's footers ('Pá i 29 d 83', what a white box leaves of 'Página 29 de 83', on pp. 8, 10 and 19) is dropped as page furniture."]},
         {"part": "41-igtf", "slug": "ley-de-impuesto-a-las-grandes-transacciones-financieras", "short": "LIGTF",
          "title": "Ley de Impuesto a las Grandes Transacciones Financieras",
          "url": IGTF, "cut": ("FINANCIERAS", DADA), "last": None,
@@ -533,7 +535,7 @@ def ve2_acts() -> list[dict]:
          "first_law": "ley-organica-zee-2022", "earlier": [],
          "contents": "Ley Orgánica de las Zonas Económicas Especiales, as enacted.",
          "note": "The Ley Orgánica de las Zonas Económicas Especiales as enacted, G.O. 6.710 Ext. of 20 Jul 2022, in force on publication.",
-         "decisions": ["LOZEE: a new law, printed once in G.O. 6.710 Ext. of 20 Jul 2022; read from its title to the closing 'Dada, firmada y sellada'. In force on publication, 2022-07-20 (its final disposition). Credited to the law itself as first_law (the act as enacted)."]},
+         "decisions": ["LOZEE: a new law, printed once in G.O. 6.710 Ext. of 20 Jul 2022; read from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), 2022-07-20. Credited to the law itself as first_law (the act as enacted). Its three disposition headings are set flush right like epigraphs and are read as headings. Dropped as page furniture: the masthead's date line at the head of p. 1's right column ('0 de julio de 2022 N° 6.710 Extraordinario') and a lone 'p' on p. 1, all that shows of a painted-over line."]},
         {"part": "43-extincion-dominio", "slug": "ley-organica-de-extincion-de-dominio", "short": "LOED", "title": "Ley Orgánica de Extinción de Dominio",
          "url": LOED, "cut": ("LEY ORGÁNICA DE EXTINCIÓN DE DOMINIO", DADA), "last": None, "single": (7, 8),
          "furniture": r"8 de abril de 2023 N° 6\.745 Extraordinario",
@@ -542,7 +544,7 @@ def ve2_acts() -> list[dict]:
          "first_law": "ley-organica-extincion-dominio-2023", "earlier": [],
          "contents": "Ley Orgánica de Extinción de Dominio, as enacted.",
          "note": "The Ley Orgánica de Extinción de Dominio as enacted, G.O. 6.745 Ext. of 28 Apr 2023, in force on publication (Disposición final única).",
-         "decisions": ["LOED: a new law, printed once in G.O. 6.745 Ext. of 28 Apr 2023; read from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2023-04-28. Credited to the law itself as first_law. Its last two pages (7-8, the dispositions) are set in one full-width column and are read as such."]},
+         "decisions": ["LOED: a new law, printed once in G.O. 6.745 Ext. of 28 Apr 2023; read from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2023-04-28. Credited to the law itself as first_law. Its last two pages (7-8, the dispositions) are set in one full-width column and are read as such. The masthead's date line at the head of p. 1's right column ('8 de abril de 2023 N° 6.745 Extraordinario') is dropped as page furniture. Art. 11 ends '... reciba o se haga prometer dinero u otra utilidad, b' as printed: the text layer holds nothing more there, so the cut-off word is kept as it stands."]},
         {"part": "44-hidrocarburos", "slug": "ley-organica-de-hidrocarburos", "short": "LOH", "title": "Ley Orgánica de Hidrocarburos",
          "url": LOH, "cut": ("LEY ORGÁNICA DE HIDROCARBUROS", "Dado, firmado y sellado en el Palacio Federal Legislativo"), "last": None,
          "from": "2026-01-29", "gazette": ("6.978 Extraordinario", "29 Jan 2026"),

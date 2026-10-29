@@ -50,8 +50,12 @@ def _key(c: str, x: float, y: float) -> tuple:
     return (c, round(x, 1), round(y, 1))
 
 
-def hidden_chars(pg) -> set:
-    """Characters painted over by a later opaque white fill, or drawn invisibly."""
+def hidden_chars(pg, unmask_cut_lines: bool = False) -> set:
+    """Characters painted over by a later opaque white fill, or drawn invisibly.
+
+    unmask_cut_lines (opt-in, per act): a white box laid over a line that the page otherwise prints
+    (same text run, same baseline, some of its letters painted) does not hide the rest of that line.
+    Used where boxes meant to hide the source document's page numbers also cover the ends of lines."""
     fills = []
     for d in pg.get_drawings():
         f = d.get("fill")
@@ -63,18 +67,24 @@ def hidden_chars(pg) -> set:
         later = [r for sq, r in fills if sq > sp["seqno"]]
         if not invisible and not later:
             continue
+        hid, shown = [], set()
         for ch in sp["chars"]:
             o, bb = ch[2], ch[3]
             p = fitz.Point((bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2)
             if invisible or any(p in r for r in later):
-                out.add(_key(chr(ch[0]), o[0], o[1]))
+                hid.append((_key(chr(ch[0]), o[0], o[1]), round(o[1], 1)))
+            elif chr(ch[0]).strip():
+                shown.add(round(o[1], 1))
+        for k, y in hid:
+            if not (unmask_cut_lines and not invisible and y in shown):
+                out.add(k)
     return out
 
 
-def page_chars(pg, filtered: bool = True) -> list[tuple]:
+def page_chars(pg, filtered: bool = True, unmask_cut_lines: bool = False) -> list[tuple]:
     """Visible characters: (baseline y, x0, x1, char, size). filtered=False keeps every character
     of the text layer (for the cross-check of what was dropped)."""
-    hid = hidden_chars(pg) if filtered else set()
+    hid = hidden_chars(pg, unmask_cut_lines) if filtered else set()
     flags = fitz.TEXTFLAGS_TEXT if filtered else fitz.TEXTFLAGS_TEXT & ~fitz.TEXT_MEDIABOX_CLIP
     out = []
     for b in pg.get_text("rawdict", flags=flags)["blocks"]:  # TEXTFLAGS_TEXT includes the clip flag
@@ -121,9 +131,11 @@ def _lines(chars: list[tuple]) -> list[Line]:
 
 
 def visible_columns(path: Path | str, pages: range | None = None, filtered: bool = True,
-                    single: frozenset[int] | set[int] = frozenset()) -> list[Column]:
+                    single: frozenset[int] | set[int] = frozenset(),
+                    unmask: frozenset[int] | set[int] = frozenset()) -> list[Column]:
     """`single`: page numbers (1-based) set in one full-width column (some acts end with their
-    dispositions set this way); each is read as one column, side 0."""
+    dispositions set this way); each is read as one column, side 0. `unmask`: page numbers whose
+    lines cut short by a white box are read whole (hidden_chars, unmask_cut_lines)."""
     doc = fitz.open(str(path))
     cols: list[Column] = []
     for pno in (pages or range(len(doc))):
