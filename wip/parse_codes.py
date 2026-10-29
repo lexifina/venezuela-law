@@ -83,7 +83,8 @@ def right_epigraph_lines(cols: list[gazette_text.Column]) -> set[tuple[int, int]
         run = []  # flat indices, bottom up
         while k >= 0 and len(run) < 5:
             idx, lo, ro, s = flat[k]
-            if ro < 5 and s[-1:] not in ".:;" and not (ART_RE.match(s) or ITEM_RE.match(s) or ORD_RE.match(s)):
+            if ro < 5 and s[-1:] not in ".:;" and not (lo > 3 and ro > 3 and abs(lo - ro) < 3) \
+                    and not (ART_RE.match(s) or ITEM_RE.match(s) or ORD_RE.match(s)):
                 run.append(k)
                 k -= 1
             else:
@@ -135,7 +136,10 @@ def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False,
                     out.append(("e", norm(t)))
                 continue
             special = ART_RE.match(t) or ITEM_RE.match(t) or ORD_RE.match(t)
-            if out and out[-1][0] == "h" and not cur and not special and lo > 1.0 and ro > 1.0 and abs(lo - ro) < 3:
+            # (gazettes of 2021 on, right_epigraphs) an all-capitals heading name may sit as little as
+            # 0.3 pt in from both margins (LCC 'DELITOS CONTRA EL PATRIMONIO ...')
+            inset = 1.0 if not (right_epigraphs and t.isupper()) else 0.3
+            if out and out[-1][0] == "h" and not cur and not special and lo > inset and ro > inset and abs(lo - ro) < 3:
                 # a heading's name wide enough to fill the column, set in from both margins
                 if wrapping and not STRUCT_RE.match(t):
                     out[-1] = ("h", out[-1][1] + " " + norm(t))
@@ -144,7 +148,8 @@ def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False,
                 wrapping = True
                 continue
             numbered_head = ITEM_RE.match(t) and not ART_RE.match(t) and lo > 30 and abs(lo - ro) < 12  # '2. De la Acusación' (COJM)
-            if lo > 15 and abs(lo - ro) < 12 and (not special or numbered_head) and (not cur or lo > 30):
+            ends = right_epigraphs and cur and cur[-1][-1:] in ".:;"  # a heading after a sentence's end
+            if lo > 15 and abs(lo - ro) < 12 and (not special or numbered_head) and (not cur or lo > 30 or ends):
                 # centred (an item's hanging-indent last line can look centred: not inside a paragraph)
                 flush()
                 if wrapping and not STRUCT_RE.match(t):
