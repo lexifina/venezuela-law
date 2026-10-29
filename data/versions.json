@@ -1,0 +1,287 @@
+{
+ "country": "VE",
+ "acts": [
+  {
+   "slug": "constitucion",
+   "short": "CRBV",
+   "title": "Constitución de la República Bolivariana de Venezuela",
+   "url": "https://www.tsj.gob.ve/constitucion",
+   "versions": [
+    {
+     "from": "1999-12-30",
+     "units": 373,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    },
+    {
+     "from": "2009-02-19",
+     "units": 373,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    }
+   ]
+  },
+  {
+   "slug": "constitucion-1961",
+   "short": "CRV 1961",
+   "title": "Constitución de la República de Venezuela (1961)",
+   "url": "https://www.tsj.gob.ve/constitucion",
+   "versions": [
+    {
+     "from": "1961-01-23",
+     "units": 276,
+     "source_url": "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf",
+     "sha256": "2ae249783d01e39dad5ddf43fbf5f7293e5b65a99b165868101802b4ae09030e"
+    },
+    {
+     "from": "1973-05-11",
+     "units": 277,
+     "source_url": "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf",
+     "sha256": "2ae249783d01e39dad5ddf43fbf5f7293e5b65a99b165868101802b4ae09030e"
+    },
+    {
+     "from": "1983-03-26",
+     "units": 285,
+     "source_url": "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf",
+     "sha256": "2ae249783d01e39dad5ddf43fbf5f7293e5b65a99b165868101802b4ae09030e"
+    },
+    {
+     "from": "1999-12-30",
+     "units": 0,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-procesal-penal",
+   "short": "COPP",
+   "title": "Código Orgánico Procesal Penal",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.644_17-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 523,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.644_17-09-2021-000.pdf",
+     "sha256": "4abe3f873f552bcb297b2b058541a96589a161d2c5e33d7664785ae20ea7f3af"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-tributario",
+   "short": "COT",
+   "title": "Código Orgánico Tributario",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+   "versions": [
+    {
+     "from": "2020-02-28",
+     "units": 353,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+     "sha256": "bb70262adf6d085a4a6aeabfdb84fac308edd0775f05133f54f481271cf5c84a"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-penitenciario",
+   "short": "COP",
+   "title": "Código Orgánico Penitenciario",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036804-0-GOE_6.647-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 177,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036804-0-GOE_6.647-000.pdf",
+     "sha256": "c0dcc6ef1aa8928a4b7e7c41f9f144a0bc979f4e477e34b230ef5a2c3113623a"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-de-justicia-militar",
+   "short": "COJM",
+   "title": "Código Orgánico de Justicia Militar",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036801-0-GOE_6.646-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 595,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036801-0-GOE_6.646-000.pdf",
+     "sha256": "ef907303528070f85a57d0300c1782bd96a1517849012a443f9fa5e407a6a8a9"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-del-tribunal-supremo-de-justicia",
+   "short": "LOTSJ",
+   "title": "Ley Orgánica del Tribunal Supremo de Justicia",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037783-0-6.684_19-01-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-01-19",
+     "units": 197,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037783-0-6.684_19-01-2022-000.pdf",
+     "sha256": "595987c4aa26a27a4993d0b8011925ad6a11e3626991a935014485570ac1608a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-impuesto-al-valor-agregado",
+   "short": "LIVA",
+   "title": "Decreto con Rango, Valor y Fuerza de Ley que Establece el Impuesto al Valor Agregado",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+   "versions": [
+    {
+     "from": "2020-03-29",
+     "units": 74,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+     "sha256": "bb70262adf6d085a4a6aeabfdb84fac308edd0775f05133f54f481271cf5c84a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-aduanas",
+   "short": "LOA",
+   "title": "Decreto con Rango, Valor y Fuerza de Ley Orgánica de Aduanas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+   "versions": [
+    {
+     "from": "2020-02-19",
+     "units": 196,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+     "sha256": "bb70262adf6d085a4a6aeabfdb84fac308edd0775f05133f54f481271cf5c84a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-contra-la-corrupcion",
+   "short": "LCC",
+   "title": "Ley contra la Corrupción",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-05-02",
+     "units": 109,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+     "sha256": "d3e646a583d4590269c88259078a04b05286f4d3cc71249f169f389622b53943"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia",
+   "short": "LODMVLV",
+   "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+   "versions": [
+    {
+     "from": "2021-12-16",
+     "units": 150,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+     "sha256": "df7fadfba0642cdff60dfa2715be000e800214d2c9f7d58cd9b8ae98eab7444e"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-la-defensa-publica",
+   "short": "LODP",
+   "title": "Ley Orgánica de la Defensa Pública",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+   "versions": [
+    {
+     "from": "2022-05-25",
+     "units": 156,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+     "sha256": "7266d2b24bd56404d43335c1f9e92b3922dee0f4a693612aca7bdc431ef3dc51"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-impuesto-a-las-grandes-transacciones-financieras",
+   "short": "LIGTF",
+   "title": "Ley de Impuesto a las Grandes Transacciones Financieras",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-03-27",
+     "units": 27,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+     "sha256": "40d9e1991bc1fe14d04712718ad2e8fa0ece88a9ab0783e7553e7f1a92794077"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-las-zonas-economicas-especiales",
+   "short": "LOZEE",
+   "title": "Ley Orgánica de las Zonas Económicas Especiales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039556-0-GOE_6.710-000.pdf",
+   "versions": [
+    {
+     "from": "2022-07-20",
+     "units": 40,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039556-0-GOE_6.710-000.pdf",
+     "sha256": "559e62ef0327dcd751a4bc20c8aab2afd4843412012f8c284c0b07cd09ee75c6"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-extincion-de-dominio",
+   "short": "LOED",
+   "title": "Ley Orgánica de Extinción de Dominio",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042208-0-GOE_6.745_ma-000.pdf",
+   "versions": [
+    {
+     "from": "2023-04-28",
+     "units": 54,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042208-0-GOE_6.745_ma-000.pdf",
+     "sha256": "bac7e26edd377e2f2c4f29c3389e1b1f4e37c0baa47009477996ef28001daa27"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-hidrocarburos",
+   "short": "LOH",
+   "title": "Ley Orgánica de Hidrocarburos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-01-29",
+     "units": 89,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+     "sha256": "d1ed207bf5555c0df24f62febc4cf66616aa7b8532b14331ca1c9a456d7d3040"
+    },
+    {
+     "from": "2026-03-31",
+     "units": 93,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+     "sha256": "d1ed207bf5555c0df24f62febc4cf66616aa7b8532b14331ca1c9a456d7d3040"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-para-la-celeridad-y-optimizacion-de-tramites-administrativos",
+   "short": "LOCOTA",
+   "title": "Ley Orgánica para la Celeridad y Optimización de Trámites Administrativos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/7018-2026-04-08-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-04-08",
+     "units": 18,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7018-2026-04-08-EXTRAORDINARIA.pdf",
+     "sha256": "2e75d16ba1f925f069e00bf146325fa814732e9007390750125a3ad0a3e46f88"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-minas",
+   "short": "LOM",
+   "title": "Ley Orgánica de Minas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/7020-2026-04-16-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-04-16",
+     "units": 141,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7020-2026-04-16-EXTRAORDINARIA.pdf",
+     "sha256": "b56e16675be0e8a3d376a48e882972301024e102c38cc5a5f92f90481ca605eb"
+    }
+   ]
+  }
+ ]
+}
