@@ -80,18 +80,27 @@ def right_epigraph_lines(cols: list[gazette_text.Column]) -> set[tuple[int, int]
         if not ART_RE.match(t):
             continue
         k = j - 1
-        run = []
-        while k >= 0 and len(run) < 4:
+        run = []  # flat indices, bottom up
+        while k >= 0 and len(run) < 5:
             idx, lo, ro, s = flat[k]
-            if ro < 5 and lo > 2 and s[-1:] not in ".:;" and not (ART_RE.match(s) or ITEM_RE.match(s) or ORD_RE.match(s)):
-                run.append(idx)
+            if ro < 5 and s[-1:] not in ".:;" and not (ART_RE.match(s) or ITEM_RE.match(s) or ORD_RE.match(s)):
+                run.append(k)
                 k -= 1
             else:
                 break
-        if not run:
-            continue
-        if k < 0 or run[-1][1] == 0 or flat[k][3][-1:] in ".:;" or (flat[k][1] > 15 and abs(flat[k][1] - flat[k][2]) < 12):
-            out.update(run)
+        def centred(i):
+            return i >= 0 and flat[i][1] > 3 and abs(flat[i][1] - flat[i][2]) < 12
+
+        def heading_end(i):  # a centred heading line, or the full-width last line of a wrapped one
+            return centred(i) or (i >= 1 and flat[i][3][-1:] not in ".:;" and abs(flat[i][1] - flat[i][2]) < 1
+                                  and centred(i - 1))
+
+        for n in range(len(run), 0, -1):  # the longest run whose first line is set in and follows a break
+            top = run[n - 1]
+            b = top - 1
+            if flat[top][1] > 1.5 and (b < 0 or flat[top][0][1] == 0 or flat[b][3][-1:] in ".:;" or heading_end(b)):
+                out.update(flat[i][0] for i in run[:n])
+                break
     return out
 
 
