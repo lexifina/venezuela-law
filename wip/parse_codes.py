@@ -440,7 +440,7 @@ def ve2_acts() -> list[dict]:
         {"part": "39-mujeres", "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia", "short": "LODMVLV",
          "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
          "url": MUJ, "cut": ("A UNA VIDA LIBRE DE VIOLENCIA", DADA), "last": None, "single": (39, 40, 41),
-         "skip": [(35, 1, "Inicio ante otro órgano receptor"), (38, 0, "2. Una sala de trabajo")], "furniture": r"á d",
+         "skip": [(35, 1, "Inicio ante otro órgano receptor"), (38, 0, "2. Una sala de trabajo")], "furniture": r"Pá i \d+ d 139|á d",
          "from": "2021-12-16", "gazette": ("6.667 Extraordinario", "16 Dec 2021"),
          "law": ("lo-reforma-mujeres-2021", law("Ley Orgánica de Reforma de la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (2021)", "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia, sancionada el 1 de diciembre de 2021", "law", "2021-12-01", "2021-12-16", MUJ)),
          "first_law": None, "earlier": [],
