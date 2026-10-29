@@ -64,7 +64,39 @@ def margins(col: gazette_text.Column) -> tuple[float, float]:
     return x0[len(x0) // 10], x1[(9 * len(x1)) // 10]
 
 
-def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False) -> list[tuple[str, str]]:
+def right_epigraph_lines(cols: list[gazette_text.Column]) -> set[tuple[int, int]]:
+    """(column, line) indices of article epigraphs set flush right that may be long or wrap (gazettes
+    of 2021 on): the run of up to four lines just before an 'Artículo N.' line, each set flush against
+    the right margin and in from the left one, none an article, item or ordinal and none ending in
+    . : ;, where the line before the run ends a sentence (. : ;) or is a centred heading, or the run
+    opens the act or a column."""
+    flat = []
+    for ci, col in enumerate(cols):
+        left, right = margins(col)
+        for li, ln in enumerate(col.lines):
+            flat.append(((ci, li), ln.x0 - left, right - ln.x1, ln.text))
+    out: set[tuple[int, int]] = set()
+    for j, (_, _, _, t) in enumerate(flat):
+        if not ART_RE.match(t):
+            continue
+        k = j - 1
+        run = []
+        while k >= 0 and len(run) < 4:
+            idx, lo, ro, s = flat[k]
+            if ro < 5 and lo > 2 and s[-1:] not in ".:;" and not (ART_RE.match(s) or ITEM_RE.match(s) or ORD_RE.match(s)):
+                run.append(idx)
+                k -= 1
+            else:
+                break
+        if not run:
+            continue
+        if k < 0 or run[-1][1] == 0 or flat[k][3][-1:] in ".:;" or (flat[k][1] > 15 and abs(flat[k][1] - flat[k][2]) < 12):
+            out.update(run)
+    return out
+
+
+def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False,
+               right_epigraphs: bool = False) -> list[tuple[str, str]]:
     """[(kind, text)]: 'p' paragraph, 'h' heading (centred, or LIBRO/TÍTULO/Capítulo/... at the start
     of a paragraph), 'e' epigraph (a short line set flush right). A line ends a paragraph if it ends
     with . : ; and stops well short of the right margin; numbered items and articles start their own
@@ -79,12 +111,20 @@ def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False) ->
             out.append(("p", join_lines(cur)))
             cur = []
 
-    for col in cols:
+    epi_lines = right_epigraph_lines(cols) if right_epigraphs else set()
+    for ci, col in enumerate(cols):
         left, right = margins(col)
         width = right - left
-        for ln in col.lines:
+        for li, ln in enumerate(col.lines):
             lo, ro, t = ln.x0 - left, right - ln.x1, ln.text
             t = re.sub(r"^A rtículo(s?) (?=\d)", r"Artículo\1 ", t)  # kerned 'A' read as a separate glyph (LOA art. 55)
+            if (ci, li) in epi_lines:
+                flush()
+                if out and out[-1][0] == "e":
+                    out[-1] = ("e", out[-1][1] + " " + norm(t))
+                else:
+                    out.append(("e", norm(t)))
+                continue
             special = ART_RE.match(t) or ITEM_RE.match(t) or ORD_RE.match(t)
             if out and out[-1][0] == "h" and not cur and not special and lo > 1.0 and ro > 1.0 and abs(lo - ro) < 3:
                 # a heading's name wide enough to fill the column, set in from both margins
@@ -433,7 +473,7 @@ def ve2_acts() -> list[dict]:
     LOED = gz("2023/T028700042208-0-GOE_6.745_ma-000.pdf")
     LOH = gz("2026/6978-2026-01-29-EXTRAORDINARIA.pdf")
     DADA = "Dada, firmada y sellada en el Palacio Federal Legislativo"
-    return [
+    acts = [
         {"part": "38-corrupcion", "slug": "ley-contra-la-corrupcion", "short": "LCC", "title": "Ley contra la Corrupción",
          "url": CORR, "cut": ("LEY CONTRA LA CORRUPCIÓN", DADA), "last": None,
          "from": "2022-05-02", "gazette": ("6.699 Extraordinario", "2 May 2022"),
@@ -502,6 +542,9 @@ def ve2_acts() -> list[dict]:
          "decisions": ["LOH: the Ley de Reforma de la Ley Orgánica de Hidrocarburos (arts. 1-35) is printed first in G.O. 6.978 Ext. of 29 Jan 2026, then the law in full (art. 35 orders the single text); only the texto único is read, from its title to the closing 'Dado, firmado y sellado'. Its Disposición final única: in force on publication 'salvo los artículos 51, 55, 56, 57, 58 y 59, los cuales entrarán en vigencia una vez transcurrido sesenta (60) días continuos siguientes a su publicación'. The sixty days following 29 Jan 2026 run from 30 Jan to 30 Mar 2026, so those articles take effect on 2026-03-31 (counted as for the Ley Orgánica de Aduanas). The rest is dated 2026-01-29 and credited to the publisher as the oldest version available.",
                        "LOH arts. 51 and 55-59 (coordinator rule for text that appears before it is in force): per the reform's own articles 16-21, arts. 56, 57, 58 and 59 are new (inserted by the reform), so they are absent from the version of 2026-01-29; arts. 51 and 55 replace former arts. 44 and 48, whose wording is not in any text-layer source, so in that version they read '[La fuente no da el texto vigente en esta fecha.]'. The printed wording of all six arrives on 2026-03-31, credited to the Ley de Reforma of 2026."]},
     ]
+    for s in acts:
+        s["right_epigraphs"] = True  # long or wrapped epigraphs set flush right (see right_epigraph_lines)
+    return acts
 
 
 ACTS += ve2_acts()
@@ -517,7 +560,8 @@ COMMON_DECISIONS = [
 
 
 def build_act(spec: dict) -> tuple[dict, dict]:
-    units = units_from(paragraphs(act_columns(spec), spec.get("flush_sections", False)), spec["short"])
+    units = units_from(paragraphs(act_columns(spec), spec.get("flush_sections", False),
+                                  spec.get("right_epigraphs", False)), spec["short"])
     nums = [int(k[4:7]) for k in units if k.startswith("art-") and len(k) == 7]
     problems = check_sequence(units, spec["short"], spec["last"] or max(nums))
     if problems:
