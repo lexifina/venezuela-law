@@ -1,0 +1,801 @@
+{
+ "laws": {
+  "lo-reforma-mujeres-2021": {
+   "label": "Ley Orgánica de Reforma de la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (2021)",
+   "title": "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia, sancionada el 1 de diciembre de 2021",
+   "kind": "law",
+   "enacted": "2021-12-01",
+   "published": "2021-12-16",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia",
+   "short": "LODMVLV",
+   "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+   "first_law": null,
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2021-12-16",
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+     "sha256": "df7fadfba0642cdff60dfa2715be000e800214d2c9f7d58cd9b8ae98eab7444e",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "Objeto\nArtículo 1. Esta Ley tiene por objeto garantizar y promover el derecho de las mujeres a una vida libre de violencia en el ámbito público y privado, creando condiciones para prevenir, atender, sancionar y erradicar la violencia contra ellas en cualquiera de sus formas y ámbitos, arraigada en la discriminación sistémica contra las mujeres especialmente cuando se encuentran en situación de vulnerabilidad, impulsando cambios en los patrones socioculturales que sostienen las relaciones desiguales de poder sobre las mujeres, para favorecer la construcción de una sociedad justa democrática, participativa, paritaria, protagónica y libre de violencia.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "Finalidad\nArtículo 2. Esta Ley tiene como finalidad:\n1. Garantizar a todas las mujeres el ejercicio y acceso expedito, transparente y efectivo de sus derechos humanos exigibles ante los órganos del sistema de justicia y la administración pública; para asegurar la oportuna y adecuada respuesta.\n2. Velar por la centralidad de los derechos humanos de las víctimas y sus familiares en todas las acciones realizadas en el marco de esta Ley.\n3. Garantizar que las decisiones que se adopten respeten y promuevan la autonomía de las mujeres y fortalecimiento de sus derechos humanos.\n4. Asegurar la aplicación de criterios probatorios libres de estereotipos y prejuicios de género que subordinan a las mujeres y no las reconocen como sujetos de derecho.\n5. Fortalecer políticas públicas para prevenir, atender, sancionar y erradicar la violencia contra las mujeres y la discriminación de género. Para ello, el órgano rector con competencia en la materia coordinará con los órganos del Poder Público la implementación de programas en el ámbito educativo, laboral, económico, cultural, social, salud, comunicacional, y otras acciones para cumplir con el objeto de esta Ley. La enseñanza de los derechos humanos y en particular los derechos vinculados con los derechos de las mujeres, deberán estar integrados en el currículo formal de todo el sistema educativo.\n6. Fortalecer el marco penal y procesal vigente para asegurar una protección integral a las mujeres víctimas de violencia desde las instancias jurisdiccionales.\n7. Coordinar los recursos presupuestarios e institucionales de los distintos Poderes Públicos, definiendo líneas de acción que permitan asegurar la prevención, atención, sanción y erradicación de los hechos de violencia contra las mujeres, así como la implementación de medidas socioeducativas que eviten la reincidencia.\n8. Promover la participación protagónica de mujeres y hombres en las asociaciones, organizaciones sociales, fundaciones y otros movimientos del Poder Popular que impulsan actividades dirigidas a prevenir, atender, sancionar y erradicar la violencia hacia las mujeres.\n9. Garantizar el principio de transversalidad de las medidas de sensibilización, prevención, detección, seguridad y protección, de manera que en su aplicación se tengan en cuenta los derechos humanos, necesidades y demandas específicas de todas las mujeres víctimas de violencia.\n10. Promover la sensibilización y la especialización de las servidoras y servidores de la administración pública y del sistema de justicia, que intervienen en todo el proceso de información, atención, orientación y protección integral de las mujeres víctimas de violencia.\n11. Garantizar los recursos económicos, profesionales, tecnológicos, científicos y de cualquier otra naturaleza, que permitan la sustentabilidad de los planes, proyectos, programas, acciones, misiones y toda otra iniciativa orientada a la prevención, atención, sanción y erradicación de la violencia contra las mujeres y el ejercicio pleno de sus derechos humanos.\n12. Establecer y fortalecer medidas de seguridad y protección y medidas cautelares que garanticen los derechos protegidos en esta Ley y la protección de la dignidad e integridad física, psicológica, sexual, patrimonial y jurídica de las mujeres víctimas de violencia por razones de género.\n13. Establecer un sistema integral de garantías para el ejercicio de los derechos desarrollados en esta Ley con enfoque de igualdad y equidad, superadora de toda discriminación y violencia contra las mujeres.\n14. Prohibir la exposición o instrumentalización de las mujeres víctimas de violencia y sus familiares, a situaciones de incomprensión o reiteraciones innecesarias que las sometan a un nuevo proceso de victimización, para lograr de manera eficaz la protección, seguridad y prevención de nuevos actos de violencia.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "Principios\nArtículo 3. La aplicación de esta Ley se rige por los principios de igualdad y no discriminación, interés superior de las niñas, niños y adolescentes, debida diligencia, intervención inmediata y oportuna, interdependencia, indivisibilidad y universalidad.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "Enfoques\nArtículo 4. En la aplicación de esta Ley es obligatorio para los órganos del sistema de justicia y los demás órganos y entes del Estado aplicar los siguientes enfoques:\n1. Enfoque de género.\n2. Enfoque feminista.\n3. Enfoque de derechos humanos.\n4. Enfoque intercultural.\n5. Enfoque de integralidad.\n6. Enfoque generacional.\n7. Enfoque de interseccionalidad.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "Derechos protegidos\nArtículo 5. Esta Ley abarca la protección de los siguientes derechos:\n1. El derecho a una vida libre de violencia en el ámbito público y privado.\n2. La protección a la dignidad e integridad física, psicológica, sexual, patrimonial y jurídica de las mujeres víctimas de violencia, en los ámbitos público y privado.\n3. La igualdad real y efectiva de derechos entre las mujeres y los hombres.\n4. La protección de las mujeres en situación de especial vulnerabilidad a la violencia por razón de género.\n5. El derecho de las mujeres a recibir plena información y asesoramiento adecuado a su situación personal, a través de los servicios, organismos u oficinas que están obligadas a crear y mantener la administración pública nacional, estadal y municipal. Dicha información comprenderá las medidas contempladas en esta Ley relativas a su protección y seguridad, y los derechos y ayudas previstos en la misma, así como lo referente al lugar de prestación de los servicios de atención, emergencia, apoyo y recuperación integral. Las referidas medidas deberán ser objeto de divulgación permanente por los organismos antes indicados.\n6. Los demás consagrados en la Constitución de la República Bolivariana de Venezuela y en los convenios y tratados internacionales en la materia, suscritos y ratificados por la República Bolivariana de Venezuela, tales como la Convención sobre la Eliminación de todas las Formas de Discriminación contra la Mujer (CEDAW).\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "Garantías\nArtículo 6. Todas las mujeres con independencia de su edad, origen étnico, rasgos fenotípicos, raza, color, linaje, cultura, nacionalidad, ciudadanía, idioma, credo, ideología, filiación política o filosófica, estado civil, tipo de ocupación, grado de educación, discapacidad, gestación, lugar de nacimiento, condición socioeconómica, condición migratoria, estado de salud, diferencia física, orientación sexual, identidad de género o expresión de género, así como cualquier otra condición personal o colectiva, temporal o permanente, dispondrán de los mecanismos necesarios para hacer efectiva las garantías de los derechos reconocidos en esta Ley:\n1. La información, la atención social integral y la asistencia jurídica gratuita a las mujeres víctimas de violencia por razones de género, son responsabilidad del Estado.\n2. En el caso de mujeres en situación de vulnerabilidad, el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género, a través del Instituto Nacional de la Mujer, así como los institutos regionales y municipales, deben asegurarles que la información se ofrezca en formato accesible y comprensible, en el idioma castellano, idiomas indígenas, la lengua de señas venezolana y otras modalidades u opciones de comunicación, incluidos los sistemas alternativos y aumentativos. En fin, se articularán los medios necesarios para que las mujeres en situación de violencia por razones de género que por sus circunstancias personales y sociales puedan tener una mayor dificultad para el acceso integral a la información, tengan garantizado el ejercicio efectivo de este derecho.\n3. Las mujeres víctimas de violencia por razones de género tienen derecho a servicios sociales de atención, de emergencia, de protección, de apoyo, acogida y de recuperación integral. En cada estado y municipio se crearán dichos servicios, con cargo al presupuesto anual. La atención que presten dichos servicios deberá ser gratuita, de calidad, permanente, urgente, especializada y multidisciplinaria profesionalmente y será financiada por el Estado.\n4. Los servicios enunciados en el numeral anterior actuarán coordinadamente y en colaboración con los órganos de seguridad ciudadana, el sistema de justicia, los servicios de salud y la Defensoría Nacional de los Derechos de la Mujer.\nTambién tendrán derecho a la atención social integral a través\nde estos servicios sociales las niñas, niños y adolescentes que\nse encuentren bajo la potestad parental o responsabilidad de\ncrianza de las mujeres víctimas de violencia.\n5. El Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género, el Instituto Nacional de la Mujer y los institutos estadales y municipales de la mujer, así como otras asociaciones, organizaciones incluyendo las comunitarias que promueven la defensa de los derechos humanos de las mujeres, orientarán y evaluarán los planes, proyectos, programas y acciones que se ejecuten y emitirán recomendaciones para su mejora y eficacia.\n6. La Defensoría del Pueblo, el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género, a través del Instituto Nacional de la Mujer, y los institutos estadales y municipales velarán por la correcta aplicación de esta Ley y de los instrumentos derivados de la misma. Corresponderá a la Defensoría Nacional de los Derechos de la Mujer y a las defensorías estadales, municipales y comunales velar por el respeto y ejercicio efectivo del derecho a la justicia de las mujeres víctimas de violencia por razones de género, asegurando que se les brinden los servicios necesarios que garanticen la efectividad de los derechos aquí consagrados.\nEste derecho asistirá también a las y los causahabientes en\ncaso de fallecimiento de la mujer agredida.\n7. Los colegios de abogadas y abogados, médicas y médicos, psicólogas y psicólogos y enfermeras y enfermeros de los distintos estados deben establecer servicios gratuitos de asesoría especializada integral a las mujeres víctimas de violencia por razones de género.\n8. Las trabajadoras en situación de violencia por razones de género tendrán derecho a la reducción o a la reordenación de su tiempo de trabajo, a ser movilizadas geográficamente o al cambio de su centro de trabajo. Si su estado requiriere una suspensión laboral, la misma deberá ser acreditada con la orden de protección de la jueza o del juez, previo informe y solicitud del Ministerio Público, bastando la acreditación de indicios.\n9. El Estado desarrollará políticas públicas dirigidas a las mujeres víctimas de violencia por razones de género que carezcan de trabajo, pudiendo ser insertadas en los programas, misiones y proyectos de capacitación para el empleo y emprendimiento, según lo permitan las condiciones físicas y psicológicas en las cuales se encuentren. Si las mujeres agredidas tuvieran una discapacidad reconocida oficialmente que les impida u obstaculice el acceso al empleo, recibirán una atención especial que permita su inserción laboral y su capacitación. Para ello se establecerán programas, proyectos y misiones. El Estado creará exenciones tributarias a las empresas, cooperativas y otros entes que promuevan el empleo, la inserción y reinserción en el mercado laboral y productivo de las mujeres víctimas de violencia por razones de género.\n10. Las mujeres víctimas de violencia por razones de género tendrán prioridad para las ayudas y asistencias que cree la administración pública nacional, estatal o municipal.\n11. Las mujeres víctimas de violencia por razones de género tendrán prioridad en el acceso a la vivienda, a la tierra, al crédito y a la asistencia técnica en los planes gubernamentales.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "Obligación del Estado\nArtículo 7. El Estado tiene la obligación indeclinable de adoptar todas las medidas administrativas, legislativas, judiciales y de cualquier otra índole que sean necesarias y apropiadas para asegurar el cumplimiento de esta Ley y garantizar los derechos humanos de las mujeres víctimas de violencia.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "Participación de la sociedad\nArtículo 8. La sociedad tiene el derecho y el deber de participar de forma protagónica para lograr la vigencia plena y efectiva de esta Ley, a través de las organizaciones comunitarias y sociales.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "Educación y prevención\nArtículo 9. El Estado, con la activa participación de la sociedad, debe garantizar programas permanentes de educación y prevención sobre la violencia de género.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "Principios procesales\nArtículo 10. En la aplicación e interpretación de esta Ley, deberán tenerse en cuenta los siguientes principios y garantías procesales:\n1. Gratuidad: Las solicitudes, pedimentos, demandas y demás actuaciones relativas a los asuntos a que se refiere esta Ley, así como las copias certificadas que se expidan de las mismas se harán en papel común y sin estampillas. Las funcionarias y los funcionarios de los poderes públicos que en cualquier forma intervengan, los tramitarán con toda preferencia y no podrán cobrar emolumento ni derecho alguno.\n2. Celeridad: Los órganos receptores de denuncias, auxiliares de la administración de justicia en los términos del artículo 114 del Código Orgánico Procesal Penal y los tribunales competentes, darán preferencia al conocimiento y trámite de los hechos previstos en esta Ley, sin dilación alguna, en los lapsos previstos en ella, bajo apercibimiento de la medida administrativa que corresponda la funcionaria o funcionario que haya recibido la denuncia.\n3. Inmediación: La jueza o el juez que ha de pronunciar la sentencia, debe presenciar la audiencia y la incorporación de las pruebas de las cuales obtiene su convencimiento, salvo en los casos que la ley permita la comisión judicial para la evacuación de algún medio probatorio necesario para la demostración de los hechos controvertidos, cuyas resultas serán debatidas en la audiencia de juicio. Se apreciarán las pruebas que consten en el expediente debidamente incorporadas en la audiencia.\n4. Confidencialidad: Las funcionarias y los funcionarios de los órganos receptores de denuncias, de las unidades de atención y tratamiento, y de los tribunales competentes, deberán guardarla confidencialidad de los asuntos que se sometan a su consideración.\n5. Oralidad: Los procedimientos serán orales y sólo se admitirán las formas escritas previstas en esta Ley y en el Código Orgánico Procesal Penal.\n6. Concentración: Iniciada la audiencia, ésta debe concluir en el mismo día. Si ello no fuere posible, continuará durante el menor número de días consecutivos.\n7. Publicidad: El juicio será público, salvo que a solicitud de la mujer víctima de violencia el tribunal decida que éste se celebre total o parcialmente a puerta cerrada, debiendo informársele previa y oportunamente a la mujer, que puede hacer uso de este derecho.\n8. Protección de las víctimas: Las víctimas de los hechos punibles aquí descritos tienen el derecho a acceder a los órganos especializados de justicia civil y penal de forma gratuita, expedita, sin dilaciones indebidas o formalismos inútiles, sin menos cabo de los derechos de las personas imputadas o acusadas. La protección de la víctima y la reparación del daño a las que tenga derecho serán también objetivo del procedimiento aquí previsto.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "Medidas de seguridad y protección y medidas cautelares\nArtículo 11. Las medidas de seguridad y protección, y las medidas cautelares son aquellas que impone la autoridad competente señalada en esta Ley, para salvaguardar la vida, proteger la dignidad, integridad física, psicológica, sexual y los bienes patrimoniales de las mujeres víctimas de violencia. La idoneidad, necesidad, urgencia, proporcionalidad y finalidad son elementos esenciales para su otorgamiento, debiendo prevalecer el mandato de garantizar el derecho de las mujeres a una vida libre de violencia.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "Supremacía y orden público\nArtículo 12. Las disposiciones de esta Ley serán de aplicación preferente. El respeto, garantía y protección de los derechos humanos de las mujeres es una materia de orden público e interés general. En consecuencia, todas las servidoras públicas y servidores públicos deben actuar de oficio ante las situaciones de amenaza o violación de los derechos humanos de las mujeres, sin que sea necesaria la solicitud, intervención o impulso de las personas interesadas.\nEn caso de duda en la interpretación o aplicación de esta Ley se adoptará aquella que más favorezca la protección de los derechos humanos de las mujeres víctimas de violencia por razones de género y sus familiares.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "Prohibición de la mediación y conciliación\nArtículo 13. A los fines de garantizar los derechos de las mujeres víctimas de violencia por razones de género se prohíbe:\n1. La exposición de las mujeres víctimas de violencia y sus familiares, a situaciones de incomprensión o reiteraciones innecesarias que las sometan a un nuevo proceso de victimización.\n2. La aplicación de la mediación, conciliación y demás medios alternativos de resolución de conflictos en los procedimientos de violencia contra la mujer por razones de género, en los casos que impliquen violación o amenaza al derecho a la vida e integridad física. En las demás situaciones podrá excepcionalmente emplearse estos medios siempre que una evaluación anterior por parte de un equipo multidisciplinario garantice el consentimiento libre e informado de las víctimas y no existan indicadores de nuevos riesgos para las víctimas o sus familiares. En ningún supuesto, la violencia contra la mujer por razones de género será remitida obligatoriamente a procedimientos alternativos de resolución de conflictos ni constituirá obstáculo para su acceso efectivo a la justicia.\n3. El empleo de las víctimas y sus familiares para realizar notificaciones y citaciones previstas en esta Ley.\nLas servidoras públicas y servidores públicos que incumplan la presente disposición serán sancionados por la comisión del delito de violencia institucional.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "Fuero\nArtículo 14. En todos los delitos previstos en esta Ley no se reconocerá fuero especial, salvo los expresamente contenidos en la Constitución de la República Bolivariana de Venezuela y leyes de la República.\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "Preeminencia del procedimiento especial\nArtículo 15. El juzgamiento de los delitos de que trata esta Ley se seguirá por el procedimiento especial aquí previsto.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "Competencia\nArtículo 16. Los Tribunales con competencia en materia de Delitos de Violencia contra la Mujer son competentes para conocer de las solicitudes, acciones, recursos y delitos contemplados en esta Ley y por remisión en otras leyes. Igualmente, son competentes para conocer de aquellos delitos contenidos en otras leyes orgánicas, especiales o generales por conexión, conexidad o concurso real con el asunto del cual tienen conocimiento, independientemente que concurran victimas mujeres y hombres.\nEl Tribunal Supremo de Justicia asegurará la existencia de tribunales especializados en zonas fronterizas y de difícil acceso.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "Intervención de equipo interdisciplinario\nArtículo 17. En la recepción de las denuncias y en la investigación procesal de los hechos de que trata esta Ley, se utilizará personal debidamente sensibilizado, concientizado y capacitado en violencia de género. Los respectivos despachos estarán dotados de salas de espera para personas imputadas, separadas de las destinadas para las víctimas.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "Definición\nArtículo 18. La violencia contra las mujeres a que se refiere esta Ley, comprende todo acto sexista que tenga o pueda tener como resultado la muerte, un daño o sufrimiento físico, sexual, psicológico, emocional, laboral, económico o patrimonial; la coacción o la privación arbitraria de la libertad, así como la amenaza de ejecutar tales actos, tanto si se producen en el ámbito público como en el privado.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "Formas de violencia\nArtículo 19. Se consideran formas de violencia de género en contra de las mujeres, las siguientes:\n1. Violencia psicológica: Toda conducta activa u omisiva ejercida en deshonra, descrédito o menosprecio al valor o dignidad personal, tratos humillantes y vejatorios, vigilancia constante, aislamiento, marginalización, negligencia, abandono, celotipia, comparaciones destructivas, amenazas y actos que conllevan a las mujeres víctimas de violencia a disminuir su autoestima, a perjudicar o perturbar su sano desarrollo, a la depresión e incluso al suicidio.\n2. Acoso u hostigamiento: Toda conducta abusiva y especialmente los comportamientos, palabras, actos, gestos, escritos o mensajes electrónicos dirigidos a perseguir, intimidar, chantajear, apremiar, importunar y vigilar a una mujer que pueda atentar contra su estabilidad emocional, dignidad, prestigio, integridad física o psíquica, o que puedan poner en peligro su empleo, promoción, reconocimiento en el lugar de trabajo o fuera de él.\n3. Amenaza: Es la manifestación verbal, escrita u otros actos ejecutados por cualquier medio, incluyendo medios de comunicación y tecnologías de comunicación e información, de ejecutar un daño psicológico, sexual, laboral, patrimonial o físico, con el fin de intimidar a la mujer, tanto en el ámbito público como en el privado.\n4. Violencia física: Toda acción u omisión que directa o indirectamente está dirigida a ocasionar un daño o sufrimiento físico a la mujer, tales como lesiones internas o externas, heridas, hematomas, quemaduras, empujones o cualquier otro maltrato que afecte su integridad física,\n5. Violencia familiar: Toda conducta activa u omisiva, constante o no, de empleo de fuerza física o violencia psicológica, intimidación, acoso, hostigamiento, persecución, humillación o amenaza contra la mujer por parte de la persona con quien mantiene o mantuvo matrimonio, unión estable de hecho o relación de afectividad, con o sin convivencia, ascendientes, descendientes, parientes colaterales, consanguíneos y afines, que sea ejercida por sí o por terceros. Se entenderá también como violencia familiar todo acto de violencia, acciones u omisiones que afecten a familiares ascendientes, descendientes y colaterales consanguíneos y afines, y personas al cuido de las mujeres, que tengan como finalidad ocasionar condiciones de violencia, temor, daño, doblegar la voluntad de la mujer e incluso su muerte.\n6. Violencia sexual: Toda conducta que amenace o vulnere el derecho de la mujer a decidir voluntaria y libremente su sexualidad, comprendiendo ésta no solo el acto sexual, sino toda forma de contacto o acceso sexual, genital o no genital, tales como violencia sexual, acto sexual con víctima especialmente vulnerable y abuso sexual sin penetración.\n7. Violencia sexual en la relación de pareja: Es una forma de violencia sexual, en la cual mediante violencias o amenazas se constriñe a la cónyuge, persona con quien mantenga unión estable de hecho o relación de afectividad a un acto que constituya violencia sexual.\n8. Prostitución forzada: Es la Acción de obligar a una mujer a realizar uno o más actos de naturaleza sexual por la fuerza o mediante la amenaza de la fuerza, o mediante coacción como la causada por el temor a la violencia, la intimidación, la opresión psicológica o el abuso del poder, esperando obtener o haber obtenido ventajas o beneficios pecuniarios o de otro tipo, a cambio de los actos de naturaleza sexual de la mujer.\n9. Esclavitud sexual: Es la privación ilegítima de libertad de la mujer, para su venta, compra, préstamo o trueque con la obligación de realizar uno o más actos de naturaleza sexual.\n10. Acoso sexual: Solicitud de cualquier acto o comportamiento de contenido sexual, para sí o para un tercero, o el procurar cualquier tipo de acercamiento sexual no deseado que realice un hombre prevaliéndose de una situación de superioridad laboral, docente o análoga, o con ocasión de relaciones derivadas del ejercicio profesional, y con la amenaza expresa o tácita de causarle a la mujer un daño relacionado con las legítimas expectativas que ésta pueda tener en el ámbito de dicha relación.\n11. Violencia laboral: Es toda discriminación, amenaza, acoso y hostigamiento hacia la mujer por razones de género en los centros de trabajo, públicos o privados, que obstaculicen su acceso al empleo, ascenso o estabilidad en el mismo o generen un medio de trabajo hostil, tales como exigir requisitos sobre el estado civil, la edad, la apariencia física o buena presencia, o la solicitud de resultados de exámenes de laboratorios clínicos, que supeditan la contratación, ascenso o la permanencia de la mujer en el empleo. Constituye también discriminación de género en el ámbito laboral el quebrantar el derecho de igual salario por igual trabajo o no otorgar los permisos respectivos para que las mujeres víctimas de violencia puedan cumplir con las actividades que requieren su presencia conforme a lo establecido en esta Ley.\n12. Violencia patrimonial y económica: Toda conducta activa u omisiva que directa o indirectamente, en los ámbitos público y privado, esté dirigida a ocasionar un daño a los bienes muebles o inmuebles en menoscabo del patrimonio de las mujeres víctimas de violencia o a los bienes comunes, así como la perturbación a la posesión o a la propiedad de sus bienes, sustracción, destrucción, retención o distracción de objetos, documentos personales, bienes y valores, derechos patrimoniales o recursos económicos destinados a satisfacer sus necesidades; limitaciones económicas encaminadas a controlar sus ingresos; o la privación de los medios económicos indispensables para vivir.\n13. Violencia obstétrica: Es la apropiación del cuerpo y procesos reproductivos de las mujeres por personal de salud, que se expresa en un trato deshumanizador, en un abuso de medicalización y patologización de los procesos naturales, trayendo consigo pérdida de autonomía y capacidad de decidir libremente sobre sus cuerpos y sexualidad, impactando negativamente en la calidad de vida de las mujeres.\n14. Esterilización forzada: Realizar o causar intencionalmente a la mujer, sin brindarle la debida información, sin su consentimiento voluntario e informado y sin que la misma haya tenido justificación, un tratamiento médico o quirúrgico u otro acto que tenga como resultado su esterilización o la privación de su capacidad biológica y reproductiva.\n15. Violencia mediática: Es la exposición de la mujer, niña o adolescente, a través de cualquier medio de difusión, que de manera directa o indirecta explote, discrimine, deshonre, humille o que atente contra su dignidad con fines económicos, sociales o de dominación.\n16. Violencia institucional: Acciones u omisiones que realizan las autoridades, funcionarias y funcionarios, profesionales, personal y agentes pertenecientes a cualquier órgano, ente o institución pública, que tengan como fin retardar, obstaculizar o impedir que las mujeres tengan acceso a las políticas públicas y ejerzan los derechos previstos en esta Ley, para asegurarles una vida libre de violencia.\n17. Violencia simbólica: Son mensajes, valores, iconos, signos que transmiten y reproducen relaciones de dominación, desigualdad y discriminación en las relaciones sociales que se establecen entre las personas y naturalizan la subordinación de la mujer en las sociedad.\n18. Violencia informática: Es todo acto que involucre como medio para la comisión de un delito de violencia contra la mujer el uso de las tecnologías de la información y comunicación, mediante el empleo o la divulgación de material audiovisual, imágenes, datos y cualquier otra información de una mujer para ejercer violencia psicológica, acoso, hostigamiento, acoso sexual, violencia mediática, simbólica, política o cualquier otra forma de violencia.\n19. Violencia política: Es todo acto que, mediante la coacción, amenaza o cualquier otra forma de violencia, limite, menoscabe o imposibilite el libre ejercicio de la participación política de las mujeres en condiciones de igualdad y equidad en cargos de elección popular, en el ejercicio de la función pública y en organizaciones con fines políticos, sindicales, educativos, culturales, deportivos, profesionales, asociaciones comunitarias, movimientos sociales y del poder popular.\n20. Violencia ginecológica: forma de violencia expresada en actos discriminatorios, degradantes y vejatorios de la dignidad de las mujeres practicados y tolerados por el personal de la salud que atente contra su autonomía y sexualidad.\n21. Violencia multicausal: Es todo acto de violencia contra la mujer ejecutado en razón de la concurrencia de su condición de mujer con sus rasgos fenotípicos, etnia, raza, color, linaje, condición de discapacidad, condición de salud, edad, orientación sexual, identidad de género, expresión de género o cualquier otro motivo discriminatorio.\n22. Tráfico de mujeres, niñas y adolescentes: Todos los actos que implican su reclutamiento o transporte dentro o entre fronteras, empleando engaños, coerción o fuerza, con el propósito de obtener un beneficio de tipo financiero u otro de orden material de carácter ilícito,\n23. Trata de mujeres, niñas y adolescentes: Es la captación, transporte, traslado, acogida o recepción de mujeres, niñas y adolescentes, recurriendo a la amenaza o al uso de la fuerza o de otras formas de coacción, al rapto, al fraude, al engaño, al abuso de poder o de una situación de vulnerabilidad o la concesión o recepción de pagos o beneficios para obtener el consentimiento de una persona que tenga autoridad sobre mujeres, niñas o adolescentes, con fines de explotación, tales como prostitución, explotación sexual, trabajos o servicios forzados, la esclavitud o prácticas análogas a la esclavitud, la servidumbre o la extracción de órganos.\n24. Femicidio: Es la forma extrema de violencia de género, causada por odio o desprecio a su condición de mujer, que degenera en su muerte, producidas tanto en el ámbito público como privado.\n25. Inducción o ayuda al suicidio: Es la consecuencia extrema de la violencia psicológica, acoso, hostigamiento y amenaza que generan las condiciones para provocar la muerte de una mujer por motivaciones de género.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "Definición y contenido\nArtículo 20. Las políticas públicas de prevención y atención son el conjunto da orientaciones y directrices dictadas por los órganos competentes, a fin de guiar las acciones dirigidas a asegurar los derechos y garantías consagrados en esta Ley.\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "Programas\nArtículo 21. Los programas son un conjunto articulado de acciones desarrolladas por personas naturales o jurídicas de naturaleza pública o privada, con fines de prevenir, detectar, monitorear, atender y erradicar la violencia en contra de las mujeres.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "Corresponsabilidad\nArtículo 22. El Estado y la sociedad son corresponsables por la ejecución, seguimiento y control de las políticas de prevención y atención de la violencia contra las mujeres de conformidad con esta Ley. Corresponde al Ministerio del Poder Popular con competencia en materia de mujer y la igualdad de género, como ente rector, formular las políticas de prevención y atención de la violencia contra las mujeres.\nEl Ejecutivo Nacional dispondrá de los recursos necesarios para financiar planes, programas, proyectos y acciones de prevención y atención de la violencia de género, promovidos por los consejos comunales, las organizaciones de mujeres y otras organizaciones sociales de base.\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "Carácter vinculante\nArtículo 23. Las políticas públicas de prevención, defensa y atención a las mujeres víctimas de violencia por razones de género, adoptadas conforme a esta Ley, tienen carácter vinculante para todos los órganos y entes de la administración pública nacional, estadal y municipal, así como las comunas, dentro de sus respectivos ámbitos de competencia.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "Clasificación de los programas\nArtículo 24. Con el objeto de desarrollar políticas públicas y permitir la ejecución de las medidas a que se refiere esta Ley, se establecen con carácter indicativo, los siguientes programas:\n1. De prevención: para prevenir la ocurrencia de formas de violencia en contra de las mujeres por razones de género, sensibilizando, formando y capacitando en derechos humanos e igualdad de género a la sociedad.\n2. De sensibilización, adiestramiento, formación y capacitación:\npara satisfacer las necesidades de sensibilización y\ncapacitación de las personas que se dediquen a la atención de\nlas víctimas de violencia por razones de género, así como las\nnecesidades de adiestramiento y formación de quienes trabajen\ncon las personas agresoras.\n3. De apoyo y orientación a las mujeres víctimas de violencia y su familia: para informarla, apoyarla en la adopción de decisiones asertivas y acompañamiento en el proceso de desarrollo de sus habilidades, para superar las relaciones interpersonales de control y sumisión, actuales y futuras.\n4. De abrigo: para atender a las mujeres víctimas de violencia por razones de género u otros integrantes de sus familias que lo necesiten, en caso de la existencia de peligro inminente o amenaza a su integridad física o la vida.\n5. Comunicacionales: para la difusión, información y promoción de los derechos humanos de las mujeres, incluyendo el derecho a vivir libre de todas las formas de violencia por razones de género.\n6. De orientación y atención a la persona agresora: para promover cambios culturales e incentivar valores de respeto e igualdad entre hombres y mujeres que eviten la reincidencia de las personas agresoras.\n7. Promoción y defensa: para permitir que las mujeres y los demás integrantes de las familias conozcan su derecho a vivir libres de violencia y de los medios para hacer efectivo este derecho.\n8. Culturales: para la formación y respeto de los valores y la cultura de igualdad de género.\n9. Productivos: para garantizar medidas que promuevan la priorización de financiamiento, el empoderamiento y autonomía económica de las mujeres víctimas de violencia, así como su inserción laboral en los casos que corresponda.\n"
+      },
+      "art-025": {
+       "label": "Art. 25",
+       "kind": "art",
+       "text": "Atribuciones del Ministerio del Poder Popular con competencia en materia de mujer y la igualdad de género\nArtículo 25. El Ministerio del Poder Popular con competencia en materia de mujer y la igualdad de género, como órgano encargado de las políticas y programas de prevención y atención de la violencia contra las mujeres, a través del Instituto Nacional de la Mujer, tendrá las siguientes atribuciones:\n1. Formular, orientar, ejecutar, coordinar e instrumentar las políticas públicas de prevención y atención para ser implementadas en los diferentes órganos del Poder Público Nacional, estadal y municipal, a los fines de conformar y articular el sistema integral de protección al que se refiere esta Ley.\n2. Diseñar, conjuntamente con el Ministerio del Poder Popular con competencia en materia del interior, justicia y paz, y el Tribunal Supremo de Justicia, planes y programas de capacitación de las funcionarias y funcionarios pertenecientes a la administración de justicia y al sistema penitenciario, y demás entes que intervengan en el tratamiento de los hechos de violencia que contempla esta Ley.\n3. Diseñar, conjuntamente con los ministerios del Poder Popular con competencia en materia de salud y de las comunas y protección social, planes, proyectos y programas de capacitación e información de las funcionarias y funcionarios que realizan actividades de apoyo, servicios y atención médica y psicosocial para el tratamiento adecuado de las mujeres víctimas de violencia y de sus familiares, así como para el agresor.\n4. Diseñar, conjuntamente con los ministerios del Poder Popular con competencia en materia para la educación, el deporte, la educación superior, la salud, las comunas y protección social, la comunicación y la información y con cualquier otro ente que tenga a su cargo funciones educativas, planes, proyectos y programas de prevención y educación dirigidos a formar para la Igualdad, exaltándolos valores de la no violencia, el respeto, la equidad de género y la preparación para la vida familiar con derechos y obligaciones compartidas y, en general, la igualdad entre el hombre y la mujer en la sociedad.\n5. Promover la participación activa y protagónica de las organizaciones públicas y privadas dedicadas a la atención de la violencia contra las mujeres, así como de los consejos comunales y organizaciones sociales de base, en la definición y ejecución de las políticas públicas relacionadas con la materia regulada por esta Ley.\n6. Llevar un registro de las organizaciones especializadas en la materia regulada por esta Ley, pudiendo celebrar con éstas convenios para la prevención, investigación y atención integral de las mujeres en situación de violencia y la orientación de los agresores. g\n7. Elaborar el proyecto de Reglamento de esta Ley.\n8. Las demás que le señalan otras leyes y reglamentos.\n"
+      },
+      "art-026": {
+       "label": "Art. 26",
+       "kind": "art",
+       "text": "Planes, programas y proyectos de capacitación del Tribunal Supremo de Justicia\nArtículo 26. El Tribunal Supremo de Justicia, a través de la Dirección Ejecutiva de la Magistratura y de la Escuela de la Magistratura, proveerá lo conducente para la ejecución de planes, programas y proyectos de capacitación en justicia de género de las funcionarias y funcionarios de la administración de justicia y de todas aquellas personas que intervengan en el tratamiento de los hechos que contempla esta Ley. La sensibilización, capacitación y formación la realizará el Tribunal Supremo de Justicia en coordinación con el Ministerio del Poder Popular con competencia en materia de mujer y la igualdad de género, pudiendo suscribir convenios con las áreas de estudios de las mujeres y de género de las universidades. En los procedimientos previstos en esta Ley, las juezas y jueces de las distintas instancias y jerarquía, incluyendo al Tribunal Supremo de Justicia, podrán solicitar la opinión de personas expertas en justicia de género.\n"
+      },
+      "art-027": {
+       "label": "Art. 27",
+       "kind": "art",
+       "text": "Planes, proyectos y programas de capacitación por el Ministerio Público\nArtículo 27. El Ministerio Público deberá ejecutar planes, proyectos y programas especiales de formación en prevención y atención de la violencia de género, y transversalizar dichos programas con la perspectiva de género, en consonancia con la visión de los derechos humanos que consagra la Constitución de la República Bolivariana de Venezuela.\n"
+      },
+      "art-028": {
+       "label": "Art. 28",
+       "kind": "art",
+       "text": "Atribuciones de los ministerios del Poder Popular con Competencia en materia de educación y deportes\nArtículo 28. Los ministerios del Poder Popular con competencia en materia de educación y de deporte deberán incorporar en los planes, proyectos y programas de estudio, en todos sus niveles y modalidades, contenidos, dirigidos a transmitir a las alumnas y alumnos, al profesorado y personal administrativo, los valores de la igualdad de género, el respeto, la mutua tolerancia, la autoestima, la comprensión, la solución pacifica de los conflictos y la preparación para la vida familiar y ciudadana, con derechos y obligaciones domésticas compartidas entre mujeres y hombres y, en general, la igualdad de condiciones entre las mujeres y hombres, niñas, niños, y adolescentes. Asimismo, los ministerios del Poder Popular con competencia en materia de educación y de deporte, tomarán las medidas necesarias para excluir de los planes de estudio, textos y materiales de apoyo, todos aquellos estereotipos, criterios o valores que expresen cualquier tipo de discriminación o violencia en contra de las mujeres.\n"
+      },
+      "art-029": {
+       "label": "Art. 29",
+       "kind": "art",
+       "text": "Atribuciones del Ministerio del Poder Popular con competencia en materia de educación superior\nArtículo 29. El Ministerio del Poder Popular con competencia en materia de educación superior, desarrollará acciones para transversalizar los pensa con la perspectiva de género y tomará las medidas necesarias para eliminar de los planes de estudio, textos, títulos otorgados, documentos oficiales y materiales de apoyo utilizados en las universidades, todos aquellos estereotipos, criterios o valores que expresen cualquier forma de discriminación. Así mismo, tomará las medidas necesarias para que las universidades incluyan en sus programas de pregrado y postgrado materias que aborden el tema de la violencia basada en género y promoverá el desarrollo de líneas de investigación en la materia.\n"
+      },
+      "art-030": {
+       "label": "Art. 30",
+       "kind": "art",
+       "text": "Atribuciones del Ministerio del Poder Popular con competencia en materia de relaciones interiores, justicia y paz\nArtículo 30. El Ministerio del Poder Popular con competencia en materia de relaciones interiores, justicia y paz proveerá lo conducente para la ejecución de los planes y programas de capacitación continua, permanente y obligatoria de las servidoras públicas y servidores públicos directamente involucradas e involucrados en la aplicación de esta Ley, con especial atención en quienes tienen responsabilidad en la recepción de denuncias de violencia contra las mujeres, niñas y adolescentes por razones de género. Dichos planes y programas deberán formularse y realizarse en coordinación con el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género y deben garantizar el adecuado trato y asistencia a las mujeres víctimas de violencia por razones de género. Igualmente, contemplará en sus planes, programas especiales para la atención y orientación de las personas agresoras.\nEl Ministerio del Poder Popular con competencia en materia de relaciones interiores, justicia y paz coordinará con el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género en materia de políticas públicas de atención y defensa del derecho de las mujeres a una vida libre de violencia, a los fines de establecer de manera conjunta planes, programas y proyectos para la prevención, atención y abrigo de las mujeres, niñas y adolescentes víctimas.\n"
+      },
+      "art-031": {
+       "label": "Art. 31",
+       "kind": "art",
+       "text": "Atribuciones del Ministerio del Poder Popular con competencia en materia penitenciaria\nArtículo 31. El Ministerio del Poder Popular con competencia en materia penitenciaria, en coordinación con el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género, establecerá programas dirigidos a garantizar a las mujeres privadas de libertad el ejercicio de los derechos previstos en esta Ley.\n"
+      },
+      "art-032": {
+       "label": "Art. 32",
+       "kind": "art",
+       "text": "Atribuciones del Ministerio del Poder Popular con competencia en materia de salud\nArtículo 32. El Ministerio del Poder Popular con competencia en materia de salud ejecutará los planes de capacitación e información, conjuntamente con el Ministerio del Poder Popular con competencia en materia de mujer y la igualdad de género, para que el personal de salud que ejerce actividades de apoyo, de servicios y atención médica y psicosocial, actúe adecuadamente en la atención, investigación y prevención de los hechos previstos en esta Ley.\n"
+      },
+      "art-033": {
+       "label": "Art. 33",
+       "kind": "art",
+       "text": "Programas de prevención en medios de difusión masiva\nArtículo 33. El Ministerio del Poder Popular con competencia en materia de comunicación y la Comisión Nacional de Telecomunicaciones, en coordinación con el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género, de conformidad con la Ley de Responsabilidad Social en Radio, Televisión y Medios Electrónicos, supervisarán la efectiva inclusión de mensajes y programas destinados a prevenir y erradicar la violencia contra las mujeres por razones de género en las programaciones de los medios de difusión masiva. A tal efecto, podrán establecer a las emisoras radiales y televisivas un tiempo mínimo gratuito para la transmisión de mensajes contra la violencia basada en género y de promoción de valores de igualdad de género y no discriminación, dentro del tiempo previsto para el Estado por la ley especial que regula la materia.\n"
+      },
+      "art-034": {
+       "label": "Art. 34",
+       "kind": "art",
+       "text": "Obligaciones de estados y municipios\nArtículo 34. Los estados y municipios, conforme a esta Ley, deberán coordinar con el Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género y con los institutos regionales y municipales, las políticas, planes y programas a ejecutar para el desarrollo de las funciones de prevención, atención y erradicación de la violencia contra las mujeres por razones de género, en sus respectivas jurisdicciones, priorizando la creación y mantenimiento de los centros comunales de atención a las mujeres para la garantía integral de sus derechos humanos.\n"
+      },
+      "art-035": {
+       "label": "Art. 35",
+       "kind": "art",
+       "text": "Unidades de prevención, atención y tratamiento\nArtículo 35. El Ejecutivo Nacional, a través del órgano rector, coordinará con los órganos estadales y municipales el establecimiento de unidades especializadas de prevención de la violencia, así como centros de atención y tratamiento de las mujeres víctimas. Igualmente desarrollarán unidades de orientación que cooperarán con los órganos jurisdiccionales para el seguimiento y control de las medidas que le sean impuestas a las personas agresoras.\n"
+      },
+      "art-036": {
+       "label": "Art. 36",
+       "kind": "art",
+       "text": "Atribuciones del instituto Nacional de Estadística\nArtículo 36. El Instituto Nacional de Estadística, conjuntamente con el órgano rector, coordinará con los organismos de los poderes públicos, los censos, estadísticas y cualquier otro estudio, permanente o no, que permita recoger datos desagregados de la violencia contra las mujeres en el territorio nacional.\n"
+      },
+      "art-037": {
+       "label": "Art. 37",
+       "kind": "art",
+       "text": "Casas de abrigo\nArtículo 37. El Ejecutivo Nacional, estadal y municipal, con el fin de hacer más efectiva la protección de las mujeres en situación de violencia, con la asistencia, asesoría y capacitación del Instituto Nacional de la Mujer y de los institutos regionales y municipales de la mujer, crearán en cada una de sus dependencias casas de abrigo destinadas al albergue de las mismas, en los casos en que la permanencia en el domicilio o residencia implique amenaza inminente a su integridad.\n"
+      },
+      "art-038": {
+       "label": "Art. 38",
+       "kind": "art",
+       "text": "Defensoría Nacional de los Derechos de la Mujer\nArtículo 38. La Defensoría Nacional de los Derechos de la Mujer es la instancia de carácter técnico y especializado adscrita al Instituto Nacional de la Mujer, que tiene como función la defensa del derecho de las mujeres a una vida libre de violencia, a través de la orientación, asistencia jurídica y representación de las mujeres víctimas de violencia por razones de género y sus familiares, en los procesos judiciales y extrajudiciales para asegurar la justiciabilidad y el pleno ejercicio de sus derechos. Son atribuciones de la Defensoría Nacional de los Derechos de la Mujer, las siguientes:\n1. Brindar atención, orientación, acompañamiento y defensa oportuna, efectiva y eficaz de los derechos humanos de las mujeres víctimas de violencia por razones de género, en instancias administrativas y jurisdiccionales.\n2. Velar por el pleno ejercicio de los derechos de las mujeres víctimas de violencia por razones de género, cuando los mismos han sido vulnerados, asegurando un rápido acceso, de manera transparente y eficaz a la justicia bajo el principio de cooperación entre los Poderes Públicos.\n3. Representar judicial y extrajudicialmente a las mujeres víctimas de violencia por razones de género en todos los entes jurisdiccionales y administrativos, en todas las etapas y fases de los procesos.\n4. Las demás que le sean asignadas mediante las leyes, reglamentos y resoluciones.\nPara ejercer la representación de las víctimas en el proceso, las defensoras de los derechos de las mujeres cumplirán los mismos requisitos que se exigen para las Defensoras Públicas y Defensores Públicos.\n"
+      },
+      "art-039": {
+       "label": "Art. 39",
+       "kind": "art",
+       "text": "Defensoras Comunales de los Derechos de la Mujer\nArtículo 39. Las Defensoras Comunales de los Derechos de la Mujer son integrantes del Poder Popular que participan en la promoción de los derechos humanos de las mujeres, así como en el acompañamiento y defensa de las mujeres víctimas de violencia por razones de género. Son atribuciones de las Defensoras Comunales de los Derechos de la Mujer:\n1. Formar y sensibilizar en materia de derechos humanos de las mujeres.\n2. Brindar orientación y acompañamiento de forma oportuna, efectiva y eficaz a las mujeres víctimas de violencia por razones de género.\n3. Ejercer contraloría social para garantizar el derecho de las mujeres a una vida libre de violencia.\n4. Mantener de manera constante y sistemática coordinación con la Defensoría Nacional de los Derechos de la Mujer.\n5. Las demás que le sean asignadas mediante las leyes, reglamentos y resoluciones.\n"
+      },
+      "art-040": {
+       "label": "Art. 40",
+       "kind": "art",
+       "text": "Corresponsabilidad del Poder Popular\nArtículo 40. El Estado y el poder popular son corresponsables por la ejecución, seguimiento y control de las políticas de prevención, atención, orientación, acompañamiento y defensa del derecho de las mujeres a una vida libre de violencia, de conformidad con esta Ley, los reglamentos y resoluciones.\nEl Ejecutivo Nacional dispondrá de los recursos necesarios para financiar planes, programas, proyectos y acciones de prevención y atención de la violencia contra las mujeres, promovidos por las comunas, consejos comunales, defensoras comunales de los derechos de las mujeres, las organizaciones de mujeres y otras organizaciones sociales de base.\n"
+      },
+      "art-041": {
+       "label": "Art. 41",
+       "kind": "art",
+       "text": "Atención a las mujeres víctimas de violencia\nArtículo 41. Los órganos receptores de denuncias deberán otorgar a las mujeres víctimas de los hechos de violencia previstos en esta Ley, un trato digno de respeto y apoyo acorde a su condición de afectada, procurando facilitar al máximo su participación en los trámites en que deba intervenir, En consecuencia, deberán:\n1. Asesorar a las mujeres víctimas de violencia sobre la importancia de preservar las evidencias.\n2. Proveer a las mujeres agredidas información sobre los derechos que esta Ley le confiere y sobre los servicios gubernamentales o no gubernamentales disponibles para su atención y tratamiento.\n3. Elaborar un informe de aquellas circunstancias que sirvan al esclarecimiento de los hechos, el cual deberá acompañar a la denuncia.\n4. Cualquier otra información que los órganos receptores consideren importante señalarle a la mujer en situación de violencia para su protección.\n5. Las demás establecidas en el reglamento, resoluciones y protocolos que se derivan de esta Ley.\nEn cada entidad federal se creará una unidad de atención a las mujeres víctimas de violencia por razones de género, la cual funcionará como unidad especializada, interinstitucional y multidisciplinaria para la recepción de denuncias de los delitos previstos en esta Ley, sin perjuicio de atribuciones que corresponde a cada órgano receptor de denuncias. Estas unidades contarán con la participación de los órganos y entes competentes en materia de prevención, atención, sanción y erradicación de la violencia contra las mujeres. La unidad de atención a las mujeres víctimas de violencia por razones de género podrá crearse en el ámbito municipal y comunal en los casos que sea necesario.\n"
+      },
+      "art-042": {
+       "label": "Art. 42",
+       "kind": "art",
+       "text": "Derechos laborales\nArtículo 42. Las trabajadoras o servidoras públicas víctimas de violencia por razones de género tendrán derecho, en los términos previstos en las leyes respectivas, a la reducción o a la reordenación de su tiempo de trabajo, a la movilidad geográfica, al cambio de centro de trabajo, a la suspensión de la relación laboral con reserva de puesto de trabajo y a la excedencia en los términos que se determinen. Las ausencias totales o parciales al trabajo, motivadas por la condición física o psicológica derivada de la violencia por razones de género sufrida por las trabajadoras o servidoras públicas, se considerarán justificadas cuando así lo determinen los centros de atención de salud públicos o privados, en los términos previstos en la legislación respectiva.\n"
+      },
+      "art-043": {
+       "label": "Art. 43",
+       "kind": "art",
+       "text": "Certificado de salud física y mental\nArtículo 43. Las víctimas, antes o después de formular la denuncia, podrán acudir a una institución pública o privada de salud para que la médica o el médico, sin necesidad de juramentación como experta o experto, efectúen el diagnóstico y dejen constancia, a través de un informe, sobre la condición de salud física y mental, las características de la lesión, el tiempo de curación y la inhabilitación que ella cause. En el procedimiento especial de violencia y a los fines de evitar la desaparición de las evidencias físicas, este informe médico tendrá el mismo valor probatorio que el examen forense. A tal fin, el Ministerio Público y los tribunales considerarán a todos los efectos legales, los informes médicos de salud física y mental dictados en los términos de este artículo para la adopción de la decisión que corresponda a cada órgano. La omisión de esta obligación por la médica o el médico o la institución de salud en el diagnóstico, emisión y entrega oportuna del informe será castigado con el delito de violencia institucional establecido en la presente Ley. Los establecimientos de salud públicos y privados deberán resguardar la adecuada obtención, conservación y documentación de las evidencias de los hechos de violencia.\n"
+      },
+      "art-044": {
+       "label": "Art. 44",
+       "kind": "art",
+       "text": "Atención jurídica gratuita\nArtículo 44. En aquellos casos en que la víctima careciere de asistencia jurídica, podrá solicitar a la jueza o juez competente la designación de una profesional o un profesional del derecho, quien la orientará debidamente y ejercerá la defensa de sus derechos desde los actos iníciales de la investigación. A tales efectos, el tribunal hará la selección de las abogadas o abogados existentes, provenientes de la Defensoría Nacional de los Derechos de la Mujer, de las defensorías estadales y municipales, de los colegios de abogadas y abogados de cada jurisdicción o de cualquier organización pública o privada dedicada a la defensa de los derechos establecidos en esta Ley.\n"
+      },
+      "art-045": {
+       "label": "Art. 45",
+       "kind": "art",
+       "text": "Intervención en el procedimiento\nArtículo 45. La persona agraviada, la Defensoría Nacional de los Derechos de la Mujer y las organizaciones sociales a que se refiere el numeral sexto del artículo 73 de esta Ley, podrán intervenir en el procedimiento aunque no se hayan constituido como querellantes.\n"
+      },
+      "art-046": {
+       "label": "Art. 46",
+       "kind": "art",
+       "text": "Solicitud de copias simples y certificadas\nArtículo 46. Las mujeres víctimas de violencia por razones de género o sus causahabientes podrán solicitar directamente ante cualquier instancia, sin la presencia de una o un profesional de derecho, copias simples o certificadas de todas las actuaciones en los procedimientos administrativos y jurisdiccionales. La solicitud de copias simples o certificadas deberá tramitarse y otorgarse de forma expedita, salvo el supuesto de reserva de las actuaciones. Así mismo, cada institución debe procurar mecanismos para hacer efectivo el acceso a la justicia de las mujeres víctimas o sus causahabientes en este tipo de trámites.\n"
+      },
+      "art-047": {
+       "label": "Art. 47",
+       "kind": "art",
+       "text": "Comisión Nacional\nArtículo 47. Se crea la Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia, como órgano de carácter permanente e interinstitucional encargado de la coordinación, apoyo e impulso de las políticas públicas del Estado dirigidas a asegurar el respeto y vigencia del derecho de las mujeres a una vida libre de violencia.\n"
+      },
+      "art-048": {
+       "label": "Art. 48",
+       "kind": "art",
+       "text": "Principios de la Comisión Nacional\nArtículo 48. La Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia se regirá por los principios de corresponsabilidad, eficacia, eficiencia, integridad, conciencia moral, igualdad, equidad y respeto a las competencias atribuidas por la ley a los órganos y entes del Estado.\n"
+      },
+      "art-049": {
+       "label": "Art. 49",
+       "kind": "art",
+       "text": "Integración de la Comisión Nacional\nArtículo 49. La Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia estará integrada por representantes de las instituciones y organizaciones que se indican a continuación:\n1. La Vicepresidencia de la República, quien ejercerá la Coordinación de la Comisión.\n2. El Ministerio del Poder Popular con competencia en materia de mujer e igualdad de género.\n3. El Ministerio del Poder Popular con competencia en materia de educación.\n4. El Ministerio del Poder Popular con competencia en materia de educación universitaria.\n5. El Ministerio del Poder Popular con competencia en materia de relaciones interiores, justicia y paz.\n6. El Ministerio del Poder Popular con competencia en materia de salud.\n7. El Ministerio del Poder Popular con competencia en materia de servicios penitenciarios.\n8. El Ministerio del Poder Popular con competencia en materia de comunicación e información.\n9. El Ministerio del Poder Popular con competencia en materia de comunas y movimientos sociales.\n10. El Tribunal Supremo de Justicia.\n11. El Ministerio Público\n12. La Defensoría del Pueblo.\n13. La Defensa Pública.\n14. Cinco representantes de las organizaciones sociales o académicas de promoción, estudio o defensa de los derechos de las mujeres, escogidas en el mismo seno de la Comisión, mediante postulación de las organizaciones de base y universidades, previa revisión de sus credenciales y trayectoria nacional.\nLa Coordinadora o Coordinador de la Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia podrá convocar o invitar a otros órganos y entes del Poder Público o personas de destacada trayectoria, en calidad de asesores o consultores en las materias en las que se especialicen.\n"
+      },
+      "art-050": {
+       "label": "Art. 50",
+       "kind": "art",
+       "text": "Atribuciones de la Comisión Nacional\nArtículo 50. La Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia tendrá a su cargo la coordinación de los órganos y entes del Estado para garantizar la protección integral de los derechos de las mujeres, correspondiéndole:\n1. Garantizar mecanismos de coordinación territorial, quedando obligados a la articulación común para garantizar el derecho de las mujeres a una vida libre de violencia.\n2. Revisar y actualizar la ruta de la justicia para las mujeres víctimas de violencia por razones de género.\n3. Unificar protocolos para la atención de las mujeres víctimas de violencia por razones de género y crear el registro único de denuncias, haciendo seguimiento a su implementación.\n4. Desarrollar, incorporar y consolidar procesos de formación para órganos receptores de denuncia y demás órganos y entes competentes vinculados con la prevención, atención, sanción y erradicación de la violencia contra las mujeres, en especial dirigidos a los cuerpos de policía.\n5. Coordinar y articular entre los diferentes órganos y entes, programas de prevención, difusión y educación dirigidos a transformar los patrones socioculturales, exaltando los valores de igualdad y equidad de género, respeto a la dignidad, no violencia de género y corresponsabilidad en la vida familiar.\n6. Desarrollar e impulsar planes de atención y orientación para personas agresoras.\n7. Establecer un sistema integrado de recolección de datos estadísticos sobre la violencia contra las mujeres por razones de género, desglosados en función del tipo de violencia y la relación entre los autores y las víctimas, y sobre el número de denuncias, enjuiciamientos, condenas y penas impuestas a los autores, así como sobre las medidas de protección y reparación a las víctimas.\n8. Desarrollar procesos de consulta y participación, así como estudios e investigaciones que orienten el diseño y adopción de medidas dirigidas a la prevención, atención, sanción y erradicación de la violencia contra las mujeres.\n9. Dictar el reglamento interno de la Comisión que sea necesario para regular su organización y funcionamiento y asegurar el cumplimiento de sus funciones.\n10. Crear, modificar y suprimir Comisiones Especiales.\n11. Las demás establecidas en esta Ley y el resto del ordenamiento jurídico vigente.\n"
+      },
+      "art-051": {
+       "label": "Art. 51",
+       "kind": "art",
+       "text": "Secretaría Ejecutiva\nArtículo 51. La Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia contará con una Secretaría Ejecutiva, que será ejercida por el Ministerio de Poder Popular con competencia en materia de mujer e igualdad de género. El Reglamento Interno de la Comisión definirá las atribuciones de la Secretaría Ejecutiva.\n"
+      },
+      "art-052": {
+       "label": "Art. 52",
+       "kind": "art",
+       "text": "Deber de colaboración\nArtículo 52. Todos los órganos y entes del Estado, así como las organizaciones del Poder Popular, deben colaborar con la Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia en el cumplimiento de sus funciones, en aras del bien común y la oportuna y eficaz protección de las mujeres.\n"
+      },
+      "art-053": {
+       "label": "Art. 53",
+       "kind": "art",
+       "text": "Violencia psicológica\nArtículo 53. Quien mediante tratos humillantes y vejatorios, ofensas, aislamiento, vigilancia permanente, comparaciones destructivas o amenazas genéricas constantes, atente contra la estabilidad emocional o psíquica de la mujer, será sancionado con prisión de seis a dieciocho meses.\n"
+      },
+      "art-054": {
+       "label": "Art. 54",
+       "kind": "art",
+       "text": "Acoso u hostigamiento\nArtículo 54. La persona que mediante comportamientos, expresiones verbales o escritas, o mensajes electrónicos ejecute actos de intimidación, chantaje, acoso u hostigamiento que atenten contra la estabilidad emocional, laboral, económica, familiar o educativa de la mujer, será sancionado con prisión de ocho a veinte meses.\n"
+      },
+      "art-055": {
+       "label": "Art. 55",
+       "kind": "art",
+       "text": "Amenaza\nArtículo 55. La persona que mediante expresiones verbales, escritos o mensajes electrónicos amenace a una mujer con causarle un daño grave y probable de carácter físico, psicológico, sexual, laboral o patrimonial, será sancionado con prisión de diez a veintidós meses.\nSi la amenaza o acto de violencia se realizare en el domicilio o residencia de la mujer objeto de violencia, la pena se incrementará de un tercio a la mitad.\nSi el autor del delito fuere un funcionario público perteneciente a algún cuerpo policial o militar, la pena se incrementará en la mitad.\nSi el hecho se cometiere con armas blancas o de fuego, la prisión será de dos a cuatro años.\n"
+      },
+      "art-056": {
+       "label": "Art. 56",
+       "kind": "art",
+       "text": "Violencia física\nArtículo 56. Quien mediante el empleo de la fuerza física cause un daño o sufrimiento físico a una mujer, hematomas, cachetadas, empujones o lesiones de carácter leve, levísimo o menos grave, será sancionado con prisión de uno a dos años.\nSi por la comisión del delito, la víctima sufriere lesiones graves, según lo dispuesto en el Código Penal, será sancionado con prisión de cuatro a seis años.\nSi por la comisión del delito, la víctima sufriere lesiones gravísimas, según lo dispuesto en el Código Penal, será sancionado con pena de cinco a diez años de prisión.\nSi la persona que comete el delito previsto en el presente artículo es la persona con quien la víctima mantiene o mantuvo matrimonio, unión estable de hecho o relación de afectividad, aun sin convivencia, ascendientes, descendientes, parientes colaterales, consanguíneos y afines de la víctima, la pena se incrementará de un tercio a la mitad.\nLa competencia para conocer el delito de lesiones conforme lo previsto en este artículo corresponderá a los Tribunales con competencia en Materia de Delitos de Violencia contra la Mujer, según el procedimiento especial previsto en esta Ley.\n"
+      },
+      "art-057": {
+       "label": "Art. 57",
+       "kind": "art",
+       "text": "Violencia Sexual\nArtículo 57. Quien mediante el empleo de violencias o amenazas constriña a una mujer a acceder a un acto sexual no deseado que comprenda penetración por vía vaginal, anal u oral, aun mediante la introducción de objetos de cualquier clase por alguna de estas vías, será sancionado con prisión de doce a dieciocho años.\nSi la persona que comete el delito es la persona con quien la víctima mantiene o mantuvo matrimonio, unión estable de hecho o relación de afectividad, aun sin convivencia, ascendientes, descendientes, parientes colaterales, consanguíneos y afines de la víctima, la pena se incrementará de un cuarto a un tercio.\nSi el hecho se ejecuta en perjuicio de una niña o adolescente, la pena será de veinte a veinticinco años de prisión.\nSi la víctima resultare ser una niña o adolescente, hija de la mujer con quien el autor mantiene o mantuvo matrimonio, unión estable de hecho o relación de afectividad, aun sin convivencia, la pena se incrementará de un cuarto a un tercio.\nSi el hecho se ejecuta de forma colectiva todas las personas que participaron sean hombres o mujeres se incrementará la pena al límite máximo.\nIncurre en el delito previsto en este artículo quien ejecute el hecho punible prevaliéndose de amenazas relacionadas con la difusión de material audiovisual, imágenes, mensajes a través de las tecnologías de información y comunicación que puedan afectar la dignidad, honor y reputación de la víctima.\n"
+      },
+      "art-058": {
+       "label": "Art. 58",
+       "kind": "art",
+       "text": "Acto sexual con víctima especialmente vulnerable\nArtículo 58. Incurre en el delito previsto en el artículo anterior y será sancionado con prisión de veinte a veinticinco años, quien ejecute el acto sexual, aun sin violencias o amenazas, en los siguientes supuestos:\n1. En perjuicio de mujer vulnerable, en razón de su edad o en todo caso con edad inferior a trece años.\n2. Cuando el autor se haya prevalido de su relación de superioridad o parentesco con la víctima, cuya edad sea inferior a los dieciséis años.\n3. En el caso que la víctima se encuentre detenida o condenada y haya sido confiada a la custodia de la agresora o agresor.\n4. Cuando se tratare de una víctima con discapacidad física o intelectual o haya sido privada de la capacidad de discernir por el suministro de fármacos o sustancias psicotrópicas.\n"
+      },
+      "art-059": {
+       "label": "Art. 59",
+       "kind": "art",
+       "text": "Abuso sexual sin penetración\nArtículo 59. Quien mediante el empleo de violencias o amenazas y sin la intención de cometer el delito a que se refiere el artículo 57, constriña a una mujer a acceder a un contacto sexual no deseado, afectando su derecho a decidir libremente su sexualidad, será sancionado con prisión de ocho a doce años.\nSi el hecho se ejecuta en perjuicio de una niña o adolescente, la pena será de doce a dieciséis años de prisión.\nEn la misma pena incurrirá quien ejecute el delito previsto en este artículo en perjuicio de una niña o adolescente, aun sin violencias ni amenazas, prevaliéndose de su relación de autoridad o parentesco o en todo caso cuando la víctima tenga una edad inferior a trece años.\n"
+      },
+      "art-060": {
+       "label": "Art. 60",
+       "kind": "art",
+       "text": "Prostitución forzada\nArtículo 60. Quien mediante el uso de la fuerza física, la amenaza de violencia, la coacción psicológica o el abuso de poder, obligue a una mujer a realizar uno o más actos de naturaleza sexual con el objeto de obtener a cambio ventajas de carácter pecuniario o de otra índole, en beneficio propio o de un tercero, será sancionado con prisión de veinte a veinticinco años.\n"
+      },
+      "art-061": {
+       "label": "Art. 61",
+       "kind": "art",
+       "text": "Esclavitud sexual\nArtículo 61. Quien prive ilegítimamente de su libertad a una mujer con fines de explotarla sexualmente mediante la compra, venta, préstamo, trueque u otra negociación análoga, obligándola a realizar uno o más actos de naturaleza sexual, será sancionado con prisión de veinte a veinticinco años.\n"
+      },
+      "art-062": {
+       "label": "Art. 62",
+       "kind": "art",
+       "text": "Acoso sexual\nArtículo 62. Quien solicitare a una mujer un acto o comportamiento de contenido sexual para sí o para un tercero, procurare de manera verbal o física un acercamiento sexual no deseado o realice insinuaciones u observaciones de tipo sexual, incluyendo la exhibición de pornografía, prevaliéndose de una situación de superioridad laboral o docente o con ocasión de relaciones derivadas del ejercicio profesional, con la amenaza de causarle un daño relacionado con las legítimas expectativas que pueda tener en el ámbito de dicha relación, será sancionado con prisión de tres a siete años.\nCon la misma pena será sancionado quien cometa la conducta descrita en este artículo cuando la mujer tenga suficientes motivos para creer que su negativa le podría causar problemas en relación con su trabajo, incluso con la contratación o el ascenso o cuando genera un medio de trabajo hostil.\n"
+      },
+      "art-063": {
+       "label": "Art. 63",
+       "kind": "art",
+       "text": "Violencia laboral\nArtículo 63. La persona que mediante el establecimiento de requisitos referidos a sexo, edad, apariencia física, estado civil, condición de madre o no, sometimiento a exámenes de laboratorio o de otra índole para descartar estado de embarazo, obstaculice o condicione el acceso, ascenso o la estabilidad en el empleo de las mujeres, será sancionado con entre cien (100) y mil (1.000) veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela, según la gravedad del hecho, sin perjuicio de las acciones civiles y administrativas a que hubiere lugar.\nSi se trata de una política de empleo de una institución pública o empresa del Estado, la sanción se impondrá a su máxima autoridad. En el supuesto de empresas privadas, franquicias o empresas transnacionales, la sanción se impondrá a quien ejerza la máxima representación en el país.\nLa misma sanción se aplicará cuando mediante prácticas administrativas, engañosas o fraudulentas se afecte el derecho al salario legal y justo de la trabajadora o el derecho a igual salario por igual trabajo.\n"
+      },
+      "art-064": {
+       "label": "Art. 64",
+       "kind": "art",
+       "text": "Violencia patrimonial y económica\nArtículo 64. El cónyuge separado legalmente o la persona en unión estable en situación de separación de hecho debidamente comprobada, que sustraiga, deteriore, destruya, distraiga, retenga, ordene el bloqueo de cuentas bancarias o realice actos capaces de afectar la comunidad de bienes o el patrimonio propio de la mujer, será sancionado con prisión de uno a tres años.\nLa misma pena se aplicará en el supuesto de que no exista separación de derecho, pero el autor haya sido sometido a la medida de protección de salida del hogar por un órgano receptor de denuncia o a una medida cautelar similar por el tribunal de control, audiencia y medidas competentes.\nEn el caso de que los actos a que se refiere el presente artículo estén dirigidos intencionalmente a privar a la mujer de los medios económicos indispensables para su subsistencia o impedirle satisfacer sus necesidades y las del núcleo familiar, la pena se incrementará de un tercio a la mitad.\nSi la persona que comete el delito a que se refiere el presente artículo, sin ser cónyuge ni persona en unión estable de hecho, mantiene o mantuvo relación de afectividad con la mujer víctima, aun sin convivencia, la pena será de seis a doce meses de prisión.\nEn los supuestos a que se refiere el presente artículo podrán celebrarse acuerdos reparatorios según lo dispuesto en el Código Orgánico Procesal Penal.\n"
+      },
+      "art-065": {
+       "label": "Art. 65",
+       "kind": "art",
+       "text": "Violencia política\nArtículo 65. Quien mediante la coacción, amenaza o cualquier otra forma de violencia, limite, menoscabe o imposibilite el libre ejercicio de la participación política de las mujeres en condiciones de igualdad y equidad en cargos de elección popular, en el ejercicio de la función pública y en organizaciones con fines políticos, sindicales, educativos, culturales, deportivos, profesionales, asociaciones comunitarias, movimientos sociales y del poder popular será sancionado con pena de prisión de tres a ocho años.\n"
+      },
+      "art-066": {
+       "label": "Art. 66",
+       "kind": "art",
+       "text": "Violencia obstétrica\nArtículo 66. Se considerarán actos constitutivos de violencia obstétrica los ejecutados por el personal de salud, consistentes en:\n1. No atender oportuna y eficazmente las emergencias obstétricas.\n2. Obligar a la mujer a parir en posición supina y con las piernas levantadas, existiendo los medios necesarios para la realización del parto vertical.\n3. Obstaculizar el apego inmediato de la niña o niño con su madre, sin causa médica justificada, negándole la posibilidad de cargarla o cargarlo y amamantarla o amamantarlo inmediatamente al nacer.\n4. Alterar el proceso natural del parto de bajo riesgo, mediante el uso de técnicas de aceleración, sin obtener el consentimiento voluntario, expreso e informado de la mujer.\n5. Practicar el parto por vía de cesárea, existiendo condiciones para el parto natural, sin obtener el consentimiento voluntario, expreso e informado de la mujer.\n6. Vulnerar los derechos reconocidos en el Decreto Constituyente para la Promoción y Protección del Parto y Nacimiento Humanizado.\nEn tales supuestos, el tribunal impondrá a la persona responsable una multa entre doscientas cincuenta (250) y quinientas (500) veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela, debiendo remitir copia certificada de la sentencia condenatoria definitivamente firme al respectivo colegio profesional o institución gremial, a los fines del procedimiento disciplinario que corresponda.\n"
+      },
+      "art-067": {
+       "label": "Art. 67",
+       "kind": "art",
+       "text": "Esterilización forzada\nArtículo 67. Quien intencionalmente prive a una mujer de su capacidad reproductiva, sin brindarle la debida información, ni obtener su consentimiento expreso, voluntario e informado, no existiendo razón médica o quirúrgica debidamente comprobada que lo justifique, será sancionada o sancionado con prisión de diez a quince años y suspensión del ejercicio profesional por un tiempo de diez a quince años.\n"
+      },
+      "art-068": {
+       "label": "Art. 68",
+       "kind": "art",
+       "text": "Violencia Informática\nArtículo 68. Quien utilice las tecnologías de la información como medio para la comisión de los delitos de violencia psicológica, acoso, hostigamiento, acoso sexual, violencia mediática, simbólica, política o multicausal, será sancionado con un aumento de un tercio de la pena correspondiente al delito.\n"
+      },
+      "art-069": {
+       "label": "Art. 69",
+       "kind": "art",
+       "text": "Ofensa pública por razones de género\nArtículo 69. La o el profesional de la comunicación o quien sin serlo ejerza cualquier oficio relacionado con esa disciplina, y en el ejercicio de ese oficio u ocupación, ofenda, injurie o denigre de una mujer por razones de género a través de un medio de comunicación, deberá indemnizar a la mujer víctima de violencia con el pago de una suma no menor a doscientas (200) ni mayor de quinientas (500) veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela y hacer públicas sus disculpas por el mismo medio utilizado para hacer la ofensa y con la misma extensión de tiempo y espacio.\n"
+      },
+      "art-070": {
+       "label": "Art. 70",
+       "kind": "art",
+       "text": "Violencia institucional\nArtículo 70. Quien en el ejercicio de la función pública, independientemente de su rango, retarde, obstaculice, deniegue la debida atención o impida que la mujer acceda al derecho a la oportuna respuesta en la institución a la cual acude, a los fines de gestionar algún trámite relacionado con los derechos que garantiza esta Ley , será sancionada o sancionado con multa entre cincuenta (50) y ciento cincuenta (150) veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela, sin perjuicio de las acciones civiles y administrativas a que hubiere lugar.\nEl tribunal competente remitirá copia certificada de la sentencia condenatoria definitivamente firme al órgano de adscripción de la persona culpable, a los fines del procedimiento disciplinario que corresponda.\n"
+      },
+      "art-071": {
+       "label": "Art. 71",
+       "kind": "art",
+       "text": "Tráfico de mujeres, niñas y adolescentes\nArtículo 71. Quien promueva, induzca, constriña, favorezca, facilite, ejecute, financie o colabore de cualquier forma, en el desplazamiento, traslado o transporte por vía terrestre, marítima o aérea, de mujeres, niñas y adolescentes, para procurar la entrada o salida ilegal del país, sea como destino u origen o como tránsito a otro país, sin el cumplimiento de los requisitos legales, con el propósito de obtener, directa o indirectamente, un beneficio financiero u otro beneficio de orden material para sí o un tercero, será sancionada o sancionado con prisión de diez a quince años.\n"
+      },
+      "art-072": {
+       "label": "Art. 72",
+       "kind": "art",
+       "text": "Trata de mujeres, niñas y adolescentes\nArtículo 72. Quien promueva, induzca, favorezca, facilite, ejecute, financie o solicite la captación, transporte, traslado, acogida o recepción de mujeres, niñas y adolescentes, recurriendo a la amenaza o al uso de la fuerza o de otras formas de coacción, al rapto, al fraude, al engaño, al abuso de poder o de una situación de vulnerabilidad o la concesión o recepción de pagos o beneficios para obtener el consentimiento de una persona que tenga autoridad sobre mujeres, niñas o adolescentes, con fines de explotación sexual, prostitución, trabajos o servicios forzados, esclavitud o prácticas análogas a la esclavitud, servidumbre, adopción irregular o extracción de órganos será sancionado o sancionada con prisión de veinte a veinticinco años.\nSi la víctima es una niña o adolescente la pena será de veinticinco a treinta años.\n"
+      },
+      "art-073": {
+       "label": "Art. 73",
+       "kind": "art",
+       "text": "Femicidio\nArtículo 73. Quien intencionalmente cause la muerte de una mujer motivado por odio o desprecio a la condición de mujer, incurre en el delito de femicidio y será sancionado con pena de veinte a veinticinco años de prisión.\nSe considera odio o desprecio a la condición de mujer cuando ocurra alguna de las siguientes circunstancias:\n1. En el contexto de relaciones de dominación y subordinación basadas en el género.\n2. La víctima presente signos de violencia sexual.\n3. La víctima haya sido sometida a tratos crueles e inhumanos o presente lesiones o mutilaciones degradantes o infamantes previas o posteriores a su muerte.\n4. El cadáver de la víctima haya sido expuesto o exhibido en lugar público.\n5. La persona que comete el delito se haya aprovechado de las condiciones de riesgo o vulnerabilidad física o psicológica en que se encontraba la mujer.\n6. Se demuestre que hubo algún antecedente de violencia contra la mujer en cualquiera de las formas establecidas en esta Ley, denunciada o no por la víctima.\n"
+      },
+      "art-074": {
+       "label": "Art. 74",
+       "kind": "art",
+       "text": "Femicidios agravados\nArtículo 74. Serán sancionados con pena de veintiocho a treinta años de prisión, los casos agravados de femicidio que se enumeran a continuación:\n1. Cuando medie o haya mediado entre la persona agresora y la víctima una relación conyugal, unión estable de hecho o una relación de afectividad, con o sin convivencia o un vínculo de consanguinidad o afinidad.\n2. Cuando medie o haya mediado entre la persona agresora y la víctima una relación laboral, académica, profesional, que implique confianza, subordinación o superioridad.\n3. Cuando el acto se haya cometido en menosprecio del cuerpo de la víctima o para la satisfacción de instintos sexuales.\n4. Cuando el acto se haya cometido durante la ejecución del delito de trata de mujeres, niñas y adolescentes o por redes de delincuencia organizada.\n"
+      },
+      "art-075": {
+       "label": "Art. 75",
+       "kind": "art",
+       "text": "Inducción al suicidio\nArtículo 75. Quien hubiere inducido a una mujer a que se suicide será sancionado, si el suicidio se consuma, con pena de diez a quince años de prisión. En caso que el suicidio no se hubiere consumado, será castigado con la pena prevista para la violencia física según el grado de las lesiones, establecidas en esta Ley. En ambos supuestos, es necesario acreditar que el delito fue motivado por odio o desprecio a la condición de mujer.\n"
+      },
+      "art-076": {
+       "label": "Art. 76",
+       "kind": "art",
+       "text": "Obligación de aviso\nArtículo 76. El personal de salud que atienda a las mujeres víctimas de los hechos de violencia previstos en esta Ley, deberá dar aviso a cualquiera de los organismos indicados en el artículo 86 de la misma, en el término de las veinticuatro horas siguientes por cualquier medio legalmente reconocido. Este plazo se extenderá a cuarenta y ocho horas, en el caso que no se pueda acceder a alguno de estos órganos por dificultades de comunicación.\nEl incumplimiento de esta obligación se sancionará con multa de cincuenta (50) a cien (100), veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela, por el tribunal a quien corresponda el conocimiento de la causa, sin perjuicio de las acciones civiles y administrativas a que hubiere lugar.\n"
+      },
+      "art-077": {
+       "label": "Art. 77",
+       "kind": "art",
+       "text": "Incumplimiento de la obligación de tramitar debidamente la denuncia\nArtículo 77. Será sancionada o sancionado con pena de uno a dos años de prisión la servidora pública o servidor público de los órganos receptores de denuncia a que se refiere el artículo 86 de esta Ley, que no recibiere la denuncia o no iniciare el trámite correspondiente dentro de las cuarenta y ocho horas siguientes a su recepción. Se aplicará igualmente la destitución de la servidora pública o servidor público.\n"
+      },
+      "art-078": {
+       "label": "Art. 78",
+       "kind": "art",
+       "text": "Obligación de implementar correctivos\nArtículo 78. Toda autoridad jerárquica en centros de empleo, educación o de cualquier otra índole, que en conocimiento de hechos de acoso sexual por parte de las personas que estén bajo su responsabilidad, no ejecute acciones adecuadas para corregir la situación y prevenir su repetición, será sancionada con multa de mil quinientas (1.500) a cinco mil (5.000) veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela.\nEl órgano jurisdiccional especializado competente estimará a los efectos de la imposición de la multa, la gravedad de los hechos y la diligencia que se ponga en la corrección de los mismos.\n"
+      },
+      "art-079": {
+       "label": "Art. 79",
+       "kind": "art",
+       "text": "Reincidencia\nArtículo 79. Se considerará que hay reincidencia cuando después de una sentencia condenatoria definitivamente firme o luego de haberse extinguido la condena, la persona cometiere un nuevo hecho punible de los previstos en esta Ley.\n"
+      },
+      "art-080": {
+       "label": "Art. 80",
+       "kind": "art",
+       "text": "Indemnización\nArtículo 80. Todos los hechos de violencia previstos en esta Ley, acarrearán el pago de una indemnización a las mujeres víctimas de violencia o a sus herederos y herederas en caso de que la mujer haya fallecido como resultado de esos delitos, el monto de dicha indemnización habrá de ser fijado por el órgano jurisdiccional especializado competente, sin perjuicio de la obligación de pagar el tratamiento médico o psicológico que necesitare la víctima.\n"
+      },
+      "art-081": {
+       "label": "Art. 81",
+       "kind": "art",
+       "text": "Reparación\nArtículo 81. Quien resultare condenado por los hechos punibles previstos en esta Ley, que haya ocasionado daños patrimoniales en los bienes muebles e inmuebles de las mujeres víctimas de violencia, estará obligado a repararlos con pago de los deterioros que hayan sufrido, los cuales serán determinados por el órgano jurisdiccional especializado competente. Cuando no sea posible su reparación, se indemnizará su pérdida pagándose el valor de mercado de dichos bienes.\n"
+      },
+      "art-082": {
+       "label": "Art. 82",
+       "kind": "art",
+       "text": "Indemnización por acoso sexual\nArtículo 82. Quien resultare responsable del delito de acoso sexual deberá indemnizar a la mujer víctima, en los términos siguientes:\n1. Una suma no menor de quinientas (500) ni mayor de dos mil quinientas (2.500) veces el tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela.\n2. Una suma igual al doble del monto de los daños que el acto haya causado a la persona acosada en su acceso al empleo o posición que aspire, ascenso o desempeño de sus actividades.\n3. Una suma por el daño moral causado por el hecho ilícito.\nCuando la indemnización no pudiere ser satisfecha por la persona condenada, motivado por estado de insolvencia debidamente acreditado, el tribunal de ejecución competente podrá hacer la conversión en trabajo comunitario a razón de un día de trabajo por cada unidad del tipo de cambio oficial de la moneda de mayor valor, publicado por el Banco Central de Venezuela.\n"
+      },
+      "art-083": {
+       "label": "Art. 83",
+       "kind": "art",
+       "text": "Competencia, procedimiento especial y supletoriedad\nArtículo 83. Los tribunales especializados en materia de violencia contra la mujer, son competentes para conocer los hechos de violencia en que la víctima sea una mujer, a fin de determinar si existe la comisión de alguno de los delitos previstos en esta Ley, incluidos el femicidio y la inducción o ayuda al suicidio, conforme al procedimiento especial previsto en esta Ley. Se aplicarán supletoriamente las disposiciones del Código Penal y Código Orgánico Procesal Penal, en cuanto no se opongan a las aquí previstas.\n"
+      },
+      "art-084": {
+       "label": "Art. 84",
+       "kind": "art",
+       "text": "Circunstancias agravantes\nArtículo 84. Serán circunstancias agravantes de los delitos previstos en esta Ley, las que se detallan a continuación, dando lugar a un incremento de pena de un tercio a la mitad:\n1. Penetrar en la residencia de la mujer agredida o en el lugar donde ésta habite, cuando la relación conyugal o marital de la mujer víctima de violencia con el acusado, se encuentre en situación de separación de hecho o de derecho, o cuando el matrimonio haya sido disuelto mediante sentencia firme.\n2. Penetrar en la residencia de la mujer víctima de violencia o en el lugar donde ésta habite, valiéndose del vínculo de consanguinidad o de afinidad.\n3. Ejecutarlo con armas, objetos o instrumentos.\n4. Ejecutarlo en perjuicio de una mujer embarazada.\n5. Ejecutarlo en gavilla o con grupo de personas.\n6. Si el autor del delito fuere un funcionario público, en ejercicio de sus funciones.\n7. Perpetrar lo en perjuicio de personas especialmente vulnerables, con discapacidad física o mental.\n8. Que el acusado haya sido sancionado con sentencia definitivamente firme por la comisión de alguno de los delitos previstos en esta Ley.\n9. Transmitir dolosamente a la mujer víctima de violencia por razones de género, infecciones o enfermedades que pongan en riesgo su salud.\n10. Realizar acciones que priven a la víctima de la capacidad de discernir, a consecuencia del empleo de medios fraudulentos o sustancias narcóticas o excitantes.\n11. Ejecutarlo por motivo de la pertenencia, real o presunta, de la víctima a determinado grupo étnico, rasgos fenotípicos, orientación sexual, identidad de género, expresión de género o por cualquier otro motivo discriminatorio.\n12. Haber cometido las formas y delitos de violencia en presencia de hijas e hijos, familiares consanguíneos, afines y allegados.\n"
+      },
+      "art-085": {
+       "label": "Art. 85",
+       "kind": "art",
+       "text": "Penas accesorias\nArtículo 85. En la sentencia condenatoria se establecerán expresamente las penas accesorias que sean aplicables en cada caso, de acuerdo con la naturaleza de los hechos objeto de condena. Son penas accesorias:\n1. La inhabilitación política durante el tiempo de la condena.\n2. La sujeción a la vigilancia de la autoridad por una quinta parte del tiempo de la condena desde que ésta termine.\n3. La privación definitiva de la tenencia y porte de armas, sin perjuicio que su profesión, cargo u oficio sea policial, militar o de seguridad.\n4. La suspensión o separación temporal del cargo o ejercicio de la profesión, cuando el delito se hubiese cometido en ejercicio de sus funciones o con ocasión de éstas, debiendo remitirse copia certificada de la sentencia al expediente administrativo laboral y al colegio gremial correspondiente, si fuera el caso.\n5. La extinción de la patria potestad, en los casos de femicidio, violencia sexual, violencia sexual con víctima especialmente vulnerable y abuso sexual sin penetración.\n6. La extinción de la sociedad de bienes gananciales y la privación de la cuota parte que le correspondería como herencia en los casos de femicidio, otorgando estos derechos de la persona condenada a las hijas e hijos o ascendientes de la víctima, si los hubiere.\n"
+      },
+      "art-086": {
+       "label": "Art. 86",
+       "kind": "art",
+       "text": "Programas de orientación\nArtículo 86. Quienes resulten culpables de hechos de violencia en contra de las mujeres deberán participar obligatoriamente en programas de orientación, atención y prevención dirigidos a modificar sus conductas violentas y evitar la reincidencia. La sentencia condenatoria establecerá la modalidad y duración, conforme los límites de la pena impuesta.\n"
+      },
+      "art-087": {
+       "label": "Art. 87",
+       "kind": "art",
+       "text": "Trabajo comunitario\nArtículo 87. Si la pena a imponer no excede de dieciocho meses de prisión y la persona condenada no es reincidente, el órgano jurisdiccional en funciones de ejecución, podrá sustituir la misma por trabajo o servicio comunitario, entendiéndose como tal, aquellas tareas de interés general que la persona debe realizar en forma gratuita, por un período que no podrá ser menor al de la sanción impuesta, cuya regularidad podrá establecer el tribunal sin afectar la asistencia de la persona a su jornada normal de trabajo o estudio. Las tareas a que se refiere este artículo deberán ser asignadas según las aptitudes ocupacionales de la persona que cumple la condena, en servicios comunitarios públicos, privados o mixtos.\nSi la persona condenada no cumple con el trabajo comunitario, el tribunal de ejecución, previa audiencia con las partes, podrá ordenar el cumplimiento de la pena impuesta en la sentencia condenatoria. La ausencia de la mujer víctima de violencia en dicha audiencia no impedirá su realización.\n"
+      },
+      "art-088": {
+       "label": "Art. 88",
+       "kind": "art",
+       "text": "Lugar de cumplimiento de la sanción\nArtículo 88. Los responsables por hechos de violencia cumplirán la sanción en el sitio de reclusión que designe el tribunal, el cual debe disponer de las condiciones adecuadas para el desarrollo de los programas de tratamiento y orientación previstos en esta Ley.\n"
+      },
+      "art-089": {
+       "label": "Art. 89",
+       "kind": "art",
+       "text": "Legitimación para denunciar\nArtículo 89. Los delitos a que se refiere esta Ley podrán ser denunciados por:\n1. La mujer agredida.\n2. Los parientes consanguíneos o afines.\n3. El personal de la salud de instituciones públicas y privadas que tuviere conocimiento de los casos de violencia previstos en esta Ley.\n4. Las defensorías de los derechos de la mujer a nivel nacional, metropolitano, estadal y municipal, adscritas a los institutos nacionales, metropolitanos, regionales y municipales, respectivamente.\n5. Los consejos comunales y otras organizaciones sociales.\n6. Las organizaciones defensoras de los derechos de las mujeres.\n7. Cualquier otra persona o institución que tuviere conocimiento de los hechos punibles previstos en esta Ley.\n"
+      },
+      "art-090": {
+       "label": "Art. 90",
+       "kind": "art",
+       "text": "Órganos receptores de denuncia\nArtículo 90. La denuncia de los delitos de violencia contra las mujeres podrá ser formulada en forma oral, escrita o en lengua de señas venezolana, a través de cualquier medio, con o sin la asistencia de una abogada o abogado, ante cualquiera de los siguientes organismos:\n1. Ministerio Público.\n2. Juzgados de Paz Comunal.\n3. Prefecturas y jefaturas civiles.\n4. Cuerpo de Investigaciones Científicas, Penales y Criminalísticas.\n5. Órganos de policía nacional, estadal y municipal.\n6. Unidades de comando fronterizas de la Fuerza Armada Nacional Bolivariana.\n7. Tribunales de municipios en localidades donde no existan los órganos anteriormente nombrados.\n8. Cualquier otro que se le atribuya esta competencia.\nCada uno de los órganos anteriormente señalados deberá crear oficinas con personal especializado para la recepción de denuncias de los hechos de violencia a que se refiere esta Ley.\nLos pueblos y comunidades indígenas constituirán órganos receptores de denuncia, integrados por las autoridades legítimas de acuerdo con sus costumbres y tradiciones, sin perjuicio de que la mujer agredida pueda acudir a los otros órganos indicados en el presente artículo.\n"
+      },
+      "art-091": {
+       "label": "Art. 91",
+       "kind": "art",
+       "text": "Obligaciones del órgano receptor de la denuncia\nArtículo 91. El órgano receptor de denuncia deberá:\n1. Recibir la denuncia, la cual podrá ser presentada en forma oral, escrita o en lengua de señas venezolana, por cualquier medio.\n2. Ordenar las diligencias necesarias y urgentes, entre otras, la práctica de los exámenes médicos correspondientes a la mujer agredida en los centros de salud públicos o privados de la localidad.\n3. Impartir orientación oportuna a la mujer en situación de violencia por razones de género de manera verbal o escrita.\n4. Ordenar la comparecencia obligatoria de la persona presuntamente agresora, a los fines de la declaración correspondiente y demás diligencias necesarias que permitan el esclarecimiento de los hechos denunciados.\n5. Imponer las medidas de protección y de seguridad adaptadas a cada caso que prevengan nuevos actos de violencia, sin ningún tipo de limitaciones, de manera que garanticen la vida y demás derechos humanos de las mujeres.\n6. Formar el respectivo expediente.\n7. Elaborar un informe de aquellas circunstancias que sirvan al esclarecimiento de los hechos, el cual deberá acompañar la denuncia, anexando cualquier otro dato o documento que sea necesario a juicio del órgano receptor de la denuncia.\n8. Remitir el expediente debidamente foliado al Ministerio Público, con las actuaciones que considere pertinente para la investigación penal.\nLa Comisión Nacional para la Garantía del Derecho de las Mujeres a una Vida Libre de Violencia elaborará un protocolo único de atención para las mujeres víctimas de violencia en cualquiera de sus manifestaciones, que deberá ser implementado por los órganos receptores de denuncia. Todos los órganos receptores de denuncia deben contar con funcionarias y funcionarios con formación en materia de derechos humanos de las mujeres víctimas de violencia por razones de género. En ningún caso se podrá emplear a las víctimas y sus familiares para realizar notificaciones y citaciones que sean necesarias para cumplir lo dispuesto en este artículo.\n"
+      },
+      "art-092": {
+       "label": "Art. 92",
+       "kind": "art",
+       "text": "Contenido del expediente\nArtículo 92. El expediente que se forme habrá de contar con una nomenclatura consecutiva y deberá estar debidamente sellado y foliado, debiendo además contener:\n1. Acta de denuncia en la que se explique la forma en que ocurrieron los hechos de violencia, haciendo mención expresa del lugar, hora y fecha en que fue agredida la persona denunciante, así como la fecha y hora en que interpone la denuncia.\n2. Datos de identidad de la persona señalada como agresora y su vínculo con la mujer víctima de violencia.\n3. Información sobre hechos de violencia que le hayan sido atribuidos al presunto agresor, especificando si fuere posible, la fecha en que ocurrieron, y si hubo denuncia formal ante un órgano receptor competente.\n4. Constancia del estado de los bienes muebles o inmuebles afectados de propiedad de la mujer víctima, cuando se trate de violencia patrimonial.\n5. Boleta de notificación al presunto agresor.\n6. Constancias de cada uno de los actos celebrados, pudiendo ser esto corroborado mediante las actas levantadas a tales efectos, debidamente firmadas por las partes y la funcionaria o funcionario del órgano receptor.\n7. Constancia de remisión de la mujer agredida al examen médico pertinente.\n8. Resultado de las experticias, exámenes o evaluaciones practicadas a la mujer víctima de violencia y al presunto agresor.\n9. Especificación de las medidas de protección de la mujer víctima de violencia con su debida fundamentación.\n"
+      },
+      "art-093": {
+       "label": "Art. 93",
+       "kind": "art",
+       "text": "Responsabilidad de la funcionaria receptora o funcionario receptor\nArtículo 93. La funcionaria o el funcionario que actúe como órgano receptor iniciará y sustanciará el expediente, aun si faltare alguno de los recaudos, y responderá por su omisión o negligencia, civil, penal y administrativamente, según los casos, sin que les sirvan de excusa órdenes superiores.\n"
+      },
+      "art-094": {
+       "label": "Art. 94",
+       "kind": "art",
+       "text": "Objeto\nArtículo 94. La investigación tiene por objeto hacer constar la comisión de un hecho punible, las circunstancias que incidan en su calificación, la recolección y preservación de las evidencias relacionadas con su perpetración, la identificación del presunto autor o autores del delito y los elementos que fundamentan su culpabilidad.\n"
+      },
+      "art-095": {
+       "label": "Art. 95",
+       "kind": "art",
+       "text": "Competencia\nArtículo 95. La o el Fiscal del Ministerio Público especializado o especializada dirigirá la investigación en casos de hechos punibles y será auxiliada o auxiliado por los cuerpos policiales. De la apertura de la investigación se notificará de inmediato al Tribunal de Violencia contra la Mujer en funciones de control, audiencia y medidas.\n"
+      },
+      "art-096": {
+       "label": "Art. 96",
+       "kind": "art",
+       "text": "Alcance\nArtículo 96. El Ministerio Público debe investigar y hacer constar tanto los hechos y circunstancias útiles para el ejercicio de la acción, como aquellos que favorezcan a la defensa de la imputada o imputado.\n"
+      },
+      "art-097": {
+       "label": "Art. 97",
+       "kind": "art",
+       "text": "Derechos de la imputada o imputado\nArtículo 97. Durante la investigación, la imputada o imputado tendrá los derechos establecidos en la Constitución de la República Bolivariana de Venezuela, el Código Orgánico Procesal Penal y esta Ley.\n"
+      },
+      "art-098": {
+       "label": "Art. 98",
+       "kind": "art",
+       "text": "Lapso para la investigación\nArtículo 98. El Ministerio Público dará término a la investigación en un plazo que no excederá de cuatro meses. Si la complejidad del caso lo amerita, el Ministerio Público podrá solicitar fundadamente ante el Tribunal de Violencia Contra la Mujer con funciones de control, audiencia y medidas, competente, con al menos diez días de antelación al vencimiento de dicho lapso, una prórroga que no podrá ser menor de quince ni mayor de noventa días.\nEl tribunal decidirá, mediante auto razonado, dentro de los tres días hábiles siguientes a la solicitud fiscal. La decisión que acuerde o niegue la prórroga podrá ser apelada en un solo efecto.\nParágrafo Único: En el supuesto de que el Tribunal de Control, Audiencia y Medidas haya decretado la privación preventiva de libertad en contra de la imputada o imputado, el Ministerio Público presentará el acto conclusivo correspondiente dentro de los treinta días siguientes a la decisión judicial. Este lapso podrá ser prorrogado por un máximo de quince días, previa solicitud fiscal debidamente fundada y presentada con al menos cinco días de anticipación a su vencimiento. La jueza o juez, decidirá lo procedente dentro de los tres días siguientes. Vencido el lapso sin que la o el fiscal presente el correspondiente acto conclusivo, el tribunal acordará la libertad del imputado o imputada o impondrá una medida cautelar sustitutiva o alguna de las medidas de protección y seguridad a que se refiere esta Ley.\n"
+      },
+      "art-099": {
+       "label": "Art. 99",
+       "kind": "art",
+       "text": "Libertad de prueba\nArtículo 99. Salvo prohibición de la ley, las partes pueden promover todas las pruebas conducentes al mejor esclarecimiento de los hechos, las cuales serán valoradas según la sana crítica, observando las reglas de la lógica, los conocimientos científicos y las máximas de experiencia. La prueba de careo sólo podrá realizarse a petición de la víctima o su representante.\n"
+      },
+      "art-100": {
+       "label": "Art. 100",
+       "kind": "art",
+       "text": "Juzgados de Control, Audiencia y Medidas\nArtículo 100. Los juzgados de violencia contra la mujer en funciones de control, audiencia y medidas son los competentes para autorizar y realizar pruebas anticipadas, acordar medidas de coerción personal, resolver incidencias, excepciones y peticiones de las partes durante esta fase y velar por el cumplimiento de los derechos y garantías previstos en la Constitución de la República Bolivariana de Venezuela, el Código Orgánico Procesal Penal, la presente Ley y el ordenamiento jurídico en general.\n"
+      },
+      "art-101": {
+       "label": "Art. 101",
+       "kind": "art",
+       "text": "Querella\nArtículo 101. Podrán promover querella las mujeres víctimas de violencia de cualquiera de los hechos señalados en esta Ley, o sus familiares hasta el cuarto grado de consanguinidad y segundo de afinidad, cuando ésta se encuentre legal o físicamente imposibilitada de ejercerla.\n"
+      },
+      "art-102": {
+       "label": "Art. 102",
+       "kind": "art",
+       "text": "Formalidad\nArtículo 102. La querella se presentará por escrito ante el Tribunal de Violencia contra la Mujer en funciones de control, audiencia y medidas.\n"
+      },
+      "art-103": {
+       "label": "Art. 103",
+       "kind": "art",
+       "text": "Contenido\nArtículo 103. La querella contendrá:\n1. El nombre, apellido, edad, estado, profesión, domicilio o residencia de la persona querellante, y sus relaciones de parentesco con la persona querellada.\n2. El nombre, apellido, edad, domicilio o residencia de la persona querellada.\n3. El delito que se le imputa, el lugar, día y hora aproximada de su perpetración.\n4. Una relación especificada de todas las circunstancias esenciales del hecho.\n"
+      },
+      "art-104": {
+       "label": "Art. 104",
+       "kind": "art",
+       "text": "Diligencias del querellante\nArtículo 104. La persona querellante podrá solicitar a la o el fiscal las diligencias que estime necesarias para la investigación de los hechos.\n"
+      },
+      "art-105": {
+       "label": "Art. 105",
+       "kind": "art",
+       "text": "Incidencias de la querella\nArtículo 105. La admisibilidad, rechazo, oposición, desistimiento y demás incidencias relacionadas con la querella se tramitarán conforme a lo dispuesto en el Código Orgánico Procesal Penal.\n"
+      },
+      "art-106": {
+       "label": "Art. 106",
+       "kind": "art",
+       "text": "Medidas de protección y seguridad\nArtículo 106. Las medidas de protección y de seguridad son de naturaleza preventiva para proteger a la mujer víctima de violencia en su integridad física, psicológica, sexual y patrimonial, y de toda acción que viole o amenace los derechos contemplados en esta Ley, evitando nuevos actos de violencia, y serán de aplicación inmediata por los órganos receptores de denuncias al momento de la denuncia. Son medidas de protección y seguridad las siguientes:\n1. Referir a las mujeres agredidas que así lo requieran, a los centros especializados para que reciban la respectiva orientación y atención.\n2. Tramitar el ingreso de las mujeres víctimas de violencia, así como de sus hijas e hijos que requieran protección a las casas de abrigo establecidas en esta Ley, en los casos en que la permanencia en su domicilio o residencia, implique amenaza inminente o violación de derechos previstos en esta Ley. La estadía en las casas de abrigo tendrá carácter temporal.\n3. Ordenar la salida del presunto agresor de la residencia común, independientemente de su titularidad, si la convivencia implica un riesgo para la seguridad integral: física, psíquica, patrimonial o la libertad sexual de la mujer, impidiéndole que retire los enseres de uso de la familia, autorizándolo a llevar sólo sus efectos personales, instrumentos y herramientas de trabajo. En caso de que el denunciado se negase a cumplir con la medida, el órgano receptor con el auxilio de la fuerza pública, seguridad u orden público, la ejecutará de inmediato aprehendiendo bajo flagrancia al presunto agresor, al negarse a cumplir una orden emanada de un órgano receptor de denuncia.\n4. Reintegrar al domicilio a las mujeres víctimas de violencia, disponiendo la salida simultánea del presunto agresor, cuando se trate de una vivienda común, procediendo conforme a lo establecido en el numeral anterior.\n5. Prohibir o restringir al presunto agresor por sí mismo o por terceras personas, el acercamiento a la mujer agredida; en consecuencia, imponer al presunto agresor la prohibición de acercarse al lugar de trabajo, de estudio y residencia de la mujer agredida.\n6. Prohibir que el presunto agresor, por sí mismo o por terceras personas, realice actos de persecución, intimidación o acoso a la mujer agredida o algún integrante de su familia.\n7. Solicitar al órgano jurisdiccional competente la medida de arresto transitorio, debiéndose decidir de inmediato, en caso de que no se pueda aprehender bajo la modalidad de flagrancia.\n8. Ordenar el apostamiento o recorrido policial en el sitio de residencia de la mujer víctima, quien denuncia o sus familiares o causahabientes, por el tiempo que se considere conveniente, debiendo levantar un acta que debe ser firmada por la mujer víctima de violencia o sus familiares como constancia de que se está cumpliendo.\n9. Retener las armas blancas o de fuego y el permiso de porte, independientemente de la profesión u oficio del presunto agresor, procediendo a la remisión inmediata al órgano competente para la práctica de las experticias que correspondan. En caso de violencia psicológica, acoso u hostigamiento o amenazas u otra forma de violencia, deberá aplicarse de inmediato esta medida.\n10. Solicitar al órgano con competencia en la materia de otorgamiento de porte de armas, la suspensión del permiso de porte cuando exista una amenaza para la integridad de la víctima. En caso de violencia psicológica, acoso u hostigamiento o amenazas u otra forma de violencia, deberá aplicarse de inmediato esta medida.\n11. Imponer al presunto agresor la obligación de proporcionar a la mujer víctima de violencia el sustento necesario para garantizar su subsistencia, cuando ésta no disponga de medios económicos para ello y exista una relación de dependencia con el presunto agresor. Esta obligación no debe confundirse con la obligación alimentaria que corresponde a los niños, niñas y adolescentes, cuyo conocimiento compete al Tribunal de Protección de Niños, Niñas y Adolescentes.\n12. Solicitar ante la jueza o juez competente la suspensión del régimen de convivencia familiar al presunto agresor a la residencia donde la mujer víctima esté albergada junto con sus hijas e hijos.\n13. Cualquier otra medida necesaria para la protección de todos los derechos de las mujeres víctimas de violencia y cualquiera de los integrantes de la familia.\n"
+      },
+      "art-107": {
+       "label": "Art. 107",
+       "kind": "art",
+       "text": "Subsistencia de las medidas de protección y de seguridad\nArtículo 107. En todo caso, las medidas de protección subsistirán durante el proceso y podrán ser sustituidas, modificadas, confirmadas o revocadas por el órgano jurisdiccional competente, bien de oficio o a solicitud de parte. La sustitución, modificación, confirmación o revocación de las medidas de protección procederá en caso de existir elementos probatorios que determinen su necesidad.\n"
+      },
+      "art-108": {
+       "label": "Art. 108",
+       "kind": "art",
+       "text": "Aplicación preferente de las medidas de seguridad y protección y de las medidas cautelares\nArtículo 108. Las medidas de seguridad y protección y las medidas cautelares establecidas en la presente Ley, serán de aplicación preferente a las establecidas en otras disposiciones legales, sin perjuicio que la jueza o juez competente, de oficio, a petición fiscal o a solicitud de la víctima, estime la necesidad de imponer alguna de las medidas cautelares sustitutivas previstas en el Código Orgánico Procesal Penal con la finalidad de garantizar el sometimiento del imputado o acusado al proceso seguido en su contra.\n"
+      },
+      "art-109": {
+       "label": "Art. 109",
+       "kind": "art",
+       "text": "Trámite en caso de necesidad y urgencia\nArtículo 109. El órgano receptor, la mujer víctima de violencia o sus familiares en caso de femicidio, podrá solicitar directamente al Tribunal con Competencia en Materia de Delitos de Violencia contra la Mujer en funciones de control, audiencia y medidas, en casos de necesidad y urgencia, la respectiva orden de detención transitoria. La resolución que ordena la detención será siempre fundada. El tribunal deberá decidir dentro de las veinticuatro horas siguientes a la solicitud, debiendo dictar las medidas de protección y seguridad que sean necesarias para garantizar la vida e integridad de la mujer víctima de violencia, ascendientes, descendientes y personas bajo su cuido.\n"
+      },
+      "art-110": {
+       "label": "Art. 110",
+       "kind": "art",
+       "text": "Disposiciones comunes sobre las medidas de protección y seguridad\nArtículo 110. El Tribunal de Violencia contra la Mujer en funciones de control, audiencia y medidas, podrá:\n1. Sustituir, modificar, confirmar o revocar las medidas de protección impuestas por el órgano receptor.\n2. Acordar aquellas medidas solicitadas por la mujer víctima de violencia o el Ministerio Público.\n3. Imponer cualquier otra medida de las previstas en los artículos 90 y 95, de acuerdo con las circunstancias que el caso presente.\nParágrafo Único: Si la urgencia del caso lo amerita no será requisito para imponer la medida, el resultado del examen médico correspondiente, pudiendo subsanarse con cualquier otro medio probatorio que resulte idóneo, incluyendo la presencia de la mujer víctima de violencia en la audiencia.\n"
+      },
+      "art-111": {
+       "label": "Art. 111",
+       "kind": "art",
+       "text": "Medidas cautelares\nArtículo 111. El Ministerio Público podrá solicitar al Tribunal con Competencia en Materia de Delitos de Violencia contra la Mujer en funciones de control, audiencia y medidas o en funciones de juicio, si fuere el caso, las siguientes medidas cautelares:\n1. Arresto transitorio del agresor hasta por cuarenta y ocho horas que se cumplirá en el establecimiento que el tribunal acuerde.\n2. Orden de prohibición de salida del país del presunto agresor, cuyo término lo fijará el tribunal de acuerdo con la gravedad de los hechos.\n3. Prohibición de enajenar y gravar bienes de la comunidad conyugal o concubinaria, hasta un cincuenta por ciento (50%).\n4. Prohibición para el presunto agresor de residir en el mismo municipio donde la mujer víctima de violencia haya establecido su nueva residencia, cuando existan evidencias de persecución por parte de éste.\n5. Allanamiento del lugar donde se cometieron los hechos de violencia.\n6. Fijar una obligación alimentaria a favor de la mujer víctima de violencia, previa evaluación socioeconómica de ambas partes.\n7. Imponer a la persona señalada como agresor la obligación de asistir a un centro especializado para las entrevistas, consultas y evaluaciones psicológicas a las que debe someterse con carácter de obligatorio, debiendo entregar al tribunal los informes respectivos que den cuenta que está cumpliendo con esta medida.\n8. Cualquier otra medida necesaria para la protección personal, física, psicológica y patrimonial de la mujer víctima de violencia.\n"
+      },
+      "art-112": {
+       "label": "Art. 112",
+       "kind": "art",
+       "text": "Definición y forma de proceder\nArtículo 112. Se tendrá como flagrante todo delito previsto en esta Ley, que se esté cometiendo o el que acaba de cometerse. También se tendrá como flagrante aquél por el cual la persona agresora sea perseguida por la autoridad policial, por la mujer agredida, por un particular o por el clamor público, o cuando se produzcan solicitudes de ayuda a servicios especializados de atención a la violencia contra las mujeres, realizadas a través de llamadas o mensajes telefónicos, correos electrónicos o fax, que permitan establecer su comisión de manera inequívoca, o en el que se sorprenda a poco de haberse cometido el hecho, en el mismo lugar o cerca del lugar donde se cometió, con armas, instrumentos u objetos que de alguna manera hagan presumir con fundamento que él es el autor.\nEn estos casos, toda autoridad deberá y cualquier particular podrá, aprehender a la persona agresora. Cuando la aprehensión la realizare un particular, deberá entregarla inmediatamente a la autoridad más cercana, quien en todo caso la pondrá a disposición del Ministerio Público dentro de un lapso que no excederá de doce horas a partir del momento de la aprehensión.\nSe entenderá que el hecho se acaba de cometer cuando la víctima u otra persona que haya tenido conocimiento del hecho, acuda dentro de las veinticuatro (24) horas siguientes a la comisión del hecho punible al órgano receptor y exponga los hechos de violencia relacionados con esta Ley. En este supuesto, conocida la comisión del hecho punible el órgano receptor o la autoridad que tenga conocimiento, deberá dirigirse en un lapso que no debe exceder de las doce horas, hasta el lugar donde ocurrieron los hechos, recabará los elementos que acreditan su comisión y verificados los supuestos a que se refiere el presente artículo, procederá a la aprehensión de la presunta agresora, quien será puesto a la disposición del Ministerio Público.\nEl Ministerio Público, en un término que no excederá de las cuarenta y ocho horas contadas a partir de la aprehensión de la persona presuntamente agresora, la deberá presentar ante el Tribunal de Violencia Contra la Mujer en funciones de control, audiencia y medidas, el cual, en audiencia con las partes y la víctima, si ésta estuviere presente, resolverá si mantiene la privación de libertad o la sustituye por otra menos gravosa.\nLa decisión deberá ser debidamente fundada y observará los supuestos de procedencia para la privación de libertad contenidos en el Código Orgánico Procesal Penal, ajustados a la naturaleza de los delitos contenidos en la presente Ley, según el hecho de que se trate y atendiendo a los objetivos de protección de las víctimas, sin menoscabo de los derechos de la persona presuntamente agresora.\n"
+      },
+      "art-113": {
+       "label": "Art. 113",
+       "kind": "art",
+       "text": "Trámite\nArtículo 113. El juzgamiento de los delitos de que trata esta Ley se seguirá por el procedimiento especial aquí estipulado, aun en los supuestos de flagrancia previstos en el artículo anterior, con la salvedad consagrada en el parágrafo único del artículo 82 de esta Ley, para el supuesto en que haya sido decretada medida privativa de libertad en contra del presunto agresor.\n"
+      },
+      "art-114": {
+       "label": "Art. 114",
+       "kind": "art",
+       "text": "Formas de inicio del procedimiento\nArtículo 114. La investigación de un hecho que constituya uno de los delitos previstos en esta Ley, se iniciará de oficio, por denuncia oral, escrita o mediante querella interpuesta por ante el órgano jurisdiccional competente.\nTodos estos delitos son de acción pública; sin embargo, para el inicio de la investigación en los supuestos a que se refieren los artículos 39, 40, 41, 48, 49 y 53 de esta Ley, se requiere la denuncia del hecho por las personas o instituciones legitimadas para formularla.\n"
+      },
+      "art-115": {
+       "label": "Art. 115",
+       "kind": "art",
+       "text": "Investigación del Ministerio Público\nArtículo 115. Cuando el Ministerio Público tuviere conocimiento de la comisión de un hecho punible de los previstos en esta Ley, sin pérdida de tiempo ordenará el inicio de la investigación y dispondrá que se practiquen todas las diligencias necesarias que correspondan para demostrar la comisión del hecho punible, así como la responsabilidad penal de las personas señaladas como autores o partícipes, imponiendo inmediatamente las medidas de protección y seguridad que el caso amerite.\n"
+      },
+      "art-116": {
+       "label": "Art. 116",
+       "kind": "art",
+       "text": "Inicio ante otro órgano receptor\nArtículo 116. Cuando la denuncia o averiguación de oficio es conocida por un órgano receptor distinto al Ministerio Público, éste procederá a dictar las medidas de protección y seguridad que el caso amerite y a notificar de inmediato a la o el Fiscal del Ministerio Público correspondiente, para qué dicte la orden de Inicio de la Investigación, practicará todas las diligencias necesarias que correspondan para acreditar la comisión del hecho punible, así como los exámenes médicos psicofísicos pertinentes a la mujer víctima de violencia.\n"
+      },
+      "art-117": {
+       "label": "Art. 117",
+       "kind": "art",
+       "text": "Remisión al Ministerio Público\nArtículo 117. Dictadas las medidas de protección y seguridad, así como practicadas todas las diligencias necesarias y urgentes, las cuales no podrán exceder de quince días continuos, el órgano receptor deberá remitir las actuaciones al Ministerio Público, para que continúe la investigación.\n"
+      },
+      "art-118": {
+       "label": "Art. 118",
+       "kind": "art",
+       "text": "Violación de derechos y garantías constitucionales\nArtículo 118. Cuando una de las partes no estuviere conforme con la medida dictada por el órgano receptor, podrá solicitar ante el Tribunal de Violencia contra la Mujer en funciones de control, audiencia y medidas, su revisión, el cual requerirá las actuaciones al Ministerio Público o al órgano receptor correspondiente, si fuera el caso.\nSi recibidas por la o el fiscal del Ministerio Público, las actuaciones procedentes de otro órgano receptor, éste observare violación de derechos y garantías constitucionales, procederá de inmediato a solicitar motivadamente su revisión ante la jueza o juez de control, audiencia y medidas; para ello remitirá las actuaciones originales, dejando en el Despacho Fiscal copia simple de las mismas para continuar con la investigación.\n"
+      },
+      "art-119": {
+       "label": "Art. 119",
+       "kind": "art",
+       "text": "Revisión y decisión de las medidas\nArtículo 119. Dentro de los tres días de despacho siguientes a la recepción de las actuaciones, la jueza o juez de control, audiencia y medidas revisará las medidas, y mediante auto motivado se pronunciará modificando, sustituyendo, confirmando o revocando las mismas.\n"
+      },
+      "art-120": {
+       "label": "Art. 120",
+       "kind": "art",
+       "text": "Remisión de las actuaciones\nArtículo 120. Al siguiente día de publicada la decisión a que se refiere el artículo anterior, el tribunal de control, audiencia y medidas remitirá las actuaciones originales al Ministerio Público o al órgano receptor correspondiente si fuera el caso, para que continúe con el procedimiento.\n"
+      },
+      "art-121": {
+       "label": "Art. 121",
+       "kind": "art",
+       "text": "Fin de la investigación\nArtículo 121. Concluida la investigación, conforme a lo previsto en el artículo 82 o el supuesto especial previsto en el Artículo 106 de esta Ley, el Ministerio Público procederá a dictar el acto conclusivo correspondiente.\n"
+      },
+      "art-122": {
+       "label": "Art. 122",
+       "kind": "art",
+       "text": "Prórroga extraordinaria por omisión fiscal\nArtículo 122. Al día siguiente de vencerse el lapso de investigación que comienza con la imposición de alguna de las medidas previstas en esta Ley, sin que la o el fiscal del Ministerio Público hubiere dictado el acto conclusivo correspondiente, la jueza o juez de control, audiencia y medidas notificará dicha omisión la o el fiscal que conoce del caso, y la o el Fiscal Superior, exhortándolos a la necesidad de que presente las conclusión es de la investigación, en un lapso extraordinario y definitivo, que no excederá de diez días continuos contados a partir de la notificación de la omisión a la o el fiscal que conoce del caso. El incumplimiento de esta obligación al término de la prórroga por parte de la o el fiscal del Ministerio Público que conoce del caso, será causal de destitución o remoción del cargo por la omisión, conforme al procedimiento disciplinario previsto en la ley que rige la materia.\nLa víctima tiene la potestad de ejercer la acusación particular propia, si vencida la prorroga extraordinaria, la o el fiscal que conoce del caso, no hubiere dictado el acto conclusivo.\n"
+      },
+      "art-123": {
+       "label": "Art. 123",
+       "kind": "art",
+       "text": "Audiencia preliminar\nArtículo 123. Presentada la acusación ante el Tribunal de Violencia Contra la Mujer en funciones de control, audiencia y medidas, éste fijará la audiencia para oír a las partes, dentro de los diez días hábiles siguientes. Antes del vencimiento de dicho plazo, las partes procederán a ofrecer las pruebas que serán evacuadas en la audiencia de juicio oral y oponer las excepciones que estimen procedentes. El tribunal se pronunciará en la audiencia.\nEn este acto el imputado podrá admitir los hechos, pero la pena a imponerse sólo podrá rebajarse en un tercio.\nFinalizada la audiencia, la jueza o juez, expondrá fundadamente su decisión respecto a los planteamientos de las partes. En caso de admitir la acusación, dictará el auto de apertura a juicio y remitirá las actuaciones al tribunal de juicio que corresponda. El auto de apertura a juicio será inapelable.\n"
+      },
+      "art-124": {
+       "label": "Art. 124",
+       "kind": "art",
+       "text": "Juicio oral\nArtículo 124. Recibidas las actuaciones, el tribunal de juicio fijará la fecha para la celebración de la audiencia oral y pública, en un plato que no podrá ser menor de diez días hábiles ni mayor de veinte.\n"
+      },
+      "art-125": {
+       "label": "Art. 125",
+       "kind": "art",
+       "text": "Audiencia de juicio oral\nArtículo 125. En la audiencia de juicio actuará sólo una jueza o juez profesional. El debate será oral y público, pudiendo la jueza o juez decidir efectuarlo, total o parcialmente a puerta cerrada, previa solicitud de la víctima. La jueza o juez, deberá informar a la víctima de este derecho antes del inicio del acto. La audiencia se desarrollará en un solo día; sino fuere posible, continuaré en el menor número de días hábiles consecutivos. Se podrá suspender por un plazo máximo de cinco días, sólo en los casos siguientes:\n1. Por causa de fuerza mayor.\n2. Por falta de Intérprete.\n3. Cuando la defensora o defensor o el Ministerio Público lo soliciten en razón de la ampliación de la acusación.\n4. Para resolver cuestiones incidentales o la práctica de algún acto fuera de la sala de audiencia.\n5. Cualquier otro motivo que sea considerado relevante por el tribunal.\n"
+      },
+      "art-126": {
+       "label": "Art. 126",
+       "kind": "art",
+       "text": "Decisión\nArtículo 126. Finalizado el debate se levantará acta de todo lo acontecido, la cual será leída a viva voz y firmada por los o las intervinientes.\nLa jueza o el juez, pasará a sentenciar en la sala destinada a tal efecto, a la cual no tendrán acceso en ningún momento las partes. La sentencia será dictada el mismo día, procediéndose a su lectura y quedando así notificadas las partes. El documento original se archivará. Las partes podrán solicitar copia de la sentencia.\nEn caso que no sea posible la redacción de la sentencia en el mismo día, la jueza o juez expondrá a las partes los fundamentos de la misma y leerá la parte dispositiva.\nLa publicación se realizará dentro de los cinco días hábiles siguientes al pronunciamiento de la dispositiva.\n"
+      },
+      "art-127": {
+       "label": "Art. 127",
+       "kind": "art",
+       "text": "Recurso de apelación\nArtículo 127. Contra la sentencia dictada en la audiencia oral se interpondrá recurso de apelación ante el tribunal que la dictó y podrá ser ejercicio dentro de los tres días hábiles siguientes a la fecha de la publicación del texto íntegro del fallo.\n"
+      },
+      "art-128": {
+       "label": "Art. 128",
+       "kind": "art",
+       "text": "Formalidades\nArtículo 128. El recurso sólo podrá fundarse en:\n1. Violación de normas relativas a la oralidad, inmediación y concentración del juicio.\n2. Falta, contradicción o ilogicidad manifiesta en la motivación de la sentencia, o cuando ésta se funde en prueba obtenida ilegalmente o incorporada con violación a los principios de la audiencia oral.\n3. Quebrantamiento u omisión de formas sustanciales de los actos que causen indefensión.\n4. Incurrir en violación de la ley por inobservancia o errónea aplicación de una norma jurídica.\n"
+      },
+      "art-129": {
+       "label": "Art. 129",
+       "kind": "art",
+       "text": "Contestación del recurso\nArtículo 129. Presentado el recurso, las otras partes lo contestarán dentro de los tres días hábiles siguientes al vencimiento del lapso para su interposición. Al vencimiento de este plazo, el tribunal remitirá las actuaciones a la Corte de Apelaciones para que ésta decida.\n"
+      },
+      "art-130": {
+       "label": "Art. 130",
+       "kind": "art",
+       "text": "Corte de Apelaciones\nArtículo 130. Recibidas las actuaciones, la Corte de Apelaciones tendrá un lapso de tres días hábiles siguientes a la fecha de su recibo para decidir sobre la admisibilidad del recurso. Admitido éste, fijará una audiencia oral que debe realizarse dentro de un plazo no menor de tres días hábiles ni mayor de cinco, contados a partir de la fecha de la admisión.\n"
+      },
+      "art-131": {
+       "label": "Art. 131",
+       "kind": "art",
+       "text": "Audiencia\nArtículo 131. En la audiencia las juezas o jueces podrán interrogar a las partes; resolverán motivadamente con las pruebas que se promuevan y sean útiles y pertinentes. Al concluir la audiencia deberán dictar el pronunciamiento correspondiente. Cuando la complejidad del caso lo amerite, podrán decidir dentro de los cinco días hábiles siguientes.\n"
+      },
+      "art-132": {
+       "label": "Art. 132",
+       "kind": "art",
+       "text": "Casación\nArtículo 132. El ejercicio del Recurso de Casación se regirá por lo dispuesto en el Código Orgánico Procesal Penal.\n"
+      },
+      "art-133": {
+       "label": "Art. 133",
+       "kind": "art",
+       "text": "Atribuciones de las y los fiscales del Ministerio Público\nArtículo 133. Son atribuciones de las y los fiscales del Ministerio Público especializados en violencia contra las mujeres:\n1. Ejercer la acción penal correspondiente.\n2. Velar por el cumplimiento de las disposiciones previstas en esta Ley.\n3. Investigar los hechos que se tipifican como delitos en esta Ley.\n4. Solicitar y aportar pruebas y participar en su producción,\n5. Dirigir y supervisar el cumplimiento de las funciones de la policía de investigación.\n6. Solicitar fundadamente al órgano jurisdiccional las medidas cautelares pertinentes.\n7. Solicitar al órgano jurisdiccional la sustitución, modificación, confirmación o revocación de las medidas de protección dictadas por los órganos receptores o de las medidas cautelares que hubiere dictado.\n8. Solicitar fundadamente al órgano jurisdiccional el decomiso definitivo del arma incautada por el órgano receptor. En los casos en que resultare procedente, solicitará también la prohibición del porte de armas.\n9. Reunir los elementos de convicción conducentes a la elaboración del acto conclusivo, en cuyos trámites se observarán las normas dispuestas en el Código Orgánico Procesal Penal.\n10. Cualquier otra actuación prevista en el ordenamiento jurídico.\n"
+      },
+      "art-134": {
+       "label": "Art. 134",
+       "kind": "art",
+       "text": "Jurisdicción\nArtículo 134. Corresponde a los Tribunales de Violencia Contra la Mujer y a la Sala de Casación Penal del Tribunal Supremo de Justicia, el ejercicio de la jurisdicción para la resolución de los asuntos sometidos a su decisión, conforme a lo establecido en esta Ley, las leyes de organización judicial y la reglamentación interna.\n"
+      },
+      "art-135": {
+       "label": "Art. 135",
+       "kind": "art",
+       "text": "Creación de los Tribunales de Violencia Contra la Mujer\nArtículo 135. Se crean los Tribunales de Violencia Contra la Mujer que tendrán su sede en Caracas y en cada capital de estado, además de las localidades que determine el Tribunal Supremo de Justicia, a través de la Dirección Ejecutiva de la Magistratura.\n"
+      },
+      "art-136": {
+       "label": "Art. 136",
+       "kind": "art",
+       "text": "Constitución de los Tribunales de Violencia Contra la Mujer\nArtículo 136. Los Tribunales de Violencia Contra la Mujer se organizarán en circuitos judiciales, de acuerdo con lo que determine la Dirección Ejecutiva de la Magistratura, la cual podrá crear más de un circuito judicial en una misma circunscripción, cuando por razones de servicio sea necesario. Su organización y funcionamiento se regirán por las disposiciones establecidas en esta Ley, en las leyes orgánicas correspondientes y en el Reglamento Interno de los Circuitos Judiciales.\nEn cada circuito judicial los Tribunales de Violencia Contra la Mujer estarán constituidos en primera instancia por juezas y jueces de control, audiencia y medidas; juezas y jueces de juicio y juezas y jueces de ejecución. En segunda instancia lo conforman las Cortes de Apelaciones.\n"
+      },
+      "art-137": {
+       "label": "Art. 137",
+       "kind": "art",
+       "text": "Competencia\nArtículo 137. Los Tribunales de Violencia Contra la Mujer conocerán en el orden penal de los delitos previstos en esta Ley, así como del delito de lesiones en todas sus calificaciones tipificadas en el Código Penal en los supuestos establecidos en el artículo 42 de esta Ley y conforme al procedimiento especial aquí establecido.\nEn el orden civil, conocerán de todos aquellos asuntos de naturaleza patrimonial.\n"
+      },
+      "art-138": {
+       "label": "Art. 138",
+       "kind": "art",
+       "text": "Casación\nArtículo 138. La Sala de Casación Penal del Tribunal Supremo de Justicia conocerá del Recurso de Casación.\n"
+      },
+      "art-139": {
+       "label": "Art. 139",
+       "kind": "art",
+       "text": "Servicios auxiliares\nArtículo 139. Los Tribunales de Violencia Contra la Mujer contarán con:\n1. Equipos multidisciplinarios o la asignación presupuestaria para la contratación de los mismos.\n2. Una sala de trabajo para el equipo multidisciplinario.\n3. Una sala de citaciones y notificaciones.\n"
+      },
+      "art-140": {
+       "label": "Art. 140",
+       "kind": "art",
+       "text": "Objetivos del equipo multidisciplinario\nArtículo 140. Cada Tribunal de Violencia Contra la Mujer debe contar con un equipo multidisciplinario que se organizará como servicio auxiliar de carácter independiente e imparcial, para brindar al ejercicio de la función jurisdicciónal experticia biopsicosocial legal de forma colegiada e interdisciplinaria. Este equipo estará integrado por profesionales de la medicina, de la psiquiatría, de la educación, de la psicología, del trabajo social, del derecho, de la criminología y de otras profesiones con experiencia en la materia. En las zonas en que sea necesario, se contará con expertas o expertos interculturales bilingües en idiomas indígenas.\n"
+      },
+      "art-141": {
+       "label": "Art. 141",
+       "kind": "art",
+       "text": "Atribuciones del equipo multidisciplinario\nArtículo 141. Son atribuciones de los equipos multidisciplinarios de los tribunales de violencia contra la mujer:\n1. Emitir opinión, mediante informes técnicos integrales sobre la procedencia de proteger a la mujer víctima de violencia, a través de medidas cautelares específicas.\n2. Intervenir como expertos independientes e imparciales del Sistema de Justicia en los procedimientos judiciales, realizando experticias mediante informes técnicos integrales.\n3. Brindar asesoría integral a las personas a quienes se dicten medidas cautelares.\n4. Asesorar a la jueza o juez en la obtención y estimación de la opinión o testimonio de las niñas, niños y adolescentes, según su edad y grado de madurez.\n5. Auxiliar a los tribunales de violencia contra la mujer en la ejecución de las decisiones judiciales.\n6. Las demás que establezca la ley.\n"
+      },
+      "art-142": {
+       "label": "Art. 142",
+       "kind": "art",
+       "text": "Dotación\nArtículo 142. Los tribunales de violencia contra la mujer deben ser dotados de las instalaciones, equipo y personal necesario para el cumplimiento de sus funciones; entre otras áreas, deben contar con:\n1. Un espacio dirigido especialmente a la atención de la mujer agredida, separado del destinado a la persona agresora.\n2. Un espacio y dotación apropiada para la realización de las funciones del equipo multidisciplinario.\nParágrafo Único: El Ministerio del Poder Popular con competencia en materia del interior, justicia y paz creará en el Cuerpo de Investigaciones Científicas, Penales y Criminalísticas, una Unidad Médico Forense, conformada por expertos para la atención de los casos de mujeres víctimas de violencia, que emitirán los informes y experticias correspondientes en forma oportuna y expedita.\n"
+      },
+      "disp-transitoria-01": {
+       "label": "Disposición transitoria primera",
+       "kind": "transitional",
+       "text": "Primera. Hasta tanto sean creadas las unidades de atención y tratamiento de hechos de violencia contra la mujer, las juezas y jueces para sentenciar podrán considerarlos informes emanados de cualquier organismo público o privado de salud.\nLos estados y municipios proveerán lo conducente para crear y poner en funcionamiento las unidades de atención y tratamiento, dentro del año siguiente a la entrada en vigencia de esta Ley. En dicho lapso procederán a capacitar a las funcionarias y funcionarios que conformarán los mismos. Los informes y recomendaciones emanados de las expertas y los expertos de las organizaciones no gubernamentales, especializadas en la atención de los hechos de violencia contemplados en esta Ley, podrán ser igualmente considerados por los jueces o juezas.\n"
+      },
+      "disp-transitoria-02": {
+       "label": "Disposición transitoria segunda",
+       "kind": "transitional",
+       "text": "Segunda. Hasta tanto sean creados los lugares de cumplimiento de la sanción de los responsables por hechos de violencia contra las mujeres, el Ministerio del Poder Popular con competencia en la materia de servicio penitenciario, tomará las previsiones para adecuar los sitios de reclusión y facilitar la reeducación de los agresores.\nLa creación de dichos centros deberá desarrollarse en un plazo máximo de un año, luego de la entrada en vigencia de esta Ley. En dicho lapso se procederá a capacitar a las funcionarias, funcionarios y todas aquellas personas que intervendrán en el tratamiento de los penados por los delitos previstos en esta Ley.\n"
+      },
+      "disp-transitoria-03": {
+       "label": "Disposición transitoria tercera",
+       "kind": "transitional",
+       "text": "Tercera. De conformidad con el Artículo 24 de la Constitución de la República Bolivariana de Venezuela, las disposiciones procesales previstas en esta Ley se aplicarán desde el mismo momento de entrar en vigencia, aun a los procesos que se hallaren en curso, sin menoscabo del principio de irretroactividad en cuanto favorezcan a la imputada o imputado, a la acusada o acusado, a l apenada o penado.\nLos recursos ya interpuestos, la evacuación de las pruebas ya admitidas, así como los términos o lapsos que hayan comenzado a correr, se regirán por las disposiciones anteriores.\nEl Ministerio Público proveerá lo conducente para que las causas que se encuentren en fase de investigación sean tramitadas en forma expedita y presentada en el acto conclusivo correspondiente dentro de los seis meses siguientes a la vigencia de esta Ley.\n"
+      },
+      "disp-transitoria-04": {
+       "label": "Disposición transitoria cuarta",
+       "kind": "transitional",
+       "text": "Cuarta. El Ejecutivo Nacional incluirá en las leyes de presupuesto anuales, a partir del año inmediatamente siguiente a la sanción de esta Ley, los recursos necesarios para el funcionamiento de los órganos, entidades y programas aquí previstos.\n"
+      },
+      "disp-transitoria-05": {
+       "label": "Disposición transitoria quinta",
+       "kind": "transitional",
+       "text": "Quinta. Las publicaciones oficiales y privadas de esta Ley deberán ir precedidas de su exposición de motivos.\n"
+      },
+      "disp-derogatoria-01": {
+       "label": "Disposición derogatoria única",
+       "kind": "repeal",
+       "text": "Única. Se deroga la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia, sancionada el 25 de noviembre de 2006, publicada en la Gaceta Oficial de la República de Venezuela, N°38.668, de fecha 23 de abril de 2007, reimpresa por error material en fecha 10 de septiembre de 2007, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela, N° 38.770, del 17 de septiembre de 2007, así como las disposiciones contrarias a esta Ley.\n"
+      },
+      "disp-final-01": {
+       "label": "Disposición final única",
+       "kind": "final",
+       "text": "Única. Esta Ley entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.\n"
+      },
+      "titulos": {
+       "label": "Libros, títulos, capítulos y secciones",
+       "kind": "heading",
+       "text": "Capítulo I. Disposiciones generales\nCapítulo II. Garantías para el ejercicio de los derechos\nCapítulo III. Definición y formas de violencia contra las mujeres\nCapítulo IV. Políticas públicas de prevención y atención\nCapítulo V. Mujeres víctimas de violencia\nCapítulo VI. Comisión Nacional para Garantizar el Derecho de las Mujeres a una Vida Libre de Violencia\nCapítulo VII. Delitos\nCapítulo VIII. Responsabilidad civil\nCapítulo IX. Disposiciones comunes\nCapítulo X. Inicio del proceso\nSección primera Denuncia\nSección segunda. Investigación\nSección tercera. Querella\nSección cuarta. Medidas de protección y de seguridad\nSección quinta. Aprehensión en flagrancia\nSección sexta. Procedimiento especial\nSección séptima. Juicio oral\nSección octava. Órganos jurisdiccionales y del Ministerio Público\nSección novena. Servicios Auxiliares\nDISPOSICIONES TRANSITORIAS\nDISPOSICIÓN DEROGATORIA\nDISPOSICIÓN FINAL\n"
+      }
+     },
+     "credits": {},
+     "note": "Texto único of the Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia as reformed in 2021, printed in G.O. 6.667 Ext. of 16 Dec 2021 and in force on publication (art. 65 of the reform; Disposición final única). The laws of 2007 and 2014 are not in this record."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "Gaceta Oficial N° 6.667 Extraordinario (16 Dec 2021), Imprenta Nacional portal gacetaoficial.gob.ve",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+   "retrieved": "2026-10-29",
+   "requests": 1,
+   "licence": "Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here).",
+   "notes": "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (art. 66 orders the reprint) followed by the texto único of the law. Born-digital PDF; read from its text layer with gazette_text.py."
+  }
+ ],
+ "decisions": [
+  "LODMVLV: the Ley Orgánica de Reforma of 2021 (arts. 1-66) is printed first in G.O. 6.667 Ext., then the law in full (art. 66 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 65 of the reform and the Disposición final única of the text), so from 2021-12-16. Credited to the publisher as the oldest version available. Its last three pages (39-41, the dispositions) are set in one full-width column and are read as such.",
+  "LODMVLV, three repairs of the gazette's own layout, each checked against its text layer: (1) the gazette prints twice in a row the passage from the epigraph of art. 116 to '... en funciones de control,' in art. 118 (foot of p. 35, right column, and head of p. 36) and item 2 of art. 139 (foot of p. 38, left column, and head of the right one); each is read once, from its second printing. (2) The last two lines of item 5 of art. 19 ('ocasionar condiciones de violencia, temor, daño, doblegar la voluntad de la mujer e incluso su muerte.') sit in the text layer below the frame of p. 19 (left column) and are printed nowhere, so they are restored from the text layer, as COJM art. 187 is. (3) What shows of the source document's footers ('Pá i 115 d 139', 'á d', fragments of 'Página N de 139' that a white box covers in part) is dropped as page furniture."
+ ],
+ "ai_use": []
+}

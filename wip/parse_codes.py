@@ -90,7 +90,7 @@ def right_epigraph_lines(cols: list[gazette_text.Column]) -> set[tuple[int, int]
             else:
                 break
         def centred(i):
-            return i >= 0 and flat[i][1] > 3 and abs(flat[i][1] - flat[i][2]) < 12
+            return i >= 0 and flat[i][1] > 3 and abs(flat[i][1] - flat[i][2]) < 20
 
         def heading_end(i):  # a centred heading line, or the full-width last line of a wrapped one
             return centred(i) or (i >= 1 and flat[i][3][-1:] not in ".:;" and abs(flat[i][1] - flat[i][2]) < 1
@@ -149,7 +149,8 @@ def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False,
                 continue
             numbered_head = ITEM_RE.match(t) and not ART_RE.match(t) and lo > 30 and abs(lo - ro) < 12  # '2. De la Acusación' (COJM)
             ends = right_epigraphs and cur and cur[-1][-1:] in ".:;"  # a heading after a sentence's end
-            if lo > 15 and abs(lo - ro) < 12 and (not special or numbered_head) and (not cur or lo > 30 or ends):
+            tol = 20 if right_epigraphs else 12  # (2021 on) headings may sit up to 20 pt off centre (LOH)
+            if lo > 15 and abs(lo - ro) < tol and (not special or numbered_head) and (not cur or lo > 30 or ends):
                 # centred (an item's hanging-indent last line can look centred: not inside a paragraph)
                 flush()
                 if wrapping and not STRUCT_RE.match(t):
@@ -333,6 +334,12 @@ def act_columns(spec: dict, filtered: bool = True) -> list[gazette_text.Column]:
             col.lines = col.lines[:i]
         # spec['furniture']: a regex for printed fragments of page furniture that a white box covers
         # only in part (for example 'Pá i 29 d 83', what shows of a 'Página 29 de 83' footer)
+        # spec['drop']: (page, side, text) of a lone printed fragment of an overflow line (what a
+        # clip or white box leaves of a line printed in full on the page before)
+        for page, side, text in spec.get("drop", ()):
+            col = next(c for c in cols if (c.page, c.side) == (page, side))
+            assert sum(l.text == text for l in col.lines) == 1, (spec["short"], page, text)
+            col.lines = [l for l in col.lines if l.text != text]
         if spec.get("furniture"):
             rx = re.compile(spec["furniture"])
             for c in cols:
@@ -383,9 +390,9 @@ def verify(spec: dict, units: dict) -> list[str]:
 
 # ---------------------------------------------------------------- the acts
 
-def gazette_source(number: str, day: str, url: str, contents: str) -> dict:
+def gazette_source(number: str, day: str, url: str, contents: str, retrieved: str = RETRIEVED) -> dict:
     return {"name": f"Gaceta Oficial N° {number} ({day}), Imprenta Nacional portal gacetaoficial.gob.ve",
-            "url": url, "retrieved": RETRIEVED, "requests": 1,
+            "url": url, "retrieved": retrieved, "requests": 1,
             "licence": "Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here).",
             "notes": contents + " Born-digital PDF; read from its text layer with gazette_text.py."}
 
@@ -548,7 +555,7 @@ def ve2_acts() -> list[dict]:
          "decisions": ["LOED: a new law, printed once in G.O. 6.745 Ext. of 28 Apr 2023; read from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2023-04-28. Credited to the law itself as first_law. Its last two pages (7-8, the dispositions) are set in one full-width column and are read as such. The masthead's date line at the head of p. 1's right column ('8 de abril de 2023 N° 6.745 Extraordinario') is dropped as page furniture. Art. 11 ends '... reciba o se haga prometer dinero u otra utilidad, b' as printed: the text layer holds nothing more there, so the cut-off word is kept as it stands."]},
         {"part": "44-hidrocarburos", "slug": "ley-organica-de-hidrocarburos", "short": "LOH", "title": "Ley Orgánica de Hidrocarburos",
          "url": LOH, "cut": ("LEY ORGÁNICA DE HIDROCARBUROS", "Dado, firmado y sellado en el Palacio Federal Legislativo"), "last": None,
-         "unmask": (5, 6, 7, 8, 9, 10, 11, 12),
+         "unmask": (5, 6, 7, 8, 9, 10, 11, 12), "restore": [(5, 0, "Hidrocarburos gaseosos", 1)], "drop": [(10, 0, "y")],
          "from": "2026-01-29", "gazette": ("6.978 Extraordinario", "29 Jan 2026"),
          "law": ("ley-reforma-loh-2026", law("Ley de Reforma de la Ley Orgánica de Hidrocarburos (2026)", "Ley de Reforma de la Ley Orgánica de Hidrocarburos, sancionada el 29 de enero de 2026", "law", "2026-01-29", "2026-01-29", LOH)),
          "first_law": None, "earlier": [],
@@ -558,10 +565,12 @@ def ve2_acts() -> list[dict]:
          "contents": "Ley de Reforma de la Ley Orgánica de Hidrocarburos (art. 35 orders the reprint) followed by the texto único of the law.",
          "note": "Texto único of the Ley Orgánica de Hidrocarburos as reformed in 2026, printed in G.O. 6.978 Ext. of 29 Jan 2026 and in force on publication except arts. 51 and 55-59 (Disposición final única), which take effect on 31 Mar 2026: until then arts. 56-59 (inserted by the reform) are absent and arts. 51 and 55 (reworded by it) read '[La fuente no da el texto vigente en esta fecha.]', because their earlier wording (2006) survives only as an image scan.",
          "decisions": ["LOH: the Ley de Reforma de la Ley Orgánica de Hidrocarburos (arts. 1-35) is printed first in G.O. 6.978 Ext. of 29 Jan 2026, then the law in full (art. 35 orders the single text); only the texto único is read, from its title to the closing 'Dado, firmado y sellado'. Its Disposición final única: in force on publication 'salvo los artículos 51, 55, 56, 57, 58 y 59, los cuales entrarán en vigencia una vez transcurrido sesenta (60) días continuos siguientes a su publicación'. The sixty days following 29 Jan 2026 run from 30 Jan to 30 Mar 2026, so those articles take effect on 2026-03-31 (counted as for the Ley Orgánica de Aduanas). The rest is dated 2026-01-29 and credited to the publisher as the oldest version available.",
-                       "LOH arts. 51 and 55-59 (coordinator rule for text that appears before it is in force): per the reform's own articles 16-21, arts. 56, 57, 58 and 59 are new (inserted by the reform), so they are absent from the version of 2026-01-29; arts. 51 and 55 replace former arts. 44 and 48, whose wording is not in any text-layer source, so in that version they read '[La fuente no da el texto vigente en esta fecha.]'. The printed wording of all six arrives on 2026-03-31, credited to the Ley de Reforma of 2026."]},
+                       "LOH arts. 51 and 55-59 (coordinator rule for text that appears before it is in force): per the reform's own articles 16-21, arts. 56, 57, 58 and 59 are new (inserted by the reform), so they are absent from the version of 2026-01-29; arts. 51 and 55 replace former arts. 44 and 48, whose wording is not in any text-layer source, so in that version they read '[La fuente no da el texto vigente en esta fecha.]'. The printed wording of all six arrives on 2026-03-31, credited to the Ley de Reforma of 2026.",
+                       "LOH, repairs of the gazette's own layout (pages 5-12 are pages of a source document pasted in, with white boxes laid over its page numbers): six such boxes also cover the ends of printed lines, so a line the page prints in part is read whole from its own text run (gazette_text unmask_cut_lines; the page numbers under the boxes stay hidden). The lines so completed are in arts. 2 (two lines), 8 (two), 22 (three), 54 (two), 58 (three) and 59 (item 3). The epigraph of art. 2 ('Hidrocarburos gaseosos'), wholly under one of those boxes and printed nowhere, is restored from the text layer. A lone 'y' at the head of p. 10, what a clip leaves of the overflow line 'esta Ley.' printed in full at the foot of p. 9, is dropped. The word check of parse_codes.py --verify counts the completed lines as printed."]},
     ]
     for s in acts:
         s["right_epigraphs"] = True  # long or wrapped epigraphs set flush right (see right_epigraph_lines)
+        s["retrieved"] = "2026-10-29"  # all seven gazettes were fetched on 2026-10-29 (6.667 at 01:35Z)
     return acts
 
 
@@ -610,7 +619,7 @@ def build_act(spec: dict) -> tuple[dict, dict]:
     act = {"slug": spec["slug"], "short": spec["short"], "title": spec["title"], "url": spec["url"],
            "first_law": spec["first_law"], "earlier_laws": [e[0] for e in spec["earlier"]],
            "versions": versions}
-    part = {"laws": laws, "acts": [act], "sources": [gazette_source(*spec["gazette"], spec["url"], spec["contents"])],
+    part = {"laws": laws, "acts": [act], "sources": [gazette_source(*spec["gazette"], spec["url"], spec["contents"], spec.get("retrieved", RETRIEVED))],
             "decisions": spec["decisions"], "ai_use": []}
     return part, units
 
@@ -644,7 +653,7 @@ def main() -> None:
         tmp.write_text(json.dumps(part, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
         tmp.replace(out / (name + ".json"))
         for a in part["acts"]:
-            print("wrote", name, a["slug"], "units:", len(a["versions"][-1]["units"]))
+            print("wrote", name, a["slug"], "units:", len(a["versions"][0]["units"]), "versions:", len(a["versions"]))
 
 
 if __name__ == "__main__":

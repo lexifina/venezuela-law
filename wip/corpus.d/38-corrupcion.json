@@ -1,0 +1,596 @@
+{
+ "laws": {
+  "ley-reforma-corrupcion-2022": {
+   "label": "Ley de Reforma de la Ley contra la Corrupción (2022)",
+   "title": "Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción, sancionada el 31 de marzo de 2022",
+   "kind": "law",
+   "enacted": "2022-03-31",
+   "published": "2022-05-02",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "ley-contra-la-corrupcion",
+   "short": "LCC",
+   "title": "Ley contra la Corrupción",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+   "first_law": null,
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2022-05-02",
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+     "sha256": "d3e646a583d4590269c88259078a04b05286f4d3cc71249f169f389622b53943",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "Artículo 1. Esta Ley tiene por objeto establecer los principios, deberes y derechos que permitan prevenir la corrupción administrativa y promover la educación, tanto a la ciudadanía como a las funcionarias públicas y funcionarios públicos, que haga posible garantizar la salvaguarda del patrimonio público; así como, regular las atribuciones y deberes de los órganos encargados de ejercer el control en materia de corrupción y tipificar las sanciones administrativas y los delitos cometidos contra el patrimonio público y la administración de justicia, incluyendo los procedimientos y las medidas preventivas que deban ser aplicadas.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "Ámbito de aplicación\nArtículo 2. Están sujetos a esta Ley, las personas naturales y jurídicas, públicas y privadas, las funcionarias públicas y los funcionarios públicos, las comunas, los consejos comunales, las asociaciones socioproductivas y las organizaciones de base del poder popular, así como cualquier otra forma de organización popular, cuando manejen fondos públicos.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "Funcionarios o empleados públicos\nArtículo 3. Sin perjuicio de lo que disponga la Ley que establezca el Estatuto de la Función Pública u otras leyes, a los efectos de esta Ley se consideran funcionarias y funcionarios o empleadas públicas y empleados públicos a:\n1. Las personas que estén investidas de funciones públicas, permanentes o transitorias, remuneradas o gratuitas, originadas por elección, por nombramiento o contrato otorgado por la autoridad competente, al servicio de la República, de los estados, de los territorios y dependencias federales, de los distritos, de los distritos metropolitanos o de los municipios, de los institutos autónomos nacionales, estadales, distritales y municipales, de las universidades públicas, del Banco Central de Venezuela o de cualesquiera de los órganos o entes que ejercen el Poder Público.\n2. Las directoras, directores, administradoras y administradores de las sociedades civiles y mercantiles, fundaciones, asociaciones civiles y demás instituciones constituidas con recursos públicos o dirigidas por algunas de las personas a que se refiere el artículo 4 de esta Ley, o cuando la totalidad de los aportes presupuestarios o contribuciones en un ejercicio proveniente de una o varias de estas personas represente el cincuenta por ciento (50%) o más de su presupuesto o patrimonio; y las o los directores nombrados en representación de dichos órganos y entes, aun cuando la participación fuere inferior al cincuenta por ciento (50%) del capital o patrimonio.\n3. Cualquier otra persona en los casos previstos en esta Ley.\nAsimismo, a los fines de esta Ley, deben considerarse como directoras, directores, administradoras y administradores, quienes desempeñen funciones tales como:\n1. Directivas, gerenciales, supervisoras, contraloras y auditoras.\n2. Participen con voz y voto en comités de: compras, licitaciones, contratos, negocios, donaciones o de cualquier otra naturaleza, cuya actuación pueda comprometer el patrimonio público.\n3. Manejen o custodien almacenes, talleres, depósitos y, en general, decidan sobre la recepción, suministro y entrega de bienes muebles del órgano u ente, para su consumo.\n4. Movilicen fondos del órgano u ente depositados en cuentas bancarias.\n5. Representen al órgano u ente con autoridad para comprometer a la entidad.\n6. Adquieran compromisos en nombre del órgano u ente o autoricen los pagos correspondientes.\n7. Dicten actos que incidan en la esfera de los derechos u obligaciones de los particulares o en las atribuciones y deberes del Estado.\nLas disposiciones de esta Ley se aplican a las personas indicadas en este artículo, aun cuando cumplan funciones o realicen actividades fuera del territorio de la República Bolivariana de Venezuela.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "Patrimonio público\nArtículo 4. Se considera patrimonio público, todos los bienes, derechos, recursos e instrumentos jurídicos y económicos que, por cualquier título, corresponden a:\n1. Los órganos y entidades a los que incumbe el ejercicio del Poder Público Nacional.\n2. Los órganos y entes a los que incumbe el ejercicio del Poder Público estadal.\n3. Los órganos y entes a los que incumbe el ejercicio del Poder Público en los distritos y distritos metropolitanos.\n4. Los órganos a los que incumbe el ejercicio del Poder Público Municipal y en los demás entes locales previstos en la Ley Orgánica del Poder Popular.\n5. Los órganos y entes a los que incumbe el ejercicio del Poder Público en los territorios y dependencias federales.\n6. Los institutos autónomos nacionales, estadales, distritales y municipales.\n7. El Banco Central de Venezuela.\n8. Las universidades públicas.\n9. Las demás personas de Derecho Público: nacionales, estadales, distritales y municipales.\n10. Las sociedades de cualquier naturaleza en las cuales las personas a que se refieren los numerales anteriores tengan participación en su capital social, así como las que se constituyen con la participación de aquellas.\n11. Las fundaciones y asociaciones civiles, instituciones y otras formas asociativas, de derecho público o privado, incluidas las instancias y organizaciones de base del Poder Popular, que estén constituidas con fondos públicos o que sean dirigidas por las personas a que se refieren los numerales anteriores, o en las cuales tales personas designen sus autoridades, o cuando los aportes presupuestarios o contribuciones efectuadas en un ejercicio presupuestario por una o varias de las personas a que se refieren los numerales anteriores represente el cincuenta por ciento (50%) o más de su presupuesto.\nIgualmente, se considera patrimonio público, los recursos entregados a particulares, por los entes del sector público mencionados en el artículo anterior, mediante transferencias, aportes, subsidios, contribuciones, o alguna otra modalidad similar para el cumplimiento de finalidades de interés o utilidad pública, hasta que se demuestre el logro de dichas finalidades. Los particulares que administren tales recursos estarán sometidos a las sanciones y demás acciones y medidas previstas en esta Ley y en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "Participación accionaria\nArtículo 5. Cuando las personas señaladas en los numerales 1, 2, 3, 4, 5, 6, 8 y 9 del artículo anterior tengan una participación accionaria menor al cincuenta por ciento (50%) en cualquier sociedad, dicha participación se considerará patrimonio público a los efectos de esta Ley y estará sujeto a las normas y principios en ella establecidos.\nSu irregular o incorrecta administración será penada de conformidad con lo previsto en esta Ley y las sanciones administrativas establecidas en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "Principios rectores\nArtículo 6. Son principios rectores para la administración, manejo, custodia y salvaguarda del patrimonio público: la honestidad, probidad, decoro, honradez, transparencia, participación ciudadana, eficacia, eficiencia, legalidad, colaboración, rendición de cuentas, responsabilidad y corresponsabilidad.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "Deber de las funcionarias públicas, funcionarios públicos, empleadas públicas y empleados públicos\nArtículo 7. Las funcionarias públicas, funcionarios públicos, empleados públicos y empleadas publicas deben administrar y custodiar el patrimonio público con decencia, decoro, probidad y honradez, de forma que la utilización de los bienes y el gasto de los recursos que lo integran, se haga de la manera prevista en la Constitución de la República Bolivariana de Venezuela y las leyes, y se alcancen las finalidades establecidas en las mismas con la mayor economía, eficacia y eficiencia.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "Políticas públicas\nArtículo 8. El Estado debe diseñar, implementar y evaluar políticas públicas educativas, económicas, jurídicas y de cualquier otra índole, que considere oportunas y convenientes, para asegurar la prevención, combate y erradicación de la corrupción proveniente de actividades vinculadas a la administración, manejo y custodia del patrimonio público.\nPara tales efectos, los diferentes órganos y entes del Poder Público, en sus distintos niveles, deben desarrollar planes educativos de formación y prevención contra la corrupción, dirigidos a las servidoras públicas, servidores públicos y a la población en general.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "Carácter público de la información\nArtículo 9. Toda información relativa a la administración, manejo y custodia del patrimonio público que corresponda a las personas sujetas a esta Ley, tendrá carácter público, salvo las excepciones que por razones de Seguridad de la Nación, expresamente establezca la Ley.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "Información sobre utilización de bienes y gastos de recursos\nArtículo 10. A fin de dar cumplimiento a lo dispuesto en el artículo anterior, las personas a que se refieren los artículos 4 y 5 de esta Ley deberán informar a las ciudadanas y ciudadanos sobre la utilización de los bienes y el gasto de los recursos que integran el patrimonio público cuya administración les corresponde. A tal efecto, publicarán trimestralmente y pondrán a la disposición de cualquier persona en las oficinas de atención al público o de atención ciudadana que deberán crear, un informe detallado de fácil manejo y comprensión, sobre el patrimonio que administran, con la descripción y justificación de su utilización y gasto.\nEl informe a que se refiere este artículo podrá efectuarse por cualquier medio impreso, audiovisual, informático o cualquier otro que disponga el ente, de acuerdo con lo previsto en el ordenamiento jurídico vigente.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "Derecho a solicitar información\nArtículo 11. Las y los particulares tienen el derecho de solicitar a los órganos y entes indicados en los artículos 4 y 5 de esta Ley, cualquier información sobre la administración y custodia del patrimonio público de dichos órganos y entes. Asimismo, podrán acceder y obtener copia de los documentos y archivos correspondientes para examinar o verificar la información que se les suministre, de acuerdo con el ordenamiento jurídico vigente, salvo las excepciones que por razones de seguridad y defensa de la Nación expresamente establezca la ley.\nLas ciudadanas y ciudadanos y las organizaciones de base del poder popular cuando tengan conocimiento de la comisión de hechos sancionados por esta Ley, en donde se encuentren involucrados recursos públicos, deberán acudir a las autoridades competentes, a los fines de denunciarlos.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "Consulta pública de leyes de presupuesto\nArtículo 12. El Ejecutivo Nacional deberá someter a consulta pública el anteproyecto de Ley del Marco Plurianual del Presupuesto y el anteproyecto de Ley de Presupuesto Anual, antes de su presentación a la Asamblea Nacional, de conformidad con lo establecido en el Decreto con Rango, Valor y Fuerza de Ley Orgánica de Administración Pública.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "Participación ciudadana en la formulación, supervisión y control presupuestario\nArtículo 13. Las y los particulares, consejos comunales, comunas y demás instancias y organizaciones de base del Poder Popular tienen derecho a participar en la formulación, supervisión, control de la ejecución presupuestaria y evaluación en la administración de sus gastos, de acuerdo con el ámbito político territorial correspondiente, de conformidad con lo previsto en la Constitución de la República Bolivariana de Venezuela y la Ley. A tal efecto, la Oficina Nacional de Presupuesto someterá periódicamente a consulta pública el diseño de los indicadores de gestión a que se refiere la Sección Séptima del Capítulo II del Título II de la Ley Orgánica de Administración Financiera del Sector Público, de conformidad con el procedimiento establecido en el Título IV de la Ley Orgánica de la Administración Pública.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "Prohibición para uso de bienes o recursos públicos\nArtículo 14. Las funcionarias, funcionarios, empleadas públicas y empleados públicos están al servicio del Estado y no de parcialidad política o económica alguna. En consecuencia, no podrán destinar el uso de los bienes públicos o los recursos que integran el patrimonio público para favorecer a partidos o proyectos políticos, o a intereses económicos particulares.\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "Nombramiento, remoción o destituciones\nArtículo 15. El nombramiento y remoción o destitución de las funcionarias, funcionarios, empleadas públicas y empleados públicos no podrá estar determinado por afiliación u orientación política alguna y se realizará de conformidad con lo dispuesto en la Constitución de la República Bolivariana de Venezuela y en las leyes.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "Sueldos y salarios\nArtículo 16. Las autoridades competentes establecerán sueldos y salarios a las funcionarias, funcionarios, empleadas públicas y empleados públicos, suficientes para garantizar su independencia política y económica en el ejercicio de la función pública.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "Instrucción de procedimientos y trámites\nArtículo 17. Las funcionarias, funcionarios, empleadas públicas y empleados públicos instruirán los procedimientos y demás trámites administrativos procurando su simplificación y respetando los principios de economía, celeridad, eficacia, objetividad, imparcialidad, honestidad, transparencia, buena fe y confianza, establecidos en el Decreto con Rango, Valor y Fuerza de Ley Orgánica de la Administración Pública y en la Ley Orgánica de Procedimientos Administrativos.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "Administración del patrimonio público\nArtículo 18. Las funcionarias públicas, funcionarios públicos, empleadas públicas y empleados públicos deben administrar, manejar y custodiar el patrimonio público con criterios de racionalidad y eficiencia, procurando la disminución del gasto y la óptima utilización e inversión de los recursos disponibles, en atención a los fines públicos.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "Uso de bienes y recursos públicos\nArtículo 19. Las funcionarias, funcionarios, empleadas públicas y empleados públicos deberán utilizar los bienes y recursos públicos para los fines previstos en el presupuesto correspondiente.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "Actuación funcionarial\nArtículo 20. Las funcionarias, funcionarios, empleadas públicas y empleados públicos actuarán de conformidad con lo establecido en la ley. Cuando una disposición legal o reglamentaria deje a su juicio o discrecionalidad una decisión, medida o providencia, ésta deberá ser suficientemente motivada y mantener la debida proporcionalidad y adecuación con el supuesto de hecho y con los fines de la norma, y cumplir los trámites, requisitos y formalidades necesarios para su validez y eficacia.\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "Rendición de cuentas\nArtículo 21. Las funcionarias públicas y funcionarios públicos a que se refiere el Capítulo IV del Título II de la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal deberán rendir cuentas de los bienes y recursos públicos que administren de conformidad con las disposiciones establecidas en dicha Ley.\nEn todo caso, el informe de rendición de cuentas correspondiente será público y a él tendrá acceso cualquier ciudadana o ciudadano.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "Responsabilidades de las funcionarias públicas y funcionarios públicos\nArtículo 22. Las funcionarias, funcionarios, empleadas públicas y empleados públicos responden civil, penal, administrativa y disciplinariamente por la administración de los bienes y recursos públicos, de conformidad con lo establecido en la ley.\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "Código de ética de las funcionarias públicas y funcionarios públicos\nArtículo 23. Las funcionarias, funcionarios, empleadas públicas y empleados públicos ceñirán sus actuaciones a las disposiciones del Código de Ética para el Funcionario Público, sin perjuicio de las demás normativas aplicables.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "Sistema electrónico para la elaboración y registro de la Declaración Jurada de Patrimonio\nArtículo 24. La presentación de la Declaración Jurada de Patrimonio debe elaborarse y registrarse en formato electrónico a través de un sistema automatizado que, a tal efecto, estará bajo la rectoría y condiciones que establezca la Contraloría General de la República.\n"
+      },
+      "art-025": {
+       "label": "Art. 25",
+       "kind": "art",
+       "text": "Incorporación al Sistema Automatizado\nArtículo 25. Las y los responsables del área de Recursos Humanos de los órganos y entes señalados en los numerales del 1 al 11 del artículo 9 de la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, están en la obligación de incorporar al Sistema Automatizado de Registro de Órganos y Entes del Sector Público, la información relativa a los movimientos de ingreso, cese o término de ejercicio de las funciones o empleos del personal, dentro del lapso de cinco (5) días hábiles a que éstos se produzcan, aun cuando se encuentren en comisión de servicio. Igualmente, deben incorporar la información relativa de las máximas autoridades, personal de alto nivel y de confianza; debiendo mantener actualizado dicho sistema.\n"
+      },
+      "art-026": {
+       "label": "Art. 26",
+       "kind": "art",
+       "text": "Consulta del Registro de Inhabilitados de la Contraloría General de la República\nArtículo 26. A quienes competa hacer los nombramientos o designaciones de las funcionarias, funcionarios, empleadas públicas o empleados públicos, y a los presidentes de cuerpos integrados por funcionarias y funcionarios electos, corresponderá participar, sin perjuicio de lo dispuesto en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal con respecto al registro de inhabilitados, a la Contraloría General de la República las elecciones recaídas, los nombramientos o designaciones hechos y las respectivas tomas de posesión de cualquiera de las personas señaladas en el artículo 3 de esta Ley, a los fines de lo establecido en el artículo anterior y del registro correspondiente.\nTal participación deberá hacerla la obligada u obligado dentro de los treinta (30) días siguientes a la fecha en la cual la funcionaria, funcionario, empleada pública o empleado público asuma el ejercicio del cargo.\n"
+      },
+      "art-027": {
+       "label": "Art. 27",
+       "kind": "art",
+       "text": "Fidelidad de la declaración jurada de patrimonio\nArtículo 27. La Declaración Jurada de Patrimonio debe ser una expresión fiel y exacta de la verdad de los datos correspondientes a la situación patrimonial de la servidora pública o servidor público que tenga el deber de elaborarla y presentarla.\n"
+      },
+      "art-028": {
+       "label": "Art. 28",
+       "kind": "art",
+       "text": "Lapso para la presentación de la Declaración Jurada de Patrimonio\nArtículo 28. Sin perjuicio de lo establecido en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, las personas señaladas en el artículo 3 de esta Ley deberán presentar declaración jurada de su patrimonio dentro de los treinta (30) días siguientes a la toma de posesión de sus cargos y dentro de los treinta (30) días posteriores a la fecha en la cual cesen en el ejercicio de empleos o funciones públicas.\nEl lapso para presentar la declaración jurada de patrimonio de las personas señaladas en el numeral tercero, del artículo 3 de esta Ley, se establecerá mediante resolución motivada que dicte la Contralora General o Contralor General de la República, a fin de exigirles la presentación de la situación patrimonial.\nLa declaración jurada de patrimonio estará exenta de todo impuesto o tasa.\n"
+      },
+      "art-029": {
+       "label": "Art. 29",
+       "kind": "art",
+       "text": "Prorroga\nArtículo 29. La Contraloría General de la República, en casos excepcionales y justificados, podrá prorrogar mediante resolución los lapsos establecidos en los artículos anteriores. La solicitud de prórroga deberá ser presentada antes del vencimiento de dicho lapso.\n"
+      },
+      "art-030": {
+       "label": "Art. 30",
+       "kind": "art",
+       "text": "Actualización anual de la Declaración Jurada de Patrimonio\nArtículo 30. Las máximas autoridades, funcionarias públicas y funcionarios públicos que ejercen cargos de alto nivel y de confianza de los órganos y entes señalados en los numerales del 1 al 11 del artículo 9 de la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, deben actualizar anualmente la declaración jurada de patrimonio. El lapso para cumplir con esta obligación se establecerá mediante resolución que, a tal efecto, dicte la Contralora General o Contralor General de la República.\nLa Contralora General o Contralor General de la República podrá prorrogar, mediante resolución el lapso establecido para la presentación de la declaración jurada de patrimonio actualizada. La solicitud de prórroga deberá ser presentada antes del vencimiento de dicho lapso.\n"
+      },
+      "art-031": {
+       "label": "Art. 31",
+       "kind": "art",
+       "text": "Requerimiento del Certificado Electrónico de Recepción de la Declaración Jurada de Patrimonio\nArtículo 31. Las y los responsables del área de recursos humanos de los órganos y entes señalados en los numerales del 1 al 11 del artículo 9 de la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, deben requerir a las funcionarias, funcionarios, empleadas y empleados copia del Certificado Electrónico de Recepción de la Declaración Jurada de Patrimonio, en el que conste el cumplimiento de la obligación. Dicha copia deberá incorporarse al expediente del declarante en la unidad de recursos humanos o en la dependencia con competencia en la materia.\n"
+      },
+      "art-032": {
+       "label": "Art. 32",
+       "kind": "art",
+       "text": "Cooperación con los procedimientos para la verificación de la Declaración Jurada de Patrimonio\nArtículo 32. Las personas obligadas a presentar declaración jurada de patrimonio, deben cooperar prestando las facilidades necesarias para verificar la sinceridad de ellas. A tal efecto, permitirán a las funcionarias o funcionarios competentes, la inspección de los libros, cuentas bancarias, documentos, facturas, información y otros elementos que comprueben el contenido de la declaración.\nIgual obligación estará a cargo de las funcionarias públicas, funcionarios públicos, empleadas públicas o empleados públicos y de las y los particulares o personas jurídicas que tengan dichos documentos en su poder, quienes estarán obligados a enviarlos a la Contraloría General de la República, dentro de los diez (10) días hábiles al requerimiento de las mismas por parte del órgano, y sujetos a la sanción prevista en esta Ley.\nLa Contraloría General de la República podrá ordenar a cualquier órgano o ente del sector público, la práctica de actuaciones específicas, con la finalidad de verificar el contenido de las declaraciones juradas de patrimonio.\nLos datos, registros, informes o documentos deberán suministrarse en los términos y condiciones requeridos por la Contraloría General de la República, debidamente certificados y acompañados de los soportes o respaldo que justifican la información contenida en ellos, de forma veraz, completa y exacta, demostrativas de las operaciones o transacciones económicas, financieras y de cualquier otra índole.\n"
+      },
+      "art-033": {
+       "label": "Art. 33",
+       "kind": "art",
+       "text": "Presentación de la declaración jurada ante el Ministerio Público y tribunales penales\nArtículo 33. El Ministerio Público y los tribunales de la jurisdicción penal podrán exigir la presentación de la declaración jurada de patrimonio a las personas indicadas en el artículo 3 de esta Ley o a otras personas, cuando de las investigaciones que estén conociendo, surjan indicios de la comisión de los delitos establecidos en esta Ley. La declaración solicitada deberá ser presentada dentro del plazo que el Ministerio Público o el tribunal correspondiente determine, el cual no podrá ser menor de quince (15) días hábiles contados desde la fecha de la respectiva notificación, y una vez recibida será enviada copia certificada de la misma a la Contraloría General de la República.\n"
+      },
+      "art-034": {
+       "label": "Art. 34",
+       "kind": "art",
+       "text": "Verificación de veracidad de la declaración jurada de patrimonio\nArtículo 34. La Contraloría General de la República, una vez recibida la declaración jurada de patrimonio en formato electrónico, procederá, en el marco de la auditoria patrimonial, a verificar la veracidad de la misma y a cotejarla, de ser el caso, con la declaración anterior.\nLa Contralora General o Contralor General de la República podrá solicitar directamente a las respectivas embajadas, atendiendo a los convenios y tratados internacionales suscritos y ratificados por la República Bolivariana de Venezuela sobre la materia, el suministro de aquellos elementos probatorios, que se requieran, con motivo del procedimiento de verificación de las declaraciones juradas de patrimonio.\nIgualmente, podrá solicitar, con ocasión a la verificación de la declaración jurada de patrimonio, de la persona, funcionaria pública o funcionario público que haya cesado o terminado en el ejercicio de sus labores, empleos o funciones, la presentación de una nueva declaración patrimonial, aun cuando no esté activo en la función o empleo público dentro del año siguiente al cese en el ejercicio de su cargo.\nLos informes de auditorías patrimoniales, así como, las pruebas obtenidas por la Contraloría General de la República, para verificar y cotejar las declaraciones juradas de patrimonio, tendrán fuerza probatoria, mientras no sean desvirtuadas en el debate judicial.\nLa Contraloría General de la República podrá verificar de oficio la situación patrimonial, de quienes, estando obligados a presentar su declaración jurada, no lo hicieren.\n"
+      },
+      "art-035": {
+       "label": "Art. 35",
+       "kind": "art",
+       "text": "Orden de los elementos probatorios\nArtículo 35. Cuando la Contraloría General de la República observe que la declaración no se ajusta a las exigencias previstas en la ley o surjan dudas acerca de la exactitud de los datos que ella contenga, ordenará al declarante que presente los elementos probatorios del caso, dentro de los lapsos de treinta (30) días continuos, contados a partir de la fecha en que haya sido notificado, más el término de la distancia.\n"
+      },
+      "art-036": {
+       "label": "Art. 36",
+       "kind": "art",
+       "text": "Concesión de plazo adicional\nArtículo 36. El declarante podrá solicitar de la Contraloría General de la República, después de su notificación, la concesión de un plazo adicional no mayor de veinte (20) días continuos, para comprobar ante ella la veracidad de su declaración jurada de patrimonio. Dicho órgano podrá acordar la prórroga por resolución que notificará a la o el solicitante.\n"
+      },
+      "art-037": {
+       "label": "Art. 37",
+       "kind": "art",
+       "text": "Formación del expediente\nArtículo 37. De las actuaciones realizadas con motivo del procedimiento de verificación patrimonial previsto en esta Ley y en las resoluciones emanadas de la Contraloría General de la República, se formará un expediente y se dejará constancia de sus resultados en un informe, con base en la cual, la Contraloría General de la República, mediante auto motivado, decidirá si admite o no la declaración jurada de patrimonio y la situación patrimonial, procediendo al efecto de la manera siguiente:\n1. Si del análisis realizado se concluye que los datos contenidos en la declaración jurada de patrimonio o situación patrimonial son veraces, serán admitidas y se ordenará el archivo del expediente.\n2. Si por el contrario se determina que la declaración jurada de patrimonio no es veraz, por existir disparidad entre lo declarado y el resultado de la auditoría patrimonial o la existencia de fondos administrados que no están justificados, la Contraloría General de la República remitirá las actuaciones al Ministerio Público, para que sea ejercida la acción pertinente.\n3. Si el Ministerio Público considera necesarias otras diligencias adicionales a las efectuadas por la Contraloría General de la República, podrá comisionar a ésta para que las practique, en cuyo caso actuará bajo la rectoría y dirección del Ministerio Público.\n"
+      },
+      "art-038": {
+       "label": "Art. 38",
+       "kind": "art",
+       "text": "Sanciones\nArtículo 38. Con independencia a las responsabilidades civiles, penales, administrativas o disciplinarias que puedan tener lugar, serán sancionadas o sancionados, con multa equivalente de cien (100) a mil (1000) unidades del tipo de cambio oficial de la moneda de mayor valor publicado por el Banco Central de Venezuela, vigente para el momento del pago.\n1. Quienes omitieren presentar la declaración jurada de patrimonio dentro del término previsto para ello.\n2. Quienes omitieren presentar en el término que se le hubiere acordado, los documentos solicitados con motivo del procedimiento de verificación patrimonial.\n3. Quienes se les exija mediante resolución, presentar la declaración jurada de patrimonio y no lo hicieren.\n4. Quienes no participen los nombramientos, designaciones, tomas de posesiones, remociones o destituciones.\n5. Las y los responsables del área de recursos humanos cuando no exijan a la funcionaria pública o funcionario público el comprobante que demuestre el cumplimiento de haber presentado la declaración jurada de patrimonio.\n6. Las máximas autoridades a quienes se les haya solicitado la aplicación de medidas preventivas y no lo hicieren o a quienes éstos hayan encargado su aplicación.\n7. Las funcionarias públicas y funcionarios públicos que ordenen la cancelación de prestaciones sociales u otros conceptos con motivo del cese o terminación en el ejercicio de labores, empleo o funciones por renuncia, destitución o porque se les conceda el beneficio de jubilación, sin antes haber exigido el comprobante donde conste la presentación de la declaración jurada de patrimonio.\n8. Cualquiera que de algún modo obstaculice o entrabe la práctica de alguna diligencia que deba efectuarse con motivo de la auditoria patrimonial.\n9. Cualquier persona que falseare u ocultare los datos contenidos o que deba contener su declaración de patrimonio o la información o datos que se les requiera con ocasión a su verificación.\n10. Los titulares de los órganos y entes a que se refieren los artículos 4 y 5 de esta Ley, que no publiquen y pongan a disposición el informe a que se refiere el artículo 10 de esta Ley.\nQuienes la Contraloría General de la República les haya ordenado practicar actuaciones específicas, con la finalidad de verificar el contenido de la declaración jurada de patrimonio y no las hicieren.\n"
+      },
+      "art-039": {
+       "label": "Art. 39",
+       "kind": "art",
+       "text": "Imposición de sanciones\nArtículo 39. La Contralora General o Contralor General de la República o sus delegatarios impondrán, previo el procedimiento administrativo sancionatorio previsto en este Capítulo, las sanciones señaladas en el artículo anterior.\n"
+      },
+      "art-040": {
+       "label": "Art. 40",
+       "kind": "art",
+       "text": "Procedimiento sancionatorio\nArtículo 40. El procedimiento administrativo sancionatorio se iniciará con auto motivado que contendrá una relación sucinta de los hechos, la base legal presuntamente inobservada, el sujeto llamado a dar cumplimiento a la misma y los elementos probatorios correspondientes.\nEste será notificado al presunto infractor a objeto de que ejerza por escrito, dentro del lapso de diez (10) días hábiles, su derecho a la defensa.\nUna vez presentado el escrito de defensa por el presunto infractor, la Contralora General o Contralor General de la Contralora General de la República o sus delegatarios decidirán si imponen o no la sanción prevista en el artículo 38 de esta Ley, dentro de los quince (15) días hábiles siguientes, la cual será notificada al sancionado de acuerdo con la Ley Orgánica de Procedimientos Administrativos. Dicha decisión agota la vía administrativa. Cuando así lo considere procedente, la Contralora General o Contralor General de la República o sus delegatarios podrán dictar auto para mejor proveer. En la aplicación de la sanción se tomarán en cuenta las circunstancias atenuantes y agravantes que correspondan. Se consideran atenuantes, la falta de intención, dolo o culpa del contraventor y el no haber sido objeto de sanciones durante los cinco (5) últimos años. Se consideran agravantes la reincidencia, la reiteración y la resistencia o reticencia.\n"
+      },
+      "art-041": {
+       "label": "Art. 41",
+       "kind": "art",
+       "text": "Recurso de reconsideración\nArtículo 41. Sin perjuicio del agotamiento de la vía administrativa, contra las decisiones dictadas por la Contralora General o Contralor General de la República o sus delegatarios, se podrá interponer el recurso de reconsideración, dentro de los quince (15) días hábiles siguientes a su notificación. Dicho recurso será decidido dentro de los quince días (15) hábiles siguientes a su interposición.\nAsimismo, se podrá interponer recurso de nulidad por ante el Tribunal Supremo de Justicia, en el lapso de seis (6) meses contados a partir del día siguiente a su notificación.\nUna vez firme en vía administrativa la decisión prevista en el artículo 40 de esta Ley, se solicitará la expedición de la planilla de liquidación correspondiente y se procederá a realizar la gestión de cobro.\n"
+      },
+      "art-042": {
+       "label": "Art. 42",
+       "kind": "art",
+       "text": "Solicitud de medidas preventivas\nArtículo 42. La Contralora General o Contralor General de la República solicitará a la máxima autoridad del órgano y ente de que se trate la aplicación de las medidas preventivas, con el objeto de asegurar la presentación de la declaración jurada de patrimonio y los documentos que se exijan en el procedimiento de verificación patrimonial o en cualquier otro procedimiento administrativo llevado a tal efecto en materia de declaración jurada de patrimonio.\nLa máxima autoridad aplicará la medida preventiva requerida al recibo de su solicitud y deberá participar su ejecución a la Contraloría General de la República en un lapso no mayor a los tres (3) días hábiles siguientes.\n"
+      },
+      "art-043": {
+       "label": "Art. 43",
+       "kind": "art",
+       "text": "Suspensión sin goce de sueldo\nArtículo 43. Sin perjuicio de las demás sanciones que sean procedentes, se suspenderá sin goce de sueldo hasta dieciocho (18) meses.\n1. La funcionaria pública o funcionario público que no presente la declaración jurada de patrimonio, hasta tanto demuestre que dio cumplimiento a la obligación.\n2. La funcionaria pública o el funcionario público que no suministre los documentos que exija la Contraloría General de la República, en la auditoría patrimonial o en cualquier otro procedimiento administrativo llevado a tal efecto en materia de declaración jurada de patrimonio.\n3. La funcionaria pública o funcionario público que no ejecute la suspensión acordada por la Contralora General o Contralor General de la República.\n4. La funcionaria pública o funcionario público que de algún modo obstaculice o entrabe la práctica de alguna diligencia que deba efectuarse con motivo de la auditoria patrimonial o en cualquier otro procedimiento administrativo llevado a tal efecto en materia de declaración jurada de patrimonio.\n"
+      },
+      "art-044": {
+       "label": "Art. 44",
+       "kind": "art",
+       "text": "Inhabilitación\nArtículo 44. Sin perjuicio de las demás sanciones que correspondan, quedará inhabilitado para ejercer cualquier cargo público:\n1. La funcionaria pública o funcionario público que cese en el ejercicio de sus funciones y no presente declaración jurada de patrimonio.\n2. La funcionaria pública o funcionario público que falseare u ocultare los datos contenidos en la declaración jurada de patrimonio o los suministrados en el procedimiento de verificación patrimonial.\n3. Quienes hayan sido sancionadas o sancionados por la Contralora General o Contralor General de la República o sus delegatarios, por no cumplir con la obligación de presentar declaración jurada de patrimonio o documentación requerida en el proceso de verificación patrimonial y se mantengan contumaces.\n4. Las y los Fiscales o representantes del Ministerio Público que dolosamente no interpongan los recursos legales, no ejerzan las acciones correspondientes, no promuevan las diligencias conducentes al esclarecimiento de la verdad, no cumplan los lapsos procesales o no coadyuven con la debida protección del procesado.\n5. La funcionaria, funcionario, empleada pública o empleado público que haya sido condenado por cualesquiera de los delitos establecidos en esta Ley. La inhabilitación que corresponda según los numerales 1, 2 y 3 de este artículo, será determinada por la Contralora General o Contralor General de la República en la resolución que dicte al efecto, la cual no podrá exceder de doce (12) meses, siempre y cuando sea subsanado el incumplimiento, y en los casos a que se refieren los numerales 4 y 5, por la Jueza o Juez que conozca el caso en sentencia definitiva, a cuyo efecto establecerá un lapso no mayor de quince (15) años.\n"
+      },
+      "art-045": {
+       "label": "Art. 45",
+       "kind": "art",
+       "text": "Prohibición para el retiro de pago por cese\nArtículo 45. Las funcionarias públicas o funcionarios públicos que cesen en el ejercicio de sus funciones públicas por renuncia, destitución, o porque se les conceda el beneficio de jubilación, no podrán retirar los pagos que les correspondan por cualquier concepto hasta tanto presenten la declaración jurada de patrimonio correspondiente al cese de sus funciones.\n"
+      },
+      "art-046": {
+       "label": "Art. 46",
+       "kind": "art",
+       "text": "Deberes y atribuciones de la Contraloría General de la República en materia de corrupción\nArtículo 46. Sin perjuicio de lo establecido en la ley que rige sus funciones, la Contraloría General de la República tendrá los siguientes deberes y atribuciones en materia de corrupción:\n1. Establecer y mantener los sistemas de información automatizados para recibir, almacenar y procesar la declaración jurada de patrimonio en formato electrónico.\n2. Exigir la formulación y presentación de la declaración jurada del patrimonio a las personas que deban hacerlo, en la oportunidad y condiciones que juzgue necesario, de conformidad con la ley.\n3. Envíara la o el Fiscal General de la República o a los tribunales competentes todos los documentos o elementos que ellos exijan, así como los resultados de las investigaciones que realice, sobre toda acción u omisión que produjere un perjuicio al patrimonio público o pudiere comprometer la responsabilidad civil o penal de las personas sujetas a esta Ley.\n4. Investigar a las personas jurídicas que contraten con alguno de los órganos y entes señalados en los artículos 4 y 5 de esta Ley, cuando en su capital participe, directamente o por interpuesta persona, cualquier funcionaria o funcionario en contravención con lo dispuesto en el artículo 145 de la Constitución de la República Bolivariana de Venezuela.\n5. Practicar las investigaciones pertinentes cuando fundadamente se presuma que alguna de las personas sometidas a esta Ley, aun por medio de sujetos interpuestos, hubiere efectuado remesas de fondos al exterior con el propósito de ocultar su enriquecimiento ilícito.\n"
+      },
+      "art-047": {
+       "label": "Art. 47",
+       "kind": "art",
+       "text": "Aclaratoria de dudas\nArtículo 47. La Contraloría General de la República podrá aclarar las dudas que puedan presentarse en la interpretación de la obligación de hacer declaración jurada de patrimonio, en las investigaciones para determinar responsabilidades administrativas, y en la sustanciación de aquellos casos en que pueda derivarse responsabilidad penal o civil.\n"
+      },
+      "art-048": {
+       "label": "Art. 48",
+       "kind": "art",
+       "text": "Competencia para investigar y Fiscalizar\nArtículo 48. La Contraloría General de la República tiene competencia para investigar y fiscalizar todos los actos que tengan relación con el patrimonio público, de conformidad con lo establecido en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal. A estos efectos, podrá realizar las averiguaciones que crea necesarias en los órganos y entes que se mencionan en los artículos 4 y 5 de esta Ley.\n"
+      },
+      "art-049": {
+       "label": "Art. 49",
+       "kind": "art",
+       "text": "Remisión al Ministerio Público\nArtículo 49. Cuando la Contraloría General de la República determine la responsabilidad administrativa de una funcionaria pública o funcionario público de conformidad con esta Ley y la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, remitirá al Ministerio Público el resultado de sus actuaciones para que éste ejerza las acciones correspondientes.\n"
+      },
+      "art-050": {
+       "label": "Art. 50",
+       "kind": "art",
+       "text": "Deberes y atribuciones del Ministerio Público\nArtículo 50. Sin perjuicio de lo establecido en la Ley Orgánica del Ministerio Público y en el Código Orgánico Procesal Penal, en materia de corrupción el Ministerio Público tendrá los siguientes deberes y atribuciones:\n1. Ejercer las acciones a que hubiere lugar, para hacer efectiva la responsabilidad penal, civil, laboral, militar, administrativa o disciplinaria en que hubieren incurrido las personas indicadas en el artículo 3 de esta Ley.\n2. Solicitar a los órganos de investigación penal, realizar actuaciones complementarias que permitan recabar los elementos probatorios conducentes a determinar la procedencia del ejercicio de las acciones a que haya lugar, contra las personas sometidas a investigación por el órgano contralor.\n3. Informar a la Contraloría General de la República el resultado de las acciones que hubiere intentado con fundamento en el resultado obtenido en el procedimiento de auditoría patrimonial. En los casos en que desestime el ejercicio de las acciones de su competencia, deberá participar a la Contraloría General de la República a través de un informe los motivos que asistieron la desestimatoria.\n4. Recabar, conservar y estructurar cualesquiera elementos probatorios que considere necesarios y útiles para el procesamiento de las personas incursas en la perpetración de alguno de los delitos previstos en esta Ley.\n5. Velar por la aplicación de las sanciones administrativas y disciplinarias que sean procedentes.\n6. Intentar la acción civil de cobro de las multas administrativas impuestas por la Contraloría General de la República como consecuencia de la declaración de responsabilidad administrativa, y que no hubieren sido satisfechas.\n7. Las demás que le señale la ley.\n"
+      },
+      "art-051": {
+       "label": "Art. 51",
+       "kind": "art",
+       "text": "Acción civil\nArtículo 51. Cuando se hayan cometido delitos contra el patrimonio público, y resultaren afectados derechos, bienes e intereses patrimoniales de la República Bolivariana de Venezuela, la acción civil será ejercida por la Procuradora o Procurador General de la República.\n"
+      },
+      "art-052": {
+       "label": "Art. 52",
+       "kind": "art",
+       "text": "Promesa, ofrecimiento o concesión de beneficios o ventajas\nArtículo 52. Quien por sí o por persona interpuesta prometa, ofrezca o conceda a directivos, administradoras, administradores, empleadas, empleado so colaboradores de empresas, sociedades, asociaciones, fundaciones u organizaciones un beneficio o ventaja de cualquier naturaleza, para que le favorezca a él o a un tercero frente a otros, incumpliendo sus obligaciones en la adquisición o venta de mercancías o en la prestación de servicios, será sancionada o sancionado con pena de prisión de dos (2) a seis (6) años. Con la misma pena será castigado el directivo, administradora o administrador, empleada o empleado, colaboradora o colaborador, que por sí o por persona interpuesta, reciba, solicite o acepte dicho beneficio o ventaja. Adicionalmente el órgano desconcentrado con competencia para la defensa de los derechos socioeconómicos, podrá imponer la sanción de suspensión del Registro Único, en los términos previstos en la Ley que regula la materia de precios justos de bienes y servicios.\n"
+      },
+      "art-053": {
+       "label": "Art. 53",
+       "kind": "art",
+       "text": "Enriquecimiento ilícito\nArtículo 53. Incurre en enriquecimiento ilícito la funcionaria pública o funcionario público que hubiere obtenido en el ejercicio de sus funciones un incremento patrimonial desproporcionado con relación a sus ingresos, que no pudiere justificar requerido y que no constituya otro delito.\nPara la determinación del enriquecimiento ilícito de las personas sometidas a esta Ley, se tomarán en cuenta:\n1. La situación patrimonial de la investigada o investigado.\n2. La cuantía de los bienes objeto del enriquecimiento en relación con el importe de sus ingresos y de sus gastos ordinarios.\n3. La ejecución de actos que revelen falta de probidad en el desempeño del cargo y que tengan relación causal con el enriquecimiento.\n4. Las ventajas obtenidas por la ejecución de contratos con alguno de los entes indicados en el artículo 4 de esta Ley.\n"
+      },
+      "art-054": {
+       "label": "Art. 54",
+       "kind": "art",
+       "text": "Personas adicionales al enriquecimiento ilícito.\nArtículo 54. Además de las personas indicadas en el artículo 3 de esta Ley, podrán incurrir en enriquecimiento ilícito:\n1. Aquellas a las cuales se hubiere exigido declaración jurada de patrimonio, de conformidad con lo previsto en el artículo 33 de esta Ley.\n2. Aquellas que ilegalmente obtengan algún lucro por concepto de ejecución de contratos celebrados con cualquiera de los entes u órganos indicados en el artículo 4 de esta Ley.\n"
+      },
+      "art-055": {
+       "label": "Art. 55",
+       "kind": "art",
+       "text": "Bienes que constituyen el enriquecimiento ilícito\nArtículo 55. Los bienes que constituyen el enriquecimiento ilícito, por el sólo hecho de la sentencia ejecutoriada, pasarán a ser propiedad de la entidad afectada, cuando se le produjere un perjuicio económico. En los demás casos, ingresarán a la Hacienda Pública Nacional.\n"
+      },
+      "art-056": {
+       "label": "Art. 56",
+       "kind": "art",
+       "text": "Investigación por enriquecimiento ilícito\nArtículo 56. Cuando por cualquier medio, el Ministerio Público conozca de la existencia de indicios de que se ha incurrido en un presunto enriquecimiento ilícito, acordará iniciar, por auto motivado, la investigación correspondiente y ordenará practicar todas las diligencias encaminadas a demostrar dicho enriquecimiento. El Ministerio Público, a fin de sustanciar la referida investigación, podrá apoyarse en cualesquiera de los órganos de policía.\n"
+      },
+      "art-057": {
+       "label": "Art. 57",
+       "kind": "art",
+       "text": "Obligación para declarar\nArtículo 57. Las funcionarias, funcionarios, empleadas públicas o empleados públicos y las o los particulares están obligados a rendir declaración de los hechos que conozcan y a presentar a la Contraloría General de la República o a sus delegados, al Ministerio Público y al órgano jurisdiccional competente, según el caso, libros, comprobantes y documentos relacionados con el hecho que se averigua, sin observar lo pautado en el Título VII de la Ley Orgánica de la Administración Pública. Cuando se tratare de inspección de cartas, telegramas, papeles privados y cualquier otro medio de correspondencia o comunicación, se procederá de conformidad con lo establecido en la Constitución de la República Bolivariana de Venezuela, el Código Civil y el Código Orgánico Procesal Penal.\n"
+      },
+      "art-058": {
+       "label": "Art. 58",
+       "kind": "art",
+       "text": "Terminación de la investigación\nArtículo 58. Terminada la investigación, si no resultaren probados los hechos averiguados, el Ministerio Público hará declaración expresa de ello. En caso contrario, procederá de la forma siguiente:\n1. Si aparecieren fundados indicios de que la investigada o investigado ha cometido el delito de enriquecimiento ilícito o cualquiera de los otros delitos contemplados en esta Ley, intentará la acción penal correspondiente.\n2. Si resultare que la investigada o investigado está incurso en la comisión de hechos constitutivos de infracciones de índole fiscal, se remitirá a la Contraloría General de la República, a fin de que decida lo correspondiente, de conformidad con la Ley Orgánica del Ministerio Público.\n3. Si resultaren comprobados daños y perjuicios causados al patrimonio público, bajo supuestos distintos a los contemplados en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, ejercerá la acción civil respectiva.\n"
+      },
+      "art-059": {
+       "label": "Art. 59",
+       "kind": "art",
+       "text": "Apropiación o distracción del patrimonio público\nArtículo 59. Cualquiera de las personas señaladas en el artículo 3 de esta Ley, que se apropie o distraiga, en provecho propio o de otro, los bienes del patrimonio público o en poder de algún órgano público, cuya recaudación, administración o custodia tengan por razón de su cargo, será penada o penado con prisión de tres (3) a diez (10) años y multa del veinte por ciento (20%) al sesenta por ciento (60%) del valor de los bienes objeto del delito. Se aplicará la misma pena si el agente, aun cuando no tenga en su poder los bienes, se los apropie o distraiga o contribuya para que sean apropiados o distraídos, en beneficio propio o ajeno, valiéndose de la facilidad que le proporciona su condición de funcionaria pública o funcionario público.\n"
+      },
+      "art-060": {
+       "label": "Art. 60",
+       "kind": "art",
+       "text": "Extravíos, pérdidas, deterioros y Daños a bienes del patrimonio público\nArtículo 60. Cualquiera de las personas indicadas en el artículo 3 de esta Ley que teniendo, por razón de su cargo, la recaudación, administración o custodia de bienes del patrimonio público o en poder de algún órgano o ente público, diere ocasión por imprudencia, negligencia, impericia o inobservancia de leyes, reglamentos, órdenes o instrucciones, a que se extravíen, pierdan, deterioren o dañen esos bienes, será penada con prisión de seis (6) meses a tres (3) años.\n"
+      },
+      "art-061": {
+       "label": "Art. 61",
+       "kind": "art",
+       "text": "Uso indebido de bienes del patrimonio público\nArtículo 61. La funcionaria pública o funcionario público que, indebidamente, en beneficio particular o para fines contrarios a los previstos en las leyes, reglamentos, resoluciones u órdenes de servicio, utilice o permita que otra persona utilice bienes del patrimonio público o en poder de algún órgano público, o de empresas del Estado cuya administración, tenencia o custodia se le haya confiado, será penada o penado con prisión de seis (6) meses a cuatro (4) años.\nCon la misma pena será sancionada la persona que, con la anuencia de la funcionaria pública o funcionario público, utilice los trabajadores o bienes referidos.\n"
+      },
+      "art-062": {
+       "label": "Art. 62",
+       "kind": "art",
+       "text": "Beneficio por restitución de lo apropiado o distraído\nArtículo 62. Cuando el culpable de alguno de los delitos previstos en los artículos precedentes, antes de iniciarse la investigación, haya restituido lo apropiado o distraído, o reparado enteramente el daño causado, en el caso de que por la naturaleza del hecho o por otras circunstancias no fuere posible la restitución, la pena se disminuirá en dos terceras (2/3) partes.\nSi la restitución o la reparación se efectúa en el curso del juicio antes de dictarse sentencia de primera instancia, la pena se podrá disminuir hasta la mitad. Cuando el reintegro fuere parcial en cualquiera de los dos casos señalados, se podrá disminuir la pena hasta en una cuarta (1/4) parte, según la cantidad reintegrada o el daño reparado y la gravedad y modalidades del hecho punible.\n"
+      },
+      "art-063": {
+       "label": "Art. 63",
+       "kind": "art",
+       "text": "Destino diferente a fondo o rentas públicas\nArtículo 63. La funcionaria pública o funcionario público que ilegalmente diere a los fondos o rentas a su cargo, una aplicación diferente a la presupuestada o destinada, aun en beneficio público, será penada o penado con prisión de tres meses a tres años, según la gravedad del delito.\n"
+      },
+      "art-064": {
+       "label": "Art. 64",
+       "kind": "art",
+       "text": "Aplicación diferente a fondo o rentas públicas\nArtículo 64. La funcionaria pública o funcionario público que por dar ilegalmente a los fondos o rentas a su cargo una aplicación pública diferente a la presupuestada o destinada, causare daño o entorpeciera algún servicio público, será penada o penado con prisión de seis (6) meses a cuatro (4) años.\n"
+      },
+      "art-065": {
+       "label": "Art. 65",
+       "kind": "art",
+       "text": "Evasión de procedimientos, controles o restricciones en licitaciones\nArtículo 65. La funcionaria pública o funcionario público que, con el objeto de evadir la aplicación de los procedimientos de licitación u otros controles o restricciones que establece la ley para efectuar determinada contratación, o alegare ilegalmente razones de emergencia, será penada o penado con prisión de seis (6) meses a tres (3) años. Con igual pena serán sancionadas o sancionados las funcionarias o funcionarios que otorgaren las autorizaciones o aprobaciones de tales contrataciones.\n"
+      },
+      "art-066": {
+       "label": "Art. 66",
+       "kind": "art",
+       "text": "Excesos para contraer gastos o deudas\nArtículo 66. La funcionaria pública o funcionario público que excediéndose en las disposiciones presupuestarias y sin observancia de las previsiones legales sobre crédito público, efectúe gastos o contraiga deudas o compromisos de cualquier naturaleza que hagan procedente reclamaciones contra la República o contra algunas de las entidades o instituciones indicadas en el artículo 4 de esta Ley, será penada o penado con prisión de uno (1) a tres (3) años, excepto en aquellos casos en los cuales la funcionaria pública o funcionario público, a fin de evitar la paralización de un servicio, obtuviere la autorización del gasto por parte de la Presidenta o Presidente de la República Bolivariana de Venezuela en Consejo de Ministros, debiendo notificarse esta autorización a las Comisiones Permanentes de Finanzas y de Contraloría o, en su defecto, a la Comisión Delegada de la Asamblea Nacional.\n"
+      },
+      "art-067": {
+       "label": "Art. 67",
+       "kind": "art",
+       "text": "Constricción para obtener sumas de dinero\nArtículo 67. La funcionaria pública o funcionario público que abusando de sus funciones, constriña o induzca a alguien a que dé o prometa, para sí mismo o para otro, una suma de dinero o cualquier otra ganancia o dádiva indebida, será penada o penado con prisión de dos (2) a seis (6) años y multa de hasta el cincuenta por ciento (50%) del valor de la cosa dada o prometida.\n"
+      },
+      "art-068": {
+       "label": "Art. 68",
+       "kind": "art",
+       "text": "Retribuciones o utilidades\nArtículo 68. La funcionaria pública o funcionario público que por algún acto de sus funciones reciba para sí mismo o para otro, retribuciones u otra utilidad que no se le deban o cuya promesa acepte, será penado con prisión de uno (1) a cuatro (4) años y multa de hasta el cincuenta por ciento (50%) de lo recibido o prometido. Con la misma pena será castigada o castigado quien diere o prometiere el dinero, retribuciones u otra utilidad indicados en este artículo.\n"
+      },
+      "art-069": {
+       "label": "Art. 69",
+       "kind": "art",
+       "text": "Retraso u omisión intencional de funciones\nArtículo 69. La funcionaria pública o funcionario público que por retardar u omitir algún acto de sus funciones, o que por efectuar alguno que sea contrario al deber mismo que ellas impongan, reciba o se haga prometer dinero u otra utilidad, bien por sí mismo o mediante otra persona, para sí o para otro, será penada o penado con prisión de tres (3) a siete (7) años y multa de hasta el cincuenta por ciento (50%) del beneficio recibido o prometido.\nLa prisión será de cuatro (4) a ocho (8) años y la multa de hasta el sesenta por ciento (60%), si la conducta ha tenido por efecto:\n1. Conferir empleos públicos, subsidios, pensiones u honores, o hacer que se convenga en contratos relacionados con la administración a la que pertenezca la funcionaria pública o funcionario público.\n2. Favorecer o causar algún perjuicio o daño a alguna de las partes en procedimiento administrativo o juicio penal, civil o de cualquier otra naturaleza.\nSi el responsable de la conducta fuere una Jueza o Juez, y de ello, resultare una sentencia condenatoria restrictiva de la libertad que exceda de seis (6) meses, la pena de prisión será de cinco (5) a diez (10) años.\nCon la misma pena en cada caso, será castigada la persona interpuesta de la que se hubiere valido la funcionaria pública o funcionario público para recibir o hacerse prometer el dinero u otra utilidad, y la persona que diere o prometiere el dinero u otra utilidad indicados en este artículo.\n"
+      },
+      "art-070": {
+       "label": "Art. 70",
+       "kind": "art",
+       "text": "Persuasión e inducción a delinquir a funcionarias públicas o funcionarios públicos\nArtículo 70. Cualquiera que, sin conseguir su objeto, se empeñe en persuadir o inducir a cualquier funcionaria pública o funcionario público a que cometa alguno de los delitos previstos en los artículos 67 y 68 de esta Ley, será castigada o castigado, cuando la inducción sea con el objeto de que la funcionaria o funcionario incurra en el delito previsto en el artículo 68, con prisión de seis (6) meses a dos (2) años; y si fuere con el fin de que incurra en el señalado en el artículo 69, con las penas allí establecidas, reducidas a la mitad.\n"
+      },
+      "art-071": {
+       "label": "Art. 71",
+       "kind": "art",
+       "text": "Soborno\nArtículo 71. Cuando el soborno mediare en causa criminal a favor del indiciado, procesado o reo, por parte de su cónyuge o concubino en los términos del artículo 77 de la Constitución de la República Bolivariana de Venezuela, de algún ascendiente, descendiente o hermano, se rebajará la pena que debiera imponerse al sobornante, atendidas todas las circunstancias, en dos terceras (2/3) partes.\n"
+      },
+      "art-072": {
+       "label": "Art. 72",
+       "kind": "art",
+       "text": "Confiscación\nArtículo 72. En los casos previstos en los artículos 68 y 69, el dinero u objeto dados serán confiscados, previa sentencia firme que así lo acuerde.\n"
+      },
+      "art-073": {
+       "label": "Art. 73",
+       "kind": "art",
+       "text": "Uso indebido de información o datos reservados\nArtículo 73. La funcionaria pública o funcionario público que utilice, para sí o para otro, informaciones o datos de carácter reservado de los cuales tenga conocimiento en razón de su cargo, será penada o penado con prisión de uno (1) a seis (6) años y multa de hasta el cincuenta por ciento (50%) del beneficio perseguido u obtenido, siempre que el hecho no constituya otro delito.\nSi del hecho resultare algún perjuicio a la Administración Pública, la pena será aumentada de un tercio (1/3) a la mitad (1/2).\n"
+      },
+      "art-074": {
+       "label": "Art. 74",
+       "kind": "art",
+       "text": "Acto arbitrario\nArtículo 74. La funcionaria pública o funcionario público que abusando de sus funciones, ordene o ejecute en daño de alguna persona un acto arbitrario que no esté especialmente previsto como delito o falta por una disposición de la ley, será castigada o castigado con prisión de seis (6) meses a dos (2) años; y si obra por un interés privado, la pena se aumentará en una sexta (1/6) parte.\n"
+      },
+      "art-075": {
+       "label": "Art. 75",
+       "kind": "art",
+       "text": "Favorecimiento o perjuicio electoral\nArtículo 75. La funcionaria pública o funcionario público que abusando de sus funciones, utilice su cargo para favorecer o perjudicar electoralmente a un candidato, grupo, partido o movimiento político, será sancionada o sancionado con prisión de un (1) año a tres (3) años.\n"
+      },
+      "art-076": {
+       "label": "Art. 76",
+       "kind": "art",
+       "text": "Cobranza de impuestos o tasas por medios no autorizados\nArtículo 76. La funcionaria pública o funcionario público que arbitrariamente exija o cobre algún impuesto o tasa indebidos, o que, aun siendo legales, emplee para su cobranza medios no autorizados por la ley, será penada o penado con prisión de un (1) mes a un (1) año y multa de hasta el veinte por ciento (20%) de lo cobrado o exigido.\n"
+      },
+      "art-077": {
+       "label": "Art. 77",
+       "kind": "art",
+       "text": "Concierto para celebración de contratos\nArtículo 77. La funcionaria pública o funcionario público que, al intervenir por razón de su cargo en la celebración de algún contrato u otra operación, se concierte con los interesados o intermediarios para que se produzca determinado resultado, o utilice cualquier maniobra o artificio conducente a ese fin, será penada o penado con prisión de dos (2) a cinco (5) años. Si el delito tuvo por objeto obtener dinero, dádivas o ganancias indebidas que se le dieren u ofrecieren a él o a un tercero, será penado con prisión de dos (2) a seis (6) años y multa de hasta el cien por ciento (100%) del beneficio dado o prometido. Con la misma pena será castigada o castigado quien se acuerde con las funcionarias o funcionarios, y quien diere o prometiere el dinero, ganancias o dádivas indebidas a que se refiere este artículo.\n"
+      },
+      "art-078": {
+       "label": "Art. 78",
+       "kind": "art",
+       "text": "Ventaja o beneficios económicos de funcionarias públicas o funcionarios públicos\nArtículo 78. La funcionaria pública o funcionario público que en forma indebida, directamente o por interpuesta persona, con aprovechamiento de las funciones que ejerce o usando las influencias derivadas de las mismas, hubiere obtenido ventaja o beneficio económico u otra utilidad para sí o para un tercero, será penada o penado con prisión de dos (2) a cuatro (4) años. Igual pena se aplicará a quien, en beneficio propio o de otro, haga uso indebido de la influencia o ascendencia que pudiera tener sobre alguna funcionaria pública o funcionario público para que éste ordene o ejecute algún acto propio de sus funciones, para que lo omita, retarde o precipite o para que realice alguno que sea contrario al deber que ellas impongan. La funcionaria o funcionario que actúe bajo estas condiciones será castigada o castigado con la misma pena, aumentada de un tercio (1/3) a la mitad (1/2), excepto si concurren las circunstancias previstas en la segunda parte del artículo 67 de esta Ley, en cuyo caso se aplicará la sanción prevista en ese artículo.\n"
+      },
+      "art-079": {
+       "label": "Art. 79",
+       "kind": "art",
+       "text": "Utilidad ilegal por actos de la administración\nArtículo 79. Fuera de aquellos casos expresamente tipificados, la funcionaria pública o funcionario público o cualquier persona que por sí misma o mediante persona interpuesta se procure ilegalmente alguna utilidad en cualquiera de los actos de la administración pública, será penada o penado con prisión de uno (1) a cinco (5) años y multa de hasta el cincuenta por ciento (50%) de la utilidad procurada.\n"
+      },
+      "art-080": {
+       "label": "Art. 80",
+       "kind": "art",
+       "text": "Incremento injustificado de patrimonio\nArtículo 80. La funcionaria pública o funcionario público que hubiere obtenido en el ejercicio de sus funciones un incremento patrimonial desproporcionado con relación a sus ingresos, que no pudiere justificar, y que haya sido requerido debidamente para ello y que no constituya otro delito, será sancionada o sancionado con prisión de tres (3) a diez (10) años. Con la misma pena será sancionada la persona interpuesta para disimular el incremento patrimonial no justificado.\n"
+      },
+      "art-081": {
+       "label": "Art. 81",
+       "kind": "art",
+       "text": "Provecho o distracción de dinero, valores o bienes públicos\nArtículo 81. Los representantes o administradores de personas naturales o jurídicas, así como las o los directores o principales de éstas, que, por actos simulados o fraudulentos, se aprovechen o distraigan de cualquier forma, en beneficio propio o de terceros, el dinero, valores u otros bienes que sus administradas o representadas hubieren recibido de cualquier órgano o ente público por concepto de crédito, aval o cualquier otra forma de contratación, siempre que resulte lesionado el patrimonio público, serán penadas o penados con prisión de dos (2) a diez (10) años.\n"
+      },
+      "art-082": {
+       "label": "Art. 82",
+       "kind": "art",
+       "text": "Ausencia o disconformidad de balances\nArtículo 82. Los comisarios, administradoras, administradores, directoras, directores o principales de personas jurídicas en las que tenga interés algún órgano o ente público que, a falta de balance legalmente aprobado, en disconformidad con él o con base a balances insinceros, declaren, cobren o paguen utilidades ficticias o que no deban distribuirse, serán penadas o penados con prisión de uno (1) a cinco (5) años.\n"
+      },
+      "art-083": {
+       "label": "Art. 83",
+       "kind": "art",
+       "text": "Falseamiento u ocultamiento de datos en la declaración jurada de patrimonio\nArtículo 83. Cualquier persona que falseare u ocultare intencionalmente los datos contenidos o que deba contener su declaración jurada de patrimonio, así como los que se les requieran con ocasión de la verificación de la misma, o estuviere en rebeldía en su presentación o en el suministro de información en la auditoría patrimonial, será castigada o castigado con prisión de uno (1) a seis (6) meses y se procederá a su destitución si se encuentra en el ejercicio del cargo.\n"
+      },
+      "art-084": {
+       "label": "Art. 84",
+       "kind": "art",
+       "text": "Expedición de falsas certificaciones\nArtículo 84. La funcionaria pública o funcionario público o particular que expida una certificación falsa, destinada a dar fe ante la autoridad o ante particulares, de documentos, actas, constancias, antigüedad u otras credenciales, que puedan ser utilizadas para justificar decisiones que causen daños al patrimonio público, será penada o penado con prisión de seis (6) meses a dos (2) años.\nCon la misma pena se castigará a quien forjare tales certificaciones o altere alguna regularmente expedida, a quien hiciere uso de ello, o a quien diere u ofreciere dinero para obtenerla.\n"
+      },
+      "art-085": {
+       "label": "Art. 85",
+       "kind": "art",
+       "text": "Ocultamiento, inutilización o alteración de libros\nArtículo 85. Cualquiera que ilegalmente ocultare, inutilizare, alterare, retuviere o destruyera, total o parcialmente, un libro o cualquier otro documento que curse ante cualquier órgano o ente público, será penada o penado con prisión de tres (3) a siete (7) años.\nPodrá disminuirse hasta la mitad la pena prevista en este artículo si el daño o perjuicio causado fuese leve y hasta la tercera parte (1/3) si fuese levísimo.\n"
+      },
+      "art-086": {
+       "label": "Art. 86",
+       "kind": "art",
+       "text": "Alardeamiento o valimiento de relaciones o influencias\nArtículo 86. La persona que alardeando de valimiento o de relaciones de importancia e influencia con cualquier funcionaria pública o funcionario público reciba o se haga prometer, para sí o para otro, dinero o cualquier otra utilidad, bien como estímulo o recompensa de su mediación, bien so pretexto de remunerar el logro de favores, será penada o penado con prisión de dos (2) a siete (7) años; y con prisión de seis (6) meses a dos (2) años, a quien dé o prometa el dinero o cualquier otra utilidad de las que se indican en este artículo, a menos que haya denunciado el hecho ante la autoridad competente antes de la iniciación del correspondiente proceso judicial.\n"
+      },
+      "art-087": {
+       "label": "Art. 87",
+       "kind": "art",
+       "text": "Utilidad, ventaja o beneficio económico\nArtículo 87. Serán sancionados con prisión de tres (3) a seis (6) años las funcionarias públicas o funcionarios públicos que:\n1. Por sí o por interpuesta persona se procuren alguna utilidad, ventaja o beneficio económico con ocasión de los supuestos generadores de responsabilidad administrativa previstos en los artículos 91 y 92 de la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal.\n2. Ordenen pagos por obras o servicios no realizados o defectuosamente ejecutados.\n3. Certifiquen terminaciones de obras o prestación de servicios inexistentes o de calidades o cantidades inferiores a las contratadas, sin dejar constancia de estos hechos.\n"
+      },
+      "art-088": {
+       "label": "Art. 88",
+       "kind": "art",
+       "text": "Apertura de cuentas indebidas\nArtículo 88. La funcionaria pública o funcionario público que aperture cuenta bancaria a su nombre o al de un tercero utilizando fondos públicos, aun sin ánimo de apropiárselos, será penada o penado con prisión de uno (1) a cinco (5) años.\nCuando dichos fondos sean depositados en cuenta particular ya abierta, o aquel que deliberadamente se sobregire en las cuentas que en una o varias instituciones bancarias mantenga el órgano u ente confiado a su manejo, administración o giro, será penado con prisión de seis (6) meses a dos (2) años.\n"
+      },
+      "art-089": {
+       "label": "Art. 89",
+       "kind": "art",
+       "text": "Denuncia o acusación falsa\nArtículo 89. Cualquiera que falsamente denunciare o acusare a otra persona de la comisión de alguno o algunos de los hechos punibles previstos en esta Ley, será castigada con prisión de uno (1) a tres (3) años.\n"
+      },
+      "art-090": {
+       "label": "Art. 90",
+       "kind": "art",
+       "text": "Promesa de soborno a funcionaria pública o funcionario público\nArtículo 90. Quien por sí o por persona interpuesta prometa, ofrezca u otorgue a una funcionaria pública o funcionario público de otro Estado, directa o indirectamente, por parte de sus nacionales, personas que tengan residencia habitual en su territorio y empresas domiciliadas en él, cualquier objeto de valor pecuniario u otros beneficios, como dádivas, favores, promesas, ventajas a cambio de que dicha funcionaria o funcionario realice u omita cualquier acto, en el ejercicio de sus funciones públicas, relacionado con una transacción de naturaleza económica, comercial o de cualquier otra índole, será penada o penado con prisión de seis (6) a doce (12) años.\n"
+      },
+      "art-091": {
+       "label": "Art. 91",
+       "kind": "art",
+       "text": "Denegación de justicia y abuso de poder\nArtículo 91. La Jueza o Juez que omita o rehúse decidir, so pretexto de oscuridad, insuficiencia, contradicción o silencio de esta Ley, será penada o penado con prisión de uno (1) a dos (2) años. Si obrare por un interés privado, la pena se aumentará al doble.\nLa Jueza o Juez que viole esta Ley o abuse de poder, en beneficio o perjuicio de un procesado, será penada o penado con prisión de tres (3) a seis (6) años.\nLa Dirección Ejecutiva de la Magistratura del Tribunal Supremo de Justicia, tomará las previsiones necesarias para destituirlo, pudiendo permitir su reingreso a la carrera judicial, luego del transcurso de veinte (20) años después de cumplida la pena, siempre y cuando haya observado conducta intachable durante ese tiempo.\n"
+      },
+      "art-092": {
+       "label": "Art. 92",
+       "kind": "art",
+       "text": "Retardo procesal\nArtículo 92. La Jueza o Juez que retarde la tramitación del proceso con el fin de prolongar la detención del procesado o de que prescriba la acción penal correspondiente, será penada o penado con prisión de dos (2) a cuatro (4) años; igual pena le corresponderá a las personas que hubieren intervenido en el delito en calidad de cooperadores inmediatos. Igualmente, toda funcionaria pública o funcionario público de instrucción, o de policía judicial que, en el ejercicio de sus funciones, tuviere conocimiento de algún hecho punible por el cual ordene esta Ley proceder de oficio y omita o retarde indebidamente dictar las actuaciones correspondientes o dar parte de ello a la autoridad competente, será sancionada o sancionado con suspensión del cargo por seis (6) meses, sin goce de sueldo y, en caso de gravedad o de reincidencia reiterada, con destitución, previo procedimiento disciplinario, en ambos casos, por la Dirección Ejecutiva de la Magistratura del Tribunal Supremo de Justicia, si es empleado judicial o por la autoridad competente, si es algún órgano de policía.\n"
+      },
+      "art-093": {
+       "label": "Art. 93",
+       "kind": "art",
+       "text": "Omisión dolosa de recursos legales\nArtículo 93. Las y los fiscales o representantes del Ministerio Público, que dolosamente no interpongan los recursos legales, no ejerzan las acciones penales o civiles, o no promuevan las diligencias conducentes al esclarecimiento de la verdad, a la rectitud de los procedimientos, al cumplimiento de los lapsos procesales y de la protección debida al procesado, serán penadas o penados con prisión de dos (2) a cuatro (4) años.\n"
+      },
+      "art-094": {
+       "label": "Art. 94",
+       "kind": "art",
+       "text": "Influencia o injerencias en procesos de contrataciones\nArtículo 94. La funcionaria pública o funcionario público por sí o por interpuesta persona, en contravención a lo consagrado en el artículo 145 de la Constitución de la República Bolivariana de Venezuela, siempre y cuando se demostrare su influencia o injerencia en el proceso de contratación, o contrate con sociedades mercantiles que tengan su domicilio fiscal o constitución en países donde no se guarden las formalidades y requisitos de ley consagrados en la legislación nacional, será penado con prisión de tres (3) a seis (6) años. Igual pena será aplicada a las personas involucradas en el proceso de contratación.\n"
+      },
+      "art-095": {
+       "label": "Art. 95",
+       "kind": "art",
+       "text": "Restitución, reparación e Indemnización\nArtículo 95. Se considera de orden público la obligación de restituir, reparar el daño o indemnizar los perjuicios inferidos al patrimonio público, por quienes resultaren responsables de las infracciones previstas en esta Ley.\nA estos efectos, el Ministerio Público practicará de oficio las diligencias conducentes a la determinación de la responsabilidad civil de quienes aparecieren como copartícipes en el delito. En la sentencia definitiva, el tribunal se pronunciará sobre la responsabilidad civil del o de los enjuiciados. Si en el expediente no estuviere determinada la cuantía del daño, reparación, restitución o indemnización que corresponda, la sentencia ordenará proceder con arreglo a lo establecido en el artículo 249 del Código de Procedimiento Civil.\n"
+      },
+      "art-096": {
+       "label": "Art. 96",
+       "kind": "art",
+       "text": "Acción civil\nArtículo 96. La o el Fiscal del Ministerio Público, en capítulo separado del escrito de acusación, propondrá la acción civil que corresponda para que sean reparados los daños, efectuadas las restituciones, indemnizados los perjuicios o pagados los intereses que por los actos delictivos imputados al enjuiciado hubieren causado al Patrimonio Público, observándose al respecto los requisitos establecidos en el artículo 340 del Código de Procedimiento Civil. Los intereses se causarán desde la fecha de la comisión del acto de enriquecimiento ilícito contra el patrimonio público o desde el inicio de dicho acto, si fuere de ejecución continuada, y se calcularán conforme a la tasa o rata que fije el Reglamento de la Ley, pero en ningún caso será inferior al doce por ciento (12%) anual.\n"
+      },
+      "art-097": {
+       "label": "Art. 97",
+       "kind": "art",
+       "text": "Excepciones penales\nArtículo 97. En el mismo acto se opondrán todas las excepciones establecidas en el artículo 28 del Código Orgánico Procesal Penal y las indicadas en el artículo 346 del Código de Procedimiento Civil, conjuntamente con todas las defensas de fondo, en cuanto fueren procedentes.\nLas excepciones o cuestiones previas se contestarán por la parte a quien corresponda en la misma audiencia, y serán resueltas al concluir la misma, conforme a lo dispuesto en el artículo 330 del Código Orgánico Procesal Penal.\n"
+      },
+      "art-098": {
+       "label": "Art. 98",
+       "kind": "art",
+       "text": "Continuidad de la acción penal\nArtículo 98. Ningún procedimiento administrativo o de cualquier otra naturaleza impedirá el ejercicio de la acción penal y de la civil que de ella se derive.\n"
+      },
+      "art-099": {
+       "label": "Art. 99",
+       "kind": "art",
+       "text": "Proceso penal\nArtículo 99. Los juicios que se sigan por la comisión de los delitos previstos en esta Ley se regirán por las disposiciones previstas en ella y las contenidas en el Código Orgánico Procesal Penal.\n"
+      },
+      "art-100": {
+       "label": "Art. 100",
+       "kind": "art",
+       "text": "Cajas de seguridad bancaria\nArtículo 100. Las instituciones bancarias están obligadas a abrir las cajas de seguridad de sus clientes sometidos a averiguación por la presunta comisión de delitos contra la cosa pública y mostrar su contenido cuando así lo exija el Ministerio Público, previa orden judicial emitida por la Jueza o Juez de Control, a solicitud de aquél. La apertura se hará en presencia de la funcionaria o funcionario respectivo y del titular de la caja de seguridad o de su representante. En caso de que alguno de éstos no concurriere al acto de apertura o se negare a abrir la caja de seguridad, la misma será abierta en su ausencia o rebeldía, inventariándose su contenido, de todo lo cual se levantará acta. Dicha caja, luego de sellada, no podrá abrirse nuevamente sin orden expresa del tribunal competente a solicitud del Ministerio Público.\n"
+      },
+      "art-101": {
+       "label": "Art. 101",
+       "kind": "art",
+       "text": "Retención preventiva de remuneraciones, prestaciones o pensiones\nArtículo 101. Cuando a juicio del Ministerio Público existan fundados indicios de la responsabilidad de la investigada o investigado, podrá solicitar a la Jueza o Juez de Control que se retengan preventivamente las remuneraciones, prestaciones o pensiones de la funcionaria o funcionario, en el caso que la investigación se refiera a fondos de los cuales éste aparezca directamente responsable en la averiguación. Dicha retención se hará en la forma y porcentaje previstos en la legislación especial.\nEsta retención podrá hacerse extensiva a los pagos que los órganos y entes mencionados en el artículo 4 de esta Ley, adeuden a contratistas, cuando éstos aparezcan directamente implicados en las investigaciones que se practiquen.\n"
+      },
+      "art-102": {
+       "label": "Art. 102",
+       "kind": "art",
+       "text": "Aseguramiento de bienes\nArtículo 102. Cuando existieren indicios graves, el Ministerio Público podrá solicitar a la Jueza o Juez de Control, el aseguramiento de bienes dela investigada o investigado hasta por el doble de la cantidad en que se estime el enriquecimiento ilícito o el daño causado por la investigada o investigado al patrimonio público. La medida será acordada con sujeción a los trámites previstos en el Código de Procedimiento Civil. Introducida la solicitud, de considerarla procedente, la Jueza o Juez decretará en la misma fecha la medida preventiva de aseguramiento solicitada.\n"
+      },
+      "art-103": {
+       "label": "Art. 103",
+       "kind": "art",
+       "text": "Orden de confiscación de bienes\nArtículo 103. En la sentencia definitiva la Jueza o Juez podrá ordenar, según las circunstancias del caso, la confiscación de los bienes de las personas naturales o jurídicas, nacionales o extranjeras, que incurran o sean responsables de delitos establecidos en esta Ley que afecten gravemente el patrimonio público, a cuyo efecto solicitará ante las autoridades competentes, la repatriación de capitales de ser el caso.\nAsimismo, la Jueza o Juez podrá ordenar, según la gravedad del caso, la confiscación de los bienes de las personas que hayan incurrido en el delito de enriquecimiento ilícito tipificado en el artículo 52 de esta Ley, y consecuencialmente la repatriación de capitales.\nLas autoridades competentes estarán encargadas de presentar y recibir directamente o por vía diplomática las solicitudes de asistencia legal en materia penal, referentes a la investigación o juzgamiento de los actos de corrupción, de conformidad con lo establecido en sus ordenamientos jurídicos y los acuerdos suscritos y ratificados por la República Bolivariana de Venezuela.\n"
+      },
+      "art-104": {
+       "label": "Art. 104",
+       "kind": "art",
+       "text": "Inhabilitación para el ejercicio de la función pública\nArtículo 104. La funcionaria, funcionario, empleada pública o empleado público que haya sido condenado por cualesquiera de los delitos establecidos en esta Ley, quedará inhabilitado para el ejercicio de la función pública y, por tanto, no podrá optar a cargo de elección popular o a cargo público alguno, a partir del cumplimiento de la condena y hasta por cinco (5) años, a excepción de lo establecido en el artículo 91 de esta Ley, caso en el cual se aplicará el tiempo establecido en esa norma.\nEl lapso de inhabilitación a que se refiere este artículo será determinado por la Jueza o el Juez, de acuerdo con la gravedad del delito, en la sentencia definitiva que se pronuncie sobre el mismo.\n"
+      },
+      "art-105": {
+       "label": "Art. 105",
+       "kind": "art",
+       "text": "Imprescriptibilidad\nArtículo 105. Las acciones judiciales no prescribirán, cuando estén dirigidas a sancionar delitos contra el patrimonio público.\n"
+      },
+      "art-106": {
+       "label": "Art. 106",
+       "kind": "art",
+       "text": "Sistema estadístico y de Información\nArtículo 106. La Contraloría General de la República establecerá un sistema estadístico y de información sobre las denuncias, procedimientos, juicios, faltas, delitos, sanciones y penas que se impongan contra las funcionarias públicas o funcionarios públicos por actos contrarios a esta Ley o por incurrir en las sanciones administrativas establecidas en la Ley Orgánica de la Contraloría General de la República y del Sistema Nacional de Control Fiscal, en la Ley Orgánica de la Administración Financiera del Sector Público y en la Ley que establece el Estatuto de la Función Pública.\n"
+      },
+      "disp-transitoria-01": {
+       "label": "Disposición transitoria única",
+       "kind": "transitional",
+       "text": "ÚNICA. Los tipos penales contenidos en esta Ley, serán materia de codificación, sin que ello implique la alteración del espíritu, propósito y razón de la presente Ley y mantendrán su vigencia al ser sancionado el nuevo Código Orgánico Penal venezolano.\n"
+      },
+      "disp-final-01": {
+       "label": "Disposición final única",
+       "kind": "final",
+       "text": "ÚNICA. La presente Ley entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.\n"
+      },
+      "titulos": {
+       "label": "Libros, títulos, capítulos y secciones",
+       "kind": "heading",
+       "text": "TÍTULO I. DISPOSICIONES FUNDAMENTALES\nCapítulo I. Principios para Prevenir la Corrupción y Salvaguardar el Patrimonio Público\nCapítulo II. Declaración Jurada de Patrimonio\nSección primera: Sistema automatizado\nSección Segunda:\nPresentación\nSección tercera:\nVerificación\nTÍTULO II. SANCIONES\nCapítulo I Sanciones Administrativas y su Procedimiento\nCapítulo II. Medidas Preventivas\nTÍTULO III. ATRIBUCIONES Y DEBERES DE LA CONTRALORÍA GENERAL DE LA REPÚBLICA Y DEL MINISTERIO PÚBLICO EN MATERIA DE CORRUPCIÓN\nTÍTULO IV. DELITOS CONTRA EL PATRIMONIO PÚBLICO Y LA ADMINISTRACIÓN DE JUSTICIA EN LA APLICACIÓN DE ESTA LEY\nCapítulo I Enriquecimiento Ilícito y su Restitución al Patrimonio Público\nCapítulo II. Otros Delitos Contra el Patrimonio Público\nCapítulo III. Delitos contra la Administración de Justicia en la aplicación de esta Ley\nTÍTULO V. PROCEDIMIENTO PENAL Y MEDIDAS PREVENTIVAS\nDISPOSICIÓN TRANSITORIA\nDISPOSICIÓN FINAL\n"
+      }
+     },
+     "credits": {},
+     "note": "Texto único of the Ley contra la Corrupción as reformed by the Ley de Reforma sanctioned on 31 Mar 2022, printed in G.O. 6.699 Ext. of 2 May 2022 and in force on publication (art. 27 of the reform). Earlier texts (2003, 2014) are image scans and are not in this record."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "Gaceta Oficial N° 6.699 Extraordinario (2 May 2022), Imprenta Nacional portal gacetaoficial.gob.ve",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+   "retrieved": "2026-10-29",
+   "requests": 1,
+   "licence": "Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here).",
+   "notes": "Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (art. 28 orders the reprint) followed by the texto único of the Ley contra la Corrupción. Born-digital PDF; read from its text layer with gazette_text.py."
+  }
+ ],
+ "decisions": [
+  "Gazettes of 2021 on (parts 38-44, added 2026-10-29): their article epigraphs are set flush right but may be long or wrap over up to five lines, so an epigraph is taken as the run of lines just before an 'Artículo N.' line that end flush against the right margin without final punctuation, starting set in from the left, after a line that ends a sentence, a heading or a column top; a centred heading after a line that ends a sentence starts a new heading even when that line runs close to the margin; a heading's name may sit as little as 0.2 pt in from both margins. These rules apply only to parts 38-44, so the parts read before are unchanged.",
+  "LCC: the Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (arts. 1-28) is printed first in G.O. 6.699 Ext. of 2 May 2022, then the law in full (its art. 28 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 27 of the reform), so from 2022-05-02. Credited to the publisher as the oldest version available."
+ ],
+ "ai_use": []
+}

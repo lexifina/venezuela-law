@@ -1,0 +1,555 @@
+{
+ "laws": {
+  "ley-reforma-loh-2026": {
+   "label": "Ley de Reforma de la Ley Orgánica de Hidrocarburos (2026)",
+   "title": "Ley de Reforma de la Ley Orgánica de Hidrocarburos, sancionada el 29 de enero de 2026",
+   "kind": "law",
+   "enacted": "2026-01-29",
+   "published": "2026-01-29",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "ley-organica-de-hidrocarburos",
+   "short": "LOH",
+   "title": "Ley Orgánica de Hidrocarburos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+   "first_law": null,
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2026-01-29",
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+     "sha256": "d1ed207bf5555c0df24f62febc4cf66616aa7b8532b14331ca1c9a456d7d3040",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "Objeto\nArtículo 1. Esta Ley tiene por objeto regular todo lo relativo a la exploración, extracción, recolección, transporte, almacenamiento, procesamiento, mejoramiento, refinación, industrialización, comercialización, conservación y aprovechamiento integral de los hidrocarburos, bajo los principios de soberanía energética, dominio público de los yacimientos, maximización progresiva de la renta, seguridad jurídica, transparencia contractual, rendición de cuentas, protección ambiental y adecuación a la transición energética, de conformidad con lo consagrado en el artículo 141 de la Constitución de la República Bolivariana de Venezuela.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "Hidrocarburos gaseosos\nArtículo 2. Las actividades relativas a los hidrocarburos gaseosos se rigen por la Ley Orgánica de Hidrocarburos Gaseosos, salvo la extracción de hidrocarburos gaseosos asociados con el petróleo que se regirán por la presente Ley.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "Bienes del dominio público\nArtículo 3. Los yacimientos de hidrocarburos existentes en el territorio nacional, cualquiera que sea su naturaleza, incluidos aquéllos que se encuentren bajo el lecho del mar territorial, en la plataforma continental, en la zona económica exclusiva y dentro de las fronteras nacionales, pertenecen a la República y son bienes del dominio público, por lo tanto, inalienables e imprescriptibles.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "Utilidad pública e interés social\nArtículo 4. Las actividades a las cuales se refiere esta Ley, así como las obras que su realización requiera, se declaran de utilidad pública y de interés social.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "Uso racional del recurso\nArtículo 5. Las actividades reguladas por esta Ley estarán dirigidas a fomentar el desarrollo integral, orgánico y sostenido del país, atendiendo al uso racional del recurso y a la preservación del ambiente. A tal fin se promoverá el fortalecimiento del sector productivo nacional y la transformación en el país de materias primas provenientes de los hidrocarburos, así como la incorporación de tecnologías avanzadas. Los ingresos que en razón de los hidrocarburos reciba la Nación propenderán a financiar la salud, la educación, la formación de fondos de estabilización macroeconómica y a la inversión productiva, de manera que se logre una apropiada vinculación del petróleo con la economía nacional, todo ello en función del bienestar del pueblo.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "Decisiones adoptadas en materia internacional\nArtículo 6. Las decisiones que adopte la República con motivo de los acuerdos o tratados internacionales en materia de hidrocarburos por ella celebrados, se aplicarán a quienes realicen las actividades a las cuales se refiere esta Ley.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "Leyes aplicables\nArtículo 7. Las actividades señaladas en esta Ley están sujetas tanto a las disposiciones de la misma, como a las contenidas en otras leyes, decretos o resoluciones, dictadas o que se dictaren, en todo cuanto les fuere aplicable.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "Resolución de controversias\nArtículo 8. En los contratos para la realización de las actividades reguladas en esta Ley las partes podrán acordar que las dudas y controversias de cualquier naturaleza, suscitadas con motivo de la realización de dichas actividades y que no puedan ser resueltas amigablemente por las partes, podrán ser decididas por los Tribunales competentes de la República o mediante mecanismos alternativos de resolución de controversias, incluyendo mediación y arbitraje.\nEl Ministerio con competencia en materia de hidrocarburos, en consulta con la Procuraduría General de la República, fijará los lineamientos generales para establecer las cláusulas de resolución de controversias a las que hace referencia este artículo. Las cláusulas acordadas conforme a dichos lineamientos no requerirán la opinión o autorización prevista en el Decreto con Rango, Valor y Fuerza de Ley Orgánica de la Procuraduría General de la República y la Ley de Arbitraje Comercial.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "Competencia del Ministerio Rector en Hidrocarburos\nArtículo 9. Corresponde al Ministerio con competencia en materia de hidrocarburos la formulación, regulación y seguimiento de las políticas y la planificación, realización y fiscalización de las actividades en materia de hidrocarburos, lo cual comprende lo relativo al desarrollo, conservación, aprovechamiento y control de dichos recursos; así como al estudio de mercados, al análisis y fijación de precios de los hidrocarburos y de sus productos. En tal sentido, el Ministerio con competencia en materia de hidrocarburos es el órgano nacional competente en todo lo relacionado con la administración de los hidrocarburos y en consecuencia tiene la facultad de inspeccionar los trabajos y actividades inherentes a los mismos, así como las de fiscalizar las operaciones que causen los impuestos, tasas o contribuciones establecidos en esta Ley y revisar las contabilidades respectivas. El Ministerio con competencia en materia de hidrocarburos realizará la función de planificación a que se refiere este artículo, en concordancia con el Plan Nacional de Desarrollo. A los fines del cumplimiento de estas funciones, el Ejecutivo Nacional proveerá los recursos necesarios conforme a las normas legales pertinentes. Los funcionarios y particulares prestarán a los empleados nacionales que realicen las anteriores funciones, las más amplias facilidades para el cabal desempeño de las mismas.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "Actividades primarias\nArtículo 10. Las actividades relativas a la exploración en busca de yacimientos de los hidrocarburos comprendidos en esta Ley, a la extracción de ellos en estado natural, a su recolección, transporte y almacenamiento iniciales, se denominan actividades primarias a los efectos de esta Ley. De conformidad con lo previsto en el artículo 302 de la Constitución de la República Bolivariana de Venezuela, las actividades primarias indicadas, así como las relativas a las obras que su manejo requiera, quedan reservadas al Estado en los términos establecidos en esta Ley.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "Actividades de refinación y comercialización\nArtículo 11. Las actividades relativas a la destilación, purificación y transformación de los hidrocarburos naturales comprendidos en esta Ley, realizadas con el propósito de añadir valor a dichas sustancias y la comercialización de los productos obtenidos, configuran actividades de refinación y comercialización y pueden ser realizadas por el Estado y los particulares, conjunta o separadamente, conforme a lo dispuesto en el Capítulo VIII de esta Ley. Las instalaciones y obras existentes, sus ampliaciones y modificaciones, propiedad del Estado o de las empresas de su exclusiva propiedad, dedicadas a las actividades de refinación de hidrocarburos naturales en el país y al transporte principal de productos y gas, quedan reservadas al Estado en los términos establecidos en esta Ley.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "Plan nacional para instalación de las refinerías\nArtículo 12. Las refinerías a ser construidas deberán responder a un plan nacional para su instalación y operación y deberán estar vinculadas a proyectos determinados aprobados por el Ejecutivo Nacional por órgano del Ministerio con competencia en materia de hidrocarburos. Estas refinerías deberán estar dirigidas principalmente, a la modernización de los procesos a ser utilizados y a la obtención de combustibles limpios.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "Licencias para el ejercicio de actividades\nArtículo 13. Las empresas para ejercer las actividades de refinación de los hidrocarburos naturales, deberán obtener licencia del Ministerio con competencia en materia de hidrocarburos, quien podrá otorgarla previa definición del correspondiente proyecto y conforme a lo establecido por esta Ley y su Reglamento. La cesión, traspaso o gravamen de las licencias deberá contar con la previa aprobación del Ministerio con competencia en materia de hidrocarburos, sin la cual no surtirán efectos. En caso de traspasos forzosos por ejecución, el Estado podrá sustituir al ejecutante previo pago del monto de la ejecución.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "Requisitos para la obtención de las licencias\nArtículo 14. Para la obtención de la licencia a que se refiere el artículo anterior, deberán cumplirse los siguientes requisitos mínimos:\n1. Identificación de las empresas y sus representantes.\n2. Descripción del proyecto, con indicación de la tecnología aplicable y del destino de los productos, así como de los recursos económicos aplicables al proyecto.\n3. Duración de la empresa o del proyecto, la cual no será superior a veinticinco (25) años, prorrogables por un lapso a ser acordado no mayor de quince (15) años, si se han cumplido los requisitos del proyecto.\n4. Indicación de las ventajas especiales que se ofrezcan a favor de la República.\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "Obligación de Registro\nArtículo 15. Quienes se dediquen en el país a las actividades de refinación de los hidrocarburos naturales, deberán inscribirse en el registro que al efecto llevará el Ministerio con competencia en materia de hidrocarburos. Igualmente deberán asentarse en dicho registro, las cesiones, traspasos, gravámenes o ejecuciones de las licencias.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "Contenido de las licencias\nArtículo 16. En las licencias que se otorguen para las actividades relacionadas con la refinación de hidrocarburos naturales, deberán indicarse expresamente las disposiciones contenidas en el artículo 34, numeral 3, literales a y b de esta Ley, y de no aparecer expresamente, se tendrán como insertas en el texto de la licencia.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "Autorización previa del órgano competente\nArtículo 17. La cesión, gravamen y ejecución de los derechos que otorgan las licencias para las actividades relacionadas con la refinación de hidrocarburos naturales, requerirán la autorización previa del Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "Revocatoria de las licencias\nArtículo 18. Las licencias otorgadas conforme a esta Ley, serán revocables por el Ministerio con competencia en materia de hidrocarburos, por la ocurrencia de causas de revocatoria establecidas en la propia licencia o por realizarse su cesión, gravamen o ejecución sin la autorización de dicho Ministerio.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "Adopción de medidas para la formación del capital nacional\nArtículo 19. El Ejecutivo Nacional adoptará medidas que propicien la formación de capital nacional para estimular la creación y consolidación de empresas operadoras, de servicios, de fabricación y suministro de bienes de origen nacional para las actividades previstas en esta Ley. En tal sentido, el Estado, los entes y las empresas a que se refiere esta Ley, deberán incorporar en sus procesos de contratación, la participación de empresas de capital nacional en condiciones tales que se asegure el uso óptimo y efectivo de bienes, servicios, recursos humanos y capital de origen venezolano.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "Obligación de ejercer actividades continuas y eficientes\nArtículo 20. Las personas que realicen las actividades a las cuales se refiere esta Ley, deberán hacerlo en forma continua y eficiente, conforme a las normas aplicables y a las mejores prácticas científicas y técnicas disponibles sobre seguridad e higiene, protección ambiental y aprovechamiento y uso racional de los hidrocarburos, la conservación de la energía de los mismos y el máximo recobro final de los yacimientos.\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "Obligación de suministrar información\nArtículo 21. Las personas que realicen las actividades a las cuales se refiere esta Ley, están en la obligación de suministrar al Ejecutivo Nacional toda la información que éste requiera, relacionada con el ejercicio de dichas actividades. A tal fin aquéllas que realicen actividades primarias conjuntamente con actividades industriales y comerciales, deberán llevar y presentar por separado las cuentas relativas a tales actividades. El Ejecutivo Nacional guardará la confidencialidad de la información suministrada, cuando el interesado así lo solicite y sea procedente.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "Obligación de permitir el uso de instalaciones a terceros que realicen actividades\nArtículo 22. Las personas que realicen las actividades de almacenamiento, transporte y distribución previstas en esta Ley, están obligadas a permitir el uso de sus instalaciones a otros almacenadores, transportistas o distribuidores, cuando dichas instalaciones tengan capacidad disponible para ello y así lo exija el interés público o social. Tal uso se realizará en las condiciones que las partes convengan. A falta de acuerdo, el Ministerio con competencia en materia de hidrocarburos fijará las condiciones para la prestación del servicio.\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "24 Empresas que realizan actividades primarias\nArtículo 23. Las actividades primarias indicadas en el artículo 10 de esta Ley, serán realizadas:\n1. Por el Ejecutivo Nacional directamente o mediante empresas de exclusiva propiedad de la República o sus filiales.\n2. Por empresas en las que la República o un ente público posean una participación mayor del cincuenta por ciento (50%) del capital social, que le otorgue el control accionario, las cuales se denominarán Empresas Mixtas.\n3. Por empresas privadas domiciliadas en la República Bolivariana de Venezuela, en el marco de contratos suscritos con empresas de exclusiva propiedad de la República o sus filiales.\nLas empresas que realicen actividades primarias serán denominadas empresas operadoras.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "Delimitación de áreas geográficas para la ejecución de actividades primarias\nArtículo 24. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, delimitará las áreas geográficas donde las empresas operadoras realizarán las actividades primarias. Dichas áreas, serán divididas en lotes con una superficie máxima de cien kilómetros cuadrados (100 km2).\n"
+      },
+      "art-025": {
+       "label": "Art. 25",
+       "kind": "art",
+       "text": "Derecho de ejercicio de las actividades primarias\nArtículo 25. El Ministerio con competencia en materia de hidrocarburos podrá otorgar a las empresas operadoras a las que hace referencia los numerales 1 y 2 del artículo 23, el derecho al ejercicio de las actividades primarias. Asimismo, podrá transferirles la propiedad u otros derechos sobre bienes muebles o inmuebles del dominio privado de la República, requeridos para el eficiente ejercicio de tales actividades. El Ministerio con competencia en materia de hidrocarburos podrá revocar esos derechos cuando las operadoras no den cumplimiento a sus obligaciones sustanciales, de tal manera que impida lograr el objeto para el cual dichos derechos fueron transferidos.\nLas empresas operadoras de exclusiva propiedad de la República o sus empresas filiales podrán ceder total o parcialmente, mediante contrato, a las empresas señaladas en el numeral 3 del artículo 23 de esta Ley, los derechos que le hubiesen sido otorgados, conforme lo dispuesto en este artículo, previa autorización del Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-026": {
+       "label": "Art. 26",
+       "kind": "art",
+       "text": "Equilibrio económico financiero\nArtículo 26. Las empresas operadoras podrán realizar las gestiones necesarias para el ejercicio de las actividades que se les hayan transferido y celebrar los correspondientes contratos, todo conforme a las disposiciones de esta Ley. Los contratos para el ejercicio de las actividades primarias por parte de las empresas operadoras a las que hace referencia los numerales 2 y 3 del artículo 23 mantendrán los equilibrios económicos financieros originalmente acordados, así como, cualquier beneficio posterior que mejore las condiciones originalmente acordadas, los cuales deberán preservarse durante toda la vigencia del contrato. Cuando con posterioridad a su celebración se produzcan modificaciones en el marco legal, fiscal, regulatorio o contractual, que afecten de manera negativa y sustancial la economía del proyecto, el Ejecutivo Nacional delegará en el Ministerio con competencia en materia de hidrocarburos, los ajustes necesarios para reestablecer dicho equilibrio, mediante la modificación de regalías, tributos, tarifas, plazos contractuales, condiciones económicas o mecanismos de compensación, a fin de restituir a la empresa operadora la posición económica que habría tenido de no haberse producido tales cambios.\n"
+      },
+      "art-027": {
+       "label": "Art. 27",
+       "kind": "art",
+       "text": "Contribución experimentación, investigación, desarrollo tecnológico de las empresas operadoras\nArtículo 27. Las empresas operadoras podrán establecer o contribuir al mantenimiento de institutos de experimentación, investigación, desarrollo tecnológico y universidades, que sirvan de soporte técnico a sus operaciones, así como crear y mantener centros de entrenamiento de personal vinculado a las actividades contempladas en esta Ley, debidamente armonizados con el funcionamiento y desarrollo de otros centros e institutos que con similares propósitos existan en el país.\n"
+      },
+      "art-028": {
+       "label": "Art. 28",
+       "kind": "art",
+       "text": "Facultad del Ejecutivo Nacional para la creación empresas\nArtículo 28. El Ejecutivo Nacional podrá mediante Decreto en Consejo de Ministros, crear empresas de la exclusiva propiedad del Estado para realizar las actividades establecidas en esta Ley y adoptar para ellas las formas jurídicas que considere convenientes, incluida la de sociedad anónima con un solo socio.\n"
+      },
+      "art-029": {
+       "label": "Art. 29",
+       "kind": "art",
+       "text": "Creación de empresas filiales\nArtículo 29. Sin desmejorar la reserva establecida en esta Ley, las empresas a que se refiere el artículo anterior, podrán crear otras empresas para el desarrollo de sus actividades, previa aprobación de la respectiva Asamblea de Accionistas. Así mismo, deberá obtenerse esa aprobación para modificar el objeto de las empresas creadas, así como para fusionarlas, asociarlas, disolverlas, liquidarlas o para cualquier otra modificación estatutaria. Igual autorización será necesaria para las empresas a ser creadas por las empresas filiales.\n"
+      },
+      "art-030": {
+       "label": "Art. 30",
+       "kind": "art",
+       "text": "Ley aplicable a empresas petroleras\nArtículo 30. Las empresas petroleras estatales se regirán por esta Ley y su Reglamento, por sus propios estatutos, por las disposiciones que dicte el Ejecutivo Nacional por órgano del Ministerio con competencia en materia de hidrocarburos, y por las del derecho común que les sean aplicables.\n"
+      },
+      "art-031": {
+       "label": "Art. 31",
+       "kind": "art",
+       "text": "Inspección y fiscalización de las empresas petroleras y sus filiales\nArtículo 31. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, ejercerá las funciones de inspección y fiscalización de las empresas petroleras estatales y sus filiales, tanto en el ámbito nacional como en el internacional y dictará los lineamientos y las políticas que deban cumplirse sobre las materias a que se refiere esta Ley.\n"
+      },
+      "art-032": {
+       "label": "Art. 32",
+       "kind": "art",
+       "text": "Constitución y aumentos de capital social de las empresas del Estado o de sus filiales\nArtículo 32. La constitución, los aumentos de capital social de las empresas del Estado o de sus filiales, provenientes de la revaluación de activos o de dividendos, que impliquen la emisión de acciones que sean suscritas por el Estado o dichas empresas, así como la fusión de empresas del Estado o sus filiales y la transferencia de activos entre las mismas, no estarán sujetos al pago de tributos relativos al registro de esas operaciones.\n"
+      },
+      "art-033": {
+       "label": "Art. 33",
+       "kind": "art",
+       "text": "Garantías laborales\nArtículo 33. Los trabajadores y trabajadoras de las empresas petroleras estatales, con excepción de los integrantes de las Juntas Directivas de las empresas, gozarán de estabilidad en el trabajo y sólo podrán ser despedidos por las causales expresamente consagradas en la legislación laboral. Igualmente, el Estado garantizará el régimen actual de contratación colectiva y el goce de las reivindicaciones sociales, económicas, asistenciales, sindicales, de mejoramiento profesional y todas aquéllas establecidas en la contratación colectiva y en la legislación laboral, así como aquellos bonos o primas y demás percepciones y emolumentos que como incentivo a la eficiencia, y que por uso y costumbre y por aplicación de normas de administración de personal, tradicionalmente vienen disfrutando los trabajadores conforme a la política seguida por las empresas en esa materia. Asimismo, el Estado garantizará el disfrute de los planes de jubilación y sus respectivas pensiones para los trabajadores jubilados antes de la promulgación. Estos planes de jubilación, así como también todos los otros planes de beneficio al trabajador instituidos por las empresas, incluidos los de fondos de ahorros de los trabajadores se mantendrán en vigencia y sin perjuicio de la contratación colectiva. Las disposiciones contenidas en la ley que creó al Instituto Nacional de Cooperación Educativa continuarán aplicándose a las empresas creadas de conformidad con la ley que reservó al Estado la industria y el comercio de los hidrocarburos. Los fideicomisos constituidos en beneficio de los trabajadores se regirán por las modalidades de la contratación colectiva convenida.\n"
+      },
+      "art-034": {
+       "label": "Art. 34",
+       "kind": "art",
+       "text": "Constitución de empresas mixtas\nArtículo 34. La constitución de las empresas mixtas y las condiciones que regirán la realización de las actividades primarias serán autorizadas por el Presidente o Presidenta de la República y notificadas a la Asamblea Nacional, a los fines del ejercicio de la función de control parlamentario. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, remitirá un informe contentivo de las circunstancias pertinentes a dicha constitución y las condiciones acordadas, incluidas las ventajas especiales previstas a favor de la República Bolivariana de Venezuela.\nLas empresas mixtas se regirán por esta Ley y, en cada caso particular, por el Decreto que autorice su creación, su documento constitutivo estatutario y supletoriamente por el Código de Comercio y demás leyes que le fueran aplicables. Las empresas mixtas quedarán excluidas del ámbito de aplicación del Decreto con Rango, Valor y Fuerza de Ley de Contrataciones Públicas y su Reglamento, debiendo implementar mecanismos transparentes de contratación, conforme a los principios de honestidad, eficiencia, igualdad, planificación, publicidad y simplificación.\n"
+      },
+      "art-035": {
+       "label": "Art. 35",
+       "kind": "art",
+       "text": "Condiciones para la constitución de las empresas mixtas\nArtículo 35. La constitución de las empresas mixtas estará sujeta a las siguientes condiciones:\n1. Duración máxima de veinticinco (25) años, prorrogable por un lapso a ser acordado por las partes, no mayor de quince (15) años. Esta prórroga debe ser solicitada por la empresa operadora al Ministerio con competencia en materia de hidrocarburos, después de cumplirse la mitad del período para el cual fue otorgado el derecho a realizar las actividades y antes de los cinco (5) años de su vencimiento.\n2. Determinación de la ubicación, orientación, extensión y forma del área donde haya de realizarse las actividades y las demás especificaciones que establezca el Reglamento.\n3. Derecho de preferencia del accionista mayoritario para la adquisición de las acciones, en caso de cesión, enajenación o traspaso por parte del accionista privado de la empresa mixta.\n4. La reversión o transferencia a la República de las tierras y obras permanentes, incluyendo las instalaciones, accesorios y equipos que formen parte integrante de ellas, así como los datos adquiridos, generados, procesados e interpretados y cualesquiera otros bienes obtenidos con destino a la realización de dichas actividades, sea cual fuere su naturaleza o título de adquisición, al extinguirse por cualquier causa los derechos otorgados.\nLas empresas operadoras se obligan a conservar en buen estado los bienes mencionados en este numeral, para ser entregados en propiedad a la República, libre de gravámenes y sin indemnización alguna, de manera que se garantice la posibilidad de continuar las actividades, si fuere el caso, o su cesación con el menor daño económico y ambiental.\n"
+      },
+      "art-036": {
+       "label": "Art. 36",
+       "kind": "art",
+       "text": "Autorizaciones\nArtículo 36. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, podrá autorizar a la empresa mixta para que el accionista con una participación minoritaria realice las siguientes actividades:\n1. Comercializar directamente la totalidad o una cuota de la producción de la empresa mixta, en los términos previstos en esta Ley.\n2. Abrir y gestionar cuentas bancarias en cualquier moneda y jurisdicción, para el uso y administración de los fondos.\n3. Ejercer la gestión técnica y operativa de la empresa mixta, directamente o mediante un prestador de servicios especializados. El costo de estos servicios petroleros debe ser razonable. La empresa mixta debe ser lo suficientemente eficiente para que el costo directo de producción del barril sea igual o menor al de la producción de la empresa de exclusiva propiedad del Estado o sus filiales, en circunstancias comparables de similar naturaleza.\nCuando se autorice alguna de las actividades señaladas en los numerales precedentes, los accionistas de la empresa mixta deberán celebrar los convenios o contratos pertinentes, o incorporarán las modificaciones a dicho efecto en los convenios o contratos que hubieren celebrado.\nPara el otorgamiento de las autorizaciones a que hace referencia este artículo se deberá previamente asegurar la idoneidad y capacidad del accionista con participación minoritaria.\n"
+      },
+      "art-037": {
+       "label": "Art. 37",
+       "kind": "art",
+       "text": "Limitación de responsabilidad de la República\nArtículo 37. La República no garantiza la existencia de las sustancias, ni se obliga al saneamiento. La realización de las actividades se efectuará a todo riesgo de quienes las realicen en lo que se refiere a la existencia de dichas sustancias. Tales circunstancias en todo caso, deberán hacerse constar en el instrumento mediante el cual se otorgue el derecho a realizar las actividades y para el caso de no constar expresamente, se tendrán como incorporadas en el texto del mismo.\n"
+      },
+      "art-038": {
+       "label": "Art. 38",
+       "kind": "art",
+       "text": "Ventajas especiales\nArtículo 38. En los instrumentos mediante los cuales se otorgue el derecho a realizar las actividades previstas en esta Ley se podrán acordar ventajas especiales a favor de la República, tales como una contraprestación económica por el acceso a las reservas de hidrocarburos, el empleo o cesión de nuevas y avanzadas tecnologías, el otorgamiento de becas, oportunidades de entrenamiento técnico u otras actividades de desarrollo del factor humano y la creación o fortalecimiento de centros de estudios e investigación en materias de hidrocarburos.\n"
+      },
+      "art-039": {
+       "label": "Art. 39",
+       "kind": "art",
+       "text": "Procedimiento de selección y adjudicación de operadoras\nArtículo 39. Para la selección de las operadoras el organismo público competente promoverá la concurrencia de diversas ofertas. A estos efectos, el Ejecutivo Nacional por órgano del Ministerio con competencia en materia de hidrocarburos, creará los respectivos comités para fijar las condiciones necesarias y seleccionar a las empresas. El Ministerio con competencia en materia de hidrocarburos podrá suspender el proceso de selección o declararlo desierto, sin que ello genere indemnización alguna por parte de la República. Por razones de interés público o por circunstancias especiales de las actividades podrá hacerse escogencia directa de las operadoras, previa aprobación del Consejo de Ministros.\n"
+      },
+      "art-040": {
+       "label": "Art. 40",
+       "kind": "art",
+       "text": "Gestión integral\nArtículo 40. Las empresas de exclusiva propiedad de la República o sus filiales podrán suscribir contratos con empresas privadas domiciliadas en Venezuela para la ejecución de las actividades primarias.\nEn estos contratos la empresa operadora asumirá la gestión integral del ejercicio de las actividades, a su exclusivo costo, cuenta y riesgo, previa demostración de su capacidad financiera y técnica mediante un plan de negocio aprobado por el Ministerio con competencia en materia de hidrocarburos.\nLa República conservará la propiedad sobre los yacimientos de hidrocarburos sobre los cuales las empresas operadoras desarrollarán las actividades primarias. La contratación prevista en este artículo quedará excluida del ámbito de aplicación del Decreto con Rango, Valor y Fuerza de Ley de Contrataciones Públicas y su Reglamento.\nPara la contratación de empresas privadas domiciliadas en Venezuela se deberá previamente evaluar su idoneidad y capacidad para el ejercicio de las actividades primarias.\n"
+      },
+      "art-041": {
+       "label": "Art. 41",
+       "kind": "art",
+       "text": "Participación porcentual\nArtículo 41. La retribución de las empresas operadoras en los contratos para el desarrollo de las actividades primarias consistirá en una o ambas de las modalidades siguientes:\n1. Una participación porcentual sobre los volúmenes de hidrocarburos fiscalizados, que serán comercializados directamente por la empresa operadora, una vez cumplidas las obligaciones gubernamentales, en los términos previstos en esta Ley.\n2. Cualquier otra forma de participación en los beneficios que sea determinado por el Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-042": {
+       "label": "Art. 42",
+       "kind": "art",
+       "text": "Derecho de uso de los activos y cesión del área operacional\nArtículo 42. Las empresas de exclusiva propiedad de la República o sus filiales en la suscripción de contratos con empresas privadas domiciliadas en Venezuela, podrán durante la vigencia del contrato para el desarrollo de las actividades primarias:\n1. Otorgar a la empresa operadora el derecho de uso de los activos y materiales de su propiedad o disponibilidad legal destinados al ejercicio de las actividades primarias.\n2. Ceder a la empresa operadora el derecho de uso del área operacional y del área delimitada, previa autorización del Ministerio con competencia en materia de hidrocarburos.\nComo contraprestación por el uso de dichos activos y áreas, la empresa operadora pagará a las empresas de exclusiva propiedad de la República o sus filiales, un porcentaje del volumen de hidrocarburos fiscalizados que será fijado en el respectivo contrato.\nLos derechos conferidos sobre dichos activos y áreas se extinguirán automáticamente al finalizar el contrato.\n"
+      },
+      "art-043": {
+       "label": "Art. 43",
+       "kind": "art",
+       "text": "Derecho de reversión\nArtículo 43. Una vez concluida la vigencia del contrato para el desarrollo de las actividades primarias, la empresa operadora deberá restituir los activos arrendados y transferir la propiedad, libre de cualquier gravamen, a la empresa de exclusiva propiedad de la República o sus filiales, de todos los bienes incorporados, construidos o adquiridos durante la vigencia del contrato, incluidos todos los datos obtenidos, generados, procesados e interpretados, sin que esto genere obligación de pago o indemnización alguna.\n"
+      },
+      "art-044": {
+       "label": "Art. 44",
+       "kind": "art",
+       "text": "Régimen tributario\nArtículo 44. La empresa de exclusiva propiedad de la República o cualquiera de sus filiales, actuará como agente de retención o percepción de las regalías y el impuesto integrado de hidrocarburos previsto en esta Ley, que correspondan a los contratos para el desarrollo de actividades primarias.\n"
+      },
+      "art-045": {
+       "label": "Art. 45",
+       "kind": "art",
+       "text": "Expropiación, ocupación temporal y servidumbres\nArtículo 45. Las personas autorizadas para ejercer las actividades de exploración, extracción, recolección, transporte y almacenamiento iniciales, procesamiento y refinación de los hidrocarburos naturales, tendrán el derecho de solicitar la ocupación temporal o la expropiación de bienes, según fuere el caso, así como la constitución de servidumbres a favor de la actividad.\n"
+      },
+      "art-046": {
+       "label": "Art. 46",
+       "kind": "art",
+       "text": "Expropiación\nArtículo 46. En lo referente a la expropiación, se aplicarán las disposiciones contenidas en la ley especial que rige la materia.\n"
+      },
+      "art-047": {
+       "label": "Art. 47",
+       "kind": "art",
+       "text": "Procedimiento para constituir servidumbre\nArtículo 47. Cuando las servidumbres hayan de constituirse sobre terrenos de propiedad privada, las personas autorizadas celebrarán con los propietarios los contratos necesarios. De no lograrse avenimiento, las personas interesadas podrán ocurrir a un Tribunal de Primera Instancia en lo Civil, con jurisdicción en la localidad, para que éste autorice el comienzo de los trabajos. El solicitante señalará con precisión las áreas y bienes que serán afectados y los trabajos a realizarse y llenará en dicha solicitud todos los requisitos que fueren procedentes. La solicitud de constitución de servidumbre indicará:\n1. El nombre del propietario, así como el de quienes tengan algún derecho sobre el bien objeto de la servidumbre, si fuere conocido.\n2. Los bienes que serán afectados por la servidumbre, así como las áreas que se requieran y los trabajos a realizarse. Asimismo los datos concernientes a la propiedad y gravámenes que pudieran existir sobre el bien.\n3. El plazo de duración y demás condiciones de la servidumbre.\n4. Otros datos que el concesionario considere necesarios para ilustrar al juez. Recibida la solicitud anterior, el Tribunal, el mismo día, ordena a la citación del afectado para que comparezca al tercer día de despacho siguiente al de la citación, al acto de designación de expertos para determinar los posibles daños. Si no se logra la citación, el Tribunal, ordenará publicar un cartel en un periódico de mayor circulación nacional y regional, emplazando al afectado a comparecer al tercer día de despacho después de la consignación de la referida publicación, en cuya oportunidad se procederá a nombrar los expertos indicados para que dictaminen sobre los posibles daños y el monto de la indemnización a que haya lugar.\nEn la oportunidad señalada para la comparecencia del afectado, el solicitante designará un experto y el afectado designará un segundo experto. Si no compareciere el afectado o se negare a nombrar el experto, el Tribunal lo hará por él. El Tribunal designará el tercer experto. Los expertos designados deberán estar presentes en el acto de designación a los efectos de su aceptación y juramentación, en caso contrario, el Tribunal designará sus sustitutos. Los expertos deberán consignar su informe dentro de los cinco (5) días de despacho siguientes a su designación.\nUna vez consignado el informe, el solicitante dentro de los cinco (5) días de despacho siguientes deberá depositar en el Tribunal el monto de la indemnización estimada y dentro de los cinco (5) días de despacho siguientes éste autorizará el comienzo de los trabajos. Si el afectado acepta la indemnización, el Tribunal dictará decisión para constituir la servidumbre en los términos solicitados.\nEn caso de desacuerdo, el proceso seguirá por los trámites del juicio ordinario y a tal efecto, la solicitud se asimilará a la demanda y a partir de la manifestación del desacuerdo, comenzará a correr el lapso para la contestación de la misma. Dentro de este lapso el solicitante podrá hacer las reformas y mejoras que considere oportunas a su solicitud.\n"
+      },
+      "art-048": {
+       "label": "Art. 48",
+       "kind": "art",
+       "text": "Constitución de servidumbre sobre terrenos baldíos\nArtículo 48. Para la constitución de servidumbres sobre terrenos baldíos las personas autorizadas deberán celebrar los convenios necesarios con el Ejecutivo Nacional y pagar las contraprestaciones convenidas, salvo que el Ejecutivo Nacional resuelva exonerarlas del pago. Cuando en los terrenos objeto de la servidumbre hubiere mejoras de particulares, la indemnización que corresponda a éstos, la pagará el beneficiario de la servidumbre y se establecerá de conformidad con el procedimiento previsto en el artículo anterior.\n"
+      },
+      "art-049": {
+       "label": "Art. 49",
+       "kind": "art",
+       "text": "Convenio de unificación para explotación\nArtículo 49. Cuando un yacimiento de hidrocarburos se extienda bajo áreas sobre las cuales actúe más de un explotador, las partes celebrarán un convenio de unificación para su explotación, el cual estará sujeto a la aprobación del Ministerio con competencia en materia de hidrocarburos. A falta de acuerdo, ese despacho establecerá las normas que regirán la explotación. Cuando el yacimiento se extienda desde áreas atribuidas para su explotación hacia áreas que no lo hayan sido, el Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, adoptará las medidas necesarias en salvaguarda de los derechos de la República.\n"
+      },
+      "art-050": {
+       "label": "Art. 50",
+       "kind": "art",
+       "text": "Convenio de unificación para explotación de yacimientos con países limítrofes\nArtículo 50. Cuando un yacimiento de hidrocarburos se extienda bajo las áreas indicadas en el artículo 3 de esta Ley y bajo áreas que formen parte del dominio de países limítrofes, su explotación no podrá realizarse sin la previa celebración de un convenio de unificación con los países limítrofes. A falta de oportuno acuerdo, el Ejecutivo Nacional adoptará las medidas necesarias para salvaguardar los intereses de la República, incluida la revocatoria del derecho de explotación.\n"
+      },
+      "art-051": {
+       "label": "Art. 51",
+       "kind": "art",
+       "text": "[La fuente no da el texto vigente en esta fecha.]\n"
+      },
+      "art-052": {
+       "label": "Art. 52",
+       "kind": "art",
+       "text": "Modalidad del pago de regalías\nArtículo 52. La regalía podrá ser exigida por el Ejecutivo Nacional, en especie o en dinero, total o parcialmente. Mientras no la exigiere de otra manera, se entenderá que opta por recibirla totalmente y en dinero.\n"
+      },
+      "art-053": {
+       "label": "Art. 53",
+       "kind": "art",
+       "text": "Pago de regalías en especie\nArtículo 53. Cuando el Ejecutivo Nacional decida recibir la regalía en especie, podrá utilizar para los efectos del transporte y almacenamiento, los servicios de la empresa explotadora, la cual deberá prestarlos hasta el lugar que le indique el Ejecutivo Nacional, quien pagará el precio que se convenga por tales servicios.\n"
+      },
+      "art-054": {
+       "label": "Art. 54",
+       "kind": "art",
+       "text": "Pago de regalías en dinero\nArtículo 54. Cuando el Ejecutivo Nacional decida recibir la regalía en dinero, el explotador deberá pagarle el precio de los volúmenes de hidrocarburos correspondientes, medidos en el campo de producción y a valor de mercado, o a valor convenido o, en defecto de ambos a un valor fiscal fijado por el liquidador. A tal efecto el Ministerio con competencia en materia de hidrocarburos liquidará la planilla correspondiente, la cual deberá ser cancelada al Fisco Nacional dentro de los cinco (5) días hábiles siguientes a la recepción de la misma.\n"
+      },
+      "art-055": {
+       "label": "Art. 55",
+       "kind": "art",
+       "text": "[La fuente no da el texto vigente en esta fecha.]\n"
+      },
+      "art-060": {
+       "label": "Art. 60",
+       "kind": "art",
+       "text": "Industrialización de hidrocarburos\nArtículo 60. La industrialización de los hidrocarburos refinados comprende las actividades de separación, destilación, purificación; conversión, mezcla y transformación de los mismos, realizadas con el propósito de añadir valor a dichas sustancias mediante la obtención de especialidades de petróleo u otros derivados de hidrocarburos.\n"
+      },
+      "art-061": {
+       "label": "Art. 61",
+       "kind": "art",
+       "text": "Realización de actividades industriales con hidrocarburos refinados\nArtículo 61. Las actividades industriales con hidrocarburos refinados podrán ser realizadas directamente por el Estado, por empresas de su exclusiva propiedad, por empresas mixtas con participación de capital estatal y privado, en cualquier proporción y por empresas privadas.\n"
+      },
+      "art-062": {
+       "label": "Art. 62",
+       "kind": "art",
+       "text": "Orientaciones para la industrialización de hidrocarburos\nArtículo 62. El Ejecutivo Nacional adoptará las medidas necesarias para la industrialización en el país de los hidrocarburos refinados, las cuales, entre otras deberán cumplir las orientaciones siguientes:\n1. Estimular la mayor y más profunda transformación de los hidrocarburos refinados.\n2. Fomentar las inversiones en proyectos generadores de sustancias que apoyen el desarrollo del sector industrial nacional.\n3. Asegurar que las refinerías y plantas procesadoras de hidrocarburos bajo el control del Estado garanticen con carácter prioritario, respecto a la alternativa de exportación, el suministro oportuno para su posterior procesamiento de las sustancias básicas en cantidad y calidad y con esquemas de precios y condiciones comerciales que permitan el desarrollo de empresas competitivas en los mercados internacionales.\n4. Desarrollar parques industriales alrededor de las refinerías y en zonas donde se facilite el suministro de hidrocarburos o sus derivados.\n5. Que se estimule la creación y participación de entes financieros en la industrialización de los hidrocarburos en el país.\n6. Que las empresas que realicen actividades de industrialización de hidrocarburos en el país fomenten a su vez la industrialización, aguas abajo, de los insumos que producen.\n7. Cualesquiera otras que señalen los Reglamentos.\n"
+      },
+      "art-063": {
+       "label": "Art. 63",
+       "kind": "art",
+       "text": "Proyectos de industrialización de los hidrocarburos refinados\nArtículo 63. El Ejecutivo Nacional dará prioridad a los proyectos de industrialización de los hidrocarburos refinados que estimulen la formación de capital nacional y vinculen éste a una mayor agregación de valor a los insumos procesados y cuyos productos sean competitivos en el mercado exterior.\n"
+      },
+      "art-064": {
+       "label": "Art. 64",
+       "kind": "art",
+       "text": "Requisitos para la obtención del permiso de las actividades de industrialización de hidrocarburos refinados\nArtículo 64. Las empresas privadas que se dediquen en el país a las actividades de industrialización de hidrocarburos refinados, deben obtener un permiso que será otorgado por el Ministerio con competencia en materia de hidrocarburos, previo el cumplimiento de los siguientes requisitos:\n1. Identificación de las empresas y sus representantes.\n2. Indicación de la fuente de suministro de la materia prima.\n3. Definición del proyecto con señalamiento del destino de los productos.\n"
+      },
+      "art-065": {
+       "label": "Art. 65",
+       "kind": "art",
+       "text": "Inscripción en el Registro de las actividades de industrialización de los hidrocarburos refinados\nArtículo 65. Quienes se dediquen en el país a las actividades de industrialización de los hidrocarburos refinados, deberán inscribirse en el registro que al efecto llevará el Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-066": {
+       "label": "Art. 66",
+       "kind": "art",
+       "text": "Deber de notificar hallazgos de sustancias obtenidas\nArtículo 66. Cuando en los procesos de refinación de hidrocarburos naturales y en los de industrialización de los productos refinados, aparecieren sustancias, con valor comercial, industrial o estratégico distintas a las previstas en las licencias o permisos, las empresas deberán notificarlo al Ejecutivo Nacional, quien decidirá sobre las condiciones para el destino y utilización de las mismas.\n"
+      },
+      "art-067": {
+       "label": "Art. 67",
+       "kind": "art",
+       "text": "Actividades de comercialización\nArtículo 67. Las actividades de comercialización a que se refiere esta Ley, comprenden el comercio interior y el comercio exterior, tanto de los hidrocarburos naturales, como de sus productos derivados.\n"
+      },
+      "art-068": {
+       "label": "Art. 68",
+       "kind": "art",
+       "text": "De las actividades de comercialización\nArtículo 68. Las actividades de comercialización de los hidrocarburos naturales, así como las de los productos derivados que mediante Decreto señale el Ejecutivo Nacional, serán ejercidas por las empresas a que se refiere el artículo 28 de esta Ley.\nEl Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, podrá autorizar a las empresas a que hace referencia los numerales 2 y 3 del artículo 23 de esta Ley para comercializar directamente la totalidad o una cuota de los volúmenes hidrocarburos naturales producidos en el área asignada.\nLa comercialización directa autorizada no implicará, en ningún caso, la transferencia de la titularidad de los yacimientos ni la autorización para la constitución de garantías reales sobre yacimientos o sobre derechos de soberanía.\n"
+      },
+      "art-069": {
+       "label": "Art. 69",
+       "kind": "art",
+       "text": "Requisitos para la comercialización\nArtículo 69. Las empresas a que hace referencia los numerales 2 y 3 del artículo 23 de esta Ley, autorizadas para comercializar directamente los hidrocarburos naturales, deberán:\n1. Dar cumplimiento al plan de comercialización aprobado por el Ministerio con competencia en materia de hidrocarburos.\n2. Garantizar que los precios de venta sean iguales o superiores a los precios logrados en el mercado por la empresa operadora de exclusiva propiedad de la República o sus filiales.\n3. Cumplir con las obligaciones fiscales y ambientales derivadas de dicha comercialización directa.\n4. Atender lo referente al suministro interno fijado por el Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-070": {
+       "label": "Art. 70",
+       "kind": "art",
+       "text": "Comercialización de productos derivados excluidos\nArtículo 70. Las actividades de comercialización de los productos derivados que estuvieren excluidos conforme a lo previsto en el artículo anterior, podrán ser realizadas por el Estado directamente, o por empresas de su exclusiva propiedad, o por empresas mixtas con participación del capital estatal y privado en cualquier proporción y por empresas privadas.\n"
+      },
+      "art-071": {
+       "label": "Art. 71",
+       "kind": "art",
+       "text": "Regulaciones del comercio interior\nArtículo 71. Serán objeto de las regulaciones sobre comercio interior establecidas en esta Ley, aquellos productos derivados de los hidrocarburos que mediante Resolución señale el Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-072": {
+       "label": "Art. 72",
+       "kind": "art",
+       "text": "Actividades que constituyen un servicio público\nArtículo 72. Constituyen un servicio público las actividades de suministro, almacenamiento, transporte, distribución y expendio de los productos derivados de los hidrocarburos, señalados por el Ejecutivo Nacional conforme al artículo anterior, destinados al consumo colectivo interno. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, fijará los precios de los productos derivados de los hidrocarburos y adoptará medidas para garantizar el suministro, la eficiencia del servicio y evitar su interrupción. En la fijación de los precios el Ejecutivo Nacional atenderá a las disposiciones de esta Ley y a las previsiones que se establezcan en su Reglamento. Estos precios podrán fijarse mediante bandas o cualquier otro sistema que resulte adecuado a los fines previstos en esta Ley, tomando en cuenta las inversiones y la rentabilidad de las mismas.\n"
+      },
+      "art-073": {
+       "label": "Art. 73",
+       "kind": "art",
+       "text": "Permiso previo\nArtículo 73. Las personas naturales o jurídicas que deseen ejercer las actividades de suministro, almacenamiento, transporte, distribución y expendio de los productos derivados de hidrocarburos, deberán obtener previamente permiso del Ministerio con competencia en materia de hidrocarburos. Estos permisos estarán sujetos a las normas establecidas en esta Ley, su Reglamento y las Resoluciones respectivas. Las personas naturales o jurídicas que ejerzan las actividades antes señaladas, podrán realizar más de una actividad, siempre que exista la separación jurídica y contable entre ellas. La cesión o traspaso de dichos permisos requerirán la autorización previa del Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-074": {
+       "label": "Art. 74",
+       "kind": "art",
+       "text": "Autorización para la construcción, modificación y destrucción de establecimientos o equipos destinados al comercio interior\nArtículo 74. La construcción, modificación, ampliación, destrucción o desmantelamiento de establecimientos, instalaciones o equipos, destinados al comercio interior de los productos derivados de hidrocarburos, deberán ser previamente autorizados por el Ministerio con competencia en materia de hidrocarburos.\n"
+      },
+      "art-075": {
+       "label": "Art. 75",
+       "kind": "art",
+       "text": "Revocación de permisos\nArtículo 75. El Ministerio con competencia en materia de hidrocarburos podrá revocar los permisos cuando el incumplimiento de las disposiciones establecidas en esta Ley, su Reglamento o en Resoluciones, comprometan la eficiencia o continuidad del servicio o pongan en peligro la seguridad de personas y bienes.\n"
+      },
+      "art-076": {
+       "label": "Art. 76",
+       "kind": "art",
+       "text": "Abstención de otorgar documentos por parte de registros y notarias\nArtículo 76. Las oficinas subalternas de registro y notarías se abstendrán de dar curso a documentos relacionados con actos que requieran autorización del Ministerio con competencia en materia de hidrocarburos, si no están acompañados de dicha autorización. Los documentos que se otorguen en contravención de lo aquí previsto no tendrán valor alguno a los efectos de esta Ley.\n"
+      },
+      "art-077": {
+       "label": "Art. 77",
+       "kind": "art",
+       "text": "Derecho preferente ante terceras personas\nArtículo 77. Las personas naturales o jurídicas que actualmente ejercen las actividades de comercialización interna de los productos derivados de hidrocarburos objeto de esta Ley, en igualdad de condiciones, tendrán derecho preferente ante terceras personas para continuar ejerciéndolas. En caso de que la industria petrolera nacional o cualquiera otra persona decida ofrecer en venta, los bienes inmuebles destinados al ejercicio de dichas actividades, las personas que actualmente las ejercen, en igualdad de condiciones, tendrán derecho preferente para adquirirlas. En toda transmisión de derechos sobre expendios de combustibles se reconocerá y pagará el valor del fondo de comercio perteneciente a quien esté ejerciendo la actividad.\n"
+      },
+      "art-078": {
+       "label": "Art. 78",
+       "kind": "art",
+       "text": "De las infracciones\nArtículo 78. Las infracciones a esta Ley, a su Reglamento y a las demás disposiciones que se dicten para su debido cumplimiento, referidas a seguridad y protección de instalaciones, personas y bienes, construcción de obras e instalaciones, prestación de servicio, normas de calidad, transporte y distribución de hidrocarburos y productos, de precios y tarifas, serán sancionadas con multa entre cincuenta (50) y cincuenta mil (50.000) veces el tipo de cambio oficial de la moneda de mayor valor publicada por el Banco Central de Venezuela o suspensión de actividades hasta por seis (6) meses o con ambas sanciones, que impondrá el Ejecutivo Nacional por órgano del Ministerio con competencia en materia de hidrocarburos, de acuerdo con la gravedad de la falta y la actuación pasada del infractor en el ejercicio de sus actividades. Las sanciones anteriores se aplicarán sin perjuicio de las acciones civiles, penales, fiscales o administrativas que la infracción origine, de las medidas policiales que deban tomarse para impedir la infracción o para restituir la situación legal infringida y de las sanciones establecidas en otras leyes.\n"
+      },
+      "art-079": {
+       "label": "Art. 79",
+       "kind": "art",
+       "text": "Averiguaciones en caso de multa a empresas del Estado\nArtículo 79. Cuando las multas previstas en el artículo anterior fueren aplicadas a una empresa del Estado, ésta abrirá las averiguaciones correspondientes, con el fin de adoptar los correctivos de la situación y determinar las responsabilidades que pudieren recaer sobre los miembros del respectivo Directorio o Junta Directiva o cualquier otra persona al servicio de ella, y aplicar las medidas a que hubiere lugar. Los resultados de dichas averiguaciones deberán estar concluidos dentro de un plazo de cuarenta y cinco (45) días y deberán ser comunicados al Ministerio con competencia en materia de hidrocarburos, dentro de un plazo de cinco (5) días hábiles después de finalizada aquéllas. El Ministro o Ministra con competencia en materia de hidrocarburos podrá reabrir o ampliar dichas averiguaciones cuando lo juzgue conveniente.\n"
+      },
+      "art-080": {
+       "label": "Art. 80",
+       "kind": "art",
+       "text": "Recursos administrativos\nArtículo 80. Contra las resoluciones del Ministro o Ministra con competencia en materia de hidrocarburos proceden los recursos administrativos y contenciosos administrativos en los términos y condiciones permitidos por la ley.\n"
+      },
+      "disp-transitoria-01": {
+       "label": "Disposición transitoria primera",
+       "kind": "transitional",
+       "text": "PRIMERA. Hasta tanto se dicten nuevas normas que las deroguen expresamente, se continuarán aplicando en todo cuanto no colidan con esta Ley, las disposiciones de rango sublegal que sobre las materias aquí reguladas hubieren sido dictadas antes de la fecha de entrada en vigencia de esta Ley.\n"
+      },
+      "disp-transitoria-02": {
+       "label": "Disposición transitoria segunda",
+       "kind": "transitional",
+       "text": "SEGUNDA. Dentro de los ciento ochenta (180) días siguientes a la entrada en vigencia de esta Ley, el Ministerio con competencia en materia de hidrocarburos realizará una evaluación de las Empresas Mixtas constituidas antes de la entrada en vigencia de esta Ley, pudiendo acordar las adecuaciones que resulten necesarias a los fines de ajustarlas a las disposiciones de esta Ley y adoptar las medidas pertinentes para el aprovechamiento integral de los hidrocarburos. Durante dicho período continuará siendo aplicable el régimen tributario vigente antes de la publicación de esta Ley.\nEn ningún caso, el proceso de adecuación implicará o generará una desmejora de las condiciones acordadas con las empresas que, directa o indirectamente, han realizado o realizan la gestión integral de las empresas mixtas.\n"
+      },
+      "disp-transitoria-03": {
+       "label": "Disposición transitoria tercera",
+       "kind": "transitional",
+       "text": "TERCERA. Los Contratos de Participación Productiva y demás modelos contractuales suscritos con fundamento en la Ley Constitucional Antibloqueo para el Desarrollo Nacional y la Garantía de los Derechos Humanos mantendrán su plena validez y eficacia jurídica.\nDentro de los ciento ochenta (180) días siguientes a la entrada en vigencia de esta Ley, las partes en los Contratos de Participación Productiva y demás modelos contractuales a que hace referencia esta disposición transitoria, realizarán las adecuaciones que resulten necesarias a dichos contratos, a los fines de ajustarlos a los términos de esta Ley. Durante dicho período continuará siendo aplicable el régimen tributario vigente antes de la publicación de esta Ley.\nEn ningún caso, el proceso de adecuación implicará o generará una desmejora de las condiciones previamente acordadas contractualmente.\n"
+      },
+      "disp-transitoria-04": {
+       "label": "Disposición transitoria cuarta",
+       "kind": "transitional",
+       "text": "CUARTA. El Ministerio con competencia en materia de hidrocarburos, dentro de los treinta (30) días siguientes a la entrada en vigencia de esta Ley, dictará las normas necesarias para la determinación, declaración y pago del impuesto integrado de hidrocarburos.\n"
+      },
+      "disp-derogatoria-01": {
+       "label": "Disposición derogatoria primera",
+       "kind": "repeal",
+       "text": "PRIMERA. Se deroga la Ley de Regularización de la Participación Privada en las Actividades Primarias Previstas en el Decreto N° 1.510 con Fuerza de Ley Orgánica de Hidrocarburos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 38.419 de fecha 18 de abril de 2006.\n"
+      },
+      "disp-derogatoria-02": {
+       "label": "Disposición derogatoria segunda",
+       "kind": "repeal",
+       "text": "SEGUNDA. Se deroga la Ley Orgánica que reserva al Estado Bienes y Servicios Conexos a las Actividades Primarias de Hidrocarburos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 39.173 de fecha 7 de mayo de 2009.\n"
+      },
+      "disp-derogatoria-03": {
+       "label": "Disposición derogatoria tercera",
+       "kind": "repeal",
+       "text": "TERCERA. Se deroga la Ley que crea la Contribución Especial por Precios Extraordinarios y Precios Exorbitantes en el Mercado Internacional de Hidrocarburos, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 40.114 de fecha 20 de febrero de 2013.\n"
+      },
+      "disp-derogatoria-04": {
+       "label": "Disposición derogatoria cuarta",
+       "kind": "repeal",
+       "text": "CUARTA. Se deroga el Decreto N° 5.200, con Rango, Valor y Fuerza de Ley de Migración a Empresas Mixtas de los Convenios de Asociación de la Faja Petrolífera del Orinoco; así como los Convenios de Exploración a Riesgo y Ganancias Compartidas, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 38.632 de fecha 26 de febrero de 2007.\n"
+      },
+      "disp-derogatoria-05": {
+       "label": "Disposición derogatoria quinta",
+       "kind": "repeal",
+       "text": "QUINTA. Se deroga el Acuerdo de la Asamblea Nacional mediante el cual se aprobaron los Términos y Condiciones para la Creación y Funcionamiento de las Empresas Mixtas y el Modelo de Contrato, publicada en la Gaceta Oficial de la República Bolivariana de Venezuela N° 38.410 de fecha 31 de marzo de 2006.\n"
+      },
+      "disp-derogatoria-06": {
+       "label": "Disposición derogatoria sexta",
+       "kind": "repeal",
+       "text": "SEXTA. Se deroga el Acuerdo de la Asamblea Nacional mediante el cual se aprueba la modificación del Acuerdo Primero, numeral 6, literal a, de los Términos y Condiciones para la Creación y Funcionamiento de las Empresas Mixtas contenida en el Modelo de Contrato para las Empresas Mixtas entre la Corporación Venezolana del Petróleo, S.A., y las Entidades Privadas, publicado en la Gaceta Oficial de la República Bolivariana de Venezuela N° 39.273 de fecha 28 de septiembre de 2009.\n"
+      },
+      "disp-derogatoria-07": {
+       "label": "Disposición derogatoria séptima",
+       "kind": "repeal",
+       "text": "SÉPTIMA. Quedan derogadas todas aquellas disposiciones legales que coliden con las disposiciones de esta Ley.\n"
+      },
+      "disp-final-01": {
+       "label": "Disposición final única",
+       "kind": "final",
+       "text": "ÚNICA. Esta Ley de Reforma Parcial de la Ley Orgánica de Hidrocarburos entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela, salvo los artículos 51, 55, 56, 57, 58 y 59, los cuales entrarán en vigencia una vez transcurrido sesenta (60) días continuos siguientes a su publicación.\n"
+      },
+      "titulos": {
+       "label": "Libros, títulos, capítulos y secciones",
+       "kind": "heading",
+       "text": "Capítulo I. Disposiciones Fundamentales\nSección Primera Del ámbito de la Ley\nSección Segunda. De la propiedad de los yacimientos\nCapítulo II. De las Actividades Relativas a los Hidrocarburos\nSección Primera. Disposiciones Generales\nSección Segunda. De la competencia\nSección Tercera. De las actividades primarias\nSección Cuarta. De las actividades de refinación y comercialización\nSección Quinta. De la participación del capital nacional y de la utilización de bienes y servicios nacionales\nSección Sexta. De las obligaciones derivadas de las actividades sobre hidrocarburos\nCapítulo III. Del Ejercicio de las Actividades Primarias\nSección Primera. De la forma y condición para realizar las actividades primarias\nSección Segunda. De las empresas del Estado\nSección Tercera. De las empresas mixtas\nSección Cuarta. De los Contratos para el Desarrollo de Actividades Primarias\nCapítulo IV. De los Derechos Complementarios\nSección Primera Ocupación temporal, expropiación y servidumbres\nSección Segunda. De los procedimientos\nCapítulo V. Unificación de Yacimientos\nSección Primera De los yacimientos nacionales y limítrofes con otros países\nCapítulo VI. Del Régimen de Regalía e Impuestos\nSección Primera De la regalía\nSección Segunda. De los Impuestos\nCapítulo VII. De las Actividades Industriales\nSección Primera Forma y condiciones de las actividades\nSección Segunda. De otras sustancias obtenidas\nCapítulo VIII. De las Actividades de Comercialización\nSección Primera De las personas que pueden ejercerlas\nSección Segunda. Del comercio interior\nCapítulo IX. De las Infracciones y Sanciones\nSección Primera De las multas y sus cuantías\nDisposición Derogatoria\nDISPOSICIONES TRANSITORIAS\nDISPOSICIÓN FINAL\n"
+      }
+     },
+     "credits": {},
+     "note": "Texto único of the Ley Orgánica de Hidrocarburos as reformed in 2026, printed in G.O. 6.978 Ext. of 29 Jan 2026 and in force on publication except arts. 51 and 55-59 (Disposición final única), which take effect on 31 Mar 2026: until then arts. 56-59 (inserted by the reform) are absent and arts. 51 and 55 (reworded by it) read '[La fuente no da el texto vigente en esta fecha.]', because their earlier wording (2006) survives only as an image scan."
+    },
+    {
+     "from": "2026-03-31",
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+     "sha256": "d1ed207bf5555c0df24f62febc4cf66616aa7b8532b14331ca1c9a456d7d3040",
+     "changes": {
+      "art-051": {
+       "label": "Art. 51",
+       "kind": "art",
+       "text": "Regalía\nArtículo 51. De los volúmenes de hidrocarburos extraídos y no reinyectados de cualquier yacimiento, el Estado tiene derecho a una participación de hasta treinta por ciento (30%) como regalía.\nEl Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, previa opinión del Ministerio con competencia en materia de Finanzas, determinará el o los porcentajes de regalía aplicables a cada proyecto, durante sus fases de ejecución, tomando en cuenta la naturaleza del proyecto; los requerimientos de inversiones de capital; la economicidad del proyecto; y la necesidad de asegurar la competitividad internacional.\nEl Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, queda facultado para modificar el porcentaje de la regalía dentro del límite previsto en este artículo, cuando se demuestre que resulta necesario para garantizar el equilibrio económico del proyecto, en los términos previstos en esta Ley.\n"
+      },
+      "art-055": {
+       "label": "Art. 55",
+       "kind": "art",
+       "text": "Impuesto integrado de hidrocarburos\nArtículo 55. Las personas jurídicas, públicas o privadas, que realicen las actividades a las que se refiere esta Ley estarán sujetas al pago del impuesto integrado de hidrocarburos.\nLa base imponible del impuesto integrado de hidrocarburos estará conformada por el total de los ingresos brutos devengados mensualmente por los sujetos pasivos de este impuesto. Los ingresos brutos devengados no admitirán deducción alguna, excepto en los casos de devoluciones, descuentos incondicionales pactados al momento de la operación y reintegros por errores de facturación o pagos indebidos debidamente soportados.\nEn los proyectos para la realización de actividades de extracción se entenderá como ingresos brutos devengados, el valor total de los hidrocarburos extraídos y no reinyectados.\n"
+      },
+      "art-056": {
+       "label": "Art. 56",
+       "kind": "art",
+       "text": "Alícuota\nArtículo 56. La alícuota del impuesto integrado de hidrocarburos será de hasta quince por ciento (15%) sobre la base imponible correspondiente. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, previa opinión del Ministerio con competencia en materia de Finanzas, determinará la alícuota del impuesto integrado de hidrocarburos aplicable a cada proyecto, durante sus fases de ejecución, dentro de los límites previstos en este artículo, tomando en cuenta la naturaleza del proyecto; los requerimientos de inversiones de capital; la economicidad del proyecto; y la necesidad de asegurar la competitividad internacional.\nEl Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de hidrocarburos, queda facultado para modificar la alícuota dentro del límite previsto en este artículo, cuando se demuestre que resulta necesario para garantizar el equilibrio económico del proyecto, en los términos previstos en esta Ley.\n"
+      },
+      "art-057": {
+       "label": "Art. 57",
+       "kind": "art",
+       "text": "Determinación y pago del impuesto integrado de hidrocarburos\nArtículo 57. El impuesto integrado de hidrocarburos será determinado y anticipado de forma mensual y liquidado en su totalidad anualmente. Este impuesto deberá ser declarado y pagado en la oportunidad y mediante los mecanismos, formas y condiciones que establezca el Ministerio con competencia en materia de hidrocarburos.\nEl impuesto integrado de hidrocarburos podrá ser exigido por el Ejecutivo Nacional en especie o en dinero, total o parcialmente.\n"
+      },
+      "art-058": {
+       "label": "Art. 58",
+       "kind": "art",
+       "text": "Del impuesto sobre la renta\nArtículo 58. El Ejecutivo Nacional, por órgano del Ministerio con competencia en materia de finanzas, previa opinión del Ministerio con competencia en materia de hidrocarburos, podrá reducir la alícuota por concepto del impuesto sobre la renta, tomando en cuenta los criterios establecidos el artículo 51, cuando se demuestre que dicha reducción resulta necesaria para garantizar el equilibrio económico del proyecto.\n"
+      },
+      "art-059": {
+       "label": "Art. 59",
+       "kind": "art",
+       "text": "Exención de los impuestos y parafiscales\nArtículo 59. Las personas jurídicas públicas o privadas que realicen las actividades a las que se refiere esta Ley estarán exentas del pago de los siguientes impuestos y contribuciones especiales:\n1. Impuesto a los Grandes Patrimonios.\n2. Contribución especial prevista en la Ley Orgánica de Ciencia, Tecnología e Innovación.\n3. Contribución especial prevista en la Ley Orgánica de Deporte, Actividad Física y Educación Física.\n4. Contribución especial prevista en la Ley Orgánica de Drogas.\n5. Contribución prevista en la Ley de Protección de las Pensiones de Seguridad Social Frente al Bloqueo Imperialista.\nLas actividades a las que se refiere esta Ley no están sujetas al compromiso de responsabilidad social establecido en el Decreto con Rango, Valor y Fuerza de Ley de Contrataciones Públicas, ni a tributos estadales o municipales.\n"
+      }
+     },
+     "credits": {
+      "art-051": [
+       "ley-reforma-loh-2026"
+      ],
+      "art-055": [
+       "ley-reforma-loh-2026"
+      ],
+      "art-056": [
+       "ley-reforma-loh-2026"
+      ],
+      "art-057": [
+       "ley-reforma-loh-2026"
+      ],
+      "art-058": [
+       "ley-reforma-loh-2026"
+      ],
+      "art-059": [
+       "ley-reforma-loh-2026"
+      ]
+     },
+     "note": "Arts. 51 and 55-59 as printed in the texto único of G.O. 6.978 Ext. take effect once sixty continuous days following publication have run (Disposición final única): from 31 Mar 2026."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "Gaceta Oficial N° 6.978 Extraordinario (29 Jan 2026), Imprenta Nacional portal gacetaoficial.gob.ve",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+   "retrieved": "2026-10-29",
+   "requests": 1,
+   "licence": "Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here).",
+   "notes": "Ley de Reforma de la Ley Orgánica de Hidrocarburos (art. 35 orders the reprint) followed by the texto único of the law. Born-digital PDF; read from its text layer with gazette_text.py."
+  }
+ ],
+ "decisions": [
+  "LOH: the Ley de Reforma de la Ley Orgánica de Hidrocarburos (arts. 1-35) is printed first in G.O. 6.978 Ext. of 29 Jan 2026, then the law in full (art. 35 orders the single text); only the texto único is read, from its title to the closing 'Dado, firmado y sellado'. Its Disposición final única: in force on publication 'salvo los artículos 51, 55, 56, 57, 58 y 59, los cuales entrarán en vigencia una vez transcurrido sesenta (60) días continuos siguientes a su publicación'. The sixty days following 29 Jan 2026 run from 30 Jan to 30 Mar 2026, so those articles take effect on 2026-03-31 (counted as for the Ley Orgánica de Aduanas). The rest is dated 2026-01-29 and credited to the publisher as the oldest version available.",
+  "LOH arts. 51 and 55-59 (coordinator rule for text that appears before it is in force): per the reform's own articles 16-21, arts. 56, 57, 58 and 59 are new (inserted by the reform), so they are absent from the version of 2026-01-29; arts. 51 and 55 replace former arts. 44 and 48, whose wording is not in any text-layer source, so in that version they read '[La fuente no da el texto vigente en esta fecha.]'. The printed wording of all six arrives on 2026-03-31, credited to the Ley de Reforma of 2026.",
+  "LOH, repairs of the gazette's own layout (pages 5-12 are pages of a source document pasted in, with white boxes laid over its page numbers): six such boxes also cover the ends of printed lines, so a line the page prints in part is read whole from its own text run (gazette_text unmask_cut_lines; the page numbers under the boxes stay hidden). The lines so completed are in arts. 2 (two lines), 8 (two), 22 (three), 54 (two), 58 (three) and 59 (item 3). The epigraph of art. 2 ('Hidrocarburos gaseosos'), wholly under one of those boxes and printed nowhere, is restored from the text layer. A lone 'y' at the head of p. 10, what a clip leaves of the overflow line 'esta Ley.' printed in full at the foot of p. 9, is dropped. The word check of parse_codes.py --verify counts the completed lines as printed."
+ ],
+ "ai_use": []
+}

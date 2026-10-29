@@ -1,0 +1,185 @@
+{
+ "laws": {
+  "ley-reforma-igtf-2022": {
+   "label": "Ley de Reforma Parcial de la Ley de Impuesto a las Grandes Transacciones Financieras (2022)",
+   "title": "Ley de Reforma Parcial del Decreto con Rango, Valor y Fuerza de Ley de Impuesto a las Grandes Transacciones Financieras, sancionada el 3 de febrero de 2022",
+   "kind": "law",
+   "enacted": "2022-02-03",
+   "published": "2022-02-25",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "ley-de-impuesto-a-las-grandes-transacciones-financieras",
+   "short": "LIGTF",
+   "title": "Ley de Impuesto a las Grandes Transacciones Financieras",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+   "first_law": null,
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2022-03-27",
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+     "sha256": "40d9e1991bc1fe14d04712718ad2e8fa0ece88a9ab0783e7553e7f1a92794077",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "Objeto\nArtículo 1. Esta Ley tiene por objeto la creación de un impuesto que grava las grandes transacciones financieras, en los términos previstos en esta Ley.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "Competencia\nArtículo 2. La administración, recaudación, fiscalización y control del impuesto a que se refiere esta Ley, corresponde al Poder Público Nacional.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "Hecho Imponible\nArtículo 3. Constituyen hechos imponibles de este impuesto:\n1. Los débitos en cuentas bancarias, de corresponsalía, depósitos en custodia o en cualquier otra clase de depósitos a la vista, fondos de activos líquidos, fiduciarios y en otros fondos del mercado financiero o en cualquier otro instrumento financiero, realizados en bancos y otras instituciones financieras.\n2. La cesión de cheques, valores, depósitos en custodia pagados en efectivo y cualquier otro instrumento negociable, a partir del segundo endoso.\n3. La adquisición de cheques de gerencia en efectivo.\n4. Las operaciones activas efectuadas por bancos y otras instituciones financieras entre ellas mismas, y que tengan plazos no inferiores a dos (02) días hábiles bancarios.\n5. La transferencia de valores en custodia entre distintos titulares, aun cuando no exista un desembolso a través de una cuenta.\n6. La cancelación de deudas efectuadas sin mediación del sistema financiero, por el pago u otro medio de extinción.\n7. Los débitos en cuentas que conformen sistemas de pagos organizados privados, no operados por el Banco Central de Venezuela y distintos del Sistema Nacional de Pagos.\n8. Los débitos en cuentas para pagos transfronterizos.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "Sujetos Pasivos\nArtículo 4. Son contribuyentes de este impuesto:\n1. Las personas jurídicas y las entidades económicas sin personalidad jurídica, calificadas como sujetos pasivos especiales, por los pagos que hagan con cargo a sus cuentas en bancos o instituciones financieras.\n2. Las personas jurídicas y las entidades económicas sin personalidad jurídica, calificadas como sujetos pasivos especiales, por los pagos que hagan sin mediación de instituciones financieras. Se entiende por cancelación la compensación, novación y condonación de deudas.\n3. Las personas jurídicas y las entidades económicas sin personalidad jurídica, vinculadas jurídicamente a una persona jurídica o entidad económica sin personalidad jurídica, calificada como sujeto pasivo especial, por los pagos que hagan con cargo a sus cuentas en bancos o instituciones financieras o sin mediación de instituciones financieras.\n4. Las personas naturales, jurídicas y entidades económicas sin personalidad jurídica, que sin estar vinculadas jurídicamente a una persona jurídica o entidad económica sin personalidad jurídica, calificada como sujeto pasivo especial, realicen pagos por cuenta de ellas, con cargo a sus cuentas en bancos o instituciones financieras o sin mediación de instituciones financieras.\n5. Las personas naturales, jurídicas y las entidades económicas sin personalidad jurídica, por los pagos realizados en moneda distinta a la de curso legal en el país, o en criptomonedas o criptoactivos diferentes a los emitidos por la República Bolivariana de Venezuela, dentro del sistema bancario nacional, sin intermediación de corresponsal bancario extranjero, de conformidad con las políticas, autorizaciones excepcionales y parámetros establecidos por el Banco Central de Venezuela.\n6. Las personas naturales, jurídicas y las entidades económicas sin personalidad jurídica, por los pagos realizados a personas calificadas como sujeto pasivo especial, en moneda distinta a la de curso legal en el país, o en criptomonedas o criptoactivos diferentes a los emitidos por la República Bolivariana de Venezuela, sin mediación de instituciones financieras.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "Obligación de pago del impuesto\nArtículo 5. La obligación de pagar el impuesto subsistirá aunque el registro del débito origine la cancelación de la cuenta o deuda correspondiente, en cuyo caso tal cancelación solo podrá hacerse previo pago del impuesto respectivo.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "Sistemas Organizados de Pagos\nArtículo 6. El Banco Central de Venezuela y los regentes de los sistemas organizados de pago, incluido el Sistema Nacional de Pagos, se abstendrán de procesar transferencias o cargos en cuentas en los que no se ordene simultánea y preferentemente la liquidación y pago del impuesto que recaiga sobre tales operaciones.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "Agentes de Retención o Percepción\nArtículo 7. La Administración Tributaria podrá designar agentes de retención o percepción del impuesto establecido en esta Ley a quienes intervengan en actos u operaciones en los cuales estén en condiciones de efectuar por sí o por interpuesta persona, la retención o percepción del impuesto aquí previsto.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "Exenciones\nArtículo 8. Están exentos del pago de este impuesto:\n1. La República y demás entes político territoriales.\n2. El Banco Central de Venezuela.\n3. Las entidades de carácter público con o sin fines empresariales, calificadas como sujetos pasivos especiales.\n4. Las operaciones cambiarias realizadas por un operador cambiario debidamente autorizado.\n5. El primer endoso que se realice en cheques, valores, depósitos en custodia pagados en efectivo y cualquier otro instrumento negociable.\n6. Los débitos que generen la compra, venta y transferencia de la custodia en títulos valores emitidos o avalados por la República o el Banco Central de Venezuela, así como los débitos o retiros relacionados con la liquidación del capital o intereses de los mismos y los títulos negociados en la bolsa agrícola y la bolsa de valores.\n7. Las operaciones de transferencias de fondos que realice el o la titular entre sus cuentas, en bancos o instituciones financieras constituidas y domiciliadas en la República Bolivariana de Venezuela. Esta exención no se aplica a las cuentas con más de un o una titular.\n8. Los débitos en cuentas corrientes de misiones diplomáticas o consulares y de sus funcionarios extranjeros o funcionarias extranjeras acreditados o acreditadas en la República Bolivariana de Venezuela.\n9. Los débitos en cuenta por transferencias o emisión de cheques personales o de gerencia para el pago de tributos cuyo beneficiario sea el Tesoro Nacional.\n10. Los débitos o retiros realizados en las cuentas de la Cámara de Compensación Bancaria, las cuentas de compensación de tarjetas de crédito, las cuentas de corresponsalía nacional y las cuentas operativas compensadoras de la banca.\n11. La compra-venta de efectivo en la cuenta única mantenida en el Banco Central de Venezuela, por los Bancos y otras Instituciones Financieras.\nLa exención prevista en los numerales 5 al 11 de este artículo aplica exclusivamente para las transacciones realizadas en moneda de curso legal o en criptomonedas o criptoactivos emitidos por la República Bolivariana de Venezuela.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "Pagos derivados de la relación de trabajo\nArtículo 9. En los casos de cuentas bancarias abiertas para el pago de nómina de salarios, jubilaciones, pensiones y demás remuneraciones similares derivadas de una relación de trabajo actual o anterior, los deudores o deudoras, pagadores o pagadoras, no podrán trasladar a los trabajadores o trabajadoras, jubilados o jubiladas, pensionados o pensionadas, el monto del impuesto que soporten al pagar dichas contraprestaciones.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "Temporalidad\nArtículo 10. Se entienden ocurridos los hechos imponibles y nacida, en consecuencia, la obligación tributaria el momento en que se efectúe el débito en la cuenta o se cancele la deuda, según sea el caso.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "Territorialidad\nArtículo 11. El débito en cuentas bancarias o la cancelación de deudas, estará gravado con el impuesto establecido en esta Ley, cuando:\n1. Alguna de las causas que lo origina ocurre o se sitúa dentro del territorio nacional, incluso en los casos que se trate de prestaciones de servicios generados, contratados, perfeccionados o pagados en el exterior, y aunque el prestador o prestadora del servicio no se encuentre en la República Bolivariana de Venezuela.\n2. Se trate de pagos por la realización de actividades en el exterior vinculadas con la importación de bienes o servicios y los que se obtengan por asistencia técnica o servicios tecnológicos utilizados en el territorio nacional.\n3. La actividad que genera el servicio sea desarrollada en el territorio nacional, independientemente del lugar donde éste se utilice.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "Base Imponible\nArtículo 12. La base imponible estará constituida por el importe total de cada débito en cuenta u operación gravada.\nEn los casos de cheques de gerencia, la base imponible estará constituida por el importe del cheque.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "Alícuota Impositiva\nArtículo 13. La alícuota general aplicable a la base imponible correspondiente será establecida por el Ejecutivo Nacional y estará comprendida entre un límite mínimo de cero por ciento (0%) y un máximo de dos por ciento (2%), salvo para las transacciones realizadas por los contribuyentes señalados en los numerales 5 y 6 del artículo 4 de esta Ley. Se aplicará una alícuota a las transacciones realizadas por los contribuyentes señalados en el numeral 5 del artículo 4 de esta Ley que será establecida por el Ejecutivo Nacional, y estará comprendida entre un límite mínimo de dos por ciento (2%) y un máximo de ocho por ciento (8%).\nLa alícuota para las transacciones efectuadas por los contribuyentes señalados en el numeral 6 del artículo 4 de esta Ley será establecida por el Ejecutivo Nacional, y estará comprendida entre un límite mínimo de dos por ciento (2%) y un máximo de veinte por ciento (20%).\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "Obligación Tributaria\nArtículo 14. El monto de la obligación tributaria a pagar será el que resulte de aplicar la alícuota impositiva establecida en el artículo anterior, a la base imponible.\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "Período de Imposición\nArtículo 15. El impuesto establecido en esta Ley será determinado por períodos de imposición de un (1) día.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "Declaración y el Pago\nArtículo 16. Los contribuyentes y los responsables, según el caso, deben declarar y pagar el impuesto previsto en esta Ley, conforme a las siguientes reglas:\n1. Cada día, el impuesto que recae sobre los débitos efectuados en cuentas de bancos u otras instituciones financieras.\n2. Conforme al Calendario de Pagos de las Retenciones del Impuesto al Valor Agregado para Contribuyentes Especiales, el impuesto que recae sobre la cancelación de deudas mediante el pago u otros mecanismos de extinción, sin mediación de bancos u otras instituciones financieras.\nParágrafo único: La declaración y pago del impuesto previsto en esta Ley debe efectuarse, en el lugar, forma y condiciones que establezca la Administración Tributaria Nacional mediante Providencia Administrativa de carácter general.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "Transferencia de Fondos\nArtículo 17. Los impuestos pagados o enterados conforme a esta Ley, en calidad de contribuyente, de agente de retención o de percepción, serán transferidos el mismo día de su recepción, por las entidades receptoras de Fondos Nacionales, a la cuenta que a tal efecto señale el Ministerio con competencia en materia de finanzas, a través de la Oficina Nacional del Tesoro.\nLa Administración Tributaria Nacional dictará, mediante Providencia Administrativa de carácter general, las normas necesarias para el control bancario de la recaudación de este impuesto.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "De la no deducibilidad del impuesto\nArtículo 18. El impuesto previsto en esta Ley no será deducible del Impuesto sobre la Renta.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "Obligación de Suministro de Información\nArtículo 19. Los sujetos pasivos del impuesto establecido en esta Ley, deben mantener y entregar a la Administración Tributaria Nacional, cuando ésta lo requiera, reportes detallados de las cuentas bancarias o contables, según corresponda, en los cuales se refleje el monto del impuesto pagado o retenido, si fuere el caso; ello sin perjuicio de los registros y demás procesos bancarios establecidos para el adecuado control del impuesto previsto en esta Ley.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "Forma de las Declaraciones\nArtículo 20. Las declaraciones que se requieran, conforme a las Providencias Administrativas que al efecto dicte la Administración Tributaria Nacional, deberán ser elaboradas en los formularios y bajo las especificaciones técnicas publicadas por ésta en su Portal Fiscal.\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "Registro de Débito\nArtículo 21. El impuesto causado en virtud de la presente Ley deberá registrarse como débito en la cuenta bancaria respectiva. En los casos que no se trate de débitos en cuenta bancaria será registrado en cuentas de orden.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "Sanciones\nArtículo 22. El incumplimiento de las obligaciones establecidas en esta Ley, será sancionado de conformidad con lo dispuesto en el Decreto Constituyente mediante el cual dicta el Código Orgánico Tributario.\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "Artículo 23. El Ejecutivo Nacional, dentro de las medidas de política fiscal aplicables de conformidad con la situación coyuntural, sectorial y regional de la economía del país, podrá exonerar total o parcialmente del impuesto previsto en esta Ley a las transacciones realizadas por determinados sujetos, segmentos o sectores económicos del país.\nLos decretos de exoneración que se dicten en ejecución de esta norma deberán señalar las condiciones, plazos, requisitos y controles requeridos, a fin de lograr las finalidades de política fiscal perseguidas en el orden coyuntural, sectorial y regional.\nEn todo caso, la exoneración concedida a las transacciones realizadas por los contribuyentes señalados en los numerales 5 y 6 del artículo 4 de esta Ley será igualmente otorgada a las transacciones realizadas en moneda de curso legal en el país o en criptomonedas o criptoactivos emitidos por la República Bolivariana de Venezuela.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "Artículo 24. Hasta tanto el Ejecutivo Nacional establezca una alícuota distinta, se fija la alícuota en dos por ciento (2%) para las transacciones realizadas por los contribuyentes señalados en los numerales 1 al 4 del artículo 4 de esta Ley y en tres por ciento (3%) para las transacciones efectuadas por los contribuyentes señalados en los numerales 5 y 6 del artículo 4 de esta Ley.\n"
+      },
+      "art-025": {
+       "label": "Art. 25",
+       "kind": "art",
+       "text": "Artículo 25. Esta Ley entrará en vigencia a los treinta (30) días continuos siguientes a su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.\n"
+      },
+      "art-026": {
+       "label": "Art. 26",
+       "kind": "art",
+       "text": "Artículo 26. El Servicio Nacional de Administración Aduanera y Tributaria (SENIAT), podrá realizar determinaciones de oficio del impuesto establecido en esta Ley, sobre base cierta o sobre base presuntiva, de conformidad con lo dispuesto en el Decreto Constituyente mediante el cual se dicta el Código Orgánico Tributario.\n"
+      },
+      "titulos": {
+       "label": "Libros, títulos, capítulos y secciones",
+       "kind": "heading",
+       "text": "CAPÍTULO I. DISPOSICIONES GENERALES\nCAPÍTULO II. IMPUESTO\nCAPÍTULO III. EXENCIONES\nCAPÍTULO IV. ALÍCUOTA\nCAPÍTULO V. DECLARACIÓN, PAGO Y LIQUIDACIÓN DEL\nIMPUESTO\nCAPÍTULO VI. DEBERES FORMALES\nCAPÍTULO VII. DISPOSICIONES TRANSITORIAS Y FINALES\n"
+      }
+     },
+     "credits": {},
+     "note": "Texto único of the Ley de Impuesto a las Grandes Transacciones Financieras as reformed in 2022, printed in G.O. 6.687 Ext. of 25 Feb 2022 and in force thirty continuous days after publication (art. 25), that is from 27 Mar 2022. Earlier texts (2015, 2018) are not in this record."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "Gaceta Oficial N° 6.687 Extraordinario (25 Feb 2022), Imprenta Nacional portal gacetaoficial.gob.ve",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+   "retrieved": "2026-10-29",
+   "requests": 1,
+   "licence": "Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here).",
+   "notes": "Ley de Reforma Parcial del Decreto con Rango, Valor y Fuerza de Ley de Impuesto a las Grandes Transacciones Financieras (art. 13 orders the reprint) followed by the texto único of the law. Born-digital PDF; read from its text layer with gazette_text.py."
+  }
+ ],
+ "decisions": [
+  "LIGTF: the Ley de Reforma Parcial of 2022 (arts. 1-13) is printed first in G.O. 6.687 Ext. of 25 Feb 2022, then the law in full (art. 13 orders the single text); only the texto único is read, from the second line of its title ('FINANCIERAS') to the closing 'Dada, firmada y sellada'. Art. 25 (added by the reform): in force 'a los treinta (30) días continuos siguientes a su publicación'; the thirtieth day after 25 Feb 2022 is 27 Mar 2022, counted as for the COT, so the version is dated 2022-03-27 (the Asamblea Nacional's law page gives 28/03/2022 as vigencia; the law's own clause is followed). Credited to the publisher as the oldest version available."
+ ],
+ "ai_use": []
+}

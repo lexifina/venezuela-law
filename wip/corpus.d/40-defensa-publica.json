@@ -1,0 +1,830 @@
+{
+ "laws": {
+  "lo-reforma-defensa-publica-2022": {
+   "label": "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública (2022)",
+   "title": "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública, sancionada el 17 de mayo de 2022",
+   "kind": "law",
+   "enacted": "2022-05-17",
+   "published": "2022-05-25",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "ley-organica-de-la-defensa-publica",
+   "short": "LODP",
+   "title": "Ley Orgánica de la Defensa Pública",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+   "first_law": null,
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2022-05-25",
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+     "sha256": "7266d2b24bd56404d43335c1f9e92b3922dee0f4a693612aca7bdc431ef3dc51",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "Objeto\nArtículo 1. La presente Ley tiene por objeto regular la naturaleza y organización, autonomía funcional y administrativa, así como la disciplina e idoneidad de la Defensa Pública, con el fin de asegurar la eficacia del servicio y garantizar los beneficios de la carrera de la Defensora Pública o Defensor Público y demás funcionarias y funcionarios que establezca esta Ley y sus estatutos.\nAsimismo, establece los principios, normas y procedimientos para el desarrollo y garantía del derecho constitucional de toda persona de acceder a los órganos de administración de justicia para hacer valer sus derechos e intereses legítimos y garantizar el derecho a la defensa en cualquier procedimiento judicial o administrativo.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "Creación\nArtículo 2. La Defensa Pública es un órgano del sistema de justicia que tiene como propósito fundamental garantizar la tutela judicial efectiva del derecho constitucional a la defensa en las diversas áreas de su competencia. Asimismo, está dedicada a prestar a nivel nacional un servicio de defensa pública, en forma gratuita a las personas que lo requieran, sin distinción de clase socioeconómica.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "Naturaleza y autonomía\nArtículo 3. La Defensa Pública es un órgano constitucional del Sistema de Justicia con plena autonomía funcional, financiera y administrativa, única e indivisible, bajo la dirección y responsabilidad de la Defensora Pública General o Defensor Público General.\nParágrafo Único: La inspección y vigilancia de la prestación de los servicios de la Defensa Pública corresponde al Tribunal Supremo de Justicia, de conformidad con lo establecido en la Constitución de la República Bolivariana de Venezuela y demás leyes que rigen la materia.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "Ámbito material\nArtículo 4. Las disposiciones de esta Ley son de orden público y serán de aplicación general en los procesos judiciales y las asesorías extrajudiciales, en todas las materias, bajo los términos que la misma dispone para garantizar el acceso a la justicia y el derecho a la defensa.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "Validez personal y espacial\nArtículo 5. Las disposiciones de esta Ley son aplicables a las personas, sin más limitaciones que las establecidas en las normas, tratados, pactos y convenciones internacionales suscritos y ratificados por la República Bolivariana de Venezuela.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "Principios generales\nArtículo 6. Todas las actuaciones de la Defensa Pública deben fundamentarse en los principios de justicia, honestidad, decoro, participación, celeridad, eficacia, eficiencia, transparencia, rendición de cuentas, disciplina, responsabilidad y obligatoriedad, este último con las excepciones previstas en la ley.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "Preeminencia de los derechos humanos\nArtículo 7. En el ejercicio de la Defensa Pública será preeminente la defensa de los Derechos Humanos. En consecuencia, las Defensoras Públicas y Defensores Públicos se encuentran legitimados para solicitar al Ministerio Público y la Defensoría del Pueblo el inicio de la investigación correspondiente por la presunta violación de los derechos humanos de la que tengan conocimiento en el ejercicio de sus funciones y realizar el respectivo seguimiento a las actuaciones realizadas en torno al asunto.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "Competencias de la Defensa Pública\nArtículo 8. Son competencias de la Defensa Pública:\n1. Garantizar a toda persona el derecho a la defensa en todo grado y estado del proceso judicial y administrativo en todas las materias que le son atribuidas de conformidad con la ley y la Constitución de la República Bolivariana de Venezuela.\n2. Cualquier otra que, por aplicación de la Constitución de la República Bolivariana de Venezuela, de las normas, tratados, pactos y convenciones internacionales suscritos y ratificados por la República Bolivariana de Venezuela le sean atribuidas.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "Estructura\nArtículo 9. La Defensa Pública está integrada por la Defensa Pública General, la Coordinación General, las unidades regionales de la defensa pública y cualquier otra dependencia creada para el efectivo y eficaz cumplimiento de los objetivos del órgano con las atribuciones y facultades contempladas en esta Ley y las normas internas de organización y funcionamiento.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "Funcionamiento\nArtículo 10. La Defensa Pública funcionará con un nivel gerencial, un nivel operativo y las dependencias desconcentradas. En cada estado funcionará una Unidad Regional de la Defensa Pública a cargo de una Coordinadora o Coordinador Regional, conformada por las defensoras públicas o defensores públicos, demás funcionarias o funcionarios y personal que se requiera. Las unidades regionales contarán con extensiones según las necesidades del servicio.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "Designación y período\nArtículo 11. La Defensora Pública General o Defensor Público General será designada o designado por la mayoría absoluta de las y los integrantes de la Asamblea Nacional y ejercerá sus funciones por un período de siete años. El Despacho de la Defensora Pública General o Defensor Público General tendrá su sede en el Distrito Capital.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "Designación por elección\nArtículo 12. La Asamblea Nacional, noventa días continuos antes del vencimiento del período para el cual fue designada o designado la Defensora Publica General o Defensor Público General o en caso de falta absoluta, iniciará el procedimiento para su designación, para lo cual convocará al Comité de Postulaciones Judiciales.\nEste Comité realizará un proceso público de cuyo resultado se obtendrá el listado de aspirantes que con cumplan con los requisitos para el cargo de Defensora Pública General o Defensor Público General. La lista de preseleccionadas y preseleccionados será publicada en dos diarios de mayor circulación nacional, en la página electrónica de la Asamblea Nacional y a través de otros medios de comunicación con el fin de darla mayor difusión a la misma, con el objeto de garantizar oportunidad a las ciudadanas y ciudadanos de presentar en un lapso de tres días hábiles sus objeciones de manera fundada ante el Comité. Igual lapso tendrán las postuladas y postulados para presentar sus alegatos.\nEl Comité de Postulaciones Judiciales dentro de los treinta días continuos siguientes presentará el listado de aspirantes a la Asamblea Nacional para que mediante el voto favorable de la mayoría absoluta de sus integrantes, designe a la Defensora Pública General o Defensor Público General.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "Requisitos para ser Defensora Pública General o Defensor Público General\nArtículo 13. Para ser Defensora Pública General o Defensor Público General de la Defensa Pública se requiere:\n1. Ser venezolana o venezolano por nacimiento.\n2. Ser mayor de treinta años de edad.\n3. Ser ciudadana o ciudadano de reconocida honorabilidad.\n4. Ser jurista de reconocida competencia.\n5. Haber ejercido la abogacía por un mínimo de diez años y tener título universitario de postgrado en materia jurídica, haber sido profesora universitaria o profesor universitario en Ciencias Jurídicas, durante un mínimo de diez años y tener la categoría de profesora o profesor titular, o haber estado dentro del sistema de justicia como Defensora o Defensor, Fiscal, haber sido Jueza o Juez, en cualquier especialidad con un mínimo de diez años en el ejercicio de la carrera judicial.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "Atribuciones\nArtículo 14. Son atribuciones de la Defensora Pública General o Defensor Público General las siguientes:\n1. Ejercer la dirección y supervisión de la Defensa Pública.\n2. Garantizar el derecho a la defensa y la asistencia jurídica en todas las instancias para quienes lo requieran, y así lograr el ejercicio efectivo del acceso a la justicia.\n3. Fijar las políticas y acciones relacionadas con la Defensa Pública.\n4. Aprobar y publicar las normas reglamentarias internas necesarias para el desempeño de las funciones del servicio.\n5. Elaborar el proyecto de presupuesto de la Defensa Pública y presentarlo ante el Poder Ejecutivo Nacional, para su incorporación al Proyecto de Ley de Presupuesto correspondiente.\n6. Ejecutar el presupuesto aprobado, mediante la disposición de los gastos relativos al funcionamiento de la Defensa Pública y autorizar las erogaciones correspondientes.\n7. Presentar anualmente informe público de gestión a la Asamblea Nacional, al Tribunal Supremo de Justicia, a los consejos comunales y a las demás formas de organización y participación social.\n8. Requerir la colaboración y coordinar con las distintas autoridades de la República, para el mejor cumplimiento de sus funciones, quienes estarán obligados a prestarla.\n9. Impulsar la celebración de convenios con los distintos sectores sociales y organismos públicos o privados nacionales con arreglo a los requisitos legales correspondientes.\n10. Fomentar la formación y mejoramiento profesional para contribuir a elevar el nivel de las defensoras públicas o defensores públicos, con la finalidad de garantizar la prestación de un mejor servicio.\n11. Velar por el cumplimiento de los procesos de ingreso, egreso, ascenso y traslado del personal de la Defensa Pública.\n12. Organizar estructural, funcional, administrativa y financieramente la Defensa Pública.\n13. Ejercer la potestad disciplinaria sobre las defensoras públicas o defensores públicos sobre el resto del personal de la Defensa Pública.\n14. Delegar firma y atribuciones, únicamente en las funcionarias o funcionarios que ocupen cargo gerencial según su criterio, debiendo publicar la decisión respectiva en la Gaceta Oficial de la República Bolivariana de Venezuela.\n15. Designar y juramentar a las defensoras públicas o defensores públicos y los suplentes.\n16. Designar y juramentar a las defensoras públicas o defensores públicos provisorios en los cargos vacantes.\n17. Asignar la competencia de las defensoras públicas o defensores públicos, por el territorio y por la materia.\n18. Designar defensoras públicas o defensores públicos y sus suplentes con competencia plena en el territorio nacional.\n19. Aprobar la rotación para las defensoras públicas o defensores públicos.\n20. Aprobar las guardias extraordinarias para las defensoras públicas o defensores públicos y demás personal de la Defensa Pública, cuando lo requiera el servicio.\n21. Intervenir personalmente cuando lo juzgue conveniente en los procesos de la jurisdicción ordinaria o especial, en cualquier lugar del territorio nacional. Podrá también nombrar Delegado Especial o designar defensoras públicas o defensores públicos para ejercer esta atribución.\n22. Conceder licencia de conformidad con lo establecido en esta Ley y en el Estatuto de Personal, a las defensoras públicas o defensores públicos, funcionarias o funcionarios y empleadas o empleados de la Defensa Pública.\n23. Ordenar la sustitución de un Defensora Pública o Defensor Público, cuando a su criterio sea necesario, para un mejor desempeño en el servicio de la Defensa Pública.\n24. Solicitar el avocamiento de un expediente que curse ante un tribunal, cuando lo estime conveniente.\n25. Ejercer el recurso de interpretación.\n26. Decidir sobre las inhibiciones y recusaciones de las defensoras públicas o defensores públicos sin menoscabo de las atribuciones previstas a las juezas o jueces de la República por normativa procesal.\n27. Designar el personal de la Defensa Pública.\n28. Las demás que le atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "Remoción\nArtículo 15. La Defensora Pública General o Defensor Público General podrá ser removida o removido de su cargo cuando incurra en alguna de las causales previstas en esta Ley, por mayoría absoluta de los y las integrantes de la Asamblea Nacional, previo pronunciamiento de la Sala Plena del Tribunal Supremo de Justicia.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "Causales de remoción\nArtículo 16. La Defensora Pública General o Defensor Público General será removida o removido de su cargo cuando incurra en alguna o algunas de las siguientes causales:\n1. Desempeñar sus funciones con grave e inexcusable ignorancia de la Constitución de la República Bolivariana de Venezuela, de la Ley y del derecho.\n2. Que incurra, en el ejercicio de sus funciones, en violación, amenaza o menoscabo de los principios fundamentales establecidos en la Constitución de la República Bolivariana de Venezuela.\n3. Por manifiesta incapacidad física o mental permanente certificada por una Junta Médica que haya sido designada por el Tribunal Supremo de Justicia, a solicitud de la Asamblea Nacional.\n4. Por abandono injustificado, prolongado por más de treinta días del ejercicio de sus funciones.\n5. Por incurrir en abuso de poder o exceso de autoridad.\n6. Cuando en el ejercicio de sus funciones haga constar hechos que no sucedieron u omita hechos que si ocurrieron.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "Finalidad\nArtículo 17. La Coordinación General es la dependencia mediante la cual se ejerce la función administrativa y operativa de la Defensa Pública, asistiendo a la Defensora Pública General o Defensor Público General en la definición de las políticas, estrategias, directrices, planes y programas relacionados con la prestación del servicio, así como también en la supervisión, coordinación y ejecución de las normas internas que garanticen el cumplimiento de las metas trazadas por la Defensa Pública.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "Coordinadora o Coordinador General\nArtículo 18. La Coordinación General está a cargo de una Coordinadora o Coordinador General, que será de libre nombramiento y remoción por la Defensora Pública General o Defensor Público General.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "De las atribuciones de la Coordinadora o Coordinador General\nArtículo 19. Son atribuciones de la Coordinadora o Coordinador General las siguientes:\n1. Proponer la adopción de políticas en las materias de su competencia.\n2. Asistir a la Defensora Pública General o Defensor Público General en la coordinación, supervisión y control del órgano.\n3. Representar a la Defensora Pública General o Defensor Público General, por delegación de ésta o éste.\n4. Elaborar conjuntamente con la Defensora Pública General o Defensor Público General las definiciones de las políticas, estrategias, directrices, planes y programas relacionados con la prestación del servicio.\n5. Elaborar el informe anual de gestión de la Coordinación General.\n6. Presentar las necesidades presupuestarias de la Coordinación General.\n7. Las asignadas por la Defensora Pública General o Defensor Público General.\n8. Las demás que le atribuya esta Ley y su Reglamento.\nLa Coordinadora o Coordinador General suplirá las faltas temporales de la Defensora Pública General o Defensor Público General, así como sus faltas absolutas hasta tanto la Asamblea Nacional realice la designación respectiva.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "Unidades regionales de la defensa pública\nArtículo 20. En cada estado funcionará una Unidad Regional de la Defensa Pública, administrativamente desconcentrada, a cargo de una Coordinadora o Coordinador Regional, con las defensoras públicas o defensores públicos penales, laborales, agrarios, contencioso administrativo, de protección de la niña, niño y adolescentes, indígenas, de responsabilidad penal del adolescente, civiles, mercantiles, de tránsito e integrales. Contará además con defensoras públicas y defensores públicos ante los órganos y entes administrativos nacionales, estadales y municipales, y otras competencias que se requieran. Asimismo, con las abogadas y abogados asistentes de las defensas públicas y demás personal que lo amerite.\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "Designación de la Coordinadora o Coordinador Regional y de Extensión de la Defensa Pública\nArtículo 21. Cada Unidad Regional de la Defensa Pública estará bajo la dirección de una Coordinadora o Coordinador Regional, quien será de libre nombramiento y remoción, manteniendo el cargo de Defensora o Defensor Pública, nombrada o nombrado, por la Defensora Pública General o Defensor Público General. Tendrá bajo su responsabilidad la coordinación administrativa y supervisión de las defensoras públicas o defensores públicos, funcionarias o funcionarios y demás personal adscrito a la Unidad Regional, además de las extensiones que sean necesarias de acuerdo con el servicio que se preste.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "Competencia de la Coordinadora o Coordinador de las unidades regionales de la Defensa Pública\nArtículo 22. Son competencia de la Coordinadora o Coordinador de las unidades regionales de la Defensa Pública las siguientes:\n1. Velar por el correcto funcionamiento de la Unidad Regional y de los despachos de las defensoras públicas o defensores públicos adscritos a la Unidad.\n2. Otorgar los permisos a las defensoras públicas o defensores públicos y demás personal que allí labora por períodos hasta de cinco días.\n3. Recibir la correspondencia y las estadísticas de cada Defensora Pública o Defensor Público y remitirlas al despacho correspondiente.\n4. Servir de enlace entre las defensoras públicas o defensores públicos de su región y los distintos despachos de la Defensa Pública.\n5. Tramitar de manera planificada las vacaciones de las defensoras públicas o defensores públicos y demás personal de la Unidad ante la dependencia competente.\n6. Velar por la no interrupción del servicio de la defensa, en caso de producirse alguna falta absoluta o temporal, convocará al suplente.\n7. Coordinar con la dependencia competente dotaciones de material y equipos de oficina.\n8. Planificar y supervisar, con estricta equidad e igualdad, el cumplimiento de las obligaciones de las defensoras públicas o defensores públicos, especialmente de las guardias y las rotaciones anuales, cuyo orden publicarán con la debida antelación previendo suplentes para casos imprevistos.\n9. Supervisar el cumplimiento del horario del personal.\n10. Autorizar los traslados de una Defensora Pública o Defensor Público fuera de la ciudad para labores propias de su cargo, velando que durante su ausencia el despacho respectivo no quede desatendido, tomando en consideración la unidad e indivisibilidad de la Defensa Pública.\n11. Llevar los libros que disponga la Defensora Pública General o Defensor Público General con las formalidades establecidas.\n12. Fijar una tablilla o cartelera expuesta al público que contenga la lista de las defensoras públicas y defensores públicos de guardia e informar a los tribunales respectivos.\n13. Presentar ante la dependencia competente la propuesta del orden de rotación anual de las defensoras públicas o defensores públicos, asegurando que todos ejerzan por igual la defensa en las distintas etapas del proceso.\n14. Ejercer en la región la representación oficial de la Defensa Pública, asistiendo a los actos solemnes.\n15. Servir de enlace con los jueces de los circuitos judiciales y los entes administrativos para la asignación de defensores en los casos que lo requieran, notificando de inmediato al Defensora Pública o Defensor Público que corresponda, lo cual podrá realizar telefónicamente cuando el servicio así lo exija.\n16. Presentar las estadísticas e informes a las distintas dependencias competentes, dentro de los primeros ocho días de cada mes.\n17. Elaborar el informe anual de gestión.\n18. Realizar un inventario de los bienes nacionales que se encuentren adscritos a la Coordinación de las Unidades Regionales de la Defensa Pública al momento del ingreso y separación del cargo.\n19. Velar por la guarda y custodia de los bienes nacionales asignados a la Coordinación de las Unidades.\n20. Elaborar las necesidades presupuestarias.\n21. Informar a la dependencia competente de manera motivada de cualquier conducta irregular del personal administrativo que conlleve a las sanciones de suspensión o destitución.\n22. Informar a la dependencia competente de manera motivada de cualquier conducta presuntamente irregular de las defensoras públicas o defensores públicos adscritas o la Unidad Regional que pueda originar la apertura de un procedimiento disciplinario.\n23. Proponer ante la Defensora Pública General o Defensor Público General la creación de extensiones en las regiones que así lo requieran.\n24. Las demás que le atribuya esta Ley y su Reglamento.\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "Presupuesto ordinario y otros ingresos\nArtículo 23. El presupuesto de la Defensa Pública estará conformado por:\n1. Los aportes que reciba del presupuesto nacional y los recursos extraordinarios que le sean concedidos.\n2. Las contribuciones de instituciones públicas o privadas, nacionales o extranjeras u organismos multilaterales, conforme a la ley.\n3. Las donaciones, legados, herencias que legalmente pueda recibir.\n4. Los bienes que adquiera y los beneficios que ellos produzcan.\n5. Las asignaciones y bienes que ya posea en virtud de la existencia del Sistema Autónomo de la Defensa Pública o de cualquiera de las instituciones que lo integran, a partir de la entrada en vigencia de esta Ley.\n6. Los demás ingresos que legalmente le correspondan.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "Nombramiento de la Defensora Pública o Defensor Público\nArtículo 24. La Defensora Pública o Defensor Público, antes de entrar en el ejercicio de sus funciones, prestará ante la Defensa Pública General, el juramento de cumplir fielmente la Constitución de la República Bolivariana de Venezuela, las leyes de la República y los deberes inherentes al cargo.\nLas defensoras públicas o defensores públicos asesorarán, representarán o asistirán a sus defendidos o defendidas, sin necesidad de juramentación y cesarán en sus funciones, en caso de revocatoria expresa por parte de éstas o éstos, o nombramiento de una abogada privada o abogado privado.\n"
+      },
+      "art-025": {
+       "label": "Art. 25",
+       "kind": "art",
+       "text": "Requisitos para aspirar al cargo de Defensora Pública o Defensor Público\nArtículo 25. Las y los aspirantes al cargo de Defensora Pública o Defensor Público deberán cumplir con los siguientes requisitos:\n1. Tener la nacionalidad venezolana.\n2. Ser abogada o abogado con un mínimo de dos años de experiencia comprobada en el ejercicio del área en la que ingresará.\n3. Ser de reconocida honorabilidad y no encontrarse impedido en el ejercicio de la profesión de abogado o abogada.\n4. Estar en el libre ejercicio de sus derechos civiles y políticos.\n5. No gozar de jubilación o pensión otorgada por algún organismo del Estado, salvo las excepciones que establezca la ley.\n6. No ser ministro de ningún culto.\n7. Aprobar el concurso público.\n8. Cualesquiera que disponga esta Ley y sus Reglamentos.\n"
+      },
+      "art-026": {
+       "label": "Art. 26",
+       "kind": "art",
+       "text": "Obligaciones comunes\nArtículo 26. Las defensoras públicas o defensores públicos tienen la obligación de:\n1. Prestar de manera idónea el servicio de orientación, asistencia, asesoría o representación jurídica a las ciudadanas o ciudadanos que lo soliciten, en los términos que establece la Constitución de la República Bolivariana de Venezuela y las demás disposiciones aplicables.\n2. Orientar, asistir, asesorar o representar ante las autoridades competentes, los intereses y derechos jurídicos de sus defendidas o defendidos, a cuyo efecto deben hacer valer todas las acciones, excepciones o defensas que correspondan, interponer los recursos legales respectivos, y realizar cualquier otro trámite o gestión que sea procedente y que resulte en una eficiente y eficaz defensa que garantice la tutela efectiva del derecho a la defensa.\n3. Asistir sin demora a todos los actos procesales en los cuales sean parte, tomando en cuenta la unidad e indivisibilidad de la Defensa Pública.\n4. Vigilar el respeto de los derechos y garantías constitucionales de sus defendidos y defendidas, inherentes a sus atribuciones como Defensora Pública o Defensor Público.\n5. Llevar un Registro y formar un Expediente de Control de todas sus causas o procedimientos.\n6. Inhibirse o ejercer la recusación si fuere procedente.\n7. Supervisar al personal subalterno.\n8. Ser responsable por los bienes nacionales asignados a su Despacho.\n9. Mantener informados a sus defendidos o defendidas del estado y grado de su causa.\n10. Presentar mensualmente informes y estadísticas de sus actividades ante el despacho correspondiente.\n11. Cumplir las guardias ordinarias y especiales que le sean impuestas según las necesidades del servicio.\n12. Llevar un registro de sus actuaciones diarias, el cual firmarán cada día al finalizar las horas de labor, así como cualquier otro que determine obligatorio la Defensora Pública General o Defensor Público General.\n13. Notificar, dentro de las doce horas siguientes de haber sido recusada o recusado, a la Coordinadora o Coordinador Regional de la recusación de la que ha sido objeto.\n14. Las demás que le sean atribuidas por la Constitución de la República Bolivariana de Venezuela, las leyes y sus reglamentos.\n"
+      },
+      "art-027": {
+       "label": "Art. 27",
+       "kind": "art",
+       "text": "Prohibiciones comunes\nArtículo 27. A las defensoras públicas o defensores públicos les está prohibido:\n1. Desempeñar a la vez más de un destino público remunerado, a menos que se trate de cargos académicos, accidentales, asistenciales o docentes que determine la ley, siempre que ello no afecte el servicio de la Defensa Pública.\n2. Ejercer el ejercicio privado del derecho, ni siquiera a título de consulta, salvo en casos propios.\n3. Llevar a cabo activismo político-partidista, gremial, sindical o de índole semejante; no podrá realizar actividades privadas lucrativas incompatibles con su función, ni por sí ni por interpuestas personas.\n4. Recibir dádivas, hacerse prometer o entregar cosas durante el ejercicio de sus funciones.\n5. Retardar o dificultar a cualquier ciudadana o ciudadano el ejercicio regular de su derecho, de manera que con su actuación pueda causarle daño moral o material.\n6. Conocer o participar por sí o por terceras personas, en asuntos en los cuales tenga especial interés. En todo caso, se regirá por las disposiciones referidas a las causales de inhibición y recusación contenidas en la ley que regula la materia en la cual está ejerciendo la inhibición o recusación.\n7. Cualquier otra actividad incompatible con sus funciones o establecidas en esta Ley o su Reglamento.\n"
+      },
+      "art-028": {
+       "label": "Art. 28",
+       "kind": "art",
+       "text": "Inhibición o recusación\nArtículo 28. La Defensora Pública o Defensor Público deberá inhibirse o podrá ser recusada o recusado por las causales de recusación previstas en los instrumentos legales que regulen la materia en las que esté actuando.\n"
+      },
+      "art-029": {
+       "label": "Art. 29",
+       "kind": "art",
+       "text": "Procedimiento de inhibición\nArtículo 29. En caso de inhibición la funcionaria o funcionario expondrá por diligencia las razones de hecho y de derecho que las justifiquen ante la Coordinadora o Coordinador Regional, quien a su vez lo participará a la Defensora Pública General o Defensor Público General de la Defensa Pública, correspondiéndole a la Coordinadora o Coordinador Regional la designación de otra Defensora Pública u otro Defensor Público. La designada o designado sustituirá a la inhibida o inhibido, a menos que también estuviere incurso en alguna causal de inhibición.\nNo podrá obligarse a la Defensora Pública o Defensor Público inhibido o inhibida a continuar interviniendo en el proceso. Quedan a salvo las sanciones a que diere lugar su conducta.\n"
+      },
+      "art-030": {
+       "label": "Art. 30",
+       "kind": "art",
+       "text": "Procedimiento de recusación\nArtículo 30. La recusación podrá ser presentada por cualquiera de las partes, ante la Defensora Pública General o la Defensor Público General de la Defensa Pública o ante la Coordinadora o Coordinador Regional correspondiente. Cuando se recuse dentro del proceso, el o la recusante informará a la funcionaria o funcionario competente su voluntad de recusar a la Defensora Pública o Defensor Público. La Coordinadora o Coordinador Regional una vez recibida la diligencia de recusación la enviará en un lapso no mayor de doce horas a la Defensora Pública General o Defensor Público General de la Defensa Pública para su respectivo trámite.\n"
+      },
+      "art-031": {
+       "label": "Art. 31",
+       "kind": "art",
+       "text": "Competencia\nArtículo 31. La Defensora Pública General o Defensor Público General de la Defensa Pública conocerá de las inhibiciones y de las recusaciones.\n"
+      },
+      "art-032": {
+       "label": "Art. 32",
+       "kind": "art",
+       "text": "Continuación del procedimiento\nArtículo 32. La Defensora Pública General o Defensor Público General de la Defensa Pública conocerá dentro de los tres días hábiles siguientes a la inhibición o recusación las observaciones que quieran presentar las partes, abriéndose una articulación probatoria de ocho días hábiles, y se decidirá dentro de los tres días hábiles siguientes.\nLa Defensora Pública General o Defensor Público General de la Defensa Pública resolverá sin esperar el vencimiento del término de la articulación, cuando la incidencia pueda resolverse con las pruebas ya producidas o cuando las partes renuncien al derecho de promover otras. Lo mismo se hará si el punto fuera de mero derecho.\n"
+      },
+      "art-033": {
+       "label": "Art. 33",
+       "kind": "art",
+       "text": "Impugnación\nArtículo 33. La Defensora Pública o Defensor Público recusada o recusado expondrá por escrito las razones de hecho y de derecho que tenga para impugnarla y lo comunicará a la Defensora Pública General o Defensor Público General, sin perjuicio de la continuación del procedimiento.\n"
+      },
+      "art-034": {
+       "label": "Art. 34",
+       "kind": "art",
+       "text": "Continuidad de la defensa\nArtículo 34. El proceso no se paralizará por inhibiciones ni recusaciones y seguirá su curso con la intervención de otra Defensora Pública u otro Defensor Público, que al efecto haya designado o designada la Coordinadora o Coordinador Regional.\nLa inhibida o inhibido o recusada o recusado no podrá ejercer defensa alguna mientras esté pendiente la decisión de la incidencia correspondiente.\n"
+      },
+      "art-035": {
+       "label": "Art. 35",
+       "kind": "art",
+       "text": "Inadmisibilidad\nArtículo 35. La Defensora Pública General o Defensor Público General declarará improcedente la recusación o inhibición, si no estuviera fundamentada en las causales previstas en las leyes respectivas. Igualmente, es inadmisible la inhibición o recusación que se intente sin expresar los motivos legales para ella y la interpuesta después de haber propuesto dos en la misma causa.\n"
+      },
+      "art-036": {
+       "label": "Art. 36",
+       "kind": "art",
+       "text": "Efecto de la declaratoria con lugar de la recusación\nArtículo 36. Declarada con lugar la recusación, la Defensora Pública General o Defensor Público General, en caso de considerarlo pertinente, ordenará la apertura del procedimiento disciplinario remitiendo las actuaciones a la dependencia competente para tales fines.\n"
+      },
+      "art-037": {
+       "label": "Art. 37",
+       "kind": "art",
+       "text": "Efecto de la declaratoria sin lugar de la inhibición\nArtículo 37. Declarada sin lugar la inhibición, la Defensora Pública General o la Defensor Público General notificará a la Defensora Pública inhibida o Defensor Público inhibido, a los fines de que se avoque inmediatamente al conocimiento de la causa.\n"
+      },
+      "art-038": {
+       "label": "Art. 38",
+       "kind": "art",
+       "text": "Competencias en general\nArtículo 38. Se designarán defensoras públicas o defensores públicos con competencias en materia penal, en la jurisdicción Penal, Militar, Agraria, Laboral, y de la Ley Orgánica de Prevención, Condiciones y Medio Ambiente del Trabajo; de Protección de la Niña, Niño y Adolescente; de Responsabilidad Penal del Adolescente; Indígena; Civil; Mercantil; Tránsito y Contencioso Administrativa, para actuar ante los órganos y entes nacionales, estadales y municipales; el Tribunal Supremo de Justicia y demás competencias que por necesidad del servicio sean creadas.\n"
+      },
+      "art-039": {
+       "label": "Art. 39",
+       "kind": "art",
+       "text": "Designación de las defensoras públicas o defensores públicos con competencia en materia penal\nArtículo 39. Se designarán defensoras públicas o defensores públicos con competencia en materia penal para actuar ante los organismos de investigación, Ministerio Público, tribunales de primera instancia en lo penal, Corte de Apelaciones y en la Sala de Casación Penal del Tribunal Supremo de Justicia. Rotarán anualmente en sus funciones excepto los y las que actúen ante la Corte de Apelaciones y en la Sala de Casación Penal del Tribunal Supremo de Justicia, salvo disposición expresa de la Defensora Pública General o Defensor Público General.\n"
+      },
+      "art-040": {
+       "label": "Art. 40",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia penal para actuar ante los organismos de investigación\nArtículo 40. Estas funcionarias o funcionarios ocupan el Grado I dentro del escalafón. Laborarán por turnos, todos los días y estarán disponibles para atender las necesidades del servicio de la Defensa Pública, en dichas sedes, y sólo se ausentarán por motivo justificado, en cuyo caso deberán ser suplidas o suplidos por otra Defensora Pública u otro Defensor Público.\n"
+      },
+      "art-041": {
+       "label": "Art. 41",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal para actuar ante los organismos de investigación\nArtículo 41. Las atribuciones de estas funcionarias o funcionarios son las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Asentar en el Libro de Actuación ante los órganos policiales, todas las detenciones que se realicen y cualquier observación con relación a la detenida o detenido.\n3. Entrevistar a la detenida o detenido cuando ingrese al respectivo lugar de reclusión. A tal efecto, los funcionarios aprehensores o funcionarias aprehensoras deben informar a la detenida o detenido que tiene derecho a comunicarse de inmediato con una Defensora Pública o un Defensor Público de guardia.\n4. Orientar a la detenida o detenido en cuanto a sus derechos, e informarle que el Estado cuenta con abogadas y abogados especialistas en materia penal, que asumirán su defensa de manera gratuita, si no cuenta con recursos económicos suficientes, o hasta que designe un defensor privado o una defensora privada.\n5. Dejar constancia del estado de salud y las condiciones físicas de la detenida o detenido.\n6. Notificar de inmediato a la Fiscal o el Fiscal del Ministerio Público de guardia de esa circunscripción judicial acerca de cualquier irregularidad que observe por parte de las funcionarias o funcionarios policiales respecto a las detenidas o detenidos.\n7. Asistir a los reconocimientos en rueda de imputadas e imputados, bajo el principio de unidad e indivisibilidad de la Defensa Pública, aunque la causa se encuentre asignada a una Defensora Pública o Defensor Público con competencia ante el Tribunal de Primera Instancia en funciones de Control, y se efectúen en los organismos de investigación, informando a la Defensora Pública o Defensor Público de la causa.\n8. Permanecer en la sede de los organismos de investigación donde realiza la guardia, hasta cumplir el horario establecido para la misma.\n9. Asistir a la evacuación de pruebas anticipadas, evacuación de experticias, inspecciones, registros y cualquier otra cuando sea necesario y se realicen en los organismos de investigación.\n10. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-042": {
+       "label": "Art. 42",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia penal para actuar ante el Ministerio Público y los Tribunales de Primera Instancia en funciones de Control, Juicio y Ejecución\nArtículo 42. Estas defensoras públicas o defensores públicos ocupan el Grado II en el escalafón y ejercen sus funciones conforme a la Constitución de la República Bolivariana de Venezuela, el Código Orgánico Procesal Penal, las leyes especiales referidas a la materia, así como la presente Ley y su Reglamento.\n"
+      },
+      "art-043": {
+       "label": "Art. 43",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal para actuar ante el Ministerio Público y los Tribunales de Primera Instancia en funciones de Control\nArtículo 43. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Orientar a las ciudadanas citadas y ciudadanos citados por el Ministerio Público para las entrevistas que se realizan con ocasión a las investigaciones, que ameriten asistencia de la Defensa Pública.\n3. Asistir a las ciudadanas investigadas y ciudadanos investigados, previa designación del Tribunal de Control para actos de imputación ante el Ministerio Público.\n4. Solicitar la práctica de diligencias que considere pertinentes con ocasión a su defensa.\n5. Asistir a las audiencias que se efectúen ante los Tribunales de Primera Instancia en funciones de Control y a cualquier acto que realicen fuera de su sede.\n6. Informar a la imputada o imputado de manera clara y sencilla sobre las etapas del proceso.\n7. Solicitar las medidas alternativas a la prosecución del proceso, si fueran procedentes, siempre y cuando el imputado o imputada manifieste su voluntad de acogerse a una de ellas.\n8. Orientar a la imputada o imputado sobre el procedimiento por admisión de los hechos.\n9. Solicitar las medidas cautelares sustitutivas o la libertad plena, según el caso.\n10. Asistir por igual a todos sus defendidos y defendidas.\n11. Ejercer las acciones de amparo por la violación de cualquier derecho y garantía constitucional de la imputada o imputado.\n12. Requerir y asistir a las pruebas anticipadas.\n13. Acceder a las actas de investigación una vez designada la defensa e informarle a la investigada o investigado todo cuanto proceda.\n14. Instruir a la imputada o imputado sobre las medidas cautelares impuestas de manera sencilla, explicarle con claridad acerca del estricto deber del cumplimiento de las obligaciones impuestas y la puntualidad en la asistencia a los actos del proceso.\n15. Orientar a la imputada o imputado sobre las condiciones y las consecuencias del incumplimiento de los acuerdos reparatorios y de la suspensión condicional del proceso.\n16. Dar contestación a la acusación presentada por la o el representante del Ministerio Público.\n17. Ofrecer las pruebas que favorezcan a su defendida o defendido.\n18. Oponer las excepciones a que haya lugar.\n19. Solicitar al tribunal la fijación del plazo a la Fiscal o el Fiscal del Ministerio Público, a los fines del acto conclusivo.\n20. Solicitar el archivo de las actuaciones y cese de las medidas de coerción personal.\n21. Solicitar la práctica de exámenes médicos.\n22. Ejercer el recurso de revocación, si fuere el caso, conforme con lo establecido en el Código Orgánico Procesal Penal.\n23. Solicitar copias certificadas de la decisión judicial, especialmente en casos de libertad plena y proveer de un ejemplar a su defendida o defendido.\n24. Ejercer los recursos de apelación de autos y de sentencias, y contestar los recursos interpuestos por la Fiscal o el Fiscal del Ministerio Público o la parte acusadora, debiendo informar de ello a la Defensora Pública o Defensor Público con competencia ante la Corte de Apelaciones para el seguimiento respectivo.\n25. Efectuar visita carcelaria a sus defendidos y defendidas una vez al mes, pudiendo concurrir las veces que considere necesario, al órgano policial, centro penitenciario o internado judicial donde se encuentren las detenidas o detenidos cuya defensa les competa.\n26. Registrar en el Libro correspondiente todo cuanto la defendida o defendido aporte para su defensa, las peticiones que ésta o éste le haga para ser elevadas ante el tribunal o ante la instancia carcelaria, según la materia del asunto, y cualquier otra información que consideren de importancia, la hora en que se efectúa la entrevista, la firma o huella de la detenida o detenido en constancia de haberlo entrevistado o entrevistada, al igual que la firma de la Directora o Director del centro de reclusión.\n27. Solicitar la devolución a su defendida o defendido de sus objetos personales, documentos y demás bienes que hayan sido retenidos por los cuerpos policiales.\n28. Cumplir guardias en las sedes de la Fiscalía del Ministerio Público y los Tribunales de Control, incluyendo los días sábados, domingos y feriados.\n29. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-044": {
+       "label": "Art. 44",
+       "kind": "art",
+       "text": "Atribuciones de la Defensora Pública o Defensor Público con competencia en materia penal para actuar ante los Tribunales de Primera Instancia en funciones de Juicio\nArtículo 44. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Dar contestación a la acusación presentada por la Fiscal o el Fiscal del Ministerio Público o por la acusadora o acusador, cuando se trate de procedimiento abreviado.\n3. En casos de procedimiento abreviado, solicitar las medidas alternativas a la prosecución del proceso, si fuera procedente, siempre y cuando el imputado o imputada manifieste su voluntad de acogerse a una de las figuras en ellas contempladas.\n4. Orientar al imputado o imputada sobre el procedimiento por admisión de los hechos y acuerdos reparatorios en los casos de procedimiento abreviado.\n5. Solicitar el examen y revisión de las medidas de coerción personal o la libertad plena, si fuere procedente.\n6. Promover pruebas en caso de procedimiento abreviado.\n7. Asistir al sorteo de escabinas o escabinos.\n8. Asistir al acto de depuración de escabinas o escabinos o al de constitución de Tribunal Mixto.\n9. Intervenir en las audiencias conciliatorias en caso de delitos a instancia de parte.\n10. Ejercer el recurso de revocación, si fuere el caso, conforme con lo establecido en el Código Orgánico Procesal Penal.\n11. Solicitar las nulidades, en cualquier estado de esta fase, sí fuere el caso.\n12. Intervenir en la discusión de las cuestiones incidentales en esta etapa del proceso.\n13. Solicitar copias certificadas de la decisión judicial, especialmente en casos de absolución, y proveer de un ejemplar a su defendida o defendido.\n14. Entrevistar a la acusada o acusado y a los testigos presentados o presentadas por la defensa con la finalidad de preparar el juicio.\n15. Oponer las excepciones previstas en el Código Orgánico Procesal Penal en esta fase del proceso.\n16. Promover nuevas pruebas de conformidad con la norma adjetiva penal.\n17. Objetar las preguntas capciosas y sugestivas de las demás partes, argumentar sus objeciones y contestar las opuestas por la Fiscal o el Fiscal, o la o el querellante.\n18. Resumir los puntos principales en los cuales se base su defensa, a los fines de presentarlos en las conclusiones.\n19. Hacer uso del derecho a réplica.\n20. Velar porque se deje constancia de los aspectos fundamentales de su defensa, en el acta del debate.\n21. Interponer el recurso de apelación contra los autos y sentencias, y contestar el recurso de apelación que interponga la Fiscal o el Fiscal del Ministerio Público y el querellante.\n22. Ejercer las acciones de amparo ante la violación de cualquier derecho o garantía constitucional del acusado o acusada.\n23. Notificar a la Defensora Pública o Defensor Público con competencia ante la Corte de Apelaciones sobre el recurso ejercido en contra de los autos y sentencias.\n24. Efectuar visita carcelaria a sus defendidas o defendidos una vez al mes, pudiendo concurrir las veces que considere necesario al órgano policial, centro penitenciario o internado judicial donde se encuentren los detenidos o detenidas cuya defensa les competa.\n25. Las demás que le atribuya esta Ley y su Reglamento.\n"
+      },
+      "art-045": {
+       "label": "Art. 45",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal para actuar ante los Tribunales de Ejecución\nArtículo 45. Son atribuciones de estos funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Asistir a la penada o penado en la notificación del auto de ejecución y cómputo de la pena.\n3. Solicitar al Tribunal de Ejecución copia certificada del auto de ejecución y el cómputo de la pena impuesta.\n4. Verificar porque el cómputo de la pena sea el correcto.\n5. Velar porque el penado o penada cumpla la pena en un establecimiento penitenciario cercano a su grupo familiar.\n6. Solicitar las fórmulas alternativas al cumplimiento de la pena, la suspensión condicional de la ejecución de la pena, el confinamiento, y asistir a las audiencias que se convoquen a tales fines.\n7. Solicitar medida humanitaria si fuera procedente.\n8. Solicitar indulto o conmutación de la pena.\n9. Solicitar la extinción de la pena.\n10. Solicitar la prescripción judicial de la pena.\n11. Asistir a las audiencias orales fijadas en esta etapa del proceso para resolver las incidencias que se presenten.\n12. Velar por la incorporación de la penada o penado en las actividades laborales, educativas, culturales y deportivas que se desarrollen en el establecimiento penal.\n13. Solicitar la redención judicial de la pena por el trabajo o el estudio cuando sea procedente.\n14. Conocer de la causa hasta la extinción de la pena.\n15. Ejercer las acciones de amparo por la violación de los derechos y garantías constitucionales de la penada o penado.\n16. Ejercer los recursos pertinentes.\n17. Velar porque se ejecuten de manera inmediata las órdenes de excarcelación emanadas de los tribunales competentes.\n18. Efectuar visita carcelaria a sus defendidos y defendidas una vez al mes, pudiendo concurrir las veces que considere necesario al órgano policial, centro penitenciario o internado judicial donde se encuentren las detenidas o detenidos cuya defensa les competa.\n19. Cumplir con las guardias en los centros de reclusión y las demás que le sean asignadas.\n20. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-046": {
+       "label": "Art. 46",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia penal para actuar ante la Corte de Apelaciones\nArtículo 46. Estas funcionarias o funcionarios ocupan el Grado III en el escalafón y ejercen sus funciones de conformidad con la Constitución de la República Bolivariana de Venezuela, el Código Orgánico Procesal Penal, la presente Ley y cualquier otra ley referida a la materia.\n"
+      },
+      "art-047": {
+       "label": "Art. 47",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal para actuar ante la Corte de Apelaciones\nArtículo 47. Son atribuciones de estos funcionarios o estas funcionarias las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Defender los recursos de apelación o contestación de estos recursos contra los autos y las sentencias interpuestas por defensoras públicas o defensores públicos con competencia para actuar ante los Tribunales de Primera Instancia en funciones de Control, Juicio y Ejecución.\n3. Velar porque las pruebas promovidas se presenten oportunamente.\n4. Asistir a la audiencia oral con el objeto de formular sus alegatos, defensas y conclusiones.\n5. Interponer el recurso de casación, si fuera procedente.\n6. Informar a la Defensora Pública o Defensor Público de la Sala de Casación Penal del Tribunal Supremo de Justicia, con la debida antelación, de los recursos que ejerza.\n7. Ejercer acciones de amparo contra las decisiones de la Corte de Apelaciones que violen derechos y garantías constitucionales, e informar a la Defensora Pública o Defensor Público con competencia ante la Sala Constitucional del amparo ejercido.\n8. Remitir copia fotostática de la decisión de la Corte de Apelaciones a la Defensora Pública o Defensor Público de la causa.\n9. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-048": {
+       "label": "Art. 48",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos\nArtículo 48. Son defensoras públicas o defensores públicos con competencia en materia penal militar, aquellos o aquellas a quienes corresponde ejercer la defensa en procesos administrativos, judiciales y extrajudiciales, relacionados con la jurisdicción penal militar.\n"
+      },
+      "art-049": {
+       "label": "Art. 49",
+       "kind": "art",
+       "text": "Coordinación\nArtículo 49. La Defensora General o Defensor General Militar realizará la Coordinación entre la Defensora Pública General o Defensor Público General de la Defensa Pública y las defensoras públicas o defensores públicos con competencia en materia penal militar. Asimismo, éstas y éstos estarán obligadas u obligados a cumplir con los principios contemplados en esta Ley para actuar en representación del interés general de la Defensa Pública en procesos militares.\n"
+      },
+      "art-050": {
+       "label": "Art. 50",
+       "kind": "art",
+       "text": "Información sobre el estado de los procesos militares\nArtículo 50. La Defensora General o Defensor General Militar y las defensoras públicas o defensores públicos con competencia penal militar deberán informar a la Defensora Pública General o Defensor Público General de la Defensa Pública, cuando ésta o éste lo requiera, sobre el estado en que se encuentren los procesos militares. En todo caso, tal información deberá suministrarse por intermedio del Defensor General Militar.\n"
+      },
+      "art-051": {
+       "label": "Art. 51",
+       "kind": "art",
+       "text": "Designación de la Defensora o Defensor General Militar\nArtículo 51. La Defensora o Defensor General Militar y las defensoras públicas o defensores públicos con competencia penal militar serán designadas y designados de conformidad con lo establecido en la legislación militar, pero en todo caso se requerirá el visto bueno de la Defensora Pública General o la Defensor Público General de la Defensa Pública.\nLa Defensora o Defensor General Militar, antes de tomar posesión del cargo, prestará juramento ante la Defensora Pública General o Defensor Público General de la Defensa Pública.\n"
+      },
+      "art-052": {
+       "label": "Art. 52",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia agraria para actuar en los procedimientos administrativos y extrajudiciales\nArtículo 52. Estas funcionarias o funcionarios ocupan el Grado I en el escalafón y actúan conforme a lo previsto en la Constitución de la República Bolivariana de Venezuela, la Ley de Tierras y Desarrollo Agrario, las leyes especiales referidas a la materia y la presente Ley.\n"
+      },
+      "art-053": {
+       "label": "Art. 53",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia agraria para actuar en los procedimientos administrativos y extrajudiciales\nArtículo 53. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Garantizar el derecho a la defensa de los destinatarios y destinatarias de la Ley de Tierras y Desarrollo Agrario, las leyes especiales referidas a la materia para proteger a quien solicite expresamente la asesoría legal, o cualquier otra actividad de apoyo jurídico.\n3. Asesorar y atender a los beneficiarios o beneficiarias de la Ley de Tierras y Desarrollo Agrario, en todo lo referente a la materia agraria y afines con ésta.\n4. Asistir en los procedimientos administrativos o extrajudiciales a los beneficiarios o beneficiarias de la Ley de Tierras y Desarrollo Agrario.\n5. Asistir a las beneficiarias o beneficiarios de la Ley de Tierras y Desarrollo Agrario, ante los órganos administrativos y extrajudiciales, para la solución de conflictos a través de medios alternativos.\n6. Practicar inspecciones de campo y de la agronomía en los sitios requeridos, y levantar las actas correspondientes, con apoyo de profesionales calificados en la materia agrónoma, cuando la complejidad del caso lo requiera.\n7. Impulsar la capacitación de las beneficiarias o beneficiarios de la Ley de Tierras y Desarrollo Agrario y materias afines, a través de charlas, talleres, seminarios y foros, en pro del desarrollo rural sostenible, de conformidad con lo previsto en la Constitución de la República Bolivariana de Venezuela en materia agraria, con apoyo de profesionales calificados en la materia.\n8. Mantener el seguimiento y control de todos los expedientes asignados.\n9. Emitir opinión sobre las denuncias realizadas por las beneficiarias o beneficiarios de la Ley de Tierras y Desarrollo Agrario y someterlo a la consideración del órgano competente.\n10. Solicitar inspecciones administrativas, avalúos e informes de campos, estudios agrotécnicos y cualquier otra práctica de diligencia, que sirvan de apoyo para la sustanciación del expediente administrativo, previo asesoramiento de profesionales calificados en la materia afín, cuando el caso lo requiera.\n11. Asesorar a las beneficiarias o beneficiarios de la Ley de Tierras y Desarrollo Agrario, relativo a las cooperativas que se crearen o estuviesen creadas destinadas a la actividad agraria y materia afín.\n12. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-054": {
+       "label": "Art. 54",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia agraria para actuar ante los tribunales de Primera Instancia\nArtículo 54. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón y actúan conforme al procedimiento ordinario agrario entre particulares, previsto en la Ley de Tierras y Desarrollo Agrario.\n"
+      },
+      "art-055": {
+       "label": "Art. 55",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia agraria para actuar ante los tribunales de Primera Instancia\nArtículo 55. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Asistir o representar con requerimiento expreso de la beneficiaria o beneficiario de la Ley de Tierras y Desarrollo Agrario, tanto en su condición de demandante como de demandada o demandado, en todo procedimiento judicial que afecte directa o indirectamente a la actividad agraria.\n3. Ejercer de oficio las actuaciones correspondientes, cuando tengan conocimiento de la existencia de amenazas o violaciones de los derechos e intereses legítimos de las beneficiarias o beneficiarios de la Ley de Tierras y Desarrollo Agrario.\n4. Notificar inmediatamente a la Defensora Pública o Defensor Público que corresponda, del ejercicio de los recursos pertinentes.\n5. Las que les atribuyan la Ley de Tierras y Desarrollo Agrario, esta Ley y su Reglamento.\n"
+      },
+      "art-056": {
+       "label": "Art. 56",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia agraria para actuar ante los tribunales superiores\nArtículo 56. Estas funcionarias o funcionarios ocupan el Grado III en el escalafón y ejercen la defensa en esta instancia del proceso.\n"
+      },
+      "art-057": {
+       "label": "Art. 57",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia agraria para actuar ante los tribunales superiores agrarios\nArtículo 57. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer la defensa del recurso de apelación interpuesto.\n3. Anunciar el recurso de casación si fuere procedente, remitiendo de manera inmediata la información necesaria a la dependencia competente de la Defensa Pública y a la Defensora Pública o Defensor Público con competencia para actuar ante la Sala Especial Agraria del Tribunal Supremo de Justicia, a los fines que ejerza la defensa oportunamente.\n4. Ejercer la acción de amparo constitucional contra las decisiones de los Tribunales Superiores Agrarios que violen derechos y garantías constitucionales, e informar y remitir de manera inmediata a la Defensora Pública o Defensor Público con competencia en la Sala Constitucional del Tribunal Supremo de Justicia, de la acción intentada.\n5. Asistir a la audiencia oral y consignar los informes respectivos.\n6. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-058": {
+       "label": "Art. 58",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos en materia laboral\nArtículo 58. La Defensa Pública de las trabajadoras y trabajadores está establecida en esta Ley, en cuanto a su organización, funcionamiento y atribuciones.\n"
+      },
+      "art-059": {
+       "label": "Art. 59",
+       "kind": "art",
+       "text": "Atribuciones comunes de las defensoras públicas o defensores públicos en materia laboral\nArtículo 59. Son atribuciones comunes de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Asistir, asesorar o representar a las trabajadoras o trabajadores, previo requerimiento expreso.\n3. Asistir o asesorar en las consultas que le propongan los las trabajadoras o trabajadores, así como las organizaciones sindicales.\n4. Asesorar en relación a la legislación del trabajo en los reglamentos, decretos y demás disposiciones que se dicten sobre esa materia, y en la interpretación de los reglamentos internos de las empresas y de los contratos individuales y colectivos.\n5. Promover la defensa y vigilancia de los derechos e intereses legítimos, en materia de derecho del trabajo, seguridad social y los tratados internacionales sobre derechos humanos.\n6. No podrán convenir en la demanda, desistir, transigir, comprometer en árbitros, solicitar la decisión según la equidad, hacer posturas en remates, recibir cantidades de dinero y disponer del derecho en litigio. En estos casos, sólo podrán actuar mediante asistencia de las partes.\n7. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-060": {
+       "label": "Art. 60",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia laboral para actuar ante las inspectorías del trabajo\nArtículo 60. Estas funcionarias o funcionarios ocupan el Grado I en el escalafón y ejercerán la defensa en los procesos administrativos, de acuerdo con lo establecido en la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica del Trabajo y su Reglamento, la Ley Orgánica de Prevención, Condiciones y Medio Ambiente del Trabajo y las demás leyes, pactos, tratados y convenciones Internacionales suscritos y ratificados por la República, afines a la materia.\n"
+      },
+      "art-061": {
+       "label": "Art. 61",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia laboral para actuar ante las inspectorías del trabajo\nArtículo 61. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Asistir a las trabajadoras y trabajadores que así lo requieran en los procesos administrativos. Cuando la causa amerite pasar a la etapa judicial, la Defensora Pública o Defensor Público que haya conocido, comunicará y remitirá la información que tenga sobre el caso a la Unidad Regional de la Defensa Pública, para que sea asignado a una Defensora Pública o Defensor Público con competencia ante la fase inicial del proceso judicial.\n3. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-062": {
+       "label": "Art. 62",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia laboral para actuar ante los tribunales de sustanciación, mediación, juicio y ejecución del trabajo\nArtículo 62. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón y ejercerán la defensa en los procesos judiciales de acuerdo con lo establecido en la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica del Trabajo y su Reglamento, y demás leyes, pactos, tratados y convenciones, suscritos y ratificados por la República, afines a la materia.\n"
+      },
+      "art-063": {
+       "label": "Art. 63",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia laboral para actuar ante los tribunales de primera instancia en sustanciación, mediación, juicio y ejecución del trabajo\nArtículo 63. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Presentar demandas a solicitud de la trabajadora o trabajador.\n3. Asistir a la audiencia preliminar con carácter obligatorio, salvo causa plenamente justificada, en cuyo caso deberá informar a la dependencia competente a los fines de ser sustituida o sustituido.\n4. Tendrán carácter de Parte, por lo que representan ante el tribunal a la trabajadora y trabajador, aunque ésta o éste no se encuentre presente.\n5. Ejercer las acciones y recursos que estimen necesarios en su carácter de representante de la trabajadora y trabajador.\n6. No podrá en nombre de la trabajadora o trabajador convenir en la demanda, desistir, transigir, comprometer en árbitros, solicitar la decisión según la equidad, hacer posturas en remates, recibir cantidades de dinero y disponer del derecho en litigio. En estos casos, sólo podrán actuar mediante asistencia de las partes.\n7. Informar a la Defensora Pública o Defensor Público en materia laboral que actúa ante el Tribunal Superior, de los recursos que haya ejercido.\n8. Proponer que sean subsanados los vicios procesales, a través del despacho saneador.\n9. Asistir a la audiencia de juicio con carácter obligatorio, salvo causa plenamente justificada, en cuyo caso deberá informar a la dependencia competente a los fines de ser sustituida o sustituido.\n10. Apelar cuando el tribunal declare el desistimiento por causas de la Defensora Pública o Defensor Público, notificando de inmediato a la Defensora Pública o Defensor Público en materia laboral que actúe ante el Tribunal Superior del Trabajo.\n11. Interponer el recurso de apelación contra las decisiones dictadas por el tribunal de juicio.\n12. Interponer el recurso de hecho ante el Tribunal Superior en caso de que se niegue la apelación o sea oída en un solo efecto.\n13. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-064": {
+       "label": "Art. 64",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia laboral para actuar ante los Tribunales Superiores del Trabajo\nArtículo 64. Estas funcionarias o funcionarios ocupan el Grado III en el escalafón y ejercen sus funciones de conformidad con la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica del Trabajo y su Reglamento, la Ley Orgánica Procesal del Trabajo, y demás leyes, pactos, tratados y convenciones suscritos y ratificados por la República, afines a la materia.\n"
+      },
+      "art-065": {
+       "label": "Art. 65",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia laboral ante los Tribunales Superiores del Trabajo\nArtículo 65. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer la defensa en los recursos interpuestos ante los Tribunales de Primera Instancia.\n3. Asistir con carácter obligatorio a la audiencia oral y pública convocada para conocer del recurso de apelación, comunicando de inmediato las resultas de la audiencia a la Defensora Pública o Defensor Público con competencia para actuar ante los Tribunales de Primera Instancia.\n4. Ejercer el recurso de control de la legalidad.\n5. Anunciar cuando sea procedente el recurso de casación ante el Tribunal Superior del Trabajo.\n6. Ejercer el recurso de hecho ante la Sala de Casación Social del Tribunal Supremo de Justicia, en caso de negativa de la admisión del recurso de casación.\n7. Informar a la Defensora Pública o Defensor Público con competencia ante la Sala de Casación Social del Tribunal Supremo de Justicia, cuando hubiese ejercido un recurso.\n8. Ejercer la acción de amparo contra las decisiones de los Tribunales Superiores con competencia en materia laboral que violen derechos y garantías constitucionales, e informar a la Defensora Pública o Defensor Público con competencia ante la Sala Constitucional del recurso ejercido.\n9. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-066": {
+       "label": "Art. 66",
+       "kind": "art",
+       "text": "Atribuciones comunes de las defensoras públicas o defensores públicos con competencia en materia de protección de la niña, niño y adolescente\nArtículo 66. Son atribuciones comunes de estas funcionarias o funcionarios las siguientes:\n1. Brindar asesoría jurídica a niñas, niños y adolescentes.\n2. Asistir y representar a las niñas, niños y adolescentes en cualquier procedimiento administrativo o judicial, para hacer valer la defensa de sus derechos e intereses.\n3. Promover acuerdos extrajudiciales y judiciales en interés de la niña, niño y adolescente.\n4. No podrán convenir en la demanda, desistir, transigir, comprometer en árbitros, solicitar la decisión según la equidad, hacer posturas en remates, recibir cantidades de dinero y disponer del derecho en litigio. En estos casos, sólo podrán actuar mediante asistencia de las partes.\n5. Promover acuerdos, conciliaciones extrajudiciales y judiciales, en interés de la niña, niño y adolescente.\n6. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-067": {
+       "label": "Art. 67",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia de protección de la niña, niño y adolescente, para actuar ante los Tribunales de Primera Instancia y las Salas de Juicio\nArtículo 67. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón y ejercen sus funciones de conformidad con la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica para la Protección del Niño, Niña y del Adolescente, Código Civil, Código de Procedimiento Civil, los pactos, tratados y convenciones Internacionales suscritos y ratificados por la República, y cualquier otra legislación que regule la materia, a los fines de garantizar el interés superior del niño, niña y del adolescente.\n"
+      },
+      "art-068": {
+       "label": "Art. 68",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de protección de la niña, niño y adolescente, para actuar ante los Tribunales de Primera Instancia y las Salas de Juicio\nArtículo 68. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Brindar asesoría jurídica a niñas, niños y adolescentes.\n2. Representar y asistir a las niñas, niños y adolescentes en todos aquellos procesos judiciales donde éstos y éstas sean sujetos activos o pasivos.\n3. Asistir con carácter obligatorio a la Audiencia de Juicio.\n4. Asistir y representar a las niñas, niños y adolescentes en materia de amparo constitucional, cuando sean violados sus derechos y garantías constitucionales.\n5. Representar y asistir en los procedimientos de inquisición de paternidad.\n6. Representar y asistir en los procedimientos relativos a privación, extinción y restitución de la patria potestad.\n7. Representar y asistir en los procedimientos de guarda y alimentos.\n8. Representar y asistir en los procedimientos de nombramiento y remoción de tutores, curadores, protutores y miembros del consejo de tutela.\n9. Representar y asistir en los procedimientos relativos a divorcio o nulidad del matrimonio cuando ambos o uno de los cónyuges sean adolescentes.\n10. Representar y asistir a las niñas, niños y adolescentes en los procesos laborales en los cuales sean trabajadoras o trabajadores.\n11. Representar y asistir a las niñas, niños y adolescentes en el caso de que sean patronos o sucesores del patrono.\n12. Representar y asistir a las niñas, niños y adolescentes en los procedimientos relativos a la administración de los bienes.\n13. Representar y asistir en las demandas donde esté involucrado el interés de la niña, niño y adolescente.\n14. Representar y asistir en los procedimientos de adopción y nulidad de adopción.\n15. Representar y asistir en los procedimientos en materia sucesoral donde esté involucrado el interés de la niña, niño y adolescente.\n16. Ejercer los recursos judiciales que estime necesario en interés de la niña, niño y adolescente.\n17. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-069": {
+       "label": "Art. 69",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia de protección de la niña, niño y adolescente ante las Cortes Superiores\nArtículo 69. Estas funcionarias o funcionarios ocupan el Grado III en el escalafón y ejercerán sus funciones de conformidad con la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica para la Protección de la Niña, Niño y Adolescente, el Código Civil, el Código de Procedimiento Civil, los pactos, tratados y convenciones internacionales suscritos y ratificados por la República y cualquier otra legislación que regule la materia, a los fines de garantizar el interés superior de la niña, niño y adolescente.\n"
+      },
+      "art-070": {
+       "label": "Art. 70",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de protección de la niña, niño y adolescente para actuar ante las Cortes Superiores\nArtículo 70. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Brindar asesoría jurídica a niñas, niños y adolescentes.\n2. Ejercer la defensa de los recursos de apelación que hayan interpuesto la Defensora Pública o Defensor Público ante las Salas de Juicio.\n3. Asistir a la audiencia oral y pública a los efectos de formalizar el recurso de apelación.\n4. Anunciar recursos de casación e informar de inmediato a la Defensora Pública o Defensor Público con competencia para actuar en la Sala de Casación Social del Tribunal Supremo de Justicia.\n5. Ejercer acciones de amparo contra las decisiones de las Cortes Superiores en materia de protección de la niña, niño y adolescente que violen derechos y garantías constitucionales, e informar a la Defensora Pública o Defensor Público con competencia ante la Sala Constitucional de la acción intentada.\n6. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-071": {
+       "label": "Art. 71",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal de la o del adolescente para actuar ante las sedes de los organismos policiales, criminalísticos y auxiliares de justicia\nArtículo 71. Estas funcionarias o funcionarios ocupan el Grado I en el escalafón y ejercen sus funciones conforme a la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica para la Protección del Niño, Niña y del Adolescente, el Código Orgánico Procesal Penal, así como la presente Ley y cualquier otra ley aplicable.\n"
+      },
+      "art-072": {
+       "label": "Art. 72",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal del o de la adolescente para actuar ante las sedes de los organismos de investigación\nArtículo 72. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Brindar asesoría jurídica a niñas, niños y adolescentes.\n2. Verificar ante los organismos policiales, criminalísticos y auxiliares de justicia, que las y los adolescentes detenidas o detenidos preventivamente se encuentren separados de los adultos.\n3. Las establecidas en materia de deberes y atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal que les sean aplicables.\n4. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-073": {
+       "label": "Art. 73",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal de la o del adolescente para actuar ante el Ministerio Público y los Tribunales de Primera Instancia en funciones de Control, Juicio y Ejecución\nArtículo 73. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón y ejercen sus funciones conforme a la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica para la Protección del Niño, Niña y del Adolescente, Código Orgánico Procesal Penal, así como la presente Ley y cualquier otra ley aplicable.\n"
+      },
+      "art-074": {
+       "label": "Art. 74",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal de la o del adolescente para actuar ante el Ministerio Público y los Tribunales de Primera Instancia en funciones de Control\nArtículo 74. Son deberes y atribuciones de las defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal del adolescente para actuar ante el Tribunal de Primera Instancia en funciones de Control las siguientes:\n1. Orientar a las o los adolescentes vitados o citadas por el Ministerio Público para las entrevistas que se realizan con ocasión a las investigaciones, y que ameriten asistencia de la Defensa Pública.\n2. Efectuar visita a los defendidos o defendidas una vez al mes, pudiendo concurrir las veces que considere necesario al órgano policial o centro de internamiento donde se encuentren los detenidos o detenidas cuya defensa les competa.\n3. Asistir y defender a la o el adolescente en las audiencias que se efectúen ante los Tribunales de Primera Instancia en funciones de Control.\n4. Interponer fórmulas de solución anticipada.\n5. Solicitar el sobreseimiento provisional o definitivo.\n6. Solicitar las medidas cautelares sustitutivas o la libertad plena, según sea el caso.\n7. Contestar la acusación presentada por el Ministerio Público o la o el querellante.\n8. Oponer las excepciones que el caso amerite.\n9. Solicitar la práctica de pruebas anticipadas.\n10. Solicitar el cambio de la calificación jurídica, si fuera procedente.\n11. Instruir al adolescente sobre el procedimiento por admisión de los hechos.\n12. Solicitar las fórmulas de solución anticipada, si fueran procedentes, siempre y cuando la imputada o imputado manifieste su voluntad de acogerse a una de las figuras en ellas contempladas.\n13. Plantear cualquier otra cuestión incidental que permita una mejor preparación para el debate.\n14. Ofrecer los medios de pruebas necesarios para resolver las cuestiones propias de la audiencia preliminar.\n15. Promover las pruebas que se presentarán en la fase de juicio.\n16. Ejercer las apelaciones de autos, sentencias y contestar los recursos interpuestos por la Fiscal o el Fiscal del Ministerio Público o la parte acusadora, debiendo informar al respecto a la Defensora Pública o Defensor Público con competencia ante la Corte Superior para el seguimiento respectivo.\n17. Instruir a la imputada o imputado sobre las medidas cautelares impuestas de manera sencilla, explicar con claridad acerca del estricto deber del cumplimiento de las obligaciones impuestas y la puntualidad en la asistencia a los actos del proceso.\n18. Ejercer la acción de amparo ante la amenaza o violación de derechos o garantías constitucionales de la o del adolescente.\n19. Las establecidas en materia de atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal que les sean aplicables.\n20. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-075": {
+       "label": "Art. 75",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal de la o del adolescente para actuar ante los Tribunales de Primera Instancia en funciones de Juicio\nArtículo 75. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Brindar asesoría jurídica a niñas, niños y adolescentes.\n2. Dar contestación a la acusación presentada por la Fiscal o el Fiscal del Ministerio Público cuando se trate de procedimiento abreviado.\n3. En casos de procedimiento abreviado, Solicitar las fórmulas de solución anticipada, si fuera procedente, siempre y cuando el imputado manifieste su voluntad de acogerse a una de las figuras en ellas contempladas.\n4. Orientar a la imputada o imputado sobre el procedimiento por admisión de los hechos en los casos de procedimiento abreviado.\n5. Solicitar el examen y revisión de las medidas cautelares o la libertad plena, si fuera procedente.\n6. Promover pruebas en caso de procedimiento abreviado.\n7. Asistir a la audiencia oral.\n8. Efectuar visita a las defendidas o defendidos, una vez al mes, pudiendo concurrir las veces que considere necesario al órgano policial o centro de internamiento donde se encuentren las detenidas o detenidos cuya defensa les competa, a los fines de orientarlos u orientarlas en todas sus necesidades y requerimientos, así como rendir información sobre el estado y grado de sus causas.\n9. Ofrecer nuevas pruebas y ratificar las declaradas inadmisibles dentro del lapso legal establecido para fijación del juicio.\n10. Solicitar que le sean practicados a la o el adolescente estudios clínicos cuando del resultado de la investigación se evidencien hechos que recomienden someterlos a los mismos.\n11. Ejercer los recursos judiciales procedentes, debiendo informar al respecto a la Defensora Pública o Defensor Público con competencia ante la Corte Superior para el seguimiento respectivo.\n12. Instruir a la o el adolescente del cumplimiento adecuado de la sanción impuesta.\n13. Las establecidas en materia de atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal que les sean aplicables.\n14. Ejercer la acción de amparo ante la amenaza o violación de cualquier derecho o garantía constitucional del adolescente.\n15. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-076": {
+       "label": "Art. 76",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas y defensores públicos con competencia en materia de responsabilidad penal de la o del adolescente para actuar ante los Tribunales de Primera Instancia en funciones de Ejecución\nArtículo 76. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Efectuar visita a las defendidas o defendidos, una vez al mes, pudiendo concurrir las veces que considere necesario al órgano policial o centro de internamiento donde se encuentren los detenidos o detenidas cuya defensa les competa.\n2. Ser garante de que la o el adolescente no sea trasladado o trasladada arbitrariamente del centro de internamiento donde cumple la sanción.\n3. Velar porque la o el adolescente institucionalizado o institucionalizada no sea incomunicado o incomunicada ni sometido o sometida a castigos corporales.\n4. Velar para que las o los adolescentes institucionalizados o institucionalizadas sean incorporados o incorporadas de manera inmediata al sistema educativo.\n5. Solicitar las medidas alternativas del cumplimiento de las sanciones que corresponda.\n6. Cumplir guardias en los centros de internamiento.\n7. Mantener informados, en todo estado y grado del proceso, a los familiares del adolescente.\n8. Interponer el recurso de apelación contra autos y sentencias, debiendo informar al respecto a la Defensora Pública o Defensor Público con competencia ante la Corte Superior para el seguimiento respectivo.\n9. Ejercer el recurso de revisión en los casos que fuera procedente.\n10. Las establecidas en materia de deberes y atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal que les sean aplicables.\n11. Ejercer las acciones de amparo ante la amenaza o violación de cualquier derecho o garantía constitucional del adolescente.\n12. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-077": {
+       "label": "Art. 77",
+       "kind": "art",
+       "text": "De las defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal de la o del adolescente para actuar ante las Cortes Superiores\nArtículo 77. Estas funcionarias o funcionarios ocupan el Grado III en el escalafón y ejercen sus funciones conforme a la Constitución de la República Bolivariana de Venezuela, la Ley Orgánica para la Protección del Niño, Niña y del Adolescente, el Código Orgánico Procesal Penal, así como la presente Ley y cualquier otra norma aplicable.\n"
+      },
+      "art-078": {
+       "label": "Art. 78",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de responsabilidad penal del adolescente para actuar ante las Cortes Superiores\nArtículo 78. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Ejercer la defensa de los recursos que hayan intentado la Defensora Pública o Defensor Público ante los Tribunales de Primera Instancia.\n2. Asistir a la audiencia oral y formular los alegatos de defensa a que haya lugar.\n3. Promover las pruebas necesarias con referencia al recurso de apelación.\n4. Anunciar el recurso de casación si fuera procedente.\n5. Informar a la Defensora Pública o Defensor Público ante la Sala Penal del Tribunal Supremo de Justicia, con la debida antelación, de los recursos que ejerza.\n6. Ejercer acciones de amparo contra las decisiones de las Cortes Superiores con competencia en materia de responsabilidad penal de la o del adolescente que amenacen o violen derechos o garantías constitucionales, e informar a la Defensora Pública o Defensor Público con competencia ante la Sala Constitucional del Tribunal Supremo de Justicia de la acción ejercida.\n7. Las establecidas en materia de deberes y atribuciones de las defensoras públicas o defensores públicos con competencia en materia penal que les sean aplicables.\n8. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-079": {
+       "label": "Art. 79",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos de indígenas\nArtículo 79. La Defensora Pública o Defensor Público de Indígenas, deberá conocer la cultura y derechos de los pueblos y comunidades indígenas. Preferiblemente deberá ser hablante del idioma indígena del cual proviene, ejerce sus funciones para garantizar la representación y defensa de los indígenas en toda la materia y ante todas las instancias administrativas y judiciales y ocupará el Grado en escalafón según el cumplimiento de los requisitos previstos en esta Ley.\n"
+      },
+      "art-080": {
+       "label": "Art. 80",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos de indígenas\nArtículo 80. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Asesorar, asistir y representar jurídicamente a los o las indígenas ante las autoridades jurisdiccionales y administrativas del Estado, pudiendo ejercerlas con apoyo de cualquier otra Defensora Pública o Defensor Público que por su competencia lo amerite.\n2. Garantizar el acceso pleno de los pueblos indígenas a la jurisdicción del Estado en todos los juicios y procedimientos que involucren individual o colectivamente a los indígenas, tomando en cuenta sus prácticas jurídicas y específicas.\n3. Aplicar los sistemas normativos en regulación y solución de conflictos internos de tales pueblos, con respeto a las garantías individuales, los derechos humanos y, en particular, la dignidad e integridad de las mujeres.\n4. Velar por el acceso colectivo indígena al uso y disfrute de los recursos naturales de sus tierras y territorios.\n5. Velar por el respeto y enriquecimiento de todos los elementos que configuren la cultura e identidad indígena y combatir cualquier forma de discriminación.\n6. Lo previsto en esta Ley no menoscaba el sistema de justicia propio de los pueblos indígenas, tanto en sus instancias, su sistema oral, sus costumbres y tradiciones.\n7. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-081": {
+       "label": "Art. 81",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia Civil, Mercantil y Tránsito\nArtículo 81. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón.\n"
+      },
+      "art-082": {
+       "label": "Art. 82",
+       "kind": "art",
+       "text": "Competencia en general\nArtículo 82. Las defensoras públicas o defensores públicos con competencia en materia civil, mercantil y tránsito ejercen la representación judicial; no podrán convenir en la demanda, desistir, transigir, comprometer en árbitros, solicitar la decisión según la equidad, hacer posturas en remates, recibir cantidades de dinero y disponer del derecho en litigio. En estos casos, sólo podrán actuar mediante asistencia de las partes. Se rigen por las normas generales de esta Ley y las leyes especiales de la materia.\n"
+      },
+      "art-083": {
+       "label": "Art. 83",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia civil, mercantil y tránsito ante los Tribunales Superiores\nArtículo 83. Las defensoras públicas o defensores públicos con competencia en materia civil, mercantil y tránsito ante los Tribunales Superiores, ocupan el Grado II en el escalafón.\n"
+      },
+      "art-084": {
+       "label": "Art. 84",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia civil, mercantil y tránsito ante los Tribunales Superiores\nArtículo 84. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer la defensa en los recursos interpuestos por la Defensora Pública o Defensor Público ante los Tribunales de Primera Instancia.\n3. Consignar por escrito los informes respectivos.\n4. Promover, en caso de que fuere procedente, las pruebas.\n5. Anunciar los recursos que fueren procedentes.\n6. Informar a la Defensora Pública o Defensor Público con competencia ante la Sala de Casación Civil del Tribunal Supremo de Justicia de los recursos ejercidos.\n7. Ejercer acciones de amparo contra las decisiones de los Tribunales Superiores con competencia en materia civil, mercantil y tránsito que amenacen o violen derechos o garantías constitucionales, e informar a la Defensora Pública o Defensor Público con competencia ante la Sala Constitucional de la acción intentada.\n8. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-085": {
+       "label": "Art. 85",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia en materia contencioso administrativa\nArtículo 85. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón, en orden Jerárquico de los órganos de la jurisdicción en lo contencioso administrativo.\n"
+      },
+      "art-086": {
+       "label": "Art. 86",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia contencioso administrativa\nArtículo 86. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Ejercer la defensa de los particulares en los recursos interpuestos contra los actos administrativos de efectos particulares u omisiones, emanados de la República, estados, municipios, institutos autónomos, entes públicos o empresas, en las cuales el Estado ejerza control decisivo y permanente en cuanto a su dirección y administración, siempre que estos actos u omisiones amenacen o violen derechos o garantías de las ciudadanas y ciudadanos.\n2. Ejercer acciones de amparo contra las decisiones de los órganos de la jurisdicción en lo contencioso administrativo, que amenacen o violen derechos o garantías constitucionales de los particulares.\n3. Todas aquellas que le atribuyan las normas generales previstas en esta Ley, así como las leyes especiales en la materia, siempre que éstas no invadan las competencias de las instituciones del Estado que por su naturaleza actúen en el proceso.\n"
+      },
+      "art-087": {
+       "label": "Art. 87",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia ante los órganos y entes administrativos nacionales y estadales\nArtículo 87. Estas funcionarias o funcionarios ocupan el Grado II en el escalafón, y actuarán conforme a la Constitución de la República Bolivariana de Venezuela y demás leyes y sus Reglamentos.\n"
+      },
+      "art-088": {
+       "label": "Art. 88",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia ante los Órganos y Entes Administrativos Nacionales y Estadales\nArtículo 88. Orientar, asesorar, asistir y representar a las personas, en los procesos ante los órganos y entes administrativos nacionales o estadales, las universidades y demás institutos educativos.\n"
+      },
+      "art-089": {
+       "label": "Art. 89",
+       "kind": "art",
+       "text": "Obligación de la funcionaria o funcionario que dirige el procedimiento en otros procesos administrativos, disciplinarios y judiciales\nArtículo 89. Para los demás procesos administrativos, disciplinarios y judiciales no previstos en esta Ley, cuando las personas requieran de la asistencia o representación en virtud de un procedimiento en que sean parte, la funcionaria pública o funcionario público que dirige el procedimiento deberá, con la celeridad del caso, Solicitar a la Coordinadora Regional o Coordinador Regional de la Defensa Pública, la designación de una Defensora Pública o Defensor Público.\n"
+      },
+      "art-090": {
+       "label": "Art. 90",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos con competencia ante los órganos y entes administrativos municipales\nArtículo 90. Estas funcionarias o funcionarios ocupan en el escalafón el Grado I y ejercen sus funciones ante los órganos y entes administrativos municipales, conforme a las obligaciones comunes para todas las defensoras públicas o defensores públicos y las específicas en materia disciplinaria y administrativa.\n"
+      },
+      "art-091": {
+       "label": "Art. 91",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia ante los órganos y entes administrativos municipales\nArtículo 91. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Ejercer la defensa de las personas que así lo soliciten, ante los órganos y entes administrativos municipales.\n2. Ejercer la acción de amparo, cuando sea procedente, ante los tribunales competentes de su jurisdicción por la amenaza o violación de derechos o garantías constitucionales, informando a la Defensora Pública o Defensor Público competente.\n3. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-092": {
+       "label": "Art. 92",
+       "kind": "art",
+       "text": "Asesoría integral\nArtículo 92. En todas las materias y especialmente las relacionadas con creación, registro, funcionamiento de cooperativas, asociaciones sin fines de lucro, fundaciones y cualquier otra forma de organización civil que prevea la Constitución de la República Bolivariana de Venezuela, se crean Defensas Integrales. Estas dependencias están conformadas por defensoras públicas o defensores públicos integrales y demás personal que se requiera, de acuerdo con la demanda del servicio y la población del municipio.\n"
+      },
+      "art-093": {
+       "label": "Art. 93",
+       "kind": "art",
+       "text": "Defensoras públicas o defensores públicos integrales\nArtículo 93. Estas funcionarias o funcionarios ocupan el Grado I en el escalafón y brindarán a todas las ciudadanas y ciudadanos que así lo requieran, la orientación y asesoría jurídica necesaria de acuerdo con la Constitución de la República Bolivariana de Venezuela y las leyes aplicables.\n"
+      },
+      "art-094": {
+       "label": "Art. 94",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos Integrales\nArtículo 94. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Elevar la cultura jurídica del pueblo.\n2. Apoyar la justicia de paz.\n3. Asesorar a las ciudadanas y ciudadanos en la solución del conflicto y en las acciones legales para garantizar el goce y ejercicio efectivo de los derechos e intereses legítimos.\n4. Asesorar en todo lo relacionado con la creación, registro, funcionamiento de las cooperativas, asociaciones sin fines de lucro, fundaciones y cualquier otra forma de organización civil que prevea la Constitución de la República Bolivariana de Venezuela.\n5. Garantizar la tutela jurídica del derecho a la defensa en los lugares más apartados del territorio nacional.\n6. Orientar y referir a la ciudadana o ciudadano a la Defensora Pública o Defensor Público competente según el caso planteado.\n7. Contribuir a la participación de las ciudadanas y ciudadanos en los programas sociales.\n8. Fomentar la participación ciudadana de acuerdo con lo establecido en la Constitución de la República Bolivariana de Venezuela.\n9. Promover e impulsar la participación de las ciudadanas y ciudadanos en la administración de justicia.\n10. Cualquier otra que a criterio de la Defensora Pública General o Defensor Público General deba desarrollar.\n"
+      },
+      "art-095": {
+       "label": "Art. 95",
+       "kind": "art",
+       "text": "Designación de las defensoras públicas o defensores públicos con competencia para actuar ante el Tribunal Supremo de Justicia\nArtículo 95. Las defensoras públicas o defensores públicos con competencia para actuar ante el Tribunal Supremo de Justicia en la Sala Plena, Sala Constitucional, Sala de Casación Penal, Sala de Casación Social, Sala de Casación Civil, Sala Político Administrativa y Sala Electoral, ocupan el Grado IV en el escalafón.\n"
+      },
+      "art-096": {
+       "label": "Art. 96",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia para actuar ante la Sala Constitucional del Tribunal Supremo de Justicia\nArtículo 96. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer la defensa y asistir a las audiencias convocadas por la Sala Constitucional, en las acciones de amparo ejercidas por la Defensora Pública o Defensor Público contra las decisiones de los Tribunales de Segunda Instancia que amenacen o violen derechos o garantías constitucionales, comunicando de inmediato las resultas de la audiencia a la Defensora Pública o Defensor Público que ejerció la acción de amparo.\n3. Ejercer el recurso de revisión contra las decisiones y procedimientos que de acuerdo al ordenamiento jurídico se ventilen ante la Sala Constitucional, cuando se denuncie la violación de principios fundamentales contenidos en la Constitución de la República Bolivariana de Venezuela, en aquellas causas en los cuales sea parte.\n4. Intervenir en la defensa cuando se haya solicitado el avocamiento a una causa determinada, porque se presuma la violación de principios y garantías constitucionales, contenidos en la Constitución de la República Bolivariana de Venezuela, tratados, pactos o convenciones internacionales suscritos y ratificados por la República, aun cuando por razón de la materia y en virtud de la Ley, la competencia le esté atribuida a otra Sala.\n5. Ejercer la defensa de las apelaciones realizadas contra las sentencias de amparo constitucional y de la acción autónoma de amparo, contra las sentencias que dicten los Tribunales Superiores como Tribunales de Primera Instancia, que decidan sobre la acción de reclamo para garantizar los principios constitucionales.\n6. Realizar seguimiento de los recursos de revisión intentados contra las sentencias definitivamente firmes de amparo constitucional y control difuso de la constitucionalidad de leyes o normas jurídicas, dictadas por los demás Tribunales de la República.\n7. Realizar seguimiento de las apelaciones contra las sentencias dictadas por los Tribunales de lo Contencioso Administrativo cuando su conocimiento no estuviere atribuido a otro tribunal, con ocasión a la interposición de acciones autónomas de amparo constitucional.\n8. Ejercer la defensa de la acción autónoma de amparo constitucional realizada contra las sentencias de última instancia dictadas por los Tribunales de lo Contencioso Administrativo cuando su conocimiento no estuviera atribuido a otro Tribunal.\n9. Mantener informada a la dependencia competente de la Defensa Pública en relación a cualquier cambio de jurisprudencia de la Sala Constitucional.\n10. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-097": {
+       "label": "Art. 97",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia para actuar ante la Sala de Casación Penal del Tribunal Supremo de Justicia\nArtículo 97. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer la defensa en los recursos de casación y contestación.\n3. Ejercer el recurso de revisión contra las decisiones y procedimientos dictados por la Sala de Casación Penal, que de acuerdo al ordenamiento jurídico se ventilen ante la Sala Constitucional, cuando se denuncie la violación de principios fundamentales contenidos en la Constitución de la República Bolivariana de Venezuela, en aquellas causas en las cuales sea parte.\n4. Asistir a la audiencia oral y pública convocada para conocer del recurso, comunicando de inmediato los resultados de la audiencia a la Defensora Pública o Defensor Público con competencia para actuar ante la Corte de Apelaciones que corresponda.\n5. Velar por que los detenidos o detenidas con fines de extradición, que no hablen o comprendan el Idioma castellano, sean proveídos de un intérprete público.\n6. Solicitar cuando sea procedente, la radicación del juicio.\n7. Ejercer el recurso de hecho en caso de la negativa de admisión del recurso de casación.\n8. Mantener informada a la dependencia competente de la Defensa Pública de cualquier cambio en la Jurisprudencia de la Sala de Casación Penal.\n9. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-098": {
+       "label": "Art. 98",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia para actuar ante la Sala de Casación Social del Tribunal Supremo de Justicia\nArtículo 98. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Formalizar los recursos de casación.\n3. Asistir a la audiencia oral y pública convocada para conocer el recurso de casación, donde deberán formular sus alegatos y defensas, de manera pública y contradictoria.\n4. Asistir a la audiencia oral y pública convocada para conocer el recurso de control de la legalidad, donde deberán formular sus alegatos y defensas, de manera pública y contradictoria.\n5. Promover pruebas en materia laboral, cuando el recurso de casación se base en un defecto de forma en relación a como se realizó un acto, en contraposición a lo señalado en el acta del debate o en la sentencia; la promoción se hará en los escritos de interposición o de contestación del recurso, señalando de manera precisa lo que se pretende probar.\n6. Ejercer la defensa en las apelaciones de las sentencias dictadas por los Tribunales Superiores de lo Contencioso Administrativo en materia agraria y demás asuntos contenciosos relacionados con la misma materia.\n7. Ejercer el recurso de revisión contra las acciones y procedimientos dictados por la Sala de Casación Social que, de acuerdo al ordenamiento jurídico, se ventilen ante la Sala Constitucional cuando se denuncie la violación de principios fundamentales contenidos en la Constitución de la República Bolivariana de Venezuela, en aquellas causas en las cuales sea parte.\n8. Ejercer el recurso de hecho en caso de la negativa de admisión del recurso de casación.\n9. Mantener informada a la dependencia competente de la Defensa Pública de cualquier cambio de jurisprudencia de la Sala de Casación Social.\n10. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-099": {
+       "label": "Art. 99",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia civil, mercantil y tránsito para actuar ante la Sala de Casación Civil del Tribunal Supremo de Justicia\nArtículo 99. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Solicitar la ejecución de las sentencias de autoridades jurisdiccionales extranjeras.\n3. Formalizar el recurso de casación ante la Sala de Casación Civil.\n4. Comunicar a la Defensora Pública o Defensor Público que actuó en los Tribunales de Segunda Instancia, de las resultas de los recursos que ejerció.\n5. Ejercer el recurso de revisión contra las acciones y procedimientos, dictados por la Sala de Casación Civil que de acuerdo al ordenamiento jurídico se ventilen ante la Sala Constitucional, cuando se denuncie la violación de principios fundamentales contenidos en la Constitución de la República Bolivariana de Venezuela, en aquellas causas en las cuales sea parte.\n6. Ejercer el recurso de hecho en caso de la negativa de admisión del recurso de casación.\n7. Informar a la dependencia competente de la Defensa Pública, de cualquier cambio de jurisprudencia del Tribunal Supremo de Justicia en la Sala de Casación Civil.\n8. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-100": {
+       "label": "Art. 100",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia de lo contencioso administrativa para actuar ante la Sala Político- Administrativa del Tribunal Supremo de Justicia\nArtículo 100. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer la representación de ausentes y de no comparecientes en los juicios de expropiación o en aquellos que requieran la designación de defensoras públicas o defensores públicos para garantizar el derecho a la defensa.\n3. Ejercer la defensa en alzada de las decisiones de los Tribunales Contencioso Administrativo y de los recursos, cuando se demande la nulidad de un acto administrativo de efectos particulares y al mismo tiempo el acto general que le sirva de fundamento.\n4. Ejercer la defensa de las personas que así lo requieran en los juicios de expropiación en los cuales se interponga recurso de apelación.\n5. Ejercer los recursos de nulidad, cuando sea procedente, por razones de inconstitucionalidad o de ilegalidad de los actos administrativos de efectos particulares de los órganos que ejerzan el Poder Público de rango nacional.\n6. Ejercer la defensa en segunda instancia en las apelaciones y demás acciones o recursos contra las sentencias dictadas por los Tribunales Contencioso Administrativo.\n7. Comunicar a la Defensora Pública o Defensor Público ante el Tribunal Superior las resultas del caso que conoció.\n8. Ejercer el recurso de revisión contra las decisiones y procedimientos dictados por la Sala Político-Administrativa que de acuerdo al ordenamiento jurídico se ventilen ante la Sala Constitucional, cuando se denuncie la violación de principios fundamentales contenidos en la Constitución de la República Bolivariana de Venezuela, en aquellas causas en las cuales sea parte.\n9. Ejercer el recurso de hecho en caso de la negativa de admisión del recurso.\n10. Informar a la dependencia competente de la Defensa Pública de cualquier cambio de jurisprudencia del Tribunal Supremo de Justicia en la Sala Político-Administrativa.\n11. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-101": {
+       "label": "Art. 101",
+       "kind": "art",
+       "text": "Atribuciones de las defensoras públicas o defensores públicos con competencia en materia electoral para actuar ante la Sala Electoral del Tribunal Supremo de Justicia\nArtículo 101. Son atribuciones de estas funcionarias o funcionarios las siguientes:\n1. Orientar y asesorar en la materia de su competencia.\n2. Ejercer los recursos contra actos, actuaciones y omisiones relacionados con la Constitución, denominación, funcionamiento y cancelación de las organizaciones políticas, con la designación de miembros de organismos electorales, con el Registro Electoral Permanente, con la postulación y elección de candidatos a la Presidencia de la República y a la Asamblea Nacional.\n3. Ejercer el recurso de revisión contra las decisiones y procedimientos dictados por la Sala Electoral que de acuerdo al ordenamiento jurídico se ventilen ante la Sala Constitucional, cuando se denuncie la violación de principios fundamentales contenidos en la Constitución de la República Bolivariana de Venezuela, en aquellas causas en las cuales sea parte.\n4. Ejercer el recurso de hecho en caso de la negativa de admisión del recurso.\n5. Informar a la dependencia competente de la Defensa Pública de cualquier cambio de Jurisprudencia del Tribunal Supremo de Justicia en la Sala Electoral.\n6. Las demás que les atribuyan esta Ley y su Reglamento.\n"
+      },
+      "art-102": {
+       "label": "Art. 102",
+       "kind": "art",
+       "text": "Participación protagónica\nArtículo 102. Toda persona tiene derecho a participar de manera organizada, directa y protagónica en la formación de las políticas y control de la gestión de la Defensa Pública, a través de los consejos comunales y las demás formas de organización popular, incluyendo las que corresponden a los pueblos y a las comunidades indígenas y afrodescendientes, de conformidad con lo previsto en esta Ley y su Reglamento.\nEs obligación de la Defensa Pública facilitar la generación de las condiciones más favorables para garantizar su ejercicio pleno y efectivo.\n"
+      },
+      "art-103": {
+       "label": "Art. 103",
+       "kind": "art",
+       "text": "Participación en formación de las políticas, planes y normas\nArtículo 103. La Defensa Pública debe realizar una consulta pública anual para la formulación de sus políticas y planes, así como para la elaboración del proyecto de presupuesto anual. Así mismo, deberá presentar a consulta pública los actos administrativos de carácter normativo o de efectos generales. La forma, lugar y oportunidad de estas consultas públicas se establecerá en el Reglamento de esta Ley y en la Ley Orgánica de Administración Pública y su Reglamento, en cuanto le sea aplicable.\n"
+      },
+      "art-104": {
+       "label": "Art. 104",
+       "kind": "art",
+       "text": "Rendición pública de cuentas\nArtículo 104. La Defensa Pública deberá presentar anualmente ante los consejos comunales y las demás formas de organización y participación social, un informe detallado y preciso de la gestión realizada durante ese período. En tal sentido, deberá brindar explicación suficiente y razonada de las políticas y planes formulados, su ejecución, metas alcanzadas, presupuesto utilizado, así como descripción de las actividades realizadas durante este período.\nEl contenido y la forma de presentación de estos informes anualmente serán establecidos en el Reglamento de esta Ley.\n"
+      },
+      "art-105": {
+       "label": "Art. 105",
+       "kind": "art",
+       "text": "Contraloría Social\nArtículo 105. Los consejos comunales y las demás formas de organización y participación social, de conformidad con lo establecido en la Constitución de la República Bolivariana de Venezuela y las leyes, tienen derecho a participar libremente y especialmente a ejercer la contraloría social sobre la gestión de la Defensa Pública. A tal efecto, tienen las siguientes funciones:\n1. Vigilar y exigir el cumplimiento de esta Ley y su Reglamento con el objeto de contribuir a que los servicios de la Defensa Pública garanticen los derechos humanos de todas las personas.\n2. Promover la información, capacitación y formación de las comunidades sobre sus derechos, garantías y deberes relacionados con el Sistema de Justicia y los servicios de la Defensa Pública, especialmente para garantizar su derecho a participar y a ejercer la contraloría social.\n3. Velar porque las defensoras públicas y defensores públicos respeten y garanticen los derechos individuales, colectivos y difusos de las personas, familias y comunidades.\n4. Notificar y denunciar ante las autoridades competentes los hechos que puedan constituir Infracciones a esta Ley y su Reglamento, a los fines de iniciar los procedimientos administrativos o judiciales a que hubiere lugar.\n5. Intervenir y participar en los Consejos Consultivos de la Defensa Pública.\n6. Las demás funciones que establezca el Reglamento de esta Ley.\n"
+      },
+      "art-106": {
+       "label": "Art. 106",
+       "kind": "art",
+       "text": "Consejos Consultivos de la Defensa Pública\nArtículo 106. La Defensa Pública promoverá consejos consultivos como medios para la participación protagónica del pueblo en la formulación de políticas y control en la gestión pública. Estos consejos consultivos podrán constituirse con carácter Nacional, regional o local, así como por materia o colectivos de personas.\nLa Constitución, organización y funcionamiento de estos consejos consultivos serán determinados mediante acta en el momento de su creación, conforme lo establezca el Reglamento de esta Ley. Quienes integren estos consejos actuarán de forma voluntaria y con carácter ad honorem y no podrán recibir emolumentos, remuneraciones o beneficios de cualquier naturaleza por dichas actividades.\n"
+      },
+      "art-107": {
+       "label": "Art. 107",
+       "kind": "art",
+       "text": "Garantías de acceso a los servicios\nArtículo 107. La Defensa Pública debe garantizar acceso directo y efectivo de todas las personas a sus servicios de orientación, asesoría, asistencia y representación jurídica. A tales efectos, la Defensa Pública deberá:\n1. Crear y mantener oficinas, unidades o dependencias administrativas para la prestación de sus servicios, de fácil acceso a las comunidades.\n2. Laborar durante todo el año, las veinticuatro horas del día, garantizando la prestación de sus servicios mediante un régimen de guardias presenciales.\n3. Mediante el Reglamento se establecerá el régimen de guardias presenciales, conforme a las leyes que rigen la materia.\n"
+      },
+      "art-108": {
+       "label": "Art. 108",
+       "kind": "art",
+       "text": "Acceso a información para la participación popular\nArtículo 108. La Defensa Pública deberá suministrar amplia, oportuna y veraz información sobre su organización, funcionamiento y actividades, con el fin de que el pueblo participe y ejerza control social sobre su gestión pública. A tal efecto, deberá crear un sistema de información que contenga el esquema actualizado de su organización, funcionamiento y régimen de guardias.\nA fin de dar cumplimiento a los principios establecidos en esta Ley y su Reglamento, la Defensa Pública deberá establecer y mantener una página en Internet, que contendrá, entre otras, la información contemplada en este artículo, así como un mecanismo de comunicación electrónica con este órgano disponible para todas las personas.\n"
+      },
+      "art-109": {
+       "label": "Art. 109",
+       "kind": "art",
+       "text": "Revocación de la Defensora o Defensor Pública a solicitud de la usuaria o usuario\nArtículo 109. La usuaria o usuario de la Defensa Pública en cualquier estado y grado de la causa podrá revocar a la Defensora Pública o Defensor asignada o asignado. En dicho caso, se le reasignará inmediatamente una Defensora Pública o Defensor Público distinto a la revocada o revocado.\n"
+      },
+      "art-110": {
+       "label": "Art. 110",
+       "kind": "art",
+       "text": "Personal al servicio de la Defensa Pública\nArtículo 110. La Defensa Pública está integrada por funcionarias y funcionarios de carrera, funcionarias y funcionarios de libre nombramiento y remoción, contratadas, contratados, suplentes y personal obrero.\nLo que no esté contemplado en esta Ley en materia de personal, será regulado por el Estatuto de Personal de la Defensa Pública.\n"
+      },
+      "art-111": {
+       "label": "Art. 111",
+       "kind": "art",
+       "text": "Ámbito de aplicación\nArtículo 111. Las normas relativas al personal de la Defensa Pública son aplicables a las funcionarias y funcionarios de carrera, funcionarias y funcionarios de libre nombramiento y remoción, y a las y los suplentes durante el tiempo de servicio, en los términos establecidos en el Estatuto de Personal. El régimen aplicable al personal contratado es el establecido en el respectivo contrato y en la legislación laboral. El régimen aplicable al personal obrero es el previsto en la legislación laboral.\n"
+      },
+      "art-112": {
+       "label": "Art. 112",
+       "kind": "art",
+       "text": "Derecho a la seguridad social\nArtículo 112. Las funcionarias y funcionarios de carrera, funcionarias y funcionarios de libre nombramiento y remoción y demás personal de la Defensa Pública, disfrutarán del derecho a la seguridad social en los términos consagrados en la Ley Orgánica del Sistema de Seguridad Social, demás leyes y reglamentos sobre la materia.\n"
+      },
+      "art-113": {
+       "label": "Art. 113",
+       "kind": "art",
+       "text": "Finalidades de la carrera\nArtículo 113. La carrera de Defensora Pública o Defensor Público y demás funcionarias y funcionarios, prevista por disposición Constitucional, tiene por finalidad asegurar la idoneidad, estabilidad e independencia, y regular las condiciones para el ingreso, egreso, ascenso, traslado y permanencia en el ejercicio del cargo, así como determinar la responsabilidad disciplinaria de los mismos.\n"
+      },
+      "art-114": {
+       "label": "Art. 114",
+       "kind": "art",
+       "text": "Estabilidad\nArtículo 114. Las funcionarias y funcionarios de carrera gozarán de estabilidad en el desempeño de sus cargos, en consecuencia, sólo podrán ser destituidas o destituidos mediante un acto administrativo dictado en un procedimiento disciplinario que se le siga con todas las garantías y formalidades que determine esta Ley y el Estatuto de Personal de la Defensa Pública.\n"
+      },
+      "art-115": {
+       "label": "Art. 115",
+       "kind": "art",
+       "text": "Límites a la estabilidad\nArtículo 115. La garantía de estabilidad que asegura a las funcionarias y funcionarios de carrera está siempre en función del interés general que se persigue, por lo que cualquier conducta contraria a la misión del servicio dará lugar a la averiguación y sanciones contenidas en esta Ley.\n"
+      },
+      "art-116": {
+       "label": "Art. 116",
+       "kind": "art",
+       "text": "Escalafones\nArtículo 116. El escalafón de las defensoras públicas o defensores públicos se conforma desde el Grado I hasta el Grado IV, siendo éste último su mayor jerarquía y los requisitos en cada uno de ellos son los siguientes:\n1. Defensora Pública o Defensor Público Grado I. Para ser Defensora Pública o Defensor Público Grado I se deberá cumplir con los requisitos contemplados en el artículo 23 de esta Ley.\n2. Defensora Pública o Defensor Público Grado II. Para ser designada o designado Defensora Pública o Defensor Público en esta categoría, se deberá cumplir con uno de los siguientes requisitos:\n3. Haberse desempeñado como Defensora Pública o Defensor Público Grado I por un período no menor de tres años y haber obtenido la aprobación de la evaluación interna correspondiente.\n4. Tener por lo menos seis años de experiencia comprobada en la materia para la cual concursa, haber obtenido la aprobación del concurso público y cumplir con los demás requisitos para ingresar a la carrera de Defensora Pública o Defensor Público.\n5. Defensora Pública o Defensor Público Grado III. Para ser designada o designado Defensora Pública o Defensor Público en esta categoría deberá cumplir con uno de los siguientes requisitos:\na) Haberse desempeñado como Defensora Pública o Defensor Público Grado II por un período no menor de tres años y aprobar la Evaluación Interna correspondiente.\nb) Haber obtenido título de especialización o haber desempeñado la docencia por un período mínimo de tres años, y tener por lo menos nueve años de experiencia comprobada en la materia para la cual concursa y haber aprobado el concurso público y cumplir con los demás requisitos para ingresar a la carrera de Defensora Pública o Defensor Público.\n6. Defensora Pública o Defensor Público Grado IV. Para ser designada o designado Defensora Pública o Defensor Público en esta categoría deberá cumplir con uno de los siguientes requisitos:\na) Haberse desempeñado como Defensora Pública o Defensor Público Grado III por un período no menor de tres años, haber obtenido el título de especialización y haber aprobado la evaluación interna correspondiente.\nb) Haber obtenido título de especialización en la materia para la cual concursa, tener por lo menos trece años de experiencia comprobada en la materia, haber aprobado el concurso público y cumplir con los demás requisitos para Ingresar a la carrera de Defensora Pública o Defensor Público.\n"
+      },
+      "art-117": {
+       "label": "Art. 117",
+       "kind": "art",
+       "text": "Méritos para los ascensos\nArtículo 117. Para ascender al Grado superior inmediato, la Defensora Pública o Defensor Público deberá aprobar la evaluación interna correspondiente y cumplir con todos los requisitos establecidos en el Estatuto de Personal de la Defensa Pública. Cuando no apruebe la evaluación interna para el ascenso, continuará como titular en la categoría inferior hasta que se abran nuevamente las evaluaciones para el ascenso.\nLa promoción en el Grado de las defensoras públicas o defensores públicos se hará efectiva si hubiere cargos a proveer. El proceso de ascenso en el escalafón será participado a los Interesados mediante resolución dictada por la Defensora Pública General o Defensor Público General.\nLas defensoras públicas o defensores públicos en los Grados correspondientes gozarán de los derechos adquiridos, de acuerdo con el cargo y la antigüedad en el servicio, y serán acreedoras y acreedores de reconocimientos en razón de sus méritos.\n"
+      },
+      "art-118": {
+       "label": "Art. 118",
+       "kind": "art",
+       "text": "Concurso público\nArtículo 118. Para ingresar a la carrera de Defensora Pública o Defensor Público se requiere aprobar el concurso público.\n"
+      },
+      "art-119": {
+       "label": "Art. 119",
+       "kind": "art",
+       "text": "Condiciones del concurso\nArtículo 119. La Defensa Pública celebrará concurso público para la provisión de los cargos de defensoras públicas o defensores públicos mediante convocatoria pública.\nLos concursos públicos estarán fundamentados en los principios de honestidad, idoneidad, eficiencia, y responderán a aspectos de carácter profesional mediante evaluación objetiva de tales condiciones, de acuerdo con el Reglamento Especial que se dictará para tales efectos.\n"
+      },
+      "art-120": {
+       "label": "Art. 120",
+       "kind": "art",
+       "text": "Faltas absolutas\nArtículo 120. Se consideran faltas absolutas de las defensoras públicas o defensores públicos, las siguientes:\n1. Muerte.\n2. Renuncia aceptada.\n3. Destitución.\n4. Jubilación.\n5. Nulidad del nombramiento.\n6. Incapacidad física o mental.\n"
+      },
+      "art-121": {
+       "label": "Art. 121",
+       "kind": "art",
+       "text": "Faltas temporales\nArtículo 121. Son faltas temporales de las defensoras públicas o defensores públicos, las siguientes:\n1. El goce de licencia o permiso.\n2. Comisión de servicio.\n3. La suspensión del cargo.\n4. El uso del derecho a las vacaciones legales.\n5. Una enfermedad u otra causa que impida temporalmente el ejercicio de sus funciones.\n"
+      },
+      "art-122": {
+       "label": "Art. 122",
+       "kind": "art",
+       "text": "Faltas accidentales\nArtículo 122. Son faltas accidentales las que se producen por inhibición o la recusación declaradas con lugar.\n"
+      },
+      "art-123": {
+       "label": "Art. 123",
+       "kind": "art",
+       "text": "Permisos\nArtículo 123. Las funcionarias o funcionarios de la Defensa Pública tendrán derecho a los permisos establecidos en esta Ley y en el Estatuto de Personal de la Defensa Pública.\n"
+      },
+      "art-124": {
+       "label": "Art. 124",
+       "kind": "art",
+       "text": "Licencias\nArtículo 124. La Defensora Pública General o Defensor Público General podrá otorgar licencias al personal adscrito a la Defensa Pública, previa justificación y acreditación del motivo.\n"
+      },
+      "art-125": {
+       "label": "Art. 125",
+       "kind": "art",
+       "text": "Comisión de servicio\nArtículo 125. La Defensora Pública General o Defensor Público General podrá otorgar comisión de servicio al personal para el ejercicio de un cargo diferente, de igual o superior nivel del cual es titular; y para ejercer la comisión de servicio la funcionaria o funcionario deberá reunir los requisitos exigidos para el cargo a desempeñar.\n"
+      },
+      "art-126": {
+       "label": "Art. 126",
+       "kind": "art",
+       "text": "Traslados\nArtículo 126. Las defensoras públicas o defensores públicos podrán solicitar su traslado a otras Unidades Regionales de Defensa Pública de conformidad con el Estatuto de Personal.\n"
+      },
+      "art-127": {
+       "label": "Art. 127",
+       "kind": "art",
+       "text": "Retiro de las defensoras públicas o defensores públicos y demás funcionarias o funcionarios\nArtículo 127. El retiro de las defensoras públicas o defensores públicos y demás funcionarias o funcionarios, procederá en los siguientes casos:\n1. Muerte.\n2. Renuncia.\n3. Incapacidad permanente.\n4. Jubilación.\n5. Destitución.\n6. Reducción de personal.\n7. Pérdida de la nacionalidad venezolana.\n8. Interdicción de sus derechos civiles y políticos.\n"
+      },
+      "art-128": {
+       "label": "Art. 128",
+       "kind": "art",
+       "text": "Renuncia\nArtículo 128. Las funcionarias o funcionarios de la Defensa Pública se consideran retirados o retiradas cuando hayan manifestado por escrito su voluntad de renunciar, debiendo ser aceptada por la Defensora Pública General o Defensor Público General.\n"
+      },
+      "art-129": {
+       "label": "Art. 129",
+       "kind": "art",
+       "text": "Jubilaciones\nArtículo 129. Tendrá derecho a la jubilación la Defensora Pública o Defensor Público, funcionaria o funcionario o empleada o empleado que labore en la Defensa Pública cuando cumplan con los requisitos establecidos en las leyes que rigen el Sistema de Seguridad Social de la República Bolivariana de Venezuela.\n"
+      },
+      "art-130": {
+       "label": "Art. 130",
+       "kind": "art",
+       "text": "Incapacidad\nArtículo 130. Las funcionarias o funcionarios de la Defensa Pública pueden ser incapacitadas o incapacitados cuando padezcan alguna enfermedad, la cual será determinada de conformidad con lo establecido en las leyes.\n"
+      },
+      "art-131": {
+       "label": "Art. 131",
+       "kind": "art",
+       "text": "Destitución\nArtículo 131. Las funcionarias o funcionarios de la Defensa Pública se consideran destituidas o destituidos del cargo cuando sobre ellos recaiga un acto administrativo que así lo declare, previo procedimiento administrativo disciplinario.\n"
+      },
+      "art-132": {
+       "label": "Art. 132",
+       "kind": "art",
+       "text": "Evaluación\nArtículo 132. A los efectos de lograr los objetivos para los cuales ha sido creada la Defensa Pública, las funcionarias o funcionarios serán evaluadas o evaluados periódicamente por la dependencia competente, de acuerdo con las Normas Internas de Organización y Funcionamiento del Órgano y el Estatuto de Personal de la Defensa Pública.\n"
+      },
+      "art-133": {
+       "label": "Art. 133",
+       "kind": "art",
+       "text": "Sanciones disciplinarias\nArtículo 133. Las defensoras públicas y defensores públicos y demás funcionarias o funcionarios que cometan faltas en el ejercicio de sus funciones serán sancionadas o sancionados disciplinariamente, sin perjuicio de la responsabilidad penal, civil o administrativa en que incurran, de conformidad con esta Ley y el Estatuto de Personal de la Defensa Pública.\n"
+      },
+      "art-134": {
+       "label": "Art. 134",
+       "kind": "art",
+       "text": "Tipos de sanción\nArtículo 134. Las sanciones que se podrán imponer a las defensoras públicas o defensores públicos, y a las funcionarias o funcionarios de la Defensa Pública, son las siguientes:\n1. Amonestación escrita.\n2. Destitución del cargo.\n"
+      },
+      "art-135": {
+       "label": "Art. 135",
+       "kind": "art",
+       "text": "Amonestaciones\nArtículo 135. Son causales de amonestación, las siguientes:\n1. Falta de respeto y consideración debida a los superiores, subalternos y compañeros de trabajo.\n2. La embriaguez en lugares públicos o expuestos al público.\n3. El incumplimiento en forma injustificada del horario preestablecido para el ejercicio de sus funciones.\n4. Inasistencia injustificada al trabajo durante tres días hábiles dentro de un lapso de treinta días continuos.\n5. No llegar con puntualidad a los actos de las audiencias fijadas en los tribunales u oficinas públicas sin causa justificada.\n6. Ausentarse del lugar en donde ejerce sus funciones sin la respectiva licencia, en tiempo hábil y sin causa justificada.\n7. Negarse sin justificación a desarrollar actividades para la buena marcha del servicio.\n8. No cumplir con los canales regulares en la tramitación de los asuntos del servicio.\n9. Realizar o promover juegos de envite y azar, dentro de las oficinas del servicio, a excepción de aquéllos realizados o promovidos con fines benéficos.\n10. No llevar correctamente los libros, inventarios y los expedientes.\n11. No dejar constancia en el Libro Diario de sus actuaciones.\n12. No presentar oportunamente el informe de sus actividades y estadísticas.\n13. No inhibirse oportunamente, estando en conocimiento de estar incurso o incursa en una causal de recusación.\n"
+      },
+      "art-136": {
+       "label": "Art. 136",
+       "kind": "art",
+       "text": "Destituciones\nArtículo 136. Son causales de destitución las siguientes:\n1. Agresiones físicas o vías de hecho.\n2. Incurrir en actos que lesionen la respetabilidad del Poder Judicial o que aun no constituyendo delito comprometa gravemente la dignidad del cargo y la honorabilidad de la Defensa Pública.\n3. Solicitar o recibir para sí mismo o misma o para un tercero, préstamos, regalos, dinero u otro tipo de favor o servicio del defendido o defendida, familiares o un tercero.\n4. La condena penal que implique privación de libertad.\n5. Ejercer activismo político-partidista, gremial, sindical o de índole semejante.\n6. El retardo procesal por causas imputables a la Defensora Pública o Defensor Público.\n7. Realizar actos propios del libre ejercicio de la abogacía, salvo las excepciones establecidas en la Constitución de la República Bolivariana de Venezuela y esta Ley.\n8. Incurrir en error inexcusable por desconocimiento o ignorancia de la ley.\n9. Abandono del trabajo.\n10. Abuso de autoridad.\n11. Valerse de su condición de servidora pública o servidor público en actividades diferentes a las del ejercicio de su cargo.\n12. Tener un rendimiento insatisfactorio de acuerdo con lo que se establezca en el Reglamento de esta Ley.\n13. Haber sido objeto de tres amonestaciones escritas en el transcurso de un año.\n14. La simulación de enfermedad o invocar causa ficticia, para eludir el cumplimiento de sus obligaciones.\n15. Cualquier otra que represente conducta personal o profesional inapropiada a la dignidad del cargo, negligencia, descuido o retardo en el ejercicio de sus funciones.\n16. Incurrir en retrasos y descuidos injustificados en la tramitación de los asuntos encomendados y cualquier diligencia de los mismos.\n17. Permitir que la sede, equipos y materiales del despacho donde presta sus servicios, sean utilizados para otro fin o cause perjuicio material grave a los bienes de la Defensa Pública.\n18. Ausentarse del lugar donde debe cumplirse la guardia asignada sin participar a la Coordinadora o Coordinador de la Unidad Regional de Defensa Pública para ser sustituida o sustituido.\n"
+      },
+      "art-137": {
+       "label": "Art. 137",
+       "kind": "art",
+       "text": "Procedimiento disciplinario\nArtículo 137. La Defensa Pública ejercerá su potestad disciplinaria atendiendo a los principios de legalidad, imparcialidad, racionalidad y proporcionalidad y debido proceso.\n"
+      },
+      "art-138": {
+       "label": "Art. 138",
+       "kind": "art",
+       "text": "Denuncia\nArtículo 138. Cualquier persona que tenga conocimiento de la comisión de un ilícito disciplinario cometido por cualquier funcionaria o funcionario de la Defensa Pública podrá denunciarlo, por cualquier vía, ante la dependencia encargada de la vigilancia y disciplina.\n"
+      },
+      "art-139": {
+       "label": "Art. 139",
+       "kind": "art",
+       "text": "Procedimientos\nArtículo 139. Los procedimientos para establecer las faltas se iniciarán por denuncia o de oficio. Una vez iniciada la investigación, se le notificará al investigada o investigado para que ejerza dentro de los ocho días hábiles siguientes su derecho a la defensa. Vencido este lapso, la Defensa Pública tendrá treinta días hábiles, prorrogables por un tiempo igual, para emitir pronunciamiento sobre la apertura del procedimiento o archivo de la investigación; de este último se notificará a las partes, quienes podrán ejercer el recurso de reconsideración, el cual podrá ser interpuesto dentro de los quince días hábiles siguientes a la notificación del acto. El recurso se decidirá dentro de los diez días hábiles siguientes. De no producirse decisión dentro del lapso establecido anteriormente, se entenderá que el recurso interpuesto ha sido resuelto en forma negativa.\n"
+      },
+      "art-140": {
+       "label": "Art. 140",
+       "kind": "art",
+       "text": "Investigación\nArtículo 140. En la investigación, así como en la sustanciación del procedimiento administrativo disciplinario la unidad administrativa encargada de la vigilancia y disciplina tendrá las más amplias facultades de investigación. Dentro de la actividad de investigación y sustanciación se podrán realizar, entre otros, los siguientes actos:\n1. Suspender del cargo a la funcionaria o funcionario investigada o investigado del ejercicio de la función.\n2. Citar a declarar a cualquier persona en relación a los hechos.\n3. Requerir de las personas relacionadas, documentos o información pertinente para el esclarecimiento de los hechos.\n4. Emplazar, a través de cualquier medio, a toda persona interesada que pudiese suministrar información relacionada con los hechos. En el curso de la misma, cualquier particular podrá consignar en el expediente administrativo, los documentos que contribuyan al esclarecimiento del caso.\n5. Requerir de otros organismos públicos información respecto a las personas involucradas, siempre que la misma no hubiere sido declarada confidencial o secreta, de conformidad con las leyes.\n6. Realizar las inspecciones que considere pertinentes.\n7. Recabar las demás diligencias y pruebas necesarias.\n"
+      },
+      "art-141": {
+       "label": "Art. 141",
+       "kind": "art",
+       "text": "Acto de apertura\nArtículo 141. El acto de apertura del procedimiento disciplinario será dictado por la Dirección de Recursos Humanos de la Defensa Pública y en él se establecerán con claridad los hechos imputados y las consecuencias que pudiesen desprenderse de la constatación de los mismos, emplazándose a la investigada o investigado para que en un lapso no mayor de diez días hábiles presente su escrito de descargo, con la advertencia de que la falta de presentación del informe no suspenderá la continuación del procedimiento. En el supuesto de que los descargos los formule verbalmente el investigado o investigada, la funcionaria o funcionario designada o designado de la investigación deberá levantar un acta, que una vez leída, suscribirá conjuntamente con la investigada o investigado.\n"
+      },
+      "art-142": {
+       "label": "Art. 142",
+       "kind": "art",
+       "text": "Vencimiento del término\nArtículo 142. Vencido el término para la presentación del escrito de descargo, se abre de pleno derecho un lapso de dieciséis días hábiles para que la investigado o investigada promueva y evacúe las pruebas necesarias. Dicha etapa estará dividida de la siguiente forma: cinco días para la promoción de pruebas; tres días para la admisión; y ocho días para la evacuación, prorrogable por un lapso Igual, en caso de ser necesario.\n"
+      },
+      "art-143": {
+       "label": "Art. 143",
+       "kind": "art",
+       "text": "Medios de prueba\nArtículo 143. Los medios de prueba serán los establecidos en el Código Civil, el Código de Procedimiento Civil y cualquier otro previsto en las leyes, siempre que no sean contrarios a los principios básicos de los procedimientos disciplinarios. No serán admisibles como pruebas las posiciones juradas ni el juramento decisorio.\n"
+      },
+      "art-144": {
+       "label": "Art. 144",
+       "kind": "art",
+       "text": "Apertura del procedimiento\nArtículo 144. Una vez ordenada la apertura del procedimiento, corresponderá a la dependencia encargada de la vigilancia y disciplina, la realización de todas las actuaciones necesarias para la sustanciación del mismo, salvo decidir acerca de la aplicación de las medidas cautelares previstas en esta Ley, las cuales corresponderán a la Defensora Pública General o Defensor Público General.\n"
+      },
+      "art-145": {
+       "label": "Art. 145",
+       "kind": "art",
+       "text": "De la conclusión del expediente\nArtículo 145. Concluida la sustanciación del expediente o transcurrido el lapso para ello, éste se remitirá a la Defensora Pública General o Defensor Público General de la Defensa Pública quien, sin perjuicio de que pueda ordenar la práctica de cualquier otra prueba o diligencia que complemente la investigación, previa notificación de la investigada o investigado, deberá dictar la decisión correspondiente dentro de los quince días hábiles siguientes a su recepción.\n"
+      },
+      "art-146": {
+       "label": "Art. 146",
+       "kind": "art",
+       "text": "Recurso de reconsideración\nArtículo 146. Contra las sanciones impuestas por la Defensora Pública General o Defensor Público General se podrá ejercer el recurso de reconsideración, dentro de los quince días hábiles siguientes a la notificación del acto. El recurso se decidirá dentro de los diez días hábiles siguientes. De no producirse decisión dentro del lapso establecido anteriormente, se entenderá que el recurso interpuesto ha sido resuelto en forma negativa.\n"
+      },
+      "art-147": {
+       "label": "Art. 147",
+       "kind": "art",
+       "text": "Lapso para acudir a la jurisdicción contencioso administrativa\nArtículo 147. Las sanciones impuestas por la Defensora Pública General o Defensor Público General serán recurribles ante los órganos jurisdiccionales competentes por la materia, dentro de los tres meses siguientes a la fecha en que se produzca la notificación del acto.\n"
+      },
+      "art-148": {
+       "label": "Art. 148",
+       "kind": "art",
+       "text": "Acción disciplinaria\nArtículo 148. La acción disciplinaria prescribirá en un lapso de dos años, contados a partir del día en que se cometió el acto constitutivo de la falta. La iniciación del proceso disciplinario interrumpe la prescripción. La existencia de un proceso penal sobre hechos que tipifican también faltas disciplinarias, da lugar a la suspensión del proceso disciplinario.\n"
+      },
+      "art-149": {
+       "label": "Art. 149",
+       "kind": "art",
+       "text": "Inspectoría General de Defensas Públicas\nArtículo 149. La Inspectoría General de Defensas Públicas es un órgano dependiente Jerárquica, organizativa y funcionalmente de la Sala Plena del Tribunal Supremo de Justicia. La Inspectoría General de Defensas Públicas es una unidad dirigida por la Inspectora o Inspector General de Defensas Públicas, quien será de libre nombramiento y remoción de la Sala Plena del Tribunal Supremo de Justicia.\nLa Inspectoría General de Defensas Públicas tendrá como función esencial inspeccionar y vigilar, por órgano del Tribunal Supremo de Justicia, a las Defensas Públicas, de conformidad con lo establecido en esta Ley.\n"
+      },
+      "art-150": {
+       "label": "Art. 150",
+       "kind": "art",
+       "text": "Atribuciones\nArtículo 150. La Inspectoría General de Defensas Públicas tiene las siguientes atribuciones:\n1. Realizar Inspecciones a las Defensas Públicas y dejar constancia de ello en acta.\n2. Atender los reclamos que le formulen acerca del desempeño de la actividad de las Defensas Públicas.\n3. Recabar los elementos de convicción en relación a la infracción disciplinaria que se investiga.\n4. Solicitar el inicio de los procedimientos disciplinarios a que hubiere lugar ante la Defensa Pública e intervenir en los mismos, sin perjuicio de la potestad disciplinaria de las máximas autoridades de dicho órgano.\n5. Las demás que establezca la presente Ley y las demás leyes.\n"
+      },
+      "art-151": {
+       "label": "Art. 151",
+       "kind": "art",
+       "text": "Archivo\nArtículo 151. El archivo de la Defensa Pública es privado y reservado para el servicio oficial, a excepción de lo previsto en la Constitución de la República Bolivariana de Venezuela, esta Ley y su Reglamento.\n"
+      },
+      "art-152": {
+       "label": "Art. 152",
+       "kind": "art",
+       "text": "Resguardo y confidencialidad de archivos\nArtículo 152. Todas las ciudadanas y ciudadanos tienen acceso a los archivos e informes, salvo aquellos documentos que hayan sido declarados confidenciales mediante acto motivado. A las defensoras públicas, defensores públicos, y demás funcionarias y funcionarios les está prohibido conservar para sí, tomar o publicar copia de papeles, documentos o expedientes del archivo de los despachos respectivos; de igual modo, guardarán secretos sobre las causas que conozcan, salvo para quienes demuestren un interés legítimo, personal y directo, en cuyo caso podrán acceder a sus documentos previa autorización del superior inmediato.\n"
+      },
+      "disp-transitoria-01": {
+       "label": "Disposición transitoria única",
+       "kind": "transitional",
+       "text": "UNICA. Dentro de los treinta días siguientes a la vigencia de esta Ley, se iniciará el proceso para la designación de la Defensora Pública General o Defensor Público General.\n"
+      },
+      "disp-derogatoria-01": {
+       "label": "Disposición derogatoria única",
+       "kind": "repeal",
+       "text": "ÚNICA. A la entrada en vigencia de esta Ley, quedan derogadas todas las disposiciones legales que coliden con ella.\n"
+      },
+      "disp-final-01": {
+       "label": "Disposición final única",
+       "kind": "final",
+       "text": "ÚNICA. Esta Ley entrará en vigencia a partir de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela.\n"
+      },
+      "titulos": {
+       "label": "Libros, títulos, capítulos y secciones",
+       "kind": "heading",
+       "text": "TÍTULO I. DISPOSICIONES GENERALES\nCapítulo I Objeto de la Ley, Creación y Autonomía\nCapítulo II. Principios Generales\nTÍTULO II. ORGANIZACIÓN ADMINISTRATIVA Y PRESUPUESTARIA DE LA DEFENSA PÚBLICA\nCapítulo I Organización Administrativa\nSección primera: Defensora Pública General o Defensor Público\nGeneral\nSección segunda: Coordinación General\nSección tercera: Unidades regionales de la defensa pública\nCapítulo II. Organización Presupuestaria y Bienes Nacionales de la Defensa Pública\nTÍTULO III. DEFENSORAS PÚBLICAS O DEFENSORES PÚBLICOS\nCapítulo I Nombramientos, Requisitos y Obligaciones de las Defensoras Públicas o de Defensores Públicos de Carrera\nTÍTULO IV. INHIBICIONES Y RECUSACIONES\nTÍTULO V. COMPETENCIA DE LAS DEFENSORAS PÚBLICAS O DEFENSORES PÚBLICOS\nCapítulo I Competencias\nSección Primera: Defensoras públicas o defensores\npúblicos con competencia en materia penal\nSección segunda: Defensoras públicas o defensores públicos con\ncompetencia en materia penal militar\nSección tercera: Defensoras públicas o defensores públicos con\ncompetencia en materia agraria\nSección Cuarta: Defensoras públicas o defensores públicos\ncon competencia en materia laboral\nSección quinta: Defensoras públicas o defensores públicos con\ncompetencia en materia de Protección de la Niña, Niño y Adolescente\nSección sexta: Defensoras públicas o defensores públicos con\nCompetencia en materia de Responsabilidad Penal del Adolescente\nSección séptima: Defensoras públicas o defensores\npúblicos de Indígenas\nSección octava: Defensoras públicas o defensores públicos con\nCompetencia en materia Civil, Mercantil y Tránsito\nSección novena: Defensoras públicas o defensores públicos con\ncompetencia en materia Contencioso Administrativa\nSección décima: Defensoras públicas o defensores públicos con\ncompetencia ante los órganos y entes administrativos nacionales y estadales\nSección décima primera: Defensoras públicas o defensores públicos\ncon competencia ante los órganos y entes administrativos municipales\nSección décima segunda:\nDefensoras públicas o defensores públicos Integrales\nSección décima tercera: Defensoras públicas o defensores públicos\ncon Competencia ante el Tribunal Supremo de Justicia\nTÍTULO VI. PARTICIPACIÓN POPULAR\nTÍTULO VII. CARRERA DE LA DEFENSORA PÚBLICA O DEFENSOR PÚBLICO Y DEL RÉGIMEN DE PERSONAL\nCapítulo I Carrera de las defensoras públicas o defensores públicos\nCapítulo II. Condiciones para el Ingreso a la Carrera de Defensora Pública o Defensor Público\nCapítulo III. Faltas, Permisos, Licencias y Traslados\nCapítulo IV. Retiro y la Evaluación\nCapítulo V. Sanciones\nCapítulo VI. Procedimiento Disciplinario\nCapítulo VII. Inspectoría General de Defensas Públicas\nTÍTULO VIII. ARCHIVO Y EL MANEJO DE LA DOCUMENTACIÓN\nDISPOSICIÓN TRANSITORIA\nDISPOSICIÓN DEROGATORIA\nDISPOSICIÓN FINAL\n"
+      }
+     },
+     "credits": {},
+     "note": "Texto único of the Ley Orgánica de la Defensa Pública as reformed in 2022, printed in G.O. 6.702 Ext. of 25 May 2022 and in force on publication (Disposición final única). Earlier texts are not in this record."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "Gaceta Oficial N° 6.702 Extraordinario (25 May 2022), Imprenta Nacional portal gacetaoficial.gob.ve",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+   "retrieved": "2026-10-29",
+   "requests": 1,
+   "licence": "Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here).",
+   "notes": "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública followed by the texto único of the law. Born-digital PDF; read from its text layer with gazette_text.py."
+  }
+ ],
+ "decisions": [
+  "LODP: the Ley Orgánica de Reforma Parcial of 2022 is printed first in G.O. 6.702 Ext., then the law in full; only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2022-05-25. Credited to the publisher as the oldest version available. What shows of three of the source document's footers ('Pá i 29 d 83', what a white box leaves of 'Página 29 de 83', on pp. 8, 10 and 19) is dropped as page furniture."
+ ],
+ "ai_use": []
+}

@@ -4,7 +4,7 @@
   "name": "Venezuela",
   "level": "country",
   "repo": "https://github.com/lexifina/venezuela-law",
-  "build": "built: Constitución 1999-2026 (2 versions); Constitución 1961-1999 (4 versions, arts. 191-192 missing from source); COPP 2021, COT 2020, Código Orgánico Penitenciario 2021, Código Orgánico de Justicia Militar 2021, LOTSJ 2022, Ley IVA 2020 and Ley Orgánica de Aduanas 2020 (1 version each, from born-digital gazettes). Código Civil, Código Penal, Código de Comercio: scans only, not built (no OCR).",
+  "build": "built: Constitución 1999-2026 (2 versions); Constitución 1961-1999 (4 versions, arts. 191-192 missing from source); COPP 2021, COT 2020, Código Orgánico Penitenciario 2021, Código Orgánico de Justicia Militar 2021, LOTSJ 2022, Ley IVA 2020, Ley Orgánica de Aduanas 2020, Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia 2021, Ley IGTF 2022, Ley contra la Corrupción 2022, Ley Orgánica de la Defensa Pública 2022, Ley Orgánica de las Zonas Económicas Especiales 2022 and Ley Orgánica de Extinción de Dominio 2023 (1 version each), Ley Orgánica de Hidrocarburos 2026 (2 versions), all from born-digital gazettes. Código Civil, Código Penal, Código de Comercio: scans only, not built (no OCR).",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
   "sources": 11
