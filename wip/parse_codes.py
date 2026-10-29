@@ -264,6 +264,19 @@ def act_columns(spec: dict, filtered: bool = True) -> list[gazette_text.Column]:
             i = next(i for i, l in enumerate(src) if l.text.startswith(first))
             assert all(l.text != src[i].text for l in col.lines), (spec["short"], first)
             col.lines = sorted(col.lines + src[i:], key=lambda l: l.y)
+    if filtered:
+        # spec['skip']: (page, side, first words) of a passage the gazette prints twice in a row; its
+        # first printing, from that line to the column's end, is read once (the second printing stays)
+        for page, side, first in spec.get("skip", ()):
+            col = next(c for c in cols if (c.page, c.side) == (page, side))
+            i = next(i for i, l in enumerate(col.lines) if l.text.startswith(first))
+            col.lines = col.lines[:i]
+        # spec['furniture']: a regex for printed fragments of page furniture that a white box covers
+        # only in part (for example 'Pá i 29 d 83', what shows of a 'Página 29 de 83' footer)
+        if spec.get("furniture"):
+            rx = re.compile(spec["furniture"])
+            for c in cols:
+                c.lines = [l for l in c.lines if not rx.fullmatch(l.text)]
     return [c for c in cut(cols, *spec["cut"])]
 
 
@@ -427,6 +440,7 @@ def ve2_acts() -> list[dict]:
         {"part": "39-mujeres", "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia", "short": "LODMVLV",
          "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
          "url": MUJ, "cut": ("A UNA VIDA LIBRE DE VIOLENCIA", DADA), "last": None, "single": (39, 40, 41),
+         "skip": [(35, 1, "Inicio ante otro órgano receptor"), (38, 0, "2. Una sala de trabajo")], "furniture": r"á d",
          "from": "2021-12-16", "gazette": ("6.667 Extraordinario", "16 Dec 2021"),
          "law": ("lo-reforma-mujeres-2021", law("Ley Orgánica de Reforma de la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (2021)", "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia, sancionada el 1 de diciembre de 2021", "law", "2021-12-01", "2021-12-16", MUJ)),
          "first_law": None, "earlier": [],
@@ -434,7 +448,7 @@ def ve2_acts() -> list[dict]:
          "note": "Texto único of the Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia as reformed in 2021, printed in G.O. 6.667 Ext. of 16 Dec 2021 and in force on publication (art. 65 of the reform; Disposición final única). The laws of 2007 and 2014 are not in this record.",
          "decisions": ["LODMVLV: the Ley Orgánica de Reforma of 2021 (arts. 1-66) is printed first in G.O. 6.667 Ext., then the law in full (art. 66 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 65 of the reform and the Disposición final única of the text), so from 2021-12-16. Credited to the publisher as the oldest version available. Its last three pages (39-41, the dispositions) are set in one full-width column and are read as such."]},
         {"part": "40-defensa-publica", "slug": "ley-organica-de-la-defensa-publica", "short": "LODP", "title": "Ley Orgánica de la Defensa Pública",
-         "url": DP, "cut": ("LEY ORGÁNICA DE LA DEFENSA PÚBLICA", DADA), "last": None,
+         "url": DP, "cut": ("LEY ORGÁNICA DE LA DEFENSA PÚBLICA", DADA), "last": None, "furniture": r"Pá i \d+ d 83",
          "from": "2022-05-25", "gazette": ("6.702 Extraordinario", "25 May 2022"),
          "law": ("lo-reforma-defensa-publica-2022", law("Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública (2022)", "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública, sancionada el 17 de mayo de 2022", "law", "2022-05-17", "2022-05-25", DP)),
          "first_law": None, "earlier": [],
