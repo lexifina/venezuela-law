@@ -64,7 +64,7 @@ def margins(col: gazette_text.Column) -> tuple[float, float]:
     return x0[len(x0) // 10], x1[(9 * len(x1)) // 10]
 
 
-def paragraphs(cols: list[gazette_text.Column]) -> list[tuple[str, str]]:
+def paragraphs(cols: list[gazette_text.Column], flush_sections: bool = False) -> list[tuple[str, str]]:
     """[(kind, text)]: 'p' paragraph, 'h' heading (centred, or LIBRO/TÍTULO/Capítulo/... at the start
     of a paragraph), 'e' epigraph (a short line set flush right). A line ends a paragraph if it ends
     with . : ; and stops well short of the right margin; numbered items and articles start their own
@@ -105,6 +105,11 @@ def paragraphs(cols: list[gazette_text.Column]) -> list[tuple[str, str]]:
                 wrapping = False
                 continue
             wrapping = False
+            if flush_sections and lo > 25 and ro < 15 and any(rx.match(t) for _, rx in SECTIONS):
+                # 'Disposición Transitoria' etc. set flush right like an epigraph (LOZEE): a heading
+                flush()
+                out.append(("h", norm(t)))
+                continue
             if lo > 25 and ro < 15 and len(t) < 80 and not special and not cur:
                 flush()
                 if out and out[-1][0] == "e":
@@ -468,6 +473,7 @@ def ve2_acts() -> list[dict]:
         {"part": "42-zee", "slug": "ley-organica-de-las-zonas-economicas-especiales", "short": "LOZEE",
          "title": "Ley Orgánica de las Zonas Económicas Especiales",
          "url": ZEE, "cut": ("LEY ORGÁNICA DE LAS ZONAS ECONÓMICAS ESPECIALES", DADA), "last": None,
+         "flush_sections": True, "furniture": r"p|0 de julio de 2022 N° 6\.710 Extraordinario",
          "from": "2022-07-20", "gazette": ("6.710 Extraordinario", "20 Jul 2022"),
          "law": ("ley-organica-zee-2022", law("Ley Orgánica de las Zonas Económicas Especiales (2022)", "Ley Orgánica de las Zonas Económicas Especiales, sancionada el 30 de junio de 2022", "law", "2022-06-30", "2022-07-20", ZEE)),
          "first_law": "ley-organica-zee-2022", "earlier": [],
@@ -476,6 +482,7 @@ def ve2_acts() -> list[dict]:
          "decisions": ["LOZEE: a new law, printed once in G.O. 6.710 Ext. of 20 Jul 2022; read from its title to the closing 'Dada, firmada y sellada'. In force on publication, 2022-07-20 (its final disposition). Credited to the law itself as first_law (the act as enacted)."]},
         {"part": "43-extincion-dominio", "slug": "ley-organica-de-extincion-de-dominio", "short": "LOED", "title": "Ley Orgánica de Extinción de Dominio",
          "url": LOED, "cut": ("LEY ORGÁNICA DE EXTINCIÓN DE DOMINIO", DADA), "last": None, "single": (7, 8),
+         "furniture": r"8 de abril de 2023 N° 6\.745 Extraordinario",
          "from": "2023-04-28", "gazette": ("6.745 Extraordinario", "28 Apr 2023"),
          "law": ("ley-organica-extincion-dominio-2023", law("Ley Orgánica de Extinción de Dominio (2023)", "Ley Orgánica de Extinción de Dominio, sancionada el 27 de abril de 2023", "law", "2023-04-27", "2023-04-28", LOED)),
          "first_law": "ley-organica-extincion-dominio-2023", "earlier": [],
@@ -510,7 +517,7 @@ COMMON_DECISIONS = [
 
 
 def build_act(spec: dict) -> tuple[dict, dict]:
-    units = units_from(paragraphs(act_columns(spec)), spec["short"])
+    units = units_from(paragraphs(act_columns(spec), spec.get("flush_sections", False)), spec["short"])
     nums = [int(k[4:7]) for k in units if k.startswith("art-") and len(k) == 7]
     problems = check_sequence(units, spec["short"], spec["last"] or max(nums))
     if problems:
