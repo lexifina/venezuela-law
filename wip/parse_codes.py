@@ -400,6 +400,91 @@ ACTS = [
      "decisions": ["LOA: the Decreto Constituyente de Reforma of 29 Jan 2020 (arts. 1-21) is printed in G.O. 6.507 Ext., followed by the law in full (its art. 21 orders a single text); only the texto único is read. In force 'cumplido el plazo de veinte (20) días continuos, contado a partir del día siguiente de su publicación' (art. 195 as reformed): the twenty days run from 30 Jan to 18 Feb 2020, so the first day in force is taken as 2020-02-19. Credited to the publisher as the oldest version available."]},
 ]
 
+UNKNOWN = "[La fuente no da el texto vigente en esta fecha.]\n"
+
+
+def ve2_acts() -> list[dict]:
+    """Acts added in the second deepening pass (gitlaw-VE-2, 2026-10-29): parts 38-44."""
+    def gz(path):
+        return GACETA + "storage/" + path
+    CORR = gz("2022/T028700038641-0-6.699_02-05-2022-000.pdf")
+    MUJ = gz("2021/T028700037619-0-GOE_6.667-000.pdf")
+    DP = gz("2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf")
+    IGTF = gz("2022/T028700038065-0-6.687_25-02-2022-000.pdf")
+    ZEE = gz("2022/T028700039556-0-GOE_6.710-000.pdf")
+    LOED = gz("2023/T028700042208-0-GOE_6.745_ma-000.pdf")
+    LOH = gz("2026/6978-2026-01-29-EXTRAORDINARIA.pdf")
+    DADA = "Dada, firmada y sellada en el Palacio Federal Legislativo"
+    return [
+        {"part": "38-corrupcion", "slug": "ley-contra-la-corrupcion", "short": "LCC", "title": "Ley contra la Corrupción",
+         "url": CORR, "cut": ("LEY CONTRA LA CORRUPCIÓN", DADA), "last": None,
+         "from": "2022-05-02", "gazette": ("6.699 Extraordinario", "2 May 2022"),
+         "law": ("ley-reforma-corrupcion-2022", law("Ley de Reforma de la Ley contra la Corrupción (2022)", "Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción, sancionada el 31 de marzo de 2022", "law", "2022-03-31", "2022-05-02", CORR)),
+         "first_law": None, "earlier": [],
+         "contents": "Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (art. 28 orders the reprint) followed by the texto único of the Ley contra la Corrupción.",
+         "note": "Texto único of the Ley contra la Corrupción as reformed by the Ley de Reforma sanctioned on 31 Mar 2022, printed in G.O. 6.699 Ext. of 2 May 2022 and in force on publication (art. 27 of the reform). Earlier texts (2003, 2014) are image scans and are not in this record.",
+         "decisions": ["LCC: the Ley de Reforma del Decreto con Rango, Valor y Fuerza de Ley contra la Corrupción (arts. 1-28) is printed first in G.O. 6.699 Ext. of 2 May 2022, then the law in full (its art. 28 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 27 of the reform), so from 2022-05-02. Credited to the publisher as the oldest version available."]},
+        {"part": "39-mujeres", "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia", "short": "LODMVLV",
+         "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
+         "url": MUJ, "cut": ("A UNA VIDA LIBRE DE VIOLENCIA", DADA), "last": None, "single": (39, 40, 41),
+         "from": "2021-12-16", "gazette": ("6.667 Extraordinario", "16 Dec 2021"),
+         "law": ("lo-reforma-mujeres-2021", law("Ley Orgánica de Reforma de la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (2021)", "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia, sancionada el 1 de diciembre de 2021", "law", "2021-12-01", "2021-12-16", MUJ)),
+         "first_law": None, "earlier": [],
+         "contents": "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (art. 66 orders the reprint) followed by the texto único of the law.",
+         "note": "Texto único of the Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia as reformed in 2021, printed in G.O. 6.667 Ext. of 16 Dec 2021 and in force on publication (art. 65 of the reform; Disposición final única). The laws of 2007 and 2014 are not in this record.",
+         "decisions": ["LODMVLV: the Ley Orgánica de Reforma of 2021 (arts. 1-66) is printed first in G.O. 6.667 Ext., then the law in full (art. 66 orders the single text); only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (art. 65 of the reform and the Disposición final única of the text), so from 2021-12-16. Credited to the publisher as the oldest version available. Its last three pages (39-41, the dispositions) are set in one full-width column and are read as such."]},
+        {"part": "40-defensa-publica", "slug": "ley-organica-de-la-defensa-publica", "short": "LODP", "title": "Ley Orgánica de la Defensa Pública",
+         "url": DP, "cut": ("LEY ORGÁNICA DE LA DEFENSA PÚBLICA", DADA), "last": None,
+         "from": "2022-05-25", "gazette": ("6.702 Extraordinario", "25 May 2022"),
+         "law": ("lo-reforma-defensa-publica-2022", law("Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública (2022)", "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública, sancionada el 17 de mayo de 2022", "law", "2022-05-17", "2022-05-25", DP)),
+         "first_law": None, "earlier": [],
+         "contents": "Ley Orgánica de Reforma Parcial de la Ley Orgánica de la Defensa Pública followed by the texto único of the law.",
+         "note": "Texto único of the Ley Orgánica de la Defensa Pública as reformed in 2022, printed in G.O. 6.702 Ext. of 25 May 2022 and in force on publication (Disposición final única). Earlier texts are not in this record.",
+         "decisions": ["LODP: the Ley Orgánica de Reforma Parcial of 2022 is printed first in G.O. 6.702 Ext., then the law in full; only the texto único is read, from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2022-05-25. Credited to the publisher as the oldest version available."]},
+        {"part": "41-igtf", "slug": "ley-de-impuesto-a-las-grandes-transacciones-financieras", "short": "LIGTF",
+         "title": "Ley de Impuesto a las Grandes Transacciones Financieras",
+         "url": IGTF, "cut": ("FINANCIERAS", DADA), "last": None,
+         "from": "2022-03-27", "gazette": ("6.687 Extraordinario", "25 Feb 2022"),
+         "law": ("ley-reforma-igtf-2022", law("Ley de Reforma Parcial de la Ley de Impuesto a las Grandes Transacciones Financieras (2022)", "Ley de Reforma Parcial del Decreto con Rango, Valor y Fuerza de Ley de Impuesto a las Grandes Transacciones Financieras, sancionada el 3 de febrero de 2022", "law", "2022-02-03", "2022-02-25", IGTF)),
+         "first_law": None, "earlier": [],
+         "contents": "Ley de Reforma Parcial del Decreto con Rango, Valor y Fuerza de Ley de Impuesto a las Grandes Transacciones Financieras (art. 13 orders the reprint) followed by the texto único of the law.",
+         "note": "Texto único of the Ley de Impuesto a las Grandes Transacciones Financieras as reformed in 2022, printed in G.O. 6.687 Ext. of 25 Feb 2022 and in force thirty continuous days after publication (art. 25), that is from 27 Mar 2022. Earlier texts (2015, 2018) are not in this record.",
+         "decisions": ["LIGTF: the Ley de Reforma Parcial of 2022 (arts. 1-13) is printed first in G.O. 6.687 Ext. of 25 Feb 2022, then the law in full (art. 13 orders the single text); only the texto único is read, from the second line of its title ('FINANCIERAS') to the closing 'Dada, firmada y sellada'. Art. 25 (added by the reform): in force 'a los treinta (30) días continuos siguientes a su publicación'; the thirtieth day after 25 Feb 2022 is 27 Mar 2022, counted as for the COT, so the version is dated 2022-03-27 (the Asamblea Nacional's law page gives 28/03/2022 as vigencia; the law's own clause is followed). Credited to the publisher as the oldest version available."]},
+        {"part": "42-zee", "slug": "ley-organica-de-las-zonas-economicas-especiales", "short": "LOZEE",
+         "title": "Ley Orgánica de las Zonas Económicas Especiales",
+         "url": ZEE, "cut": ("LEY ORGÁNICA DE LAS ZONAS ECONÓMICAS ESPECIALES", DADA), "last": None,
+         "from": "2022-07-20", "gazette": ("6.710 Extraordinario", "20 Jul 2022"),
+         "law": ("ley-organica-zee-2022", law("Ley Orgánica de las Zonas Económicas Especiales (2022)", "Ley Orgánica de las Zonas Económicas Especiales, sancionada el 30 de junio de 2022", "law", "2022-06-30", "2022-07-20", ZEE)),
+         "first_law": "ley-organica-zee-2022", "earlier": [],
+         "contents": "Ley Orgánica de las Zonas Económicas Especiales, as enacted.",
+         "note": "The Ley Orgánica de las Zonas Económicas Especiales as enacted, G.O. 6.710 Ext. of 20 Jul 2022, in force on publication.",
+         "decisions": ["LOZEE: a new law, printed once in G.O. 6.710 Ext. of 20 Jul 2022; read from its title to the closing 'Dada, firmada y sellada'. In force on publication, 2022-07-20 (its final disposition). Credited to the law itself as first_law (the act as enacted)."]},
+        {"part": "43-extincion-dominio", "slug": "ley-organica-de-extincion-de-dominio", "short": "LOED", "title": "Ley Orgánica de Extinción de Dominio",
+         "url": LOED, "cut": ("LEY ORGÁNICA DE EXTINCIÓN DE DOMINIO", DADA), "last": None, "single": (7, 8),
+         "from": "2023-04-28", "gazette": ("6.745 Extraordinario", "28 Apr 2023"),
+         "law": ("ley-organica-extincion-dominio-2023", law("Ley Orgánica de Extinción de Dominio (2023)", "Ley Orgánica de Extinción de Dominio, sancionada el 27 de abril de 2023", "law", "2023-04-27", "2023-04-28", LOED)),
+         "first_law": "ley-organica-extincion-dominio-2023", "earlier": [],
+         "contents": "Ley Orgánica de Extinción de Dominio, as enacted.",
+         "note": "The Ley Orgánica de Extinción de Dominio as enacted, G.O. 6.745 Ext. of 28 Apr 2023, in force on publication (Disposición final única).",
+         "decisions": ["LOED: a new law, printed once in G.O. 6.745 Ext. of 28 Apr 2023; read from its title to the closing 'Dada, firmada y sellada'. In force 'a partir de su publicación' (Disposición final única), so from 2023-04-28. Credited to the law itself as first_law. Its last two pages (7-8, the dispositions) are set in one full-width column and are read as such."]},
+        {"part": "44-hidrocarburos", "slug": "ley-organica-de-hidrocarburos", "short": "LOH", "title": "Ley Orgánica de Hidrocarburos",
+         "url": LOH, "cut": ("LEY ORGÁNICA DE HIDROCARBUROS", "Dado, firmado y sellado en el Palacio Federal Legislativo"), "last": None,
+         "from": "2026-01-29", "gazette": ("6.978 Extraordinario", "29 Jan 2026"),
+         "law": ("ley-reforma-loh-2026", law("Ley de Reforma de la Ley Orgánica de Hidrocarburos (2026)", "Ley de Reforma de la Ley Orgánica de Hidrocarburos, sancionada el 29 de enero de 2026", "law", "2026-01-29", "2026-01-29", LOH)),
+         "first_law": None, "earlier": [],
+         "deferred": {"from": "2026-03-31",
+                      "units": {"art-051": "reworded", "art-055": "reworded", "art-056": "new", "art-057": "new", "art-058": "new", "art-059": "new"},
+                      "note": "Arts. 51 and 55-59 as printed in the texto único of G.O. 6.978 Ext. take effect once sixty continuous days following publication have run (Disposición final única): from 31 Mar 2026."},
+         "contents": "Ley de Reforma de la Ley Orgánica de Hidrocarburos (art. 35 orders the reprint) followed by the texto único of the law.",
+         "note": "Texto único of the Ley Orgánica de Hidrocarburos as reformed in 2026, printed in G.O. 6.978 Ext. of 29 Jan 2026 and in force on publication except arts. 51 and 55-59 (Disposición final única), which take effect on 31 Mar 2026: until then arts. 56-59 (inserted by the reform) are absent and arts. 51 and 55 (reworded by it) read '[La fuente no da el texto vigente en esta fecha.]', because their earlier wording (2006) survives only as an image scan.",
+         "decisions": ["LOH: the Ley de Reforma de la Ley Orgánica de Hidrocarburos (arts. 1-35) is printed first in G.O. 6.978 Ext. of 29 Jan 2026, then the law in full (art. 35 orders the single text); only the texto único is read, from its title to the closing 'Dado, firmado y sellado'. Its Disposición final única: in force on publication 'salvo los artículos 51, 55, 56, 57, 58 y 59, los cuales entrarán en vigencia una vez transcurrido sesenta (60) días continuos siguientes a su publicación'. The sixty days following 29 Jan 2026 run from 30 Jan to 30 Mar 2026, so those articles take effect on 2026-03-31 (counted as for the Ley Orgánica de Aduanas). The rest is dated 2026-01-29 and credited to the publisher as the oldest version available.",
+                       "LOH arts. 51 and 55-59 (coordinator rule for text that appears before it is in force): per the reform's own articles 16-21, arts. 56, 57, 58 and 59 are new (inserted by the reform), so they are absent from the version of 2026-01-29; arts. 51 and 55 replace former arts. 44 and 48, whose wording is not in any text-layer source, so in that version they read '[La fuente no da el texto vigente en esta fecha.]'. The printed wording of all six arrives on 2026-03-31, credited to the Ley de Reforma of 2026."]},
+    ]
+
+
+ACTS += ve2_acts()
+
+
 COMMON_DECISIONS = [
     "Codes and laws from born-digital gazettes (corpus.d/31-... parts, one per act): only gazettes with a born-digital text layer are used. The Gaceta Oficial portal (gacetaoficial.gob.ve) indexes 2010 on, but its issues before about 2018, and every TSJ or Asamblea Nacional copy of older codes tried (Código Civil 1982, Código Penal 2005, Código de Comercio 1955, COPP 2012, COT 2014, LOTSJ 2010), are image scans; with no OCR they are not read, so each act starts at its latest full official printing.",
     "Gazette text extraction (gazette_text.py): these gazettes are made of text frames pasted on white boxes, and their text layer also holds words that are never printed: frame overflow cut off by a clip path (repeated at the top or bottom of the next page) and older text painted over by a later white box. pdftotext prints all of it (for example item 8 of COPP art. 111 twice). Only characters the page paints are kept, decided from the PDF's own drawing instructions (MuPDF clip handling, and the drawing order of text versus white fills); spaces come from the gaps between printed glyphs. No page image is rendered or recognised. Tool: " + gazette_text.version() + ".",
