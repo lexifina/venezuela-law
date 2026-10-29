@@ -258,12 +258,12 @@ def act_columns(spec: dict, filtered: bool = True) -> list[gazette_text.Column]:
     cols = gazette_text.visible_columns(cache_path(spec["url"]), filtered=filtered, single=single)
     if filtered and spec.get("restore"):
         raw = {(c.page, c.side): c for c in gazette_text.visible_columns(cache_path(spec["url"]), filtered=False, single=single)}
-        for page, side, first in spec["restore"]:
+        for page, side, first, *count in spec["restore"]:  # count: restore only that many lines
             col = next(c for c in cols if (c.page, c.side) == (page, side))
             src = raw[(page, side)].lines
             i = next(i for i, l in enumerate(src) if l.text.startswith(first))
             assert all(l.text != src[i].text for l in col.lines), (spec["short"], first)
-            col.lines = sorted(col.lines + src[i:], key=lambda l: l.y)
+            col.lines = sorted(col.lines + src[i:i + count[0] if count else None], key=lambda l: l.y)
     if filtered:
         # spec['skip']: (page, side, first words) of a passage the gazette prints twice in a row; its
         # first printing, from that line to the column's end, is read once (the second printing stays)
@@ -441,6 +441,7 @@ def ve2_acts() -> list[dict]:
          "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
          "url": MUJ, "cut": ("A UNA VIDA LIBRE DE VIOLENCIA", DADA), "last": None, "single": (39, 40, 41),
          "skip": [(35, 1, "Inicio ante otro órgano receptor"), (38, 0, "2. Una sala de trabajo")], "furniture": r"Pá i \d+ d 139|á d",
+         "restore": [(19, 0, "ocasionar condiciones de violencia", 2)],
          "from": "2021-12-16", "gazette": ("6.667 Extraordinario", "16 Dec 2021"),
          "law": ("lo-reforma-mujeres-2021", law("Ley Orgánica de Reforma de la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia (2021)", "Ley Orgánica de Reforma a la Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia, sancionada el 1 de diciembre de 2021", "law", "2021-12-01", "2021-12-16", MUJ)),
          "first_law": None, "earlier": [],
