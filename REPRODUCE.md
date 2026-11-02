@@ -87,6 +87,7 @@ This file is written by the build on 2026-11-02, the day the source data was ret
 | Gaceta Oficial N° 6.583 Extraordinario (12 Oct 2020), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2020/T028700033940-0-6.583_12-10-2020_ANC-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
 | Gaceta Oficial N° 6.508 Extraordinario (30 Jan 2020), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2020/T028700032245-0-GOE_6.508-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
 | Gaceta Oficial N° 6.688 Extraordinario (25 Feb 2022), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2022/T028700038073-0-6.688_25-02-2022-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
+| Gaceta Oficial N° 6.649 Extraordinario (20 Sep 2021), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2022/T028700036809-0-6.649_20-09-2021-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -168,20 +169,21 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `ley-constitucional-antibloqueo-para-el-desarrollo-nacional-y-la-garantia-de-los-derechos-humanos` | Ley Constitucional Antibloqueo para el Desarrollo Nacional y la Garantía de los Derechos Humanos | 1 | 2020-10-12 to 2020-10-12 |
 | `ley-constitucional-de-la-fuerza-armada-nacional-bolivariana` | Ley Constitucional de la Fuerza Armada Nacional Bolivariana | 1 | 2020-01-30 to 2020-01-30 |
 | `ley-de-publicaciones-oficiales` | Ley de Publicaciones Oficiales | 1 | 2022-02-25 to 2022-02-25 |
+| `ley-de-transparencia-y-acceso-a-la-informacion-de-interes-publico` | Ley de Transparencia y Acceso a la Información de Interés Público | 1 | 2021-09-20 to 2021-09-20 |
 
-The build made 83 commits:
+The build made 84 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 74 | first version of an act |
+| 75 | first version of an act |
 | 9 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `futuro`: laws not yet in force on 2026-11-02.
 - 1 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 88 laws in the record.
-- 136 tags.
+- 89 laws in the record.
+- 138 tags.
 
 ## Dates
 
@@ -193,13 +195,13 @@ When a law gives no date of its own, the default rule applies: Código Civil art
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `858a35227421407f02396319f0404ca6b7902c669506f220067f1307926d2478` (5796177 bytes).
+- Corpus: sha256 `d0b324a67c7d3d2ff4e1e7756488e3fb5d1747fe78fb3859afaef7253c71609a` (5808590 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-83 versions of 74 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+84 versions of 75 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
 
 No second build of this corpus has been compared yet.
 
@@ -394,6 +396,8 @@ No second build of this corpus has been compared yet.
 - LCFANB: four lone fragments in the text layer are not printed and are not read; each is a line cut to a sliver by its frame's clip (checked from the glyph boxes and clips, and on the page) and printed in full in the next or previous column: the tops of '8. Ejercer actividades de policía administrativa y de' at the foot of page 11 and of 'Órgano Rector' at the foot of page 13, and the bottoms of 'delitos;' at the top of page 12 and of 'correspondiente.' at the top of page 19's right column.
 - LPO: a new law, printed once in G.O. 6.688 Ext. of 25 Feb 2022 (sanctioned on 15 de febrero de 2022, per its closing 'Dada, firmada y sellada'); read from its title to that closing. In force: 'Esta Ley entrará en vigencia al momento de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela' (art. 18), so from 2022-02-25. Credited to the law itself as first_law (the act as enacted).
 - LPO: its art. 17 repeals the Ley de Publicaciones Oficiales of 1941 (Gaceta Oficial de los Estados Unidos de Venezuela N° 20.546 of 22 July 1941), which is not in this record. Dropped as page furniture: what shows of the masthead's date line ('5 de febrero de 2022 N° 6.688 Extraordinario').
+- LTAIIP: as-enacted text from G.O. 6.649 Extraordinario, 20 September 2021, articles 1–14 and its final provision. Sanctioned 17 September 2021 (legislative closing); promulgated and published 20 September 2021. In force on publication under its Disposición final única. No later versions are asserted. The two-line title is excluded from the provision body; chapter headings and article epigraphs are retained. Signatures and promulgation endorsements are excluded.
+- LTAIIP: an interleaved gazette masthead fragment (date and issue number) is excluded as page furniture; it is not part of article 3.
 
 ## What AI did and did not do
 
@@ -406,3 +410,4 @@ The commit messages are written by `build.py` from the source data.
 Model use at data-build time:
 - none: no model wrote, summarised or corrected any legal text; parsing is rule-based.
 - none: no model wrote, summarised or corrected any legal text in the gazette parts; parsing is rule-based.
+- A model selected metadata and parser boundaries; legal text comes only from the official PDF text layer. No OCR or model-authored legal text.

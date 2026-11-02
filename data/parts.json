@@ -435,6 +435,12 @@
     "ley-de-publicaciones-oficiales"
    ],
    "sha256": "3109979f6c3a8d7d462248646475bf8a8e4d2a2d59fa8e570c35684a52233815"
+  },
+  "994-q894-transparencia.json": {
+   "acts": [
+    "ley-de-transparencia-y-acceso-a-la-informacion-de-interes-publico"
+   ],
+   "sha256": "a26bb487da784dc5e9c0ae1af4a21e00e1989ab9b6545a04c0598d004ce5f801"
   }
  },
  "schema": 1

@@ -1090,6 +1090,20 @@
      "sha256": "f8fc71e3cea22121e83d1f360c19af44adc3912355d9aee396f0da1a5ee92288"
     }
    ]
+  },
+  {
+   "slug": "ley-de-transparencia-y-acceso-a-la-informacion-de-interes-publico",
+   "short": "LTAIIP",
+   "title": "Ley de Transparencia y Acceso a la Información de Interés Público",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036809-0-6.649_20-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-20",
+     "units": 16,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036809-0-6.649_20-09-2021-000.pdf",
+     "sha256": "62ea4d53b1419100ccac7fc909f82e7c8fcdd587e7f447d6409fc8ebfc871448"
+    }
+   ]
   }
  ]
 }
