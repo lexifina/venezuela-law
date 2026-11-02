@@ -1,0 +1,1067 @@
+{
+ "country": "VE",
+ "acts": [
+  {
+   "slug": "constitucion",
+   "short": "CRBV",
+   "title": "Constitución de la República Bolivariana de Venezuela",
+   "url": "https://www.tsj.gob.ve/constitucion",
+   "versions": [
+    {
+     "from": "1999-12-30",
+     "units": 373,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    },
+    {
+     "from": "2009-02-19",
+     "units": 373,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    }
+   ]
+  },
+  {
+   "slug": "constitucion-1961",
+   "short": "CRV 1961",
+   "title": "Constitución de la República de Venezuela (1961)",
+   "url": "https://www.tsj.gob.ve/constitucion",
+   "versions": [
+    {
+     "from": "1961-01-23",
+     "units": 276,
+     "source_url": "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf",
+     "sha256": "2ae249783d01e39dad5ddf43fbf5f7293e5b65a99b165868101802b4ae09030e"
+    },
+    {
+     "from": "1973-05-11",
+     "units": 277,
+     "source_url": "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf",
+     "sha256": "2ae249783d01e39dad5ddf43fbf5f7293e5b65a99b165868101802b4ae09030e"
+    },
+    {
+     "from": "1983-03-26",
+     "units": 285,
+     "source_url": "https://web.archive.org/web/20110125000458id_/http://www.tsj.gov.ve:80/legislacion/constitucion1961.pdf",
+     "sha256": "2ae249783d01e39dad5ddf43fbf5f7293e5b65a99b165868101802b4ae09030e"
+    },
+    {
+     "from": "1999-12-30",
+     "units": 0,
+     "source_url": "https://ine.gob.ve/wp-content/uploads/2024/08/1-ConstitucionVzla_GacetaOficial_5908.pdf",
+     "sha256": "13f20a68117eb74b4f71dd31658b7ccac0b64bd16d2f335942696a0385d63977"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-procesal-penal",
+   "short": "COPP",
+   "title": "Código Orgánico Procesal Penal",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.644_17-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 523,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036796-0-6.644_17-09-2021-000.pdf",
+     "sha256": "4abe3f873f552bcb297b2b058541a96589a161d2c5e33d7664785ae20ea7f3af"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-tributario",
+   "short": "COT",
+   "title": "Código Orgánico Tributario",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+   "versions": [
+    {
+     "from": "2020-02-28",
+     "units": 353,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+     "sha256": "bb70262adf6d085a4a6aeabfdb84fac308edd0775f05133f54f481271cf5c84a"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-penitenciario",
+   "short": "COP",
+   "title": "Código Orgánico Penitenciario",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036804-0-GOE_6.647-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 177,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036804-0-GOE_6.647-000.pdf",
+     "sha256": "c0dcc6ef1aa8928a4b7e7c41f9f144a0bc979f4e477e34b230ef5a2c3113623a"
+    }
+   ]
+  },
+  {
+   "slug": "codigo-organico-de-justicia-militar",
+   "short": "COJM",
+   "title": "Código Orgánico de Justicia Militar",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036801-0-GOE_6.646-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 595,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700036801-0-GOE_6.646-000.pdf",
+     "sha256": "ef907303528070f85a57d0300c1782bd96a1517849012a443f9fa5e407a6a8a9"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-del-tribunal-supremo-de-justicia",
+   "short": "LOTSJ",
+   "title": "Ley Orgánica del Tribunal Supremo de Justicia",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037783-0-6.684_19-01-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-01-19",
+     "units": 197,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037783-0-6.684_19-01-2022-000.pdf",
+     "sha256": "595987c4aa26a27a4993d0b8011925ad6a11e3626991a935014485570ac1608a"
+    },
+    {
+     "from": "2026-05-22",
+     "units": 197,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7025-2026-05-22-EXTRAORDINARIA.pdf",
+     "sha256": "c6231ce5224c03e16927c6c6a0cce682500739db7b5b94eeeab08ee56a746777"
+    },
+    {
+     "from": "2026-09-15",
+     "units": 196,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7074-2026-09-15-EXTRAORDINARIA.pdf",
+     "sha256": "30a4ea56e1b902f97c0a22ed9bdb3451b29a02ebf8b430b2272804a2711767aa"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-impuesto-al-valor-agregado",
+   "short": "LIVA",
+   "title": "Decreto con Rango, Valor y Fuerza de Ley que Establece el Impuesto al Valor Agregado",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+   "versions": [
+    {
+     "from": "2020-03-29",
+     "units": 74,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+     "sha256": "bb70262adf6d085a4a6aeabfdb84fac308edd0775f05133f54f481271cf5c84a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-aduanas",
+   "short": "LOA",
+   "title": "Decreto con Rango, Valor y Fuerza de Ley Orgánica de Aduanas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+   "versions": [
+    {
+     "from": "2020-02-19",
+     "units": 196,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032247-0-GOE_6.507-000.pdf",
+     "sha256": "bb70262adf6d085a4a6aeabfdb84fac308edd0775f05133f54f481271cf5c84a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-contra-la-corrupcion",
+   "short": "LCC",
+   "title": "Ley contra la Corrupción",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-05-02",
+     "units": 109,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038641-0-6.699_02-05-2022-000.pdf",
+     "sha256": "d3e646a583d4590269c88259078a04b05286f4d3cc71249f169f389622b53943"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia",
+   "short": "LODMVLV",
+   "title": "Ley Orgánica sobre el Derecho de las Mujeres a una Vida Libre de Violencia",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+   "versions": [
+    {
+     "from": "2021-12-16",
+     "units": 150,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037619-0-GOE_6.667-000.pdf",
+     "sha256": "df7fadfba0642cdff60dfa2715be000e800214d2c9f7d58cd9b8ae98eab7444e"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-la-defensa-publica",
+   "short": "LODP",
+   "title": "Ley Orgánica de la Defensa Pública",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+   "versions": [
+    {
+     "from": "2022-05-25",
+     "units": 156,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038949-0-6.702_25-05-2022_cc-000.pdf",
+     "sha256": "7266d2b24bd56404d43335c1f9e92b3922dee0f4a693612aca7bdc431ef3dc51"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-impuesto-a-las-grandes-transacciones-financieras",
+   "short": "LIGTF",
+   "title": "Ley de Impuesto a las Grandes Transacciones Financieras",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-03-27",
+     "units": 27,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038065-0-6.687_25-02-2022-000.pdf",
+     "sha256": "40d9e1991bc1fe14d04712718ad2e8fa0ece88a9ab0783e7553e7f1a92794077"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-las-zonas-economicas-especiales",
+   "short": "LOZEE",
+   "title": "Ley Orgánica de las Zonas Económicas Especiales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039556-0-GOE_6.710-000.pdf",
+   "versions": [
+    {
+     "from": "2022-07-20",
+     "units": 40,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039556-0-GOE_6.710-000.pdf",
+     "sha256": "559e62ef0327dcd751a4bc20c8aab2afd4843412012f8c284c0b07cd09ee75c6"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-extincion-de-dominio",
+   "short": "LOED",
+   "title": "Ley Orgánica de Extinción de Dominio",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042208-0-GOE_6.745_ma-000.pdf",
+   "versions": [
+    {
+     "from": "2023-04-28",
+     "units": 54,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042208-0-GOE_6.745_ma-000.pdf",
+     "sha256": "bac7e26edd377e2f2c4f29c3389e1b1f4e37c0baa47009477996ef28001daa27"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-hidrocarburos",
+   "short": "LOH",
+   "title": "Ley Orgánica de Hidrocarburos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-01-29",
+     "units": 89,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+     "sha256": "d1ed207bf5555c0df24f62febc4cf66616aa7b8532b14331ca1c9a456d7d3040"
+    },
+    {
+     "from": "2026-03-31",
+     "units": 93,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6978-2026-01-29-EXTRAORDINARIA.pdf",
+     "sha256": "d1ed207bf5555c0df24f62febc4cf66616aa7b8532b14331ca1c9a456d7d3040"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-interpretes-publicos",
+   "short": "LIP",
+   "title": "Ley de Intérpretes Públicos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039155-0-6.703_25-05-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-05-25",
+     "units": 21,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039155-0-6.703_25-05-2022-000.pdf",
+     "sha256": "0889c6e141ca1053a0ca7ec3ff34919ebf38c875f6848cd533f8d18248440dad"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-sellos",
+   "short": "LS",
+   "title": "Ley de Sellos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039467-0-6.711_20-07-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-07-20",
+     "units": 13,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039467-0-6.711_20-07-2022-000.pdf",
+     "sha256": "4bd4c17affc739149b7a974826ed429047de456a8cf8f2f46db44c02dacce218"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-registro-de-antecedentes-penales",
+   "short": "LRAP",
+   "title": "Ley de Registro de Antecedentes Penales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039465-0-6.712_20-07-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-07-20",
+     "units": 21,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039465-0-6.712_20-07-2022-000.pdf",
+     "sha256": "e62114c1264d5e95992698feaa355fbac3a9abd7c9242354102116dd6f337ab1"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-para-la-celeridad-y-optimizacion-de-tramites-administrativos",
+   "short": "LOCOTA",
+   "title": "Ley Orgánica para la Celeridad y Optimización de Trámites Administrativos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/7018-2026-04-08-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-04-08",
+     "units": 18,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7018-2026-04-08-EXTRAORDINARIA.pdf",
+     "sha256": "2e75d16ba1f925f069e00bf146325fa814732e9007390750125a3ad0a3e46f88"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-minas",
+   "short": "LOM",
+   "title": "Ley Orgánica de Minas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/7020-2026-04-16-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-04-16",
+     "units": 141,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7020-2026-04-16-EXTRAORDINARIA.pdf",
+     "sha256": "b56e16675be0e8a3d376a48e882972301024e102c38cc5a5f92f90481ca605eb"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-regimen-especial-de-arrendamiento-de-inmuebles-destinados-a-vivienda",
+   "short": "LREAIV",
+   "title": "Ley del Régimen Especial de Arrendamiento de Inmuebles Destinados a Vivienda",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/7065-2026-08-07-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-08-07",
+     "units": 30,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7065-2026-08-07-EXTRAORDINARIA.pdf",
+     "sha256": "ff03614d9d7c77b768bfa8fe45cbc34ef13df06151bffc23cb6995f8353fce52"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-promocion-y-proteccion-de-la-construccion-de-viviendas",
+   "short": "LPPCV",
+   "title": "Ley de Promoción y Protección de la Construcción de Viviendas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/7071-2026-08-25-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-08-25",
+     "units": 44,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/7071-2026-08-25-EXTRAORDINARIA.pdf",
+     "sha256": "5761c8da03e3898c4ea70292ae74b7ff329f77db7c3c9408893856e9b60b4ff4"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-estatuto-de-la-funcion-de-la-policia-de-investigacion",
+   "short": "LEFPI",
+   "title": "Ley del Estatuto de la Función de la Policía de Investigación",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036794-0-6.643_17-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 143,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036794-0-6.643_17-09-2021-000.pdf",
+     "sha256": "339c3b7cf8d456cdd6c476ef5098689f852242c13c3903ba7b76a86928fc7061"
+    },
+    {
+     "from": "2026-02-05",
+     "units": 143,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6980-2026-02-05-EXTRAORDINARIA.pdf",
+     "sha256": "9359480135106b81b49cf60d9ce249e8d597e2433978bdb8003f297298a0eae7"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-amnistia-para-la-convivencia-democratica",
+   "short": "LACD",
+   "title": "Ley de Amnistía para la Convivencia Democrática",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6990-2026-02-19-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-02-19",
+     "units": 18,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6990-2026-02-19-EXTRAORDINARIA.pdf",
+     "sha256": "3d82ec15b19ba61bc2f7f2a49203c8ca011089820d7768696929ea0fc0e793d8"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-la-cruz-roja-venezolana",
+   "short": "LCRV",
+   "title": "Ley de la Cruz Roja Venezolana",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2026/6995-2026-03-10-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2026-03-10",
+     "units": 20,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2026/6995-2026-03-10-EXTRAORDINARIA.pdf",
+     "sha256": "538463427f3e669ff743c59fa44abe91478e34be1c1ba897f0d579984a1d550f"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-juramento-publico",
+   "short": "LJP",
+   "title": "Ley de Juramento Público",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6660-2021-11-04-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-11-04",
+     "units": 9,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6660-2021-11-04-EXTRAORDINARIA.pdf",
+     "sha256": "ce404bfd00c4134d29fe750f5ee4764837069d18bdc09543480a4264328b1d25"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-teatro",
+   "short": "LT",
+   "title": "Ley del Teatro",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6663-2021-11-11-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-11-11",
+     "units": 21,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6663-2021-11-11-EXTRAORDINARIA.pdf",
+     "sha256": "583c6069ae4f56ff48e321dcd081b1aff4b4e088256453b9b4dae7066fbd1af4"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-promocion-del-ciclismo-urbano",
+   "short": "LPCU",
+   "title": "Ley para la Promoción del Ciclismo Urbano",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6664-2021-11-11-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-11-11",
+     "units": 19,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6664-2021-11-11-EXTRAORDINARIA.pdf",
+     "sha256": "a6a41c4ef26966b343e373a98f970e0ceed544ca1b741e9defb66794d1a94f10"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-la-gran-mision-chamba-juvenil",
+   "short": "LGMCJ",
+   "title": "Ley de la Gran Misión Chamba Juvenil",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6633-2021-07-07-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-07-07",
+     "units": 33,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6633-2021-07-07-EXTRAORDINARIA.pdf",
+     "sha256": "4a3b20106f4f6db87169297e8d7fdc2a63a5881488326ca3cfbc602b85a70caa"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-prevencion-y-erradicacion-del-abuso-sexual-contra-ninas-ninos-y-adolescentes",
+   "short": "LPEASNNA",
+   "title": "Ley para la Prevención y Erradicación del Abuso Sexual contra Niñas, Niños y Adolescentes",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6655-2021-10-07-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-10-07",
+     "units": 22,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6655-2021-10-07-EXTRAORDINARIA.pdf",
+     "sha256": "8a87080196fa921b39a539539615be32453bbc61f7c829532180d64e6176470b"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-el-fomento-y-desarrollo-de-nuevos-emprendimientos",
+   "short": "LFDNE",
+   "title": "Ley para el Fomento y Desarrollo de Nuevos Emprendimientos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6656-2021-10-15-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-10-15",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6656-2021-10-15-EXTRAORDINARIA.pdf",
+     "sha256": "b6159cfa440dc954549b780398125208276f4e8cd42b975634d99cd89962cd9c"
+    },
+    {
+     "from": "2024-09-16",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700049950-0-GOE_6.842-000.pdf",
+     "sha256": "86461c4a41971c72edf3562208f8a3e062bb878511ae356cd7047ca939209220"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-sistema-de-cuidados-para-la-vida",
+   "short": "LSCV",
+   "title": "Ley del Sistema de Cuidados para la Vida",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6665-2021-11-11-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-11-11",
+     "units": 23,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6665-2021-11-11-EXTRAORDINARIA.pdf",
+     "sha256": "d55f42ab820daf4ae11b0b375231b03006179caaafe4e7912b606fa645e12c0c"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-la-comision-para-la-garantia-de-justicia-y-reparacion-de-las-victimas-de-delitos-contra-los-derechos-humanos",
+   "short": "LCGJRV",
+   "title": "Ley de la Comisión para la Garantía de Justicia y Reparación de las Víctimas de Delitos contra los Derechos Humanos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6678-2021-12-27-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-12-27",
+     "units": 22,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6678-2021-12-27-EXTRAORDINARIA.pdf",
+     "sha256": "b8823ec79a78582efdc9a5d5e1c4d4e97880ad93193367a5aafe614ae0e282be"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-fiscalizacion-regularizacion-actuacion-y-financiamiento-de-las-organizaciones-no-gubernamentales-y-organizaciones-sociales-sin-fines-de-lucro",
+   "short": "LFRAFONG",
+   "title": "Ley de Fiscalización, Regularización, Actuación y Financiamiento de las Organizaciones no Gubernamentales y Organizaciones Sociales sin Fines de Lucro",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700050787-0-6.855_15-11-2024-000.pdf",
+   "versions": [
+    {
+     "from": "2024-11-15",
+     "units": 45,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700050787-0-6.855_15-11-2024-000.pdf",
+     "sha256": "52e8a81d20c97176742fd8d5a6d9e19909a11e925e2a2956a7975ce4c541939d"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-libertador-simon-bolivar-contra-el-bloqueo-imperialista-y-en-defensa-de-la-republica-bolivariana-de-venezuela",
+   "short": "LOLSB",
+   "title": "Ley Orgánica Libertador Simón Bolívar contra el Bloqueo Imperialista y en Defensa de la República Bolivariana de Venezuela",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700050673-0-GOE_6.859-000.pdf",
+   "versions": [
+    {
+     "from": "2024-11-29",
+     "units": 26,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700050673-0-GOE_6.859-000.pdf",
+     "sha256": "008701b4da9e719dfdbf8ccce71e16420cf963519df5eb5470e97c098064b4c7"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-creacion-de-la-condecoracion-orden-bicentenario-victoria-de-ayacucho",
+   "short": "LCOBVA",
+   "title": "Ley de Creación de la Condecoración Orden Bicentenario Victoria de Ayacucho",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700051060-0-GOE_6.862-000.pdf",
+   "versions": [
+    {
+     "from": "2024-12-05",
+     "units": 12,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700051060-0-GOE_6.862-000.pdf",
+     "sha256": "6529aa47847ae55424f92e74cf59c2164dff22f6e78196ede0f7c583ba98698a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-sistema-tributario-del-distrito-capital",
+   "short": "LSTDC",
+   "title": "Ley del Sistema Tributario del Distrito Capital",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2025/T028700054365-0-GOE_6.909--000.pdf",
+   "versions": [
+    {
+     "from": "2025-06-02",
+     "units": 43,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2025/T028700054365-0-GOE_6.909--000.pdf",
+     "sha256": "bb26b49fa56391b8242aefd1c9f7bac42729f27ae818a6b78f8e76186eece5d5"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-del-poder-popular",
+   "short": "LOPP",
+   "title": "Ley Orgánica del Poder Popular",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/6812-2024-06-06-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2024-06-06",
+     "units": 40,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/6812-2024-06-06-EXTRAORDINARIA.pdf",
+     "sha256": "2937d74f6f93d6839a35aa66ca8d199d2bfea04113bb8ec1b7a3cf2910104388"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-las-comunas",
+   "short": "LOC",
+   "title": "Ley Orgánica de las Comunas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/6853-2024-12-30-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2024-12-30",
+     "units": 70,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/6853-2024-12-30-EXTRAORDINARIA.pdf",
+     "sha256": "affbfc9c53ece653c5b4806f4d3f86edfe70679146d6ba375702d362325da3e7"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-recreacion",
+   "short": "LOR",
+   "title": "Ley Orgánica de Recreación",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6634-2021-07-07-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-07-07",
+     "units": 45,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6634-2021-07-07-EXTRAORDINARIA.pdf",
+     "sha256": "4512b49b32b5d3b19d81b3323317add3639d9f66c80b808e30bfd8ab29b259fe"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-proteccion-de-las-pensiones-de-seguridad-social-frente-al-bloqueo-imperialista",
+   "short": "LPPSS",
+   "title": "Ley de Protección de las Pensiones de Seguridad Social Frente al Bloqueo Imperialista",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700046262-0-GOE_6.806-000.pdf",
+   "versions": [
+    {
+     "from": "2024-05-08",
+     "units": 16,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700046262-0-GOE_6.806-000.pdf",
+     "sha256": "87d55ecc3b81ed1c64df67a45ac2ec1fbbc070cd95324fda7835c681c8426a23"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-para-la-defensa-de-la-guayana-esequiba",
+   "short": "LODGE",
+   "title": "Ley Orgánica para la Defensa de la Guayana Esequiba",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700045985-0-GOE_6.798-000.pdf",
+   "versions": [
+    {
+     "from": "2024-04-03",
+     "units": 47,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700045985-0-GOE_6.798-000.pdf",
+     "sha256": "4b459030d9b6e5904a4da32e42c577e864fe19df331e90e80838657172d400e3"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-fomento-de-las-exportaciones-no-petroleras",
+   "short": "LFENP",
+   "title": "Ley de Fomento de las Exportaciones No Petroleras",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700047095-0-GOE_6.824-000.pdf",
+   "versions": [
+    {
+     "from": "2024-07-18",
+     "units": 41,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700047095-0-GOE_6.824-000.pdf",
+     "sha256": "c02c428e419ee0e8c671a739ff6343ecf430784e9d0ab89e2518aac9faefef8f"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-para-la-inclusion-igualdad-y-desarrollo-integral-de-las-personas-con-discapacidad",
+   "short": "LOIIDPD",
+   "title": "Ley Orgánica para la Inclusión, Igualdad y Desarrollo Integral de las Personas con Discapacidad",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700049546-0-GOE_6.817-000.pdf",
+   "versions": [
+    {
+     "from": "2024-06-27",
+     "units": 117,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700049546-0-GOE_6.817-000.pdf",
+     "sha256": "807e9834b8b78dbef20287af61824b47f4ff2831a76baee3b6130fc4a4edd8aa"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-justicia-de-paz-comunal",
+   "short": "LOJPC",
+   "title": "Ley Orgánica de Justicia de Paz Comunal",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700049967-0-GOE_6.854-000.pdf",
+   "versions": [
+    {
+     "from": "2024-11-14",
+     "units": 52,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700049967-0-GOE_6.854-000.pdf",
+     "sha256": "98c4d5d75db4e43453e5cc88a2afa8b30b5368a67880bdbb99d778ef3ce379c3"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-regimen-prestacional-de-vivienda-y-habitat",
+   "short": "LRPVH",
+   "title": "Ley del Régimen Prestacional de Vivienda y Hábitat",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700046349-0-GOE_6.805-000.pdf",
+   "versions": [
+    {
+     "from": "2024-05-01",
+     "units": 134,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700046349-0-GOE_6.805-000.pdf",
+     "sha256": "80ce652391b7634d337373cc22d25121d668e2a21010e27da1ccbfeb2e5fda3d"
+    }
+   ]
+  },
+  {
+   "slug": "ley-especial-para-las-trabajadoras-y-trabajadores-con-discapacidad",
+   "short": "LETTD",
+   "title": "Ley Especial para las Trabajadoras y Trabajadores con Discapacidad",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042210-0-GOE_6.735-000.pdf",
+   "versions": [
+    {
+     "from": "2023-01-27",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042210-0-GOE_6.735-000.pdf",
+     "sha256": "a02776387031027652504d9e36c2b70374d5e3fd1d87d69f3798045206ed2549"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-participacion-estudiantil-en-el-subsistema-de-educacion-basica",
+   "short": "LPESEB",
+   "title": "Ley de Participación Estudiantil en el Subsistema de Educación Básica",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700041605-0-GOE_6.737-000.pdf",
+   "versions": [
+    {
+     "from": "2023-02-23",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700041605-0-GOE_6.737-000.pdf",
+     "sha256": "f5971e0c8c343afab6f983b961cc817b755c83f6bd55d303542f67c20f4bfc46"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-proteccion-y-promocion-de-la-produccion-del-agave-cocui-del-cocuy-y-sus-derivados-artesanales",
+   "short": "LPPPAC",
+   "title": "Ley para la Protección y Promoción de la Producción del Agave Cocui, del Cocuy y sus Derivados Artesanales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042298-0-GOE_6.742-000.pdf",
+   "versions": [
+    {
+     "from": "2023-04-03",
+     "units": 27,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042298-0-GOE_6.742-000.pdf",
+     "sha256": "7702833951992bff9c8dc0aac0675a31e60c28f3d11d1171789ae594ed9d229a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-atencion-integral-a-las-personas-con-trastorno-del-espectro-autista",
+   "short": "LAIPTEA",
+   "title": "Ley para la Atención Integral a las Personas con Trastorno del Espectro Autista",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042174-0-GOE_6.744_-000.pdf",
+   "versions": [
+    {
+     "from": "2023-04-24",
+     "units": 17,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042174-0-GOE_6.744_-000.pdf",
+     "sha256": "f0f49cbd7338b1f1e6daf339d35e5fb343420d13406a0cbc2fa2e3fa2e95641b"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-proteccion-de-los-activos-derechos-e-intereses-de-la-republica-y-sus-entidades-en-el-extranjero",
+   "short": "LPADIRE",
+   "title": "Ley para la Protección de los Activos, Derechos e Intereses de la República y sus Entidades en el Extranjero",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042469-0-GOE_6.747-000.pdf",
+   "versions": [
+    {
+     "from": "2023-05-22",
+     "units": 16,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042469-0-GOE_6.747-000.pdf",
+     "sha256": "f3d26722e2caecd2f31716559ca18d72228c09d101975e8f72b508416d32a057"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-archivos-nacionales",
+   "short": "LAN",
+   "title": "Ley de Archivos Nacionales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039750-0-GOE_6.714-000.pdf",
+   "versions": [
+    {
+     "from": "2022-07-26",
+     "units": 18,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700039750-0-GOE_6.714-000.pdf",
+     "sha256": "488366beeeb89c138f42186d6c6a1c5eeda8d356dc2d3dad6ca9b80baff1ae5f"
+    }
+   ]
+  },
+  {
+   "slug": "ley-que-regula-el-uso-del-nombre-titulos-firma-y-efigie-de-el-libertador-y-padre-de-la-patria-simon-bolivar",
+   "short": "LUNLSB",
+   "title": "Ley que Regula el Uso del Nombre, Títulos, Firma y Efigie de El Libertador y Padre de la Patria Simón Bolívar",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700040902-0-GOE_6.718-000.pdf",
+   "versions": [
+    {
+     "from": "2022-10-28",
+     "units": 14,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700040902-0-GOE_6.718-000.pdf",
+     "sha256": "ebe6520d4c517fca2c83f55971903c9be4372fe5accef6536b56e6e78f907233"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-creacion-de-la-condecoracion-orden-dario-vivas",
+   "short": "LCODV",
+   "title": "Ley de Creación de la Condecoración Orden Darío Vivas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700041129-0-GOE_6.722-000.pdf",
+   "versions": [
+    {
+     "from": "2022-12-07",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700041129-0-GOE_6.722-000.pdf",
+     "sha256": "748e26db2057fb850f50e86fab4a05c592e930e7a177ef6e1cd32c9ab7d69be8"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-contraloria-social",
+   "short": "LOCS",
+   "title": "Ley Orgánica de Contraloría Social",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042965-0-GOE_6.748-000.pdf",
+   "versions": [
+    {
+     "from": "2023-06-09",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700042965-0-GOE_6.748-000.pdf",
+     "sha256": "b3e66f9169e92ca322570ed79d5bb9bc30ece338e01206883f8e5cd1ab9e7afd"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-los-consejos-comunales",
+   "short": "LOCC",
+   "title": "Ley Orgánica de los Consejos Comunales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700043884-0-GOE_6.759-000.pdf",
+   "versions": [
+    {
+     "from": "2023-08-25",
+     "units": 62,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2023/T028700043884-0-GOE_6.759-000.pdf",
+     "sha256": "a81925ee79233c977f8feb4b0531aa970bc02fd027a60fc1baf2d0047b5b3a31"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-ciencia-tecnologia-e-innovacion",
+   "short": "LOCTI",
+   "title": "Ley Orgánica de Ciencia, Tecnología e Innovación",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038563-0-6.693_01-04-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-04-01",
+     "units": 70,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038563-0-6.693_01-04-2022-000.pdf",
+     "sha256": "a8aee0a6edc817d03d4c1522942149436506b6c26e899c2ea66b2cf92c4f81e6"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-la-actividad-aseguradora",
+   "short": "LAA",
+   "title": "Ley de la Actividad Aseguradora",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700045801-0-GOE_6.770-000.pdf",
+   "versions": [
+    {
+     "from": "2024-03-29",
+     "units": 158,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2024/T028700045801-0-GOE_6.770-000.pdf",
+     "sha256": "67a84fb22d66e0720d70c4b7fe705d0fa1ebd987ee31e1e7a305e65a1ab75946"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-el-respeto-de-los-derechos-humanos-en-el-ejercicio-de-la-funcion-publica",
+   "short": "LRDHEFP",
+   "title": "Ley para el Respeto de los Derechos Humanos en el Ejercicio de la Función Pública",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037151-0-GOE_6.658-000.pdf",
+   "versions": [
+    {
+     "from": "2021-10-28",
+     "units": 24,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037151-0-GOE_6.658-000.pdf",
+     "sha256": "ad45c26af8fad357847836ac8f2ab4660dd18a43b7fd0fc32b8bbcb4e7340b8a"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-promocion-y-uso-del-lenguaje-con-enfoque-de-genero",
+   "short": "LPULEG",
+   "title": "Ley para la Promoción y Uso del Lenguaje con Enfoque de Género",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037176-0-6.654_07-10-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-10-07",
+     "units": 11,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037176-0-6.654_07-10-2021-000.pdf",
+     "sha256": "dd88d2631df5210a55ae65c5e1144adb9c2420dc528682e74cec496db92b6390"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-amparo-a-la-libertad-y-seguridad-personal",
+   "short": "LOALSP",
+   "title": "Ley Orgánica de Amparo a la Libertad y Seguridad Personal",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036865-0-6.651_22-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-22",
+     "units": 22,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036865-0-6.651_22-09-2021-000.pdf",
+     "sha256": "e08a1ef5753d3beb1db2459a4d7b701e8606e82cd45fb0d5378ec3a24f0c8f89"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-salvaguardia-del-patrimonio-cultural-inmaterial",
+   "short": "LSPCI",
+   "title": "Ley para la Salvaguardia del Patrimonio Cultural Inmaterial",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036867-0-6.652_22-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-22",
+     "units": 29,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036867-0-6.652_22-09-2021-000.pdf",
+     "sha256": "ac1ddb3e9bc34eed6b586927fc4050a7f90ce47d7e4b143b7faf01b43c452b68"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-para-la-atencion-y-desarrollo-integral-de-las-personas-adultas-mayores",
+   "short": "LOADIPAM",
+   "title": "Ley Orgánica para la Atención y Desarrollo Integral de las Personas Adultas Mayores",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/6641-2021-09-13-EXTRAORDINARIA.pdf",
+   "versions": [
+    {
+     "from": "2021-09-13",
+     "units": 45,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/6641-2021-09-13-EXTRAORDINARIA.pdf",
+     "sha256": "1deb48b7723602efe8049605fb97d8215bc51d316476a62cf229f6e050819a7f"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-contra-la-discriminacion-racial",
+   "short": "LOCDR",
+   "title": "Ley Orgánica contra la Discriminación Racial",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037150-0-GOE_6.657-000.pdf",
+   "versions": [
+    {
+     "from": "2021-10-28",
+     "units": 47,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2021/T028700037150-0-GOE_6.657-000.pdf",
+     "sha256": "cfaf664ea6a19b0549e34ab2b82177b3261df5659e5414afb6b45a21d3b2fd65"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-proteccion-de-victimas-testigos-y-demas-sujetos-procesales",
+   "short": "LPVTSP",
+   "title": "Ley de Protección de Víctimas, Testigos y Demás Sujetos Procesales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036798-0-6.645_17-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-17",
+     "units": 51,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036798-0-6.645_17-09-2021-000.pdf",
+     "sha256": "caefaf633da263777206abf58ae79eff421cba324443e9dd54a97112dd0b69bb"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-idiomas-indigenas",
+   "short": "LII",
+   "title": "Ley de Idiomas Indígenas",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036792-0-6.642_13-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-13",
+     "units": 52,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036792-0-6.642_13-09-2021-000.pdf",
+     "sha256": "2d0560ab1261604d0ed4907d6d589fc45bba1c7edc6f77205b8a2c5fc8504ef3"
+    }
+   ]
+  },
+  {
+   "slug": "ley-del-estatuto-de-la-funcion-policial",
+   "short": "LEFP",
+   "title": "Ley del Estatuto de la Función Policial",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036863-0-6.650_22-09-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-09-22",
+     "units": 113,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700036863-0-6.650_22-09-2021-000.pdf",
+     "sha256": "4fdce4b1c09eedf36a1bc4056eb50f9501bd439acbb394c3d4c3c92f5f71add3"
+    }
+   ]
+  },
+  {
+   "slug": "ley-organica-de-misiones-grandes-misiones-y-micromisiones",
+   "short": "LOMGMM",
+   "title": "Ley Orgánica de Misiones, Grandes Misiones y Micromisiones",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037383-0-6.666_11-11-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-11-11",
+     "units": 63,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037383-0-6.666_11-11-2021-000.pdf",
+     "sha256": "ac7e5454450fef727f623cd5a6a303c36d801265f3bb982c96a4e203222b1f84"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-registros-y-notarias",
+   "short": "LRN",
+   "title": "Ley de Registros y Notarías",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037668-0-6.668_16-12-2021-000.pdf",
+   "versions": [
+    {
+     "from": "2021-12-16",
+     "units": 119,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037668-0-6.668_16-12-2021-000.pdf",
+     "sha256": "76a180cae9dd43e84b71534bd18df8a3bc67066804d6793271541a3f181ef84c"
+    }
+   ]
+  },
+  {
+   "slug": "ley-para-la-proteccion-de-las-familias-la-maternidad-y-la-paternidad",
+   "short": "LPFMP",
+   "title": "Ley para la Protección de las Familias, la Maternidad y la Paternidad",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037964-0-6.686_15-02-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-02-15",
+     "units": 47,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700037964-0-6.686_15-02-2022-000.pdf",
+     "sha256": "84920558d734c4ac945970bedbb26e44b6c830f30cc6bc0c190079f299bc052e"
+    }
+   ]
+  },
+  {
+   "slug": "ley-constitucional-antibloqueo-para-el-desarrollo-nacional-y-la-garantia-de-los-derechos-humanos",
+   "short": "LCADNGDH",
+   "title": "Ley Constitucional Antibloqueo para el Desarrollo Nacional y la Garantía de los Derechos Humanos",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700033940-0-6.583_12-10-2020_ANC-000.pdf",
+   "versions": [
+    {
+     "from": "2020-10-12",
+     "units": 47,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700033940-0-6.583_12-10-2020_ANC-000.pdf",
+     "sha256": "3ff2d4f19d7b8da60e8ae99c16a045184f73bcd17b7956c9e2373b7c5f6b862a"
+    }
+   ]
+  }
+ ]
+}
