@@ -1062,6 +1062,34 @@
      "sha256": "3ff2d4f19d7b8da60e8ae99c16a045184f73bcd17b7956c9e2373b7c5f6b862a"
     }
    ]
+  },
+  {
+   "slug": "ley-constitucional-de-la-fuerza-armada-nacional-bolivariana",
+   "short": "LCFANB",
+   "title": "Ley Constitucional de la Fuerza Armada Nacional Bolivariana",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032245-0-GOE_6.508-000.pdf",
+   "versions": [
+    {
+     "from": "2020-01-30",
+     "units": 202,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2020/T028700032245-0-GOE_6.508-000.pdf",
+     "sha256": "f707d312bb9521f7d0df6c1c684aa1dbb09916e2790b318b70e77cc23ab743ee"
+    }
+   ]
+  },
+  {
+   "slug": "ley-de-publicaciones-oficiales",
+   "short": "LPO",
+   "title": "Ley de Publicaciones Oficiales",
+   "url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038073-0-6.688_25-02-2022-000.pdf",
+   "versions": [
+    {
+     "from": "2022-02-25",
+     "units": 19,
+     "source_url": "http://www.gacetaoficial.gob.ve/storage/2022/T028700038073-0-6.688_25-02-2022-000.pdf",
+     "sha256": "f8fc71e3cea22121e83d1f360c19af44adc3912355d9aee396f0da1a5ee92288"
+    }
+   ]
   }
  ]
 }

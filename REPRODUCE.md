@@ -85,6 +85,8 @@ This file is written by the build on 2026-11-02, the day the source data was ret
 | Gaceta Oficial N° 6.668 Extraordinario (16 Dec 2021), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2022/T028700037668-0-6.668_16-12-2021-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
 | Gaceta Oficial N° 6.686 Extraordinario (15 Feb 2022), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2022/T028700037964-0-6.686_15-02-2022-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
 | Gaceta Oficial N° 6.583 Extraordinario (12 Oct 2020), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2020/T028700033940-0-6.583_12-10-2020_ANC-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
+| Gaceta Oficial N° 6.508 Extraordinario (30 Jan 2020), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2020/T028700032245-0-GOE_6.508-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
+| Gaceta Oficial N° 6.688 Extraordinario (25 Feb 2022), Imprenta Nacional portal gacetaoficial.gob.ve | <http://www.gacetaoficial.gob.ve/storage/2022/T028700038073-0-6.688_25-02-2022-000.pdf> | 2026-11-02 | Official act of the State, published by the Servicio Autónomo Imprenta Nacional y Gaceta Oficial (official acts are understood to be outside copyright under Venezuelan law; not checked against the statute here). |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -164,20 +166,22 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `ley-de-registros-y-notarias` | Ley de Registros y Notarías | 1 | 2021-12-16 to 2021-12-16 |
 | `ley-para-la-proteccion-de-las-familias-la-maternidad-y-la-paternidad` | Ley para la Protección de las Familias, la Maternidad y la Paternidad | 1 | 2022-02-15 to 2022-02-15 |
 | `ley-constitucional-antibloqueo-para-el-desarrollo-nacional-y-la-garantia-de-los-derechos-humanos` | Ley Constitucional Antibloqueo para el Desarrollo Nacional y la Garantía de los Derechos Humanos | 1 | 2020-10-12 to 2020-10-12 |
+| `ley-constitucional-de-la-fuerza-armada-nacional-bolivariana` | Ley Constitucional de la Fuerza Armada Nacional Bolivariana | 1 | 2020-01-30 to 2020-01-30 |
+| `ley-de-publicaciones-oficiales` | Ley de Publicaciones Oficiales | 1 | 2022-02-25 to 2022-02-25 |
 
-The build made 81 commits:
+The build made 83 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 72 | first version of an act |
+| 74 | first version of an act |
 | 9 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `futuro`: laws not yet in force on 2026-11-02.
 - 1 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 86 laws in the record.
-- 132 tags.
+- 88 laws in the record.
+- 136 tags.
 
 ## Dates
 
@@ -189,13 +193,13 @@ When a law gives no date of its own, the default rule applies: Código Civil art
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `67ca56da30cf6f4f4a3386e7b730b64f2caa145b4f358a5eaeffed6f5bdf4e90` (5616325 bytes).
+- Corpus: sha256 `858a35227421407f02396319f0404ca6b7902c669506f220067f1307926d2478` (5796177 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `a4faa25af85facb64b956b372f6b528aafdd7ec1`, `check.py` `3d00541d258745461ab52b1b0cb4e1716a27a95d`, `on.py` `644a6c0857fbcc72562032b58d57aa113fee0641`.
 - Python 3.12.10; git version 2.46.0.windows.1.
 
 ## Checks
 
-81 versions of 72 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+83 versions of 74 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
 
 No second build of this corpus has been compared yet.
 
@@ -382,6 +386,14 @@ No second build of this corpus has been compared yet.
 - LPFMP art. 36: its epigraph was corrected on the page by patch letters set over it. The text layer holds 'Formación de servidores públicos y servidoras públicas'; white boxes hide four of its letters and new glyphs are drawn over them and over their neighbours ('a', 'a', 'res', and a glyph that the text layer maps to 'F' but that is drawn over a 'c', with an 'o'). On that page, a glyph drawn on the same baseline over a glyph already read (their boxes covering each other for at least 80% of the narrower width) is read once, as the earlier one; the epigraph then reads 'Formación de servidoras públicas y servidores públicos', as the page prints it (crop reviewed). No other line of the page changes.
 - LCADNGDH: a Ley Constitucional made by the Asamblea Nacional Constituyente, printed once in G.O. 6.583 Ext. of 12 Oct 2020 (made on 8 de octubre de 2020, per its closing 'Dado y firmado en el Hemiciclo Protocolar'); read from its title to that closing. In force: 'Esta Ley Constitucional tendrá vigencia desde su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela, hasta que cesen los efectos de las medidas coercitivas unilaterales y otras medidas restrictivas o punitivas que afectan al país' (Disposición final única), so from 2020-10-12. Credited to the law itself as first_law (the act as made).
 - LCADNGDH: the title is printed on two lines; read from the second, 'Y LA GARANTÍA DE LOS DERECHOS HUMANOS'. The articles run from 1 to 42 and then from 44: there is no article 43 anywhere in the gazette (art. 44 refers back to art. 42), so the numbering is kept as printed. Its in-force clause sets no end date: it lasts until the coercive measures it names cease, which no record here dates, so no end is recorded. The same gazette also prints a Decreto Constituyente (pages 6-7), which is not read. Dropped as page furniture: what shows of the masthead's date line ('2 de octubre de 2020 N° 6.583 Extraordinario').
+- LCFANB: a Ley Constitucional made by the Asamblea Nacional Constituyente, printed once in G.O. 6.508 Ext. of 30 Jan 2020 (made on 29 de enero de 2020, per its closing 'Dado y firmada en la Asamblea Nacional Constituyente'); read from its title to that closing. In force: 'La presente ley, entrará en vigencia a partir de su Publicación en la Gaceta Oficial de la República Bolivariana de Venezuela' (Disposición final única), so from 2020-01-30. Credited to the law itself as first_law (the act as made).
+- LCFANB: the title is printed on two lines ('LEY CONSTITUCIONAL DE LA' / 'FUERZA ARMADA NACIONAL BOLIVARIANA'); read from the second. Its Disposición derogatoria única repeals the Decreto con Rango, Valor y Fuerza de Ley Orgánica de la Fuerza Armada Nacional Bolivariana (G.O. N° 6.156 Ext. of 19 November 2014), which is not in this record. The transitional dispositions are printed under the heading 'DE LAS DISPOSICIONES TRANSITORIAS Y FINALES' and read as transitional dispositions; the final one follows under 'DISPOSICIÓN FINAL'. Dropped as page furniture: what shows of the masthead's date line ('0 de enero de 2020 N° 6.508 Extraordinario').
+- LCFANB layout (reviewed passage by passage against the page's drawing: clips, white boxes and glyph boxes, and on the printed page): the gazette pastes overlapping text frames, and its text layer holds older text under white boxes, frame overflow and bold words drawn twice (offset copies), for example under arts. 45-47 (page 6), under the table of art. 138 (page 18) and under arts. 188-190 and the dispositions (page 22). Only what the page prints is read, once.
+- LCFANB tables: arts. 106, 110, 113 and 138 hold ruled tables. Each is read from the table's own rules in the PDF: a cell is the space between rules, a cell with no rule above it continues the cell above (a merged cell, or a cell whose text wraps), and each row of the table is one line of the article, its cells left to right, separated by ' | ' (a merged cell is read once, in its first row; an empty cell between two others is kept as an empty place). Words are kept as printed, including words the cells break without a hyphen ('BOLIVARIAN' / 'A', 'AÑO' / 'S'), which read as two words.
+- LCFANB headings and epigraphs: where the frames are set off-centre or overlap, these are read as the page sets them (each checked on the printed page): the headings 'Sección Segunda Guardia de Honor Presidencial' (page 3), 'Estado Mayor Superior de la Fuerza Armada Nacional Bolivariana' (a bold centred heading over art. 41, page 6), 'Sección Tercera' 'Del Segundo Comandante y Jefe del Estado Mayor Conjunto del Comando Estratégico Operacional' and 'Sección Cuarta' 'Del Sistema Defensivo Territorial y de las Regiones de Defensa Integral' (page 8), and the epigraphs of arts. 49, 50, 58, 80, 111, 112, 137, 152, 153 and 183, set over two lines (or, for art. 58, after a heading). On page 22 the left column sets arts. 186-190 in a narrower frame than the dispositions below them; the two parts are read with their own margins.
+- LCFANB: four lone fragments in the text layer are not printed and are not read; each is a line cut to a sliver by its frame's clip (checked from the glyph boxes and clips, and on the page) and printed in full in the next or previous column: the tops of '8. Ejercer actividades de policía administrativa y de' at the foot of page 11 and of 'Órgano Rector' at the foot of page 13, and the bottoms of 'delitos;' at the top of page 12 and of 'correspondiente.' at the top of page 19's right column.
+- LPO: a new law, printed once in G.O. 6.688 Ext. of 25 Feb 2022 (sanctioned on 15 de febrero de 2022, per its closing 'Dada, firmada y sellada'); read from its title to that closing. In force: 'Esta Ley entrará en vigencia al momento de su publicación en la Gaceta Oficial de la República Bolivariana de Venezuela' (art. 18), so from 2022-02-25. Credited to the law itself as first_law (the act as enacted).
+- LPO: its art. 17 repeals the Ley de Publicaciones Oficiales of 1941 (Gaceta Oficial de los Estados Unidos de Venezuela N° 20.546 of 22 July 1941), which is not in this record. Dropped as page furniture: what shows of the masthead's date line ('5 de febrero de 2022 N° 6.688 Extraordinario').
 
 ## What AI did and did not do
 
