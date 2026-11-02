@@ -1,0 +1,441 @@
+{
+ "parts": {
+  "30-gaceta-digital.json": {
+   "acts": [],
+   "sha256": "fb737c98f6f31f160551ad7a819f3360892f940afa35ee729afda4a29c00a841"
+  },
+  "31-copp.json": {
+   "acts": [
+    "codigo-organico-procesal-penal"
+   ],
+   "sha256": "6e58daa7df4637afd7afc411a626f5fd0aff267d7440946c108486366dc07386"
+  },
+  "32-cot.json": {
+   "acts": [
+    "codigo-organico-tributario"
+   ],
+   "sha256": "5be64df31125a309c1ae9e7b688d1a5cfc79a3e5c97b6c6ed7a48a4788cc930f"
+  },
+  "33-cop.json": {
+   "acts": [
+    "codigo-organico-penitenciario"
+   ],
+   "sha256": "ea7433b1ef183bf0718acbf0da529539f034541f281cb05a8e0d9307ab5b5151"
+  },
+  "34-cojm.json": {
+   "acts": [
+    "codigo-organico-de-justicia-militar"
+   ],
+   "sha256": "09e4b62b23dadb794a11889dfa0a2785aa31564fbf92fba65433502065764980"
+  },
+  "35-lotsj.json": {
+   "acts": [
+    "ley-organica-del-tribunal-supremo-de-justicia"
+   ],
+   "sha256": "d98a399dc0bc35bef2c34a0acd167c6d83017730b92d7344283369b0f9c75eb5"
+  },
+  "36-iva.json": {
+   "acts": [
+    "ley-del-impuesto-al-valor-agregado"
+   ],
+   "sha256": "bd57394132ab0e507dc2c42bbb9ea3b7f651d658c8c310b3e722de9055dcf0a0"
+  },
+  "37-loa.json": {
+   "acts": [
+    "ley-organica-de-aduanas"
+   ],
+   "sha256": "1f1468a3d632278cd3ab63bf99e5df1d970e18438d5a09d88dc8b7374a60334e"
+  },
+  "38-corrupcion.json": {
+   "acts": [
+    "ley-contra-la-corrupcion"
+   ],
+   "sha256": "c55b9a3489a35b51194b8d8b686e22be298152daf55e5ba2a665c347c15ca25f"
+  },
+  "39-mujeres.json": {
+   "acts": [
+    "ley-organica-sobre-el-derecho-de-las-mujeres-a-una-vida-libre-de-violencia"
+   ],
+   "sha256": "417f3b62138a36f8fb4e635fc445c329c63386e75e9d2a419052b9f17f1aabdc"
+  },
+  "40-defensa-publica.json": {
+   "acts": [
+    "ley-organica-de-la-defensa-publica"
+   ],
+   "sha256": "da98604ae6ca08d27ffa0910fa6dff00a329b02c9e841888a7206eb0a8d1be10"
+  },
+  "41-igtf.json": {
+   "acts": [
+    "ley-de-impuesto-a-las-grandes-transacciones-financieras"
+   ],
+   "sha256": "d8ff92dab3167d4a13b9265c029afdb79e0e3130ce942bea450682cbdcddcc62"
+  },
+  "42-zee.json": {
+   "acts": [
+    "ley-organica-de-las-zonas-economicas-especiales"
+   ],
+   "sha256": "da26132ea3dd12d2d008089cd3ee5a13b438194e6cb016b3fa031bcc064b5948"
+  },
+  "43-extincion-dominio.json": {
+   "acts": [
+    "ley-organica-de-extincion-de-dominio"
+   ],
+   "sha256": "15d7e0e4b231c863a474771553f545fa7a765948e4804e80d022d332b9187b97"
+  },
+  "44-hidrocarburos.json": {
+   "acts": [
+    "ley-organica-de-hidrocarburos"
+   ],
+   "sha256": "606e0a13f4223e752f980f2db1d1f62b728d0092bbfe2d2507005918979edecf"
+  },
+  "45-interpretes.json": {
+   "acts": [
+    "ley-de-interpretes-publicos"
+   ],
+   "sha256": "0323ed1ed74b934ee3cc194c7c7d53f6215283cec0fce2d24d32e779d685f02c"
+  },
+  "46-sellos.json": {
+   "acts": [
+    "ley-de-sellos"
+   ],
+   "sha256": "17de8d31ce948021454bb9818a94756d551db9e58b0d00b08f4a2d9d67edc5a0"
+  },
+  "47-antecedentes-penales.json": {
+   "acts": [
+    "ley-de-registro-de-antecedentes-penales"
+   ],
+   "sha256": "1b222d3ad13b2e9b78310d59b018efa40a5ecba97506dcb7977d1f645e73d5c3"
+  },
+  "48-celeridad-tramites.json": {
+   "acts": [
+    "ley-organica-para-la-celeridad-y-optimizacion-de-tramites-administrativos"
+   ],
+   "sha256": "cc7351230e4377ff74c8b62339195ca13756e85422cd7b099ed15786255434df"
+  },
+  "49-minas.json": {
+   "acts": [
+    "ley-organica-de-minas"
+   ],
+   "sha256": "bebe5af64d6f119f77733815ea54e43e87ce182e886745f7ab1feaa3b64aa0ee"
+  },
+  "50-arrendamiento-vivienda.json": {
+   "acts": [
+    "ley-del-regimen-especial-de-arrendamiento-de-inmuebles-destinados-a-vivienda"
+   ],
+   "sha256": "d3a65bd76209d19ffcbf0c3e47e9ddff22a7e087bd7892464f7da2ccbf3454d8"
+  },
+  "51-construccion-viviendas.json": {
+   "acts": [
+    "ley-de-promocion-y-proteccion-de-la-construccion-de-viviendas"
+   ],
+   "sha256": "a24b6527a75c444498052d3d4f24d886cd4d1070d3e3bd53d45d840516b0537d"
+  },
+  "52-policia-investigacion.json": {
+   "acts": [
+    "ley-del-estatuto-de-la-funcion-de-la-policia-de-investigacion"
+   ],
+   "sha256": "194895864113ee8c921ada8d31679f647ab28b8d3b7299bbffae7161b9a810c6"
+  },
+  "53-amnistia.json": {
+   "acts": [
+    "ley-de-amnistia-para-la-convivencia-democratica"
+   ],
+   "sha256": "e039e2cf9faf4fff0fbacc744216eb85fca43a2107bf86aed2e5deb882e028f7"
+  },
+  "54-cruz-roja.json": {
+   "acts": [
+    "ley-de-la-cruz-roja-venezolana"
+   ],
+   "sha256": "ba9585e589a3f76a9520a34b209266510486c0f2da716044dad74be4d1502586"
+  },
+  "55-juramento-publico.json": {
+   "acts": [
+    "ley-de-juramento-publico"
+   ],
+   "sha256": "7918fc280dfb66d41ce7e66b5d5a7f822a80f7a83bd14d1c883903c104a243f6"
+  },
+  "56-teatro.json": {
+   "acts": [
+    "ley-del-teatro"
+   ],
+   "sha256": "f4fd992003c661bbf5343308438a0788cea5aa42b0c6b5b09987e121ba1bb496"
+  },
+  "57-ciclismo-urbano.json": {
+   "acts": [
+    "ley-para-la-promocion-del-ciclismo-urbano"
+   ],
+   "sha256": "540635d0e3a3b8b81b017b1b11b4cc33df1ccbfcc2ba87d668610696f9f38aa3"
+  },
+  "58-chamba-juvenil.json": {
+   "acts": [
+    "ley-de-la-gran-mision-chamba-juvenil"
+   ],
+   "sha256": "c92d87886299f91f34cb88cdd836ea69833b79cbb4b9096b27beba3b325a3ebe"
+  },
+  "59-abuso-sexual-nna.json": {
+   "acts": [
+    "ley-para-la-prevencion-y-erradicacion-del-abuso-sexual-contra-ninas-ninos-y-adolescentes"
+   ],
+   "sha256": "d525813959a47e252ecea099e57df68d6594cdcf9b2e912502f77c83a2cd63fc"
+  },
+  "60-nuevos-emprendimientos.json": {
+   "acts": [
+    "ley-para-el-fomento-y-desarrollo-de-nuevos-emprendimientos"
+   ],
+   "sha256": "fb3321468098a764b1f4d0840e8224b94cf3f44cb80c1b9e45040ed61e124562"
+  },
+  "61-cuidados-vida.json": {
+   "acts": [
+    "ley-del-sistema-de-cuidados-para-la-vida"
+   ],
+   "sha256": "2bee68a23a071bac5f57b317a31ce20f27aa3ead187a321b40c3fa761ddb2a63"
+  },
+  "62-victimas-derechos-humanos.json": {
+   "acts": [
+    "ley-de-la-comision-para-la-garantia-de-justicia-y-reparacion-de-las-victimas-de-delitos-contra-los-derechos-humanos"
+   ],
+   "sha256": "e707d5c7e5dea2b3c0055ec769274c38a907abcb45f4ca7af51bd5c3150b0938"
+  },
+  "63-ong.json": {
+   "acts": [
+    "ley-de-fiscalizacion-regularizacion-actuacion-y-financiamiento-de-las-organizaciones-no-gubernamentales-y-organizaciones-sociales-sin-fines-de-lucro"
+   ],
+   "sha256": "3ed9756a7a8409b876f8761265827f98617d8de3b3efebe766ef4f00a752789f"
+  },
+  "64-contra-bloqueo.json": {
+   "acts": [
+    "ley-organica-libertador-simon-bolivar-contra-el-bloqueo-imperialista-y-en-defensa-de-la-republica-bolivariana-de-venezuela"
+   ],
+   "sha256": "9c27826bcfffd0382cba18eaf043fe1a89fbc838c3a1ae99bfdd7a932fe6774f"
+  },
+  "65-orden-ayacucho.json": {
+   "acts": [
+    "ley-de-creacion-de-la-condecoracion-orden-bicentenario-victoria-de-ayacucho"
+   ],
+   "sha256": "3edb1954587260ed1b7a947d4e2df9dd98af7f9ab37f58228c1641991410c51e"
+  },
+  "66-tributos-distrito-capital.json": {
+   "acts": [
+    "ley-del-sistema-tributario-del-distrito-capital"
+   ],
+   "sha256": "f6866b435a23873f82b1715768d279e2ba2637b4de09000abe054b09701ed1bf"
+  },
+  "67-poder-popular.json": {
+   "acts": [
+    "ley-organica-del-poder-popular"
+   ],
+   "sha256": "311d524530b20ec83c6f7f682091cd593c93197d9c8ea0fe1686e47bb2f087ae"
+  },
+  "68-comunas.json": {
+   "acts": [
+    "ley-organica-de-las-comunas"
+   ],
+   "sha256": "2de09283c70d7112468605a498f2cab96356dfdad684346ce02c0312c8fcbf46"
+  },
+  "69-recreacion.json": {
+   "acts": [
+    "ley-organica-de-recreacion"
+   ],
+   "sha256": "2a94a3085ee876e4828c96ae50807cc241f2596c44723e19ee7e48e868a20781"
+  },
+  "70-pensiones-bloqueo.json": {
+   "acts": [
+    "ley-de-proteccion-de-las-pensiones-de-seguridad-social-frente-al-bloqueo-imperialista"
+   ],
+   "sha256": "f699a59263be542775e46158d0f26a202087a750d4382da1ff1929851abcc9f3"
+  },
+  "71-guayana-esequiba.json": {
+   "acts": [
+    "ley-organica-para-la-defensa-de-la-guayana-esequiba"
+   ],
+   "sha256": "60ca8848c561df0579554c2d7ec52a21f9d502b28d8b3c2b8fb8194f57dc3431"
+  },
+  "72-exportaciones-no-petroleras.json": {
+   "acts": [
+    "ley-de-fomento-de-las-exportaciones-no-petroleras"
+   ],
+   "sha256": "0c979b61ac8ab78221eafd0a7af4ea2c2c6fa7c48496517a38c6a224d2db2ca5"
+  },
+  "73-discapacidad.json": {
+   "acts": [
+    "ley-organica-para-la-inclusion-igualdad-y-desarrollo-integral-de-las-personas-con-discapacidad"
+   ],
+   "sha256": "70bb00526e6b6df558090c93016e89cb4a69647328454430be31792a240791de"
+  },
+  "74-justicia-de-paz-comunal.json": {
+   "acts": [
+    "ley-organica-de-justicia-de-paz-comunal"
+   ],
+   "sha256": "af9c4496937f2602ccd6bef4b3e2ecd3860f70e485ad5ace488a8e3f1df1ed07"
+  },
+  "75-vivienda-habitat.json": {
+   "acts": [
+    "ley-del-regimen-prestacional-de-vivienda-y-habitat"
+   ],
+   "sha256": "11aa7e9dd2005cb563cd6046ec991d232d2a70d9aabde9ff60fdef99af1d4c77"
+  },
+  "76-trabajadores-con-discapacidad.json": {
+   "acts": [
+    "ley-especial-para-las-trabajadoras-y-trabajadores-con-discapacidad"
+   ],
+   "sha256": "e9def0d8014c6b7bdaedbeafeae8a10def87d7c5ba646907d9c65c67e7a14dd7"
+  },
+  "77-participacion-estudiantil.json": {
+   "acts": [
+    "ley-de-participacion-estudiantil-en-el-subsistema-de-educacion-basica"
+   ],
+   "sha256": "7404a9554ad6ea99ba4fad91f2ccb344d90ec351c9a99a9e4747aee1d9312b69"
+  },
+  "78-agave-cocui.json": {
+   "acts": [
+    "ley-para-la-proteccion-y-promocion-de-la-produccion-del-agave-cocui-del-cocuy-y-sus-derivados-artesanales"
+   ],
+   "sha256": "78970fce4e32f55119ef8b6fd78999e377c8b3362f16bc97d8234d280d595bd1"
+  },
+  "79-espectro-autista.json": {
+   "acts": [
+    "ley-para-la-atencion-integral-a-las-personas-con-trastorno-del-espectro-autista"
+   ],
+   "sha256": "8c69009aa92b2e5f00ab7774241cde21967ff907af632f38475f06575fe0cfb9"
+  },
+  "80-activos-en-el-extranjero.json": {
+   "acts": [
+    "ley-para-la-proteccion-de-los-activos-derechos-e-intereses-de-la-republica-y-sus-entidades-en-el-extranjero"
+   ],
+   "sha256": "9e2983c0c98a392eb815d3430a3a84bd2bf70874da2d8f5012447e2b97d2342f"
+  },
+  "81-archivos-nacionales.json": {
+   "acts": [
+    "ley-de-archivos-nacionales"
+   ],
+   "sha256": "1740fd946622bba570d0827cb413048ec13cad74457507b02ad13437a4a5a4a5"
+  },
+  "82-nombre-del-libertador.json": {
+   "acts": [
+    "ley-que-regula-el-uso-del-nombre-titulos-firma-y-efigie-de-el-libertador-y-padre-de-la-patria-simon-bolivar"
+   ],
+   "sha256": "02cba8578f12558a60c470c93609198d089dd1fd6d2193c1f00c2c78dce5f8a2"
+  },
+  "83-orden-dario-vivas.json": {
+   "acts": [
+    "ley-de-creacion-de-la-condecoracion-orden-dario-vivas"
+   ],
+   "sha256": "7a806e0da689b028a4765e4c3f3e1a7a9f6e37178e59c4cde0e0fa5cee4a54de"
+  },
+  "84-contraloria-social.json": {
+   "acts": [
+    "ley-organica-de-contraloria-social"
+   ],
+   "sha256": "878b28d9ec1e9bd89b0b06e3fa42786c9370edd8860696eda69580deddddf672"
+  },
+  "85-consejos-comunales.json": {
+   "acts": [
+    "ley-organica-de-los-consejos-comunales"
+   ],
+   "sha256": "2b94d08b9aba0dab9dc911da781323fac42f61a0a31726485d755d7697f68e6f"
+  },
+  "86-ciencia-tecnologia-innovacion.json": {
+   "acts": [
+    "ley-organica-de-ciencia-tecnologia-e-innovacion"
+   ],
+   "sha256": "e06f7f368e33d6c1cd9a95e2feeab8476fcd492157ffeeb0b865c2f6be665c3d"
+  },
+  "87-actividad-aseguradora.json": {
+   "acts": [
+    "ley-de-la-actividad-aseguradora"
+   ],
+   "sha256": "caf60bd14d8a2807c044d26bb68fa605f502415e7fed1910074130f44ff6768a"
+  },
+  "88-derechos-humanos-funcion-publica.json": {
+   "acts": [
+    "ley-para-el-respeto-de-los-derechos-humanos-en-el-ejercicio-de-la-funcion-publica"
+   ],
+   "sha256": "e192419d2f60dc37414150cf4c7c7e4d64019846bd7353763564eca3d8904678"
+  },
+  "89-lenguaje-enfoque-genero.json": {
+   "acts": [
+    "ley-para-la-promocion-y-uso-del-lenguaje-con-enfoque-de-genero"
+   ],
+   "sha256": "bb8c8f920a5a03a20af69c92a4e60acda1119f0726e2e09a9cb7c3ab40b60e79"
+  },
+  "90-amparo-libertad-seguridad.json": {
+   "acts": [
+    "ley-organica-de-amparo-a-la-libertad-y-seguridad-personal"
+   ],
+   "sha256": "04cd88e79fcd66cf59a202cf37eca2efb4cbd368d34472451cfb7ab0fc2ac7b9"
+  },
+  "91-patrimonio-cultural-inmaterial.json": {
+   "acts": [
+    "ley-para-la-salvaguardia-del-patrimonio-cultural-inmaterial"
+   ],
+   "sha256": "00bbd104887839028fe7c65181bade49355f94fe3660aaf5283541e98bd61678"
+  },
+  "92-personas-adultas-mayores.json": {
+   "acts": [
+    "ley-organica-para-la-atencion-y-desarrollo-integral-de-las-personas-adultas-mayores"
+   ],
+   "sha256": "be220fd60fa12e3670ee4cc5991975efda551010a4ce2c16e36a0dfe95963a3c"
+  },
+  "93-discriminacion-racial.json": {
+   "acts": [
+    "ley-organica-contra-la-discriminacion-racial"
+   ],
+   "sha256": "f59efb720708cf7a40b2f85ea3493c20c31599548adced50bed31e11395b4924"
+  },
+  "94-proteccion-victimas-testigos.json": {
+   "acts": [
+    "ley-de-proteccion-de-victimas-testigos-y-demas-sujetos-procesales"
+   ],
+   "sha256": "0ad114edfe32b62d696cf7d204a9be7857316058383e0c93b9e3d9d3a5cd4907"
+  },
+  "95-idiomas-indigenas.json": {
+   "acts": [
+    "ley-de-idiomas-indigenas"
+   ],
+   "sha256": "c02e010691b94148290ce6668ddc9300690c324745fd10bf6f32e41d3cc4e29d"
+  },
+  "96-funcion-policial.json": {
+   "acts": [
+    "ley-del-estatuto-de-la-funcion-policial"
+   ],
+   "sha256": "9e98e743ccb8b1b770b501438105eda143f7018a086c9c3281bb1d84b850065d"
+  },
+  "97-misiones.json": {
+   "acts": [
+    "ley-organica-de-misiones-grandes-misiones-y-micromisiones"
+   ],
+   "sha256": "a28032fcbbf7db68222f5fda33a1e51bd2e920e889cbab75f8f5aaa774ffbdf9"
+  },
+  "98-registros-notarias.json": {
+   "acts": [
+    "ley-de-registros-y-notarias"
+   ],
+   "sha256": "34cfad47c09fa8c7a57a8ccfcf5e64cac63074ea4c93e597ad6d94ffb1728179"
+  },
+  "99-familias-maternidad-paternidad.json": {
+   "acts": [
+    "ley-para-la-proteccion-de-las-familias-la-maternidad-y-la-paternidad"
+   ],
+   "sha256": "94d234af13f85d80463a93bcf9ea7a69e56eec4d3003b07925568ba30a958f95"
+  },
+  "991-antibloqueo.json": {
+   "acts": [
+    "ley-constitucional-antibloqueo-para-el-desarrollo-nacional-y-la-garantia-de-los-derechos-humanos"
+   ],
+   "sha256": "3a6f5abf0cec480b9cffaf9a2db1048bfb066e04e0ef190575a03e50dc1f2292"
+  },
+  "992-fuerza-armada.json": {
+   "acts": [
+    "ley-constitucional-de-la-fuerza-armada-nacional-bolivariana"
+   ],
+   "sha256": "51e465f7f3ca2a9ee32cb09976ac5ebba351dbf2dd2b79c7fa4990ffe9109a7a"
+  },
+  "993-publicaciones-oficiales.json": {
+   "acts": [
+    "ley-de-publicaciones-oficiales"
+   ],
+   "sha256": "3109979f6c3a8d7d462248646475bf8a8e4d2a2d59fa8e570c35684a52233815"
+  }
+ },
+ "schema": 1
+}
