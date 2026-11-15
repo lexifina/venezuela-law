@@ -23,7 +23,8 @@ The text is in Spanish, as the Gaceta Oficial prints it: from born-digital gazet
 
 - **[Ask Claude about Venezuelan law](https://global-law.lexifina.com/v1/try_claude?country=venezuela)**: opens Claude with a first question ready.
 - **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=venezuela)**: the same question in ChatGPT.
-- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=vacaciones+anuales&jurisdictions=venezuela)**: a search of Venezuelan law for "vacaciones anuales", returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Search Venezuelan law on our site](https://lexifina.com/law?country=venezuela&q=vacaciones+anuales)**: a search for "vacaciones anuales", with each provision's text and its versions, no account needed.
+- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=vacaciones+anuales&jurisdiction=venezuela)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
 
 Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Spanish or in English.
 
