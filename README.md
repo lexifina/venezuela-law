@@ -61,6 +61,7 @@ Cada cambio se atribuye al acto que lo hizo, con una dirección que no puede exi
 - En cada código y ley, las palabras de sus archivos son iguales a las palabras impresas en su parte de la gaceta, y cada número de artículo aparece una sola vez; cada corrección a la que llevaron esas comprobaciones, y cada línea de la Constitución completada con el texto de la Asamblea Nacional donde falta en la copia del INE, se enumeran en `REPRODUCE.md`.
 - El mismo corpus da los mismos hashes de commit (`tools/build.py`); `REPRODUCE.md` deja constancia de que todavía no se ha comparado una segunda construcción.
 - El historial solo crece por adición (`tools/append.py`): no hay commits de fusión (merge) en `main`, ni fechas de commit que retrocedan, ni nada con fecha futura, y los trailers de todos los commits se pueden analizar.
+- [vulnerabilities/](vulnerabilities/): posibles errores de redacción en este derecho, hallados por los detectores de global-law y revisados a mano. Aún no se ha ejecutado.
 
 ## Lo que no muestra
 
@@ -86,6 +87,10 @@ Véase [`LICENSE`](LICENSE). Los textos jurídicos son actos oficiales de la Rep
 Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial. Claude Code con Claude Opus 5.5 escribió los scripts y seleccionó los metadatos y los límites del analizador; el texto jurídico procede solo de la capa de texto de los PDF oficiales (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
 Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
+
+## Visualizaciones
+
+- [visualisations/](visualisations/): gráficos hechos a partir de este repositorio. Aún no se han hecho.
 
 ## Más información
 

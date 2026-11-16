@@ -61,6 +61,7 @@ Each change is credited to the act that made it, at an address that cannot exist
 - For each code and law, the words in its files equal the words printed in its part of the gazette, and every article number occurs once; each repair those checks led to, and each line of the Constitution filled from the Asamblea Nacional's text where the INE copy lacks it, is listed in `REPRODUCE.md`.
 - The same corpus gives the same commit hashes (`tools/build.py`); `REPRODUCE.md` records that no second build has been compared yet.
 - History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -84,6 +85,10 @@ Each change is credited to the act that made it, at an address that cannot exist
 See [`LICENSE`](LICENSE). The legal texts are official acts of the Bolivarian Republic of Venezuela, published in the Gaceta Oficial; the Ley sobre el Derecho de Autor (1993, art. 11) is understood to exclude official acts from protection, a reading not checked against the gazette text. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs at build time. Claude Code running Claude Opus 5.5 wrote the scripts and selected metadata and parser boundaries; the legal text comes only from the official PDFs' text layer (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
