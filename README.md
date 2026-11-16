@@ -1,34 +1,41 @@
-# Venezuela: law history in git
+# Venezuela: historia del derecho en git
 
-The national law of Venezuela as a git history: one file per provision, one commit per act on the day it took effect, and the act that made each change as the commit's author. `git blame` names the act behind every paragraph; `git log` lists every change to an article; picking a date gives the text in force that day.
+**Español** · [English](README.en.md)
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Venezuela's national law, which global-law reads at `venezuela/national/acts/`.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/es/effort-dark.svg">
+<img alt="El derecho venezolano en este repositorio: qué contiene, los cambios por año de entrada en vigor, la completitud frente a las fuentes oficiales y la exactitud de lo que contiene" src="data/es/effort-light.svg" width="880">
+</picture>
 
-**What is in it now:** the Constitution of 1999 with its Enmienda N° 1 of 2009; the Constitution of 1961 with its two enmiendas, up to its repeal in 1999; and 4 organic codes (procedural criminal, tax, penitentiary and military justice) and 69 laws, among them the Ley Orgánica del Tribunal Supremo de Justicia and the Ley Orgánica de Hidrocarburos, each from a full printing in the Gaceta Oficial of 2020 to 2026. Together they have 84 versions. [`data/versions.json`](data/versions.json) lists every act with the day each version took effect; [`data/laws.csv`](data/laws.csv) lists every act the record names (89, among them earlier texts that are not here), with its dates.
+El derecho nacional de Venezuela como historial de git: un archivo por disposición, un commit por acto, fechado el día de su entrada en vigencia, y el acto que hizo cada cambio como autor del commit. `git blame` nombra el acto de cada párrafo; `git log` enumera cada cambio de un artículo; al elegir una fecha se obtiene el texto vigente ese día.
 
-Each act is a folder named after it (`constitucion/`, `ley-organica-de-hidrocarburos/`), with one file per article and per transitory or final provision: `constitucion/art-230.md` is art. 230 of the Constitution, on the presidential term. Each folder's `README.md` lists its provisions, and its `titulos.md` its headings.
+Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), un único historial de git para el derecho de todos los países: este es el derecho nacional de Venezuela, que global-law lee en `venezuela/national/acts/`.
 
-The text is in Spanish, as the Gaceta Oficial prints it: from born-digital gazettes, only the characters the page actually prints, with no OCR ([`tools/gazette_text.py`](tools/gazette_text.py)). Venezuela has no official consolidated database with dated versions, and its gazette is indexed online only from 2010, mostly as image scans.
+**Qué contiene ahora:** la Constitución de 1999 con su Enmienda N° 1 de 2009; la Constitución de 1961 con sus dos enmiendas, hasta su derogación en 1999; y 4 códigos orgánicos (procesal penal, tributario, penitenciario y de justicia militar) y 69 leyes, entre ellas la Ley Orgánica del Tribunal Supremo de Justicia y la Ley Orgánica de Hidrocarburos, cada una a partir de una publicación íntegra en la Gaceta Oficial de 2020 a 2026. En conjunto tienen 84 versiones. [`data/versions.json`](data/versions.json) enumera cada acto con el día en que entró en vigencia cada versión; [`data/laws.csv`](data/laws.csv) enumera cada acto que nombra el registro (89, entre ellos textos anteriores que no están aquí), con sus fechas.
 
-## Questions as git commands
+Cada acto es una carpeta con su nombre (`constitucion/`, `ley-organica-de-hidrocarburos/`), con un archivo por artículo y por disposición transitoria o final: `constitucion/art-230.md` es el art. 230 de la Constitución, sobre el período presidencial. El `README.md` de cada carpeta enumera sus disposiciones, y su `titulos.md`, sus encabezados.
 
-| Question | Command |
+El texto está en español, tal como lo imprime la Gaceta Oficial: de gacetas nativas digitales, solo los caracteres que la página imprime realmente, sin OCR ([`tools/gazette_text.py`](tools/gazette_text.py)). Venezuela no tiene una base de datos oficial consolidada con versiones fechadas, y su gaceta solo está indexada en línea desde 2010, sobre todo como imágenes escaneadas.
+
+## Preguntas como comandos de git
+
+| Pregunta | Comando |
 | --- | --- |
-| Every change to art. 230 of the Constitution | `git log -p --word-diff -- constitucion/art-230.md` |
-| Which act wrote each paragraph of art. 230? | `git blame constitucion/art-230.md` |
-| Every version of the Constitution, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitucion ":^constitucion/README.md"` |
-| Art. 230 as in force on 1 January 2005 (one immediate re-election only) | `python tools/en_vigor_el.py 2005-01-01 constitucion 230` |
+| Cada cambio del art. 230 de la Constitución | `git log -p --word-diff -- constitucion/art-230.md` |
+| ¿Qué acto escribió cada párrafo del art. 230? | `git blame constitucion/art-230.md` |
+| Cada versión de la Constitución, con el día en que entró en vigencia cada una | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- constitucion ":^constitucion/README.md"` |
+| El art. 230 vigente el 1 de enero de 2005 (una sola reelección inmediata) | `python tools/en_vigor_el.py 2005-01-01 constitucion 230` |
 
-**Outside git**, we also host this record publicly, for free:
+**Fuera de git**, también alojamos este registro de forma pública y gratuita:
 
-- **[Ask Claude about Venezuelan law](https://global-law.lexifina.com/v1/try_claude?country=venezuela)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=venezuela)**: the same question in ChatGPT.
-- **[Search Venezuelan law on our site](https://lexifina.com/law?country=venezuela&q=vacaciones+anuales)**: a search for "vacaciones anuales", with each provision's text and its versions, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=vacaciones+anuales&jurisdiction=venezuela)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Pregunte a Claude sobre el derecho venezolano](https://global-law.lexifina.com/v1/try_claude?country=venezuela)**: abre Claude con una primera pregunta ya preparada.
+- **[Pregunte a ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=venezuela)**: la misma pregunta en ChatGPT.
+- **[Busque en el derecho venezolano en nuestro sitio](https://lexifina.com/law?country=venezuela&q=vacaciones+anuales)**: una búsqueda de "vacaciones anuales", con el texto de cada disposición y sus versiones, sin necesidad de cuenta.
+- **[API REST para desarrolladores](https://global-law.lexifina.com/v1/search_law?query=vacaciones+anuales&jurisdiction=venezuela)**: la misma búsqueda en JSON, sin clave. Consulte la [documentación aquí](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in Spanish or in English.
+Ambos asistentes leen el registro mediante el conector gratuito Global law (MCP, `https://global-law.lexifina.com/mcp`); la primera vez, el chat le da el enlace para añadirlo. Pregunte en español o en inglés.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**Alójelo usted mismo fácilmente.** Solo hacen falta git y Python, y las herramientas se ejecutan en su propio equipo:
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -36,59 +43,57 @@ python3 tools/countries.py add venezuela/national/acts
 python3 tools/law.py show 2026-01-01 venezuela/national/acts/constitucion/art-230.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+Abierto en Claude Code, Cursor, VS Code o Codex, el clon también inicia un servidor MCP local con las mismas herramientas ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
-## Dates
+## Fechas
 
-Each commit is dated at noon, America/Caracas, on the day the change took effect, and carries it in its `In-force:` trailer, beside `Enacted:` and `Published:`:
+Cada commit está fechado al mediodía, hora de America/Caracas, del día en que el cambio entró en vigencia, y lo lleva en su trailer `In-force:`, junto a `Enacted:` y `Published:`:
 
-- an act binds from its publication in the Gaceta Oficial, or from the later day it sets itself (Código Civil art. 1); where it sets a term (thirty days for the Código Orgánico Tributario, sixty for the IVA law, 120 for the Ley de la Actividad Aseguradora), the day is counted by hand, with the reasoning in [`REPRODUCE.md`](REPRODUCE.md);
-- the Constitution of 1999 took effect on its publication, 30 December 1999, and Enmienda N° 1, approved by referendum on 15 February 2009, on its publication on 19 February 2009;
-- git cannot store dates before 1970, so the commit of the 1961 Constitution is dated 1970-01-01, with the real day, 1961-01-23, in `In-force:`. Ask for a date with `tools/en_vigor_el.py`, not `git log --before`.
+- un acto es obligatorio desde su publicación en la Gaceta Oficial, o desde la fecha posterior que él mismo fije (Código Civil, art. 1); cuando fija un plazo (treinta días para el Código Orgánico Tributario, sesenta para la ley del IVA, 120 para la Ley de la Actividad Aseguradora), el día se cuenta a mano, con el razonamiento en [`REPRODUCE.md`](REPRODUCE.md);
+- la Constitución de 1999 entró en vigencia con su publicación, el 30 de diciembre de 1999, y la Enmienda N° 1, aprobada por referendo el 15 de febrero de 2009, con su publicación el 19 de febrero de 2009;
+- git no puede almacenar fechas anteriores a 1970, por lo que el commit de la Constitución de 1961 lleva la fecha 1970-01-01, con el día real, 1961-01-23, en `In-force:`. Para consultar una fecha use `tools/en_vigor_el.py`, no `git log --before`.
 
-Each change is credited to the act that made it, at an address that cannot exist (`enmienda-1-2009@gacetaoficial.invalid`), so `git blame` and `git log --author` name acts; the committer is Lexifina. 44 codes and laws start as enacted and are credited to themselves; the other 29 start from a later texto único, credited to the publisher, the Imprenta Nacional y Gaceta Oficial, as the "oldest version available", naming the reform that ordered it.
+Cada cambio se atribuye al acto que lo hizo, con una dirección que no puede existir (`enmienda-1-2009@gacetaoficial.invalid`), de modo que `git blame` y `git log --author` nombran actos; el committer es Lexifina. 44 códigos y leyes empiezan tal como se sancionaron y se atribuyen a sí mismos; los otros 29 parten de un texto único posterior, atribuido al editor, la Imprenta Nacional y Gaceta Oficial, como la "oldest version available" (la versión más antigua disponible), con el nombre de la reforma que lo ordenó.
 
-## How it is checked
+## Cómo se comprueba
 
-- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before; both must match the corpus, whose sha256 is in `data/corpus.sha256`: 84 versions of 75 acts, 0 mismatches ([`REPRODUCE.md`](REPRODUCE.md)).
-- For each code and law, the words in its files equal the words printed in its part of the gazette, and every article number occurs once; each repair those checks led to, and each line of the Constitution filled from the Asamblea Nacional's text where the INE copy lacks it, is listed in `REPRODUCE.md`.
-- The same corpus gives the same commit hashes (`tools/build.py`); `REPRODUCE.md` records that no second build has been compared yet.
-- History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- `tools/check_repo.py` vuelve a leer desde git cada versión el día en que entró en vigencia y el día anterior; ambas deben coincidir con el corpus, cuyo sha256 está en `data/corpus.sha256`: 84 versiones de 75 actos, 0 discrepancias ([`REPRODUCE.md`](REPRODUCE.md)).
+- En cada código y ley, las palabras de sus archivos son iguales a las palabras impresas en su parte de la gaceta, y cada número de artículo aparece una sola vez; cada corrección a la que llevaron esas comprobaciones, y cada línea de la Constitución completada con el texto de la Asamblea Nacional donde falta en la copia del INE, se enumeran en `REPRODUCE.md`.
+- El mismo corpus da los mismos hashes de commit (`tools/build.py`); `REPRODUCE.md` deja constancia de que todavía no se ha comparado una segunda construcción.
+- El historial solo crece por adición (`tools/append.py`): no hay commits de fusión (merge) en `main`, ni fechas de commit que retrocedan, ni nada con fecha futura, y los trailers de todos los commits se pueden analizar.
 
-## What it does not show
+## Lo que no muestra
 
-- **Most national law.** The Código Civil (1982), the Código Penal (2005), the Código de Comercio (1955), the labour law (LOTTT, 2012) and most laws before about 2018 exist officially only as image scans, and no OCR is used, so they are not here.
-- **Earlier versions of the codes and laws.** Each history starts at its 2020-2026 printing; earlier texts (the COPP of 1998 to 2012, the LOTSJ of 2010 and others) are scans or not online. From 29 January to 30 March 2026, arts. 51 and 55 of the Ley Orgánica de Hidrocarburos read only that the source gives no text, as their 2006 wording survives only as a scan.
-- **The Constitution as first printed** in G.O. 36.860 (1999): no machine-readable copy was found, so the 1999 version has the wording of the corrected reprint. The Exposición de Motivos is not part of the text.
-- **Arts. 191 and 192 of the Constitution of 1961**, missing from the only source.
-- **Case law, decrees and regulations.** Rulings of the Sala Constitucional change no words and are not recorded.
+- **La mayor parte del derecho nacional.** El Código Civil (1982), el Código Penal (2005), el Código de Comercio (1955), la ley del trabajo (LOTTT, 2012) y la mayoría de las leyes anteriores a 2018, aproximadamente, existen oficialmente solo como imágenes escaneadas, y no se usa OCR, por lo que no están aquí.
+- **Las versiones anteriores de los códigos y leyes.** Cada historia empieza en su publicación de 2020-2026; los textos anteriores (el COPP de 1998 a 2012, la LOTSJ de 2010 y otros) son escaneos o no están en línea. Del 29 de enero al 30 de marzo de 2026, los arts. 51 y 55 de la Ley Orgánica de Hidrocarburos dicen solo que la fuente no da ningún texto, ya que su redacción de 2006 se conserva solo como escaneo.
+- **La Constitución tal como se publicó por primera vez** en la G.O. 36.860 (1999): no se encontró ninguna copia legible por máquina, por lo que la versión de 1999 tiene la redacción de la reimpresión corregida. La Exposición de Motivos no forma parte del texto.
+- **Los arts. 191 y 192 de la Constitución de 1961**, que faltan en la única fuente.
+- **La jurisprudencia, los decretos y los reglamentos.** Las sentencias de la Sala Constitucional no cambian ninguna palabra y no se registran.
 
-## Sources
+## Fuentes
 
-| Source | Kind | Past versions | Notes |
+| Fuente | Tipo | Versiones anteriores | Notas |
 | --- | --- | --- | --- |
-| [Gaceta Oficial](http://www.gacetaoficial.gob.ve) (Servicio Autónomo Imprenta Nacional y Gaceta Oficial) | Official gazette | gazettes from 2010 only, as PDFs | Every code and law here, from born-digital gazettes of 2020-2026 |
-| [Instituto Nacional de Estadística](https://ine.gob.ve) | Copy of G.O. 5.908 Ext. (2009) with a text layer | n/a | The Constitution of 1999, the latest full official printing |
-| [Asamblea Nacional](https://www.asambleanacional.gob.ve) | Legislature | no | Its 1999 text of the Constitution, to fill the lines missing from the INE copy |
-| [Tribunal Supremo de Justicia](https://www.tsj.gob.ve), through the [Internet Archive](https://web.archive.org) | Court; its transcription of the 1961 Constitution | the text as reprinted after Enmienda N° 2 (1983), with both enmiendas | A 2011 capture |
+| [Gaceta Oficial](http://www.gacetaoficial.gob.ve) (Servicio Autónomo Imprenta Nacional y Gaceta Oficial) | Diario oficial | gacetas solo desde 2010, en PDF | Todos los códigos y leyes de este registro, de gacetas nativas digitales de 2020-2026 |
+| [Instituto Nacional de Estadística](https://ine.gob.ve) | Copia de la G.O. 5.908 Ext. (2009) con capa de texto | no aplica | La Constitución de 1999, la última publicación oficial íntegra |
+| [Asamblea Nacional](https://www.asambleanacional.gob.ve) | Poder legislativo | no | Su texto de 1999 de la Constitución, para completar las líneas que faltan en la copia del INE |
+| [Tribunal Supremo de Justicia](https://www.tsj.gob.ve), mediante el [Internet Archive](https://web.archive.org) | Tribunal; su transcripción de la Constitución de 1961 | el texto reimpreso después de la Enmienda N° 2 (1983), con ambas enmiendas | Una captura de 2011 |
 
-## Licence
+## Licencia
 
-See [`LICENSE`](LICENSE). The legal texts are official acts of the Bolivarian Republic of Venezuela, published in the Gaceta Oficial; the Ley sobre el Derecho de Autor (1993, art. 11) is understood to exclude official acts from protection, a reading not checked against the gazette text. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
+Véase [`LICENSE`](LICENSE). Los textos jurídicos son actos oficiales de la República Bolivariana de Venezuela, publicados en la Gaceta Oficial; se entiende que la Ley sobre el Derecho de Autor (1993, art. 11) excluye los actos oficiales de la protección, una interpretación no contrastada con el texto de la gaceta. Las aportaciones propias de Lexifina (la ordenación del historial, los mensajes de commit, las tablas y las herramientas) son CC0 1.0.
 
-No AI model wrote, translated or corrected legal text, and none runs at build time. Claude Code running Claude Opus 5.5 wrote the scripts and selected metadata and parser boundaries; the legal text comes only from the official PDFs' text layer (see [`REPRODUCE.md`](REPRODUCE.md)).
+Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial. Claude Code con Claude Opus 5.5 escribió los scripts y seleccionó los metadatos y los límites del analizador; el texto jurídico procede solo de la capa de texto de los PDF oficiales (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
-## En español
+Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
 
-Historia del derecho nacional venezolano en git: un archivo por disposición y un commit por acto, fechado el día de su entrada en vigencia y firmado por el acto que hizo el cambio (`git blame` nombra el acto de cada párrafo). Contiene la Constitución de 1999 con su Enmienda N° 1 (2009), la Constitución de 1961 hasta su derogación en 1999, 4 códigos orgánicos y 69 leyes, con 84 versiones; cada código y ley parte de una publicación íntegra en la Gaceta Oficial de 2020 a 2026. El Código Civil, el Código Penal y el Código de Comercio no se incluyen, porque sus únicas copias oficiales son imágenes escaneadas. Texto vigente en una fecha: `python tools/en_vigor_el.py 2005-01-01 constitucion 230`. Fuente: Gaceta Oficial de la República Bolivariana de Venezuela. Ningún modelo de IA escribió texto legal.
+## Más información
 
-## More
+Del repositorio [lexifina/global-law](https://github.com/lexifina/global-law) (páginas en inglés):
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
-
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): todas las funciones y lo que cada corpus debe admitir (`git blame`, `law.py`, herramientas MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): preguntas y respuestas · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proponer cambios · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): servidor MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): cómo se ha construido · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): lo actualizado que está cada corpus · [Supervisión](https://github.com/lexifina/global-law/tree/main/monitoring): si las actualizaciones funcionan · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): cómo se vigila cada fuente oficial para detectar cambios
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): la rapidez de las herramientas, medida
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): gráficos y conexiones a través del derecho de todo el mundo
+- [Vulnerabilidades](https://github.com/lexifina/global-law/tree/main/vulnerabilities): errores en las normas tal como se publicaron
