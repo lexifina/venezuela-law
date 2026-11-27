@@ -11,7 +11,7 @@ The national law of Venezuela as a git history: one file per provision, one comm
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Venezuela's national law, which global-law reads at `venezuela/national/acts/`.
 
-**What is in it now:** the Constitution of 1999 with its Enmienda N° 1 of 2009, and that of 1961; 8 codes, among them the Código Civil (1982), the Código Penal (2000 and 2005), the Código de Comercio (1955), the Código de Procedimiento Civil (1990), the Código Orgánico Procesal Penal; 163 laws and decree-laws; and 1 decrees, 0 resolutions, 0 providencias and 0 other acts, mostly from FAOLEX. See [`STRUCTURE.md`](STRUCTURE.md).
+**What is in it now:** the Constitution of 1999 with its Enmienda N° 1 of 2009, and that of 1961; 8 codes, among them the Código Civil (1982), the Código Penal (2000 and 2005), the Código de Comercio (1955), the Código de Procedimiento Civil (1990), the Código Orgánico Procesal Penal; 165 laws and decree-laws; and 1 decrees, 0 resolutions, 1 providencias and 0 other acts, mostly from FAOLEX. See [`STRUCTURE.md`](STRUCTURE.md).
 
 Each act is a folder by type and year (`codigos/codigo-civil/`, `leyes/2026/6978-ley-organica-de-hidrocarburos/`, `decretos/<año>/...`; see [`STRUCTURE.md`](STRUCTURE.md)), with one file per article: `constitucion/art-230.md` is art. 230 of the Constitution, on the presidential term. Each folder's `README.md` lists its provisions, and its `titulos.md` its headings.
 
