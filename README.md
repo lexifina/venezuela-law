@@ -11,7 +11,7 @@ El derecho nacional de Venezuela como historial de git: un archivo por disposici
 
 Forma parte de [lexifina/global-law](https://github.com/lexifina/global-law), un único historial de git para el derecho de todos los países: este es el derecho nacional de Venezuela, que global-law lee en `venezuela/national/acts/`.
 
-**Qué contiene ahora:** la Constitución de 1999 con su Enmienda N° 1 de 2009 y la de 1961; 8 códigos, entre ellos el Código Civil (1982), el Código Penal (2000 y 2005), el Código de Comercio (1955), el Código de Procedimiento Civil (1990), el Código Orgánico Procesal Penal; 113 leyes y decretos-ley; y 2 decretos, 0 resoluciones, 0 providencias y 0 otros actos, sobre todo de FAOLEX. Véase [`STRUCTURE.md`](STRUCTURE.md).
+**Qué contiene ahora:** la Constitución de 1999 con su Enmienda N° 1 de 2009 y la de 1961; 8 códigos, entre ellos el Código Civil (1982), el Código Penal (2000 y 2005), el Código de Comercio (1955), el Código de Procedimiento Civil (1990), el Código Orgánico Procesal Penal; 123 leyes y decretos-ley; y 3 decretos, 0 resoluciones, 0 providencias y 0 otros actos, sobre todo de FAOLEX. Véase [`STRUCTURE.md`](STRUCTURE.md).
 
 Cada acto es una carpeta según su tipo y año (`codigos/codigo-civil/`, `leyes/2026/6978-ley-organica-de-hidrocarburos/`, `decretos/<año>/...`; véase [`STRUCTURE.md`](STRUCTURE.md)), con un archivo por artículo: `constitucion/art-230.md` es el art. 230 de la Constitución, sobre el período presidencial. El `README.md` de cada carpeta enumera sus disposiciones, y su `titulos.md`, sus encabezados.
 
@@ -86,7 +86,7 @@ Cada cambio se atribuye al acto que lo hizo, con una dirección que no puede exi
 
 Véase [`LICENSE`](LICENSE). Los textos jurídicos son actos oficiales de la República Bolivariana de Venezuela, publicados en la Gaceta Oficial; se entiende que la Ley sobre el Derecho de Autor (1993, art. 11) excluye los actos oficiales de la protección, una interpretación no contrastada con el texto de la gaceta. Las aportaciones propias de Lexifina (la ordenación del historial, los mensajes de commit, las tablas y las herramientas) son CC0 1.0.
 
-Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial. Claude Code con Claude Opus 5.5 escribió los scripts y seleccionó los metadatos y los límites del analizador; el texto jurídico procede solo de la capa de texto de los PDF oficiales y de las copias secundarias y de las copias secundarias y de las copias secundarias (véase [`REPRODUCE.md`](REPRODUCE.md)).
+Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial. Claude Code con Claude Opus 5.5 escribió los scripts y seleccionó los metadatos y los límites del analizador; el texto jurídico procede solo de la capa de texto de los PDF oficiales y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
 Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
 
