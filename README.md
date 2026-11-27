@@ -86,7 +86,7 @@ Cada cambio se atribuye al acto que lo hizo, con una dirección que no puede exi
 
 Véase [`LICENSE`](LICENSE). Los textos jurídicos son actos oficiales de la República Bolivariana de Venezuela, publicados en la Gaceta Oficial; se entiende que la Ley sobre el Derecho de Autor (1993, art. 11) excluye los actos oficiales de la protección, una interpretación no contrastada con el texto de la gaceta. Las aportaciones propias de Lexifina (la ordenación del historial, los mensajes de commit, las tablas y las herramientas) son CC0 1.0.
 
-Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial. Claude Code con Claude Opus 5.5 escribió los scripts y seleccionó los metadatos y los límites del analizador; el texto jurídico procede solo de la capa de texto de los PDF oficiales y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias (véase [`REPRODUCE.md`](REPRODUCE.md)).
+Ningún modelo de IA escribió, tradujo ni corrigió texto jurídico, y ninguno se ejecuta al construir el historial. Claude Code con Claude Opus 5.5 escribió los scripts y seleccionó los metadatos y los límites del analizador; el texto jurídico procede solo de la capa de texto de los PDF oficiales y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias y de las copias secundarias (véase [`REPRODUCE.md`](REPRODUCE.md)).
 
 Esta es una traducción de la versión inglesa ([README.en.md](README.en.md)); si difieren, prevalece la versión inglesa.
 
