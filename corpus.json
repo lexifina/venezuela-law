@@ -1,0 +1,32 @@
+{
+  "corpus": "ve/national/acts",
+  "name": "Venezuela: la Constitución, los códigos y las leyes nacionales, un commit por versión en vigor",
+  "label": "Venezuela",
+  "language": "es",
+  "dates": {
+    "commit": "in-force",
+    "other_trailers": [
+      "Published",
+      "In-force-basis",
+      "Source",
+      "Source-status",
+      "Kind"
+    ],
+    "time": "12:00 America/Caracas (UTC-4)"
+  },
+  "in_force_trailer": "In-force",
+  "has_future_branch": false,
+  "author": "the act that made the change (an address at gacetaoficial.invalid); committer Lexifina",
+  "citation": {
+    "file": "((?:codigos/[^/]+)|(?:(?:leyes|decretos|resoluciones|providencias|otros)/[0-9]{4}/[^/]+)|constitucion|constituciones-historicas/[0-9]{4})/(?:articulos-[0-9-]+/)?art-0*([0-9]+[a-z-]*)\\.md",
+    "cites": "(^|[^0-9])(art[íi]culo|art\\.) ?{n}\\b"
+  },
+  "sources": [
+    "http://www.gacetaoficial.gob.ve",
+    "https://ine.gob.ve",
+    "https://www.asambleanacional.gob.ve",
+    "https://www.tsj.gob.ve",
+    "https://faolex.fao.org",
+    "https://www.wipo.int/wipolex"
+  ]
+}

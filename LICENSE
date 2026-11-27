@@ -17,6 +17,19 @@ amended articles given the wording of the Enmienda; and the versions were arrang
 acts that made each change. The wording of the law was not otherwise changed. No Venezuelan authority endorses this
 repository.
 
+Secondary copies (commits with a `Source-status: secondary copy` trailer):
+
+  FAOLEX, the legislative database of the Food and Agriculture Organization of the United Nations
+  (https://faolex.fao.org). FAO's terms allow reproduction and dissemination for non-commercial purposes with
+  acknowledgement of FAO as the source (https://www.fao.org/contact-us/terms/en/); the texts themselves are official
+  acts of Venezuela, as above. Source: FAOLEX (FAO).
+
+  WIPO Lex, the database of the World Intellectual Property Organization (https://www.wipo.int/wipolex), terms of use
+  at https://www.wipo.int/tools/en/disclaim.html: the Código Civil, Código de Comercio, Código de Procedimiento Civil
+  and Código Penal (2000). Source: WIPO Lex.
+
+  These copies were split into one file per article; their wording was not changed.
+
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
 dedicated to the public domain under CC0 1.0 Universal:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode

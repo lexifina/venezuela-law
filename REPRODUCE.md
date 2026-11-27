@@ -411,3 +411,12 @@ Model use at data-build time:
 - none: no model wrote, summarised or corrected any legal text; parsing is rule-based.
 - none: no model wrote, summarised or corrected any legal text in the gazette parts; parsing is rule-based.
 - A model selected metadata and parser boundaries; legal text comes only from the official PDF text layer. No OCR or model-authored legal text.
+
+## Codes and earlier laws from secondary copies (runner, from 2026-11-27)
+
+Built by `scripts/venezuela-law/runner` (ve_fetch.py, ve_parse.py, ve_build.py): the Asamblea Nacional's list pages
+answer 403 past the first page and were not used; gacetaoficial.gob.ve and tsj.gob.ve time out at TCP level. Sources:
+WIPO Lex (Código Civil, Código de Comercio, Código de Procedimiento Civil, Código Penal 2000) and FAOLEX (every
+Venezuelan legislation record listed in its public sitemaps, PDF with a text layer). Each PDF's own text layer is split
+at "Artículo N" lines taken in sequence; no OCR. Dates: see STRUCTURE.md. A version older than the one a folder already
+holds is held, because the history is never rewritten; a gazette already in this repository is skipped.

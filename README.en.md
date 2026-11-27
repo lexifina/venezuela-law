@@ -11,11 +11,11 @@ The national law of Venezuela as a git history: one file per provision, one comm
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Venezuela's national law, which global-law reads at `venezuela/national/acts/`.
 
-**What is in it now:** the Constitution of 1999 with its Enmienda N° 1 of 2009; the Constitution of 1961 with its two enmiendas, up to its repeal in 1999; and 4 organic codes (procedural criminal, tax, penitentiary and military justice) and 69 laws, among them the Ley Orgánica del Tribunal Supremo de Justicia and the Ley Orgánica de Hidrocarburos, each from a full printing in the Gaceta Oficial of 2020 to 2026. Together they have 84 versions. [`data/versions.json`](data/versions.json) lists every act with the day each version took effect; [`data/laws.csv`](data/laws.csv) lists every act the record names (89, among them earlier texts that are not here), with its dates.
+**What is in it now:** the Constitution of 1999 with its Enmienda N° 1 of 2009, and that of 1961; 8 codes, among them the Código Civil (1982), the Código Penal (2000 and 2005), the Código de Comercio (1955), the Código de Procedimiento Civil (1990), the Código Orgánico Procesal Penal; 163 laws and decree-laws; and 1 decrees, 0 resolutions, 0 providencias and 0 other acts, mostly from FAOLEX. See [`STRUCTURE.md`](STRUCTURE.md).
 
-Each act is a folder named after it (`constitucion/`, `ley-organica-de-hidrocarburos/`), with one file per article and per transitory or final provision: `constitucion/art-230.md` is art. 230 of the Constitution, on the presidential term. Each folder's `README.md` lists its provisions, and its `titulos.md` its headings.
+Each act is a folder by type and year (`codigos/codigo-civil/`, `leyes/2026/6978-ley-organica-de-hidrocarburos/`, `decretos/<año>/...`; see [`STRUCTURE.md`](STRUCTURE.md)), with one file per article: `constitucion/art-230.md` is art. 230 of the Constitution, on the presidential term. Each folder's `README.md` lists its provisions, and its `titulos.md` its headings.
 
-The text is in Spanish, as the Gaceta Oficial prints it: from born-digital gazettes, only the characters the page actually prints, with no OCR ([`tools/gazette_text.py`](tools/gazette_text.py)). Venezuela has no official consolidated database with dated versions, and its gazette is indexed online only from 2010, mostly as image scans.
+The text is in Spanish. The laws of 2020-2026 come from born-digital gazettes, only the characters the page actually prints ([`tools/gazette_text.py`](tools/gazette_text.py)); the codes and older laws come from secondary copies (FAOLEX, WIPO Lex) with their own text layer, marked `Source-status: secondary copy` (and `Text-source: publisher OCR` where the publisher made that layer by OCR). No OCR is run here.
 
 ## Questions as git commands
 
@@ -60,16 +60,16 @@ Each change is credited to the act that made it, at an address that cannot exist
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before; both must match the corpus, whose sha256 is in `data/corpus.sha256`: 84 versions of 75 acts, 0 mismatches ([`REPRODUCE.md`](REPRODUCE.md)).
 - For each code and law, the words in its files equal the words printed in its part of the gazette, and every article number occurs once; each repair those checks led to, and each line of the Constitution filled from the Asamblea Nacional's text where the INE copy lacks it, is listed in `REPRODUCE.md`.
 - The same corpus gives the same commit hashes (`tools/build.py`); `REPRODUCE.md` records that no second build has been compared yet.
-- History is append-only (`tools/append.py`): no merge commits on `main`, no commit dates that go backwards, nothing dated in the future, and every commit's trailers parse.
+- History is append-only (`tools/append.py`; older texts added later carry their own in-force date, earlier than the commit before them): no merge commits on `main`, nothing dated in the future, and every commit's trailers parse.
 - [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
-- **Most national law.** The Código Civil (1982), the Código Penal (2005), the Código de Comercio (1955), the labour law (LOTTT, 2012) and most laws before about 2018 exist officially only as image scans, and no OCR is used, so they are not here.
+- **Part of national law.** Acts whose only copy is an image scan with no text layer, and acts with no reliable publication day, are not here. The Gaceta Oficial and Tribunal Supremo de Justicia hosts do not answer from here, so their copies could not be used.
 - **Earlier versions of the codes and laws.** Each history starts at its 2020-2026 printing; earlier texts (the COPP of 1998 to 2012, the LOTSJ of 2010 and others) are scans or not online. From 29 January to 30 March 2026, arts. 51 and 55 of the Ley Orgánica de Hidrocarburos read only that the source gives no text, as their 2006 wording survives only as a scan.
 - **The Constitution as first printed** in G.O. 36.860 (1999): no machine-readable copy was found, so the 1999 version has the wording of the corrected reprint. The Exposición de Motivos is not part of the text.
 - **Arts. 191 and 192 of the Constitution of 1961**, missing from the only source.
-- **Case law, decrees and regulations.** Rulings of the Sala Constitucional change no words and are not recorded.
+- **Case law.** Rulings of the Sala Constitucional change no words and are not recorded.
 
 ## Sources
 
@@ -79,12 +79,14 @@ Each change is credited to the act that made it, at an address that cannot exist
 | [Instituto Nacional de Estadística](https://ine.gob.ve) | Copy of G.O. 5.908 Ext. (2009) with a text layer | n/a | The Constitution of 1999, the latest full official printing |
 | [Asamblea Nacional](https://www.asambleanacional.gob.ve) | Legislature | no | Its 1999 text of the Constitution, to fill the lines missing from the INE copy |
 | [Tribunal Supremo de Justicia](https://www.tsj.gob.ve), through the [Internet Archive](https://web.archive.org) | Court; its transcription of the 1961 Constitution | the text as reprinted after Enmienda N° 2 (1983), with both enmiendas | A 2011 capture |
+| [FAOLEX](https://faolex.fao.org) (FAO) | Legislative database; copies of gazettes and texts | one per record | Earlier laws, decrees and resolutions, and the 2005 Código Penal; secondary copy |
+| [WIPO Lex](https://www.wipo.int/wipolex) (WIPO) | Legislative database | one per record | Código Civil, Código de Comercio, Código de Procedimiento Civil, Código Penal of 2000; secondary copy |
 
 ## Licence
 
 See [`LICENSE`](LICENSE). The legal texts are official acts of the Bolivarian Republic of Venezuela, published in the Gaceta Oficial; the Ley sobre el Derecho de Autor (1993, art. 11) is understood to exclude official acts from protection, a reading not checked against the gazette text. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
-No AI model wrote, translated or corrected legal text, and none runs at build time. Claude Code running Claude Opus 5.5 wrote the scripts and selected metadata and parser boundaries; the legal text comes only from the official PDFs' text layer (see [`REPRODUCE.md`](REPRODUCE.md)).
+No AI model wrote, translated or corrected legal text, and none runs at build time. Claude Code running Claude Opus 5.5 wrote the scripts and selected metadata and parser boundaries; the legal text comes only from the text layer of the official PDFs and of the secondary copies (see [`REPRODUCE.md`](REPRODUCE.md)).
 
 ## Visualisations
 
